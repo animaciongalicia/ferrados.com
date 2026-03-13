@@ -6,8 +6,6 @@ pilar: "limpieza"
 tags: ["limpieza", "50 metros", "normativa", "xunta", "incendios", "galicia"]
 ---
 
-# La regla de los 50 metros: obligaciones de limpieza de fincas en Galicia
-
 Si tienes una finca a menos de 50 metros de una casa o un núcleo de población en Galicia, estás obligado a mantenerla limpia. No es opcional. Y las consecuencias de no hacerlo pueden ser caras.
 
 ## ¿Qué dice la ley?

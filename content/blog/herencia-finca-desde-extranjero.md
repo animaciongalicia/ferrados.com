@@ -6,8 +6,6 @@ pilar: "herencias"
 tags: ["herencias", "extranjero", "emigrantes", "galicia", "poderes"]
 ---
 
-# Heredar una finca en Galicia viviendo en el extranjero
-
 Eres hijo o nieto de gallegos, vives en Argentina, Venezuela, Suiza o Alemania, y de repente heredas unas fincas en Galicia que no has pisado en tu vida. ¿Qué haces?
 
 ## La buena noticia

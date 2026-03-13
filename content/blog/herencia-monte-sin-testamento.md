@@ -6,8 +6,6 @@ pilar: "herencias"
 tags: ["herencias", "testamento", "galicia", "montes", "notario"]
 ---
 
-# Heredar un monte sin testamento en Galicia: lo que nadie te cuenta
-
 "Mi padre falleció hace dos años y nunca hizo testamento. Ahora resulta que tenemos tres fincas en Ourense y no sabemos ni por dónde empezar." Esta es una de las consultas más frecuentes que recibimos.
 
 ## El procedimiento: declaración de herederos

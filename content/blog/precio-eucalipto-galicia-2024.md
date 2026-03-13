@@ -6,8 +6,6 @@ pilar: "madera"
 tags: ["madera", "eucalipto", "precios", "galicia", "venta"]
 ---
 
-# Precio del eucalipto en Galicia: cuánto vale tu madera hoy
-
 El eucalipto es el rey de la madera en Galicia. Si tienes una plantación y estás pensando en vender, lo primero que necesitas saber es cuánto vale.
 
 ## Precio actual del eucalipto globulus

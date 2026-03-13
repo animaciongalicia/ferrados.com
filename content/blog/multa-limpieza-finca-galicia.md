@@ -6,8 +6,6 @@ pilar: "limpieza"
 tags: ["multas", "limpieza", "xunta", "incendios", "galicia"]
 ---
 
-# Me ha llegado una multa por no limpiar mi finca: ¿qué hago?
-
 Si has recibido una carta de la Xunta notificándote que tu finca no cumple con la normativa de prevención de incendios, no estás solo. Miles de propietarios en Galicia se enfrentan a esta situación cada año.
 
 ## ¿Por qué me multan?

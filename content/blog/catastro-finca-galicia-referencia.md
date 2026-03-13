@@ -6,8 +6,6 @@ pilar: "lindes"
 tags: ["catastro", "referencia catastral", "fincas", "galicia", "lindes"]
 ---
 
-# Cómo encontrar la referencia catastral de tu finca en Galicia
-
 La referencia catastral es el DNI de tu finca. Sin ella, no puedes hacer casi nada: ni vender, ni heredar, ni reclamar. Pero encontrarla no siempre es fácil, especialmente en Galicia, donde muchas fincas llevan décadas sin actualizar.
 
 ## ¿Qué es la referencia catastral?

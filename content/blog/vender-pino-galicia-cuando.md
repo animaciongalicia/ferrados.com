@@ -6,8 +6,6 @@ pilar: "madera"
 tags: ["madera", "pino", "venta", "galicia", "precios"]
 ---
 
-# ¿Cuándo es el mejor momento para vender pino en Galicia?
-
 El pino (Pinus pinaster y Pinus radiata) es la segunda especie más importante de Galicia después del eucalipto. Si tienes una plantación, la pregunta clave es: ¿cuándo cortar?
 
 ## Edad óptima de corta

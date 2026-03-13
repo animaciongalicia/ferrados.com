@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { schemaByEmbudo, superficieM2, type EmbudoType } from "@/lib/lead-schema";
 import { calcularScoreLead } from "@/lib/lead-scoring";
+import { rateLimit } from "@/lib/rate-limit";
 
 /**
  * POST /api/leads
@@ -17,6 +18,20 @@ import { calcularScoreLead } from "@/lib/lead-scoring";
  */
 export async function POST(request: NextRequest) {
   try {
+    // Rate limiting: 5 requests per minute per IP
+    const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+    const { allowed, remaining } = rateLimit(ip, { maxRequests: 5, windowMs: 60_000 });
+
+    if (!allowed) {
+      return NextResponse.json(
+        { error: "Demasiadas solicitudes. Inténtalo de nuevo en un minuto." },
+        {
+          status: 429,
+          headers: { "Retry-After": "60", "X-RateLimit-Remaining": "0" },
+        }
+      );
+    }
+
     const body = await request.json();
 
     // Determinar qué schema usar según el embudo
@@ -60,7 +75,7 @@ export async function POST(request: NextRequest) {
     };
 
     // --- LOG ---
-    console.log("📋 Nuevo lead recibido:", JSON.stringify(lead, null, 2));
+    console.log("Nuevo lead recibido:", JSON.stringify(lead, null, 2));
 
     // --- MAKE WEBHOOK ---
     // Envía el lead a Make para conectar con Google Sheets, email, CRM, etc.
@@ -78,12 +93,17 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    return NextResponse.json({
-      ok: true,
-      id: lead.id,
-      score: lead.score,
-      clasificacion: lead.clasificacion,
-    });
+    return NextResponse.json(
+      {
+        ok: true,
+        id: lead.id,
+        score: lead.score,
+        clasificacion: lead.clasificacion,
+      },
+      {
+        headers: { "X-RateLimit-Remaining": String(remaining) },
+      }
+    );
   } catch {
     return NextResponse.json(
       { error: "Error procesando la solicitud" },

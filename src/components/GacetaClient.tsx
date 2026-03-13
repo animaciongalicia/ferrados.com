@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import type { BlogPostMeta } from "@/lib/blog";
 import {
@@ -113,7 +114,32 @@ function Sidebar({ topPosts }: { topPosts: BlogPostMeta[] }) {
 
 /* ─── Main Component ─── */
 export default function GacetaClient({ posts, topPosts }: GacetaClientProps) {
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const catParam = searchParams.get("cat");
+
+  const [activeCategory, setActiveCategory] = useState<string | null>(
+    catParam && GACETA_CATEGORIES.some((c) => c.id === catParam) ? catParam : null
+  );
+
+  // Sync with URL when searchParams change
+  useEffect(() => {
+    const cat = searchParams.get("cat");
+    if (cat && GACETA_CATEGORIES.some((c) => c.id === cat)) {
+      setActiveCategory(cat);
+    } else {
+      setActiveCategory(null);
+    }
+  }, [searchParams]);
+
+  function handleCategoryChange(catId: string | null) {
+    setActiveCategory(catId);
+    if (catId) {
+      router.replace(`/blog?cat=${catId}`, { scroll: false });
+    } else {
+      router.replace("/blog", { scroll: false });
+    }
+  }
 
   const filteredPosts = activeCategory
     ? posts.filter((post) => {
@@ -130,7 +156,7 @@ export default function GacetaClient({ posts, topPosts }: GacetaClientProps) {
           <div className="flex gap-2 overflow-x-auto lg:justify-center scrollbar-hide">
             {/* "Todos" chip */}
             <button
-              onClick={() => setActiveCategory(null)}
+              onClick={() => handleCategoryChange(null)}
               className={`shrink-0 border rounded-full text-sm px-3 py-1 transition-all cursor-pointer ${
                 activeCategory === null
                   ? "bg-gray-900 text-white border-gray-900"
@@ -143,7 +169,7 @@ export default function GacetaClient({ posts, topPosts }: GacetaClientProps) {
               <button
                 key={cat.id}
                 onClick={() =>
-                  setActiveCategory(activeCategory === cat.id ? null : cat.id)
+                  handleCategoryChange(activeCategory === cat.id ? null : cat.id)
                 }
                 className={`shrink-0 border rounded-full text-sm px-3 py-1 transition-all cursor-pointer ${
                   activeCategory === cat.id

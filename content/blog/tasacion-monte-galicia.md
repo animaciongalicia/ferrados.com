@@ -6,8 +6,6 @@ pilar: "lindes"
 tags: ["tasaciones", "montes", "valoración", "galicia", "catastro"]
 ---
 
-# ¿Cuánto vale mi monte? Cómo se tasa una finca forestal en Galicia
-
 Es la primera pregunta que se hace cualquier propietario: "¿cuánto vale esto?". La respuesta depende de muchos factores y no hay un precio por metro cuadrado como en un piso.
 
 ## Factores que determinan el valor

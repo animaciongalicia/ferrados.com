@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { getAllPosts } from "@/lib/blog";
 import GacetaClient from "@/components/GacetaClient";
 
@@ -6,6 +7,9 @@ export const metadata: Metadata = {
   title: "La Gaceta — Montes, fincas y terrenos en Galicia",
   description:
     "Artículos prácticos sobre multas, limpieza, madera, herencias y catastro de fincas en Galicia. Soluciones reales para propietarios preocupados.",
+  alternates: {
+    canonical: "/blog",
+  },
 };
 
 export default function GacetaPage() {
@@ -26,7 +30,9 @@ export default function GacetaPage() {
         </div>
       </div>
 
-      <GacetaClient posts={posts} topPosts={topPosts} />
+      <Suspense>
+        <GacetaClient posts={posts} topPosts={topPosts} />
+      </Suspense>
     </div>
   );
 }

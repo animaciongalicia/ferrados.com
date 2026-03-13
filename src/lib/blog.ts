@@ -22,7 +22,7 @@ export interface BlogPostMeta {
 
 function calculateReadingTime(content: string): number {
   const words = content.trim().split(/\s+/).length;
-  return Math.max(1, Math.round(words / 200));
+  return Math.max(1, Math.round(words / 150));
 }
 
 function extractHeadings(content: string): BlogHeading[] {
@@ -85,8 +85,7 @@ export function getPostBySlug(slug: string) {
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
 
-  // Strip leading H1 that duplicates the frontmatter title
-  const cleanContent = content.replace(/^\s*#\s+.+\n+/, "");
+  const cleanContent = content;
 
   return {
     meta: {

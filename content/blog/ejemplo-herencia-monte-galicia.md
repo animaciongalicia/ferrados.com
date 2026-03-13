@@ -6,8 +6,6 @@ pilar: "herencias"
 tags: ["herencias", "montes", "galicia", "trámites"]
 ---
 
-# Cómo heredar un monte en Galicia: guía paso a paso
-
 Heredar un monte en Galicia es más habitual de lo que parece. Miles de gallegos (o hijos y nietos de gallegos) se encuentran cada año con que han heredado una o varias parcelas forestales, muchas veces sin saber muy bien qué hacer con ellas.
 
 ## ¿Por dónde empezar?
