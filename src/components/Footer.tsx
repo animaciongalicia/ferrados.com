@@ -25,6 +25,11 @@ export default function Footer() {
           </div>
 
           <div>
+            <h4 className="text-white font-semibold mb-3">Empresa</h4>
+            <ul className="space-y-2 text-sm mb-6">
+              <li><Link href="/quienes-somos" className="hover:text-white">Quiénes somos</Link></li>
+              <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
+            </ul>
             <h4 className="text-white font-semibold mb-3">Contacto</h4>
             <p className="text-sm mb-4">
               ¿Tienes una finca o monte en Galicia y no sabes qué hacer?
