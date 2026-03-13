@@ -274,6 +274,62 @@ export const proindivisoSchema = z.object({
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
 );
 
+// ===== EMBUDO: COMPRA-VENTA DE TERRENOS =====
+
+export const tipoOperacion = [
+  "Quiero vender un terreno o finca",
+  "Quiero comprar un terreno o finca",
+  "Quiero saber cuánto vale mi terreno",
+  "Tengo un terreno y no sé qué hacer con él",
+  "Quiero vender pero no tengo los papeles en regla",
+] as const;
+
+export const tipoTerreno = [
+  "Monte con eucalipto o pino",
+  "Terreno agrícola / prado",
+  "Parcela con edificación o ruina",
+  "Solar urbanizable",
+  "Monte sin aprovechamiento (matorral)",
+  "Mixto / no lo sé",
+] as const;
+
+export const situacionDocumental = [
+  "Todo en regla (escrituras + Registro + Catastro)",
+  "Tengo escrituras pero no está inscrito en el Registro",
+  "Solo figura en el Catastro, no hay escrituras",
+  "La finca está a nombre de un fallecido",
+  "No tengo ningún papel, solo sé que es mío",
+  "No lo sé",
+] as const;
+
+export const compraVentaSchema = z.object({
+  embudo: z.literal("compraventa"),
+  tipo_operacion: z.enum(tipoOperacion, { message: "Selecciona qué necesitas" }),
+  tipo_terreno: z.enum(tipoTerreno, { message: "Selecciona el tipo de terreno" }),
+  situacion_documental: z.enum(situacionDocumental).optional(),
+  provincia: z.enum(provincias, { message: "Selecciona la provincia" }),
+  municipio: z.string().optional(),
+  superficie_aprox: z.enum(rangosSuperficie, { message: "Selecciona la superficie" }),
+  tiene_acceso: z.enum(["Sí, por carretera o pista", "Acceso difícil / solo a pie", "No lo sé"] as const).optional(),
+  precio_orientativo: z.enum([
+    "Menos de 5.000 €",
+    "5.000 – 15.000 €",
+    "15.000 – 50.000 €",
+    "Más de 50.000 €",
+    "No tengo ni idea",
+  ] as const).optional(),
+  urgencia: z.enum(urgencias, { message: "Indica la urgencia" }),
+  residencia: z.enum(residencias, { message: "Indica dónde vives" }),
+  nombre: z.string().min(2, "Tu nombre es necesario"),
+  email: z.string().email("Email no válido").or(z.literal("")),
+  telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
+  comentarios: z.string().optional(),
+  origen: z.string().optional(),
+}).refine(
+  (d) => d.email !== "" || d.telefono !== "",
+  { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
+);
+
 // ===== TIPO UNIFICADO =====
 
 export type LimpiezaLead = z.infer<typeof limpiezaSchema>;
@@ -281,13 +337,15 @@ export type HerenciasLead = z.infer<typeof herenciasSchema>;
 export type LindesLead = z.infer<typeof lindesSchema>;
 export type MaderaLead = z.infer<typeof maderaSchema>;
 export type ProindivisoLead = z.infer<typeof proindivisoSchema>;
+export type CompraVentaLead = z.infer<typeof compraVentaSchema>;
 
 export type LeadFormData =
   | LimpiezaLead
   | HerenciasLead
   | LindesLead
   | MaderaLead
-  | ProindivisoLead;
+  | ProindivisoLead
+  | CompraVentaLead;
 
 export type EmbudoType = LeadFormData["embudo"];
 
@@ -297,6 +355,7 @@ export const schemaByEmbudo = {
   lindes: lindesSchema,
   madera: maderaSchema,
   proindiviso: proindivisoSchema,
+  compraventa: compraVentaSchema,
 } as const;
 
 export type LeadRecord = LeadFormData & {

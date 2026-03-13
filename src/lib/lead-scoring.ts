@@ -249,6 +249,59 @@ function scoreProindiviso(data: Extract<LeadFormData, { embudo: "proindiviso" }>
   return Math.min(score, 100);
 }
 
+function scoreCompraVenta(data: Extract<LeadFormData, { embudo: "compraventa" }>): number {
+  let score = 0;
+
+  // Tipo de operación: vender con papeles en regla o comprar = lead directo para inmobiliaria
+  const opScores: Record<string, number> = {
+    "Quiero vender un terreno o finca": 20,
+    "Quiero comprar un terreno o finca": 18,
+    "Quiero vender pero no tengo los papeles en regla": 15,
+    "Quiero saber cuánto vale mi terreno": 12,
+    "Tengo un terreno y no sé qué hacer con él": 8,
+  };
+  score += opScores[data.tipo_operacion] ?? 0;
+
+  // Tipo de terreno: parcela con edificación o solar = más valor inmobiliario
+  const terrenoScores: Record<string, number> = {
+    "Solar urbanizable": 15,
+    "Parcela con edificación o ruina": 12,
+    "Terreno agrícola / prado": 10,
+    "Monte con eucalipto o pino": 8,
+    "Mixto / no lo sé": 5,
+    "Monte sin aprovechamiento (matorral)": 3,
+  };
+  score += terrenoScores[data.tipo_terreno] ?? 0;
+
+  // Situación documental: en regla = operación rápida, más valor para inmobiliaria
+  const docScores: Record<string, number> = {
+    "Todo en regla (escrituras + Registro + Catastro)": 10,
+    "Tengo escrituras pero no está inscrito en el Registro": 6,
+    "Solo figura en el Catastro, no hay escrituras": 4,
+    "La finca está a nombre de un fallecido": 3,
+    "No tengo ningún papel, solo sé que es mío": 2,
+    "No lo sé": 3,
+  };
+  score += docScores[data.situacion_documental ?? ""] ?? 0;
+
+  // Precio orientativo: mayor valor = mayor comisión para la inmobiliaria
+  const precioScores: Record<string, number> = {
+    "Más de 50.000 €": 10,
+    "15.000 – 50.000 €": 8,
+    "5.000 – 15.000 €": 5,
+    "Menos de 5.000 €": 2,
+    "No tengo ni idea": 4,
+  };
+  score += precioScores[data.precio_orientativo ?? ""] ?? 0;
+
+  score += scoreSuperficie(data.superficie_aprox);
+  score += scoreUrgencia(data.urgencia);
+  score += scoreResidencia(data.residencia);
+  score += scoreContactoCompleto(data.email, data.telefono);
+
+  return Math.min(score, 100);
+}
+
 // ===== FUNCIÓN PRINCIPAL =====
 
 export function calcularScoreLead(data: LeadFormData): {
@@ -274,6 +327,9 @@ export function calcularScoreLead(data: LeadFormData): {
     case "proindiviso":
       score = scoreProindiviso(data);
       break;
+    case "compraventa":
+      score = scoreCompraVenta(data);
+      break;
   }
 
   // Clasificación legible
@@ -290,6 +346,7 @@ export function calcularScoreLead(data: LeadFormData): {
     lindes: "Ingenieros técnicos y topógrafos",
     madera: "Aserraderos y compradores de madera",
     proindiviso: "Inversores forestales / maderistas",
+    compraventa: "Inmobiliarias rurales y agentes de fincas",
   };
 
   return {
