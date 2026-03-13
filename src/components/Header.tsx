@@ -11,7 +11,7 @@ const navLinks = [
   { href: "/limpieza-desbroce-multas-xunta", label: "Limpieza y Multas" },
   { href: "/vender-parte-monte-proindiviso", label: "Proindivisos" },
   { href: "/compra-venta-terrenos-galicia", label: "Compra-venta" },
-  { href: "/blog", label: "Blog" },
+  { href: "/blog", label: "La Gaceta" },
 ];
 
 export default function Header() {
