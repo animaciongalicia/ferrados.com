@@ -85,6 +85,9 @@ export function getPostBySlug(slug: string) {
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
 
+  // Strip leading H1 that duplicates the frontmatter title
+  const cleanContent = content.replace(/^\s*#\s+.+\n+/, "");
+
   return {
     meta: {
       slug,
@@ -95,8 +98,18 @@ export function getPostBySlug(slug: string) {
       tags: data.tags,
       readingTime: calculateReadingTime(content),
     } as BlogPostMeta,
-    content,
-    headings: extractHeadings(content),
+    content: cleanContent,
+    headings: extractHeadings(cleanContent),
+  };
+}
+
+export function getPrevNextPosts(currentSlug: string): { prev: BlogPostMeta | null; next: BlogPostMeta | null } {
+  const posts = getAllPosts(); // sorted newest-first
+  const idx = posts.findIndex((p) => p.slug === currentSlug);
+  if (idx === -1) return { prev: null, next: null };
+  return {
+    prev: idx < posts.length - 1 ? posts[idx + 1] : null, // older post
+    next: idx > 0 ? posts[idx - 1] : null, // newer post
   };
 }
 
