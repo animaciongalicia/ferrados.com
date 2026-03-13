@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -9,6 +10,7 @@ const navLinks = [
   { href: "/precio-venta-madera-galicia", label: "Venta de Madera" },
   { href: "/limpieza-desbroce-multas-xunta", label: "Limpieza y Multas" },
   { href: "/vender-parte-monte-proindiviso", label: "Proindivisos" },
+  { href: "/compra-venta-terrenos-galicia", label: "Compra-venta" },
   { href: "/blog", label: "Blog" },
 ];
 
@@ -18,12 +20,13 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold text-green-800">
-          Ferrados.com
+        <Link href="/" className="flex items-center gap-2">
+          <Image src="/logo.svg" alt="Ferrados.com" width={32} height={32} priority />
+          <span className="text-xl font-bold text-green-800">Ferrados.com</span>
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-6">
+        <nav className="hidden lg:flex items-center gap-5">
           {navLinks.map((link) => (
             <Link
               key={link.href}
