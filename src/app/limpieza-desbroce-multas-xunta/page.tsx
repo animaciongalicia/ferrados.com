@@ -101,14 +101,16 @@ export default function LimpiezaPage() {
           <table className="w-full text-sm">
             <thead className="bg-gray-100">
               <tr>
-                <th className="text-left p-3 font-semibold text-gray-700">Superficie</th>
+                <th className="text-left p-3 font-semibold text-gray-700">Superficie (ferrados)</th>
                 <th className="text-left p-3 font-semibold text-gray-700">Coste orientativo</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              <tr><td className="p-3">Menos de 5.000 m²</td><td className="p-3">300 - 800 €</td></tr>
-              <tr><td className="p-3">5.000 m² - 1 hectárea</td><td className="p-3">800 - 1.500 €</td></tr>
-              <tr><td className="p-3">1 - 5 hectáreas</td><td className="p-3">1.500 - 5.000 €</td></tr>
+              <tr><td className="p-3">Menos de 1 ferrado (&lt; 500 m²)</td><td className="p-3">150 – 400 €</td></tr>
+              <tr><td className="p-3">1 – 5 ferrados (500 – 2.500 m²)</td><td className="p-3">300 – 800 €</td></tr>
+              <tr><td className="p-3">5 – 10 ferrados (2.500 – 5.000 m²)</td><td className="p-3">600 – 1.500 €</td></tr>
+              <tr><td className="p-3">10 – 20 ferrados (hasta 1 ha)</td><td className="p-3">1.000 – 2.500 €</td></tr>
+              <tr><td className="p-3">1 – 5 hectáreas</td><td className="p-3">2.000 – 5.000 €</td></tr>
               <tr><td className="p-3">Más de 5 hectáreas</td><td className="p-3">Presupuesto a medida</td></tr>
             </tbody>
           </table>

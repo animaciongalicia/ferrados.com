@@ -44,14 +44,14 @@ function scoreResidencia(residencia: string): number {
 
 function scoreSuperficie(superficie: string): number {
   // Mayor superficie = mayor factura para el profesional
+  // Rangos adaptados al minifundio gallego (ferrados)
   const scores: Record<string, number> = {
-    "Menos de 5.000 m²": 3,
-    "5.000 m² - 1 hectárea": 6,
-    "1 - 5 hectáreas": 10,
-    "5 - 20 hectáreas": 15,
-    "20 - 100 hectáreas": 20,
-    "Más de 100 hectáreas": 25,
-    "No lo sé": 8,
+    "Muy pequeña (menos de 1 ferrado, < 500 m²)": 3,
+    "Pequeña (de 1 a 5 ferrados, aprox. 500 – 2.500 m²)": 6,
+    "Mediana (de 5 a 10 ferrados, aprox. 2.500 – 5.000 m²)": 10,
+    "Grande (de 10 a 20 ferrados, aprox. 5.000 – 10.000 m² ≈ hasta 1 ha)": 15,
+    "Muy grande (de 1 a 5 hectáreas)": 20,
+    "Excepcional (más de 5 hectáreas)": 25,
   };
   return scores[superficie] ?? 0;
 }

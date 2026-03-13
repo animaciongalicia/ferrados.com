@@ -29,14 +29,23 @@ export const residencias = [
 ] as const;
 
 export const rangosSuperficie = [
-  "Menos de 5.000 m²",
-  "5.000 m² - 1 hectárea",
-  "1 - 5 hectáreas",
-  "5 - 20 hectáreas",
-  "20 - 100 hectáreas",
-  "Más de 100 hectáreas",
-  "No lo sé",
+  "Muy pequeña (menos de 1 ferrado, < 500 m²)",
+  "Pequeña (de 1 a 5 ferrados, aprox. 500 – 2.500 m²)",
+  "Mediana (de 5 a 10 ferrados, aprox. 2.500 – 5.000 m²)",
+  "Grande (de 10 a 20 ferrados, aprox. 5.000 – 10.000 m² ≈ hasta 1 ha)",
+  "Muy grande (de 1 a 5 hectáreas)",
+  "Excepcional (más de 5 hectáreas)",
 ] as const;
+
+/** Valor numérico aproximado (centro del rango) en m² para scoring y cálculos */
+export const superficieM2: Record<(typeof rangosSuperficie)[number], number> = {
+  "Muy pequeña (menos de 1 ferrado, < 500 m²)": 250,
+  "Pequeña (de 1 a 5 ferrados, aprox. 500 – 2.500 m²)": 1500,
+  "Mediana (de 5 a 10 ferrados, aprox. 2.500 – 5.000 m²)": 3750,
+  "Grande (de 10 a 20 ferrados, aprox. 5.000 – 10.000 m² ≈ hasta 1 ha)": 7500,
+  "Muy grande (de 1 a 5 hectáreas)": 30000,
+  "Excepcional (más de 5 hectáreas)": 100000,
+};
 
 export const urgencias = [
   "Urgente (tengo un plazo o una multa)",

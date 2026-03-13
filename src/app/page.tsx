@@ -127,6 +127,94 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Cómo funciona */}
+      <section className="bg-gray-50 border-t border-b border-gray-200">
+        <div className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2 text-center">
+            ¿Cómo funciona?
+          </h2>
+          <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+            Tres pasos para resolver tu problema con montes y fincas en Galicia.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="text-center">
+              <div className="w-12 h-12 bg-green-100 text-green-800 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-3">1</div>
+              <h3 className="font-bold text-gray-900 mb-1">Cuéntanos tu caso</h3>
+              <p className="text-sm text-gray-600">
+                Rellena un formulario rápido con los datos básicos de tu finca:
+                ubicación, superficie en ferrados y qué necesitas.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-green-100 text-green-800 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-3">2</div>
+              <h3 className="font-bold text-gray-900 mb-1">Te buscamos al profesional</h3>
+              <p className="text-sm text-gray-600">
+                Conectamos tu caso con un profesional de tu zona especializado
+                en lo que necesitas: abogado, topógrafo, empresa de desbroce o maderista.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-green-100 text-green-800 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-3">3</div>
+              <h3 className="font-bold text-gray-900 mb-1">Resuelves tu problema</h3>
+              <p className="text-sm text-gray-600">
+                El profesional te contacta, te da presupuesto sin compromiso y
+                se encarga de todo. Tú no necesitas desplazarte.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Por qué Ferrados */}
+      <section className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+          ¿Por qué Ferrados.com?
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-xl">
+            <span className="text-green-700 text-2xl mt-0.5 font-bold">100%</span>
+            <div>
+              <h3 className="font-bold text-gray-900">Enfocados en Galicia</h3>
+              <p className="text-sm text-gray-600 mt-1">
+                Conocemos la realidad del minifundio gallego: ferrados, comunidades
+                de montes, herencias encadenadas y la burocracia de la Xunta.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-xl">
+            <span className="text-green-700 text-2xl mt-0.5 font-bold">0 €</span>
+            <div>
+              <h3 className="font-bold text-gray-900">Gratis para ti</h3>
+              <p className="text-sm text-gray-600 mt-1">
+                Nuestra consulta inicial no tiene coste. Te orientamos y
+                conectamos con profesionales sin que tú pagues nada por el servicio.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-xl">
+            <span className="text-green-700 text-2xl mt-0.5 font-bold flex-shrink-0">24h</span>
+            <div>
+              <h3 className="font-bold text-gray-900">Respuesta rápida</h3>
+              <p className="text-sm text-gray-600 mt-1">
+                Un profesional de tu zona revisará tu caso y se pondrá en
+                contacto contigo en menos de 24 horas laborables.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-xl">
+            <span className="text-green-700 text-2xl mt-0.5 font-bold flex-shrink-0">+</span>
+            <div>
+              <h3 className="font-bold text-gray-900">Vivas donde vivas</h3>
+              <p className="text-sm text-gray-600 mt-1">
+                Muchos de nuestros usuarios viven fuera de Galicia o en el
+                extranjero. Los profesionales se encargan de todo sin que
+                necesites desplazarte.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA final */}
       <section className="bg-green-800 text-white">
         <div className="max-w-3xl mx-auto px-4 py-14 text-center">

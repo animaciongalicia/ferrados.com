@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { schemaByEmbudo, type EmbudoType } from "@/lib/lead-schema";
+import { schemaByEmbudo, superficieM2, type EmbudoType } from "@/lib/lead-schema";
 import { calcularScoreLead } from "@/lib/lead-scoring";
 
 /**
@@ -8,23 +8,12 @@ import { calcularScoreLead } from "@/lib/lead-scoring";
  * Recibe los datos de cualquiera de los 5 formularios especializados,
  * valida con el schema correspondiente, calcula el scoring y guarda.
  *
- * PRÓXIMOS PASOS (conectar persistencia):
- *
- * 1. GOOGLE SHEETS:
- *    - Crear un Google Sheet con columnas para todos los campos
- *    - Configurar una Google Service Account con acceso al sheet
- *    - Instalar: npm install googleapis
- *    - Añadir a .env.local:
- *        GOOGLE_SHEETS_ID=tu_sheet_id
- *        GOOGLE_SERVICE_ACCOUNT_EMAIL=...
- *        GOOGLE_PRIVATE_KEY=...
- *    - Descomentar el bloque de Google Sheets abajo
- *
- * 2. SUPABASE:
- *    - npm install @supabase/supabase-js
- *    - Crear tabla "leads" en Supabase con columnas tipo JSONB para los datos
- *    - Añadir SUPABASE_URL y SUPABASE_ANON_KEY a .env.local
- *    - Descomentar el bloque de Supabase abajo
+ * INTEGRACIÓN CON MAKE (Integromat):
+ *   1. Crea un escenario en Make con un módulo "Webhook" → "Custom Webhook"
+ *   2. Copia la URL del webhook que te da Make
+ *   3. Añádela a .env.local:  MAKE_WEBHOOK_URL=https://hook.eu1.make.com/...
+ *   4. El lead se enviará automáticamente a Make, donde puedes conectarlo
+ *      a Google Sheets, email, CRM, Slack, etc.
  */
 export async function POST(request: NextRequest) {
   try {
@@ -54,64 +43,40 @@ export async function POST(request: NextRequest) {
     const data = parsed.data;
     const { score, clasificacion, cliente_b2b_target } = calcularScoreLead(data);
 
+    // Calcular superficie en m² si el campo existe
+    const superficieTexto = "superficie_aprox" in data ? (data as Record<string, string>).superficie_aprox : undefined;
+    const superficieM2Valor = superficieTexto
+      ? superficieM2[superficieTexto as keyof typeof superficieM2] ?? null
+      : null;
+
     const lead = {
       id: crypto.randomUUID(),
       ...data,
+      ...(superficieM2Valor !== null && { superficie_m2: superficieM2Valor }),
       score,
       clasificacion,
       cliente_b2b_target,
       created_at: new Date().toISOString(),
     };
 
-    // --- SIMULACIÓN DE GUARDADO ---
+    // --- LOG ---
     console.log("📋 Nuevo lead recibido:", JSON.stringify(lead, null, 2));
 
-    // --- GOOGLE SHEETS (descomentar cuando esté listo) ---
-    // import { google } from "googleapis";
-    //
-    // const auth = new google.auth.GoogleAuth({
-    //   credentials: {
-    //     client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-    //     private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n"),
-    //   },
-    //   scopes: ["https://www.googleapis.com/auth/spreadsheets"],
-    // });
-    //
-    // const sheets = google.sheets({ version: "v4", auth });
-    // await sheets.spreadsheets.values.append({
-    //   spreadsheetId: process.env.GOOGLE_SHEETS_ID,
-    //   range: "Leads!A:Z",
-    //   valueInputOption: "USER_ENTERED",
-    //   requestBody: {
-    //     values: [[
-    //       lead.id,
-    //       lead.embudo,
-    //       lead.created_at,
-    //       lead.score,
-    //       lead.clasificacion,
-    //       lead.cliente_b2b_target,
-    //       lead.nombre,
-    //       lead.email,
-    //       lead.telefono,
-    //       lead.residencia,
-    //       lead.provincia,
-    //       lead.origen,
-    //       JSON.stringify(lead), // Todos los datos como JSON
-    //     ]],
-    //   },
-    // });
-
-    // --- SUPABASE (descomentar cuando esté listo) ---
-    // import { createClient } from "@supabase/supabase-js";
-    // const supabase = createClient(
-    //   process.env.SUPABASE_URL!,
-    //   process.env.SUPABASE_ANON_KEY!
-    // );
-    // const { error: dbError } = await supabase.from("leads").insert(lead);
-    // if (dbError) {
-    //   console.error("Error Supabase:", dbError);
-    //   return NextResponse.json({ error: "Error interno" }, { status: 500 });
-    // }
+    // --- MAKE WEBHOOK ---
+    // Envía el lead a Make para conectar con Google Sheets, email, CRM, etc.
+    const makeWebhookUrl = process.env.MAKE_WEBHOOK_URL;
+    if (makeWebhookUrl) {
+      try {
+        await fetch(makeWebhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(lead),
+        });
+      } catch (webhookError) {
+        // No bloqueamos la respuesta al usuario si Make falla
+        console.error("Error enviando a Make:", webhookError);
+      }
+    }
 
     return NextResponse.json({
       ok: true,
