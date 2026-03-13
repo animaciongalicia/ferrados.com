@@ -6,37 +6,109 @@ pilar: "herencias"
 tags: ["herencias", "extranjero", "emigrantes", "galicia", "poderes"]
 ---
 
-Eres hijo o nieto de gallegos, vives en Argentina, Venezuela, Suiza o Alemania, y de repente heredas unas fincas en Galicia que no has pisado en tu vida. ¿Qué haces?
+Eres hijo o nieto de gallegos, vives en Argentina, Venezuela, Suiza, Alemania o cualquier otro país, y de repente heredas unas fincas en Galicia que no has pisado en tu vida. ¿Qué haces? ¿Tienes que ir a Galicia? ¿Puedes hacer los trámites desde donde estás? ¿Merece la pena?
 
-## La buena noticia
+Te lo explicamos todo.
 
-Casi todo se puede hacer a distancia. La clave es un buen poder notarial que permita a un representante en Galicia actuar en tu nombre.
+## La buena noticia: casi todo se puede hacer a distancia
 
-## Paso a paso desde fuera
+La clave es un **poder notarial** que permita a un representante en Galicia actuar en tu nombre para todos los trámites de la herencia. Con un buen poder, no necesitas pisar Galicia ni una sola vez (aunque si puedes ir, siempre es mejor ver las fincas con tus propios ojos).
 
-### 1. Obtén el certificado de defunción y últimas voluntades
-Estos documentos los puede pedir cualquier persona. Si estás fuera de España, se pueden solicitar por correo o a través del consulado.
+## Paso a paso desde fuera de España
+
+### 1. Obtén los certificados necesarios
+
+- **Certificado de defunción**: Lo puede pedir cualquier persona en el Registro Civil del lugar de fallecimiento, o por internet a través del Ministerio de Justicia. Si el fallecimiento ocurrió en España, este certificado se obtiene en España.
+- **Certificado de últimas voluntades**: Se solicita al Ministerio de Justicia (hay que esperar 15 días desde el fallecimiento). Cuesta unos 4€ y se puede pedir por correo desde el extranjero.
+
+Si tienes un familiar en España, lo más práctico es que esa persona solicite ambos certificados por ti.
 
 ### 2. Otorga un poder notarial
-En el consulado español de tu país o ante un notario local (con apostilla de La Haya). El poder debe ser lo bastante amplio para:
-- Aceptar herencias
-- Firmar escrituras
-- Gestionar trámites catastrales y registrales
-- Pagar impuestos
 
-### 3. Designa un representante de confianza
-Un familiar en Galicia, un abogado o un gestor. Esta persona se encargará de todo con el poder en la mano.
+Tienes dos opciones para otorgar el poder:
 
-### 4. Liquida el impuesto de sucesiones
-En Galicia hay bonificaciones importantes para hijos y cónyuges. El plazo es de 6 meses (prorrogable).
+**Opción A: En el consulado español de tu país**
+Los consulados españoles actúan como notarios. Pides cita, acudes con tu documentación y otorgas un poder a favor de la persona que va a representarte en Galicia. Es la opción más sencilla porque el documento ya tiene validez directa en España.
 
-### 5. Inscribe en el Registro
-Sin inscripción, no eres propietario a todos los efectos. No podrás vender ni gestionar la finca.
+**Coste**: Entre 50€ y 150€, dependiendo del consulado.
 
-## ¿Y después qué?
+**Opción B: Ante un notario local + Apostilla de La Haya**
+Si no hay consulado español cerca o los plazos son muy largos, puedes otorgar el poder ante un notario de tu país. Después necesitas:
+- **Apostilla de La Haya** (si tu país es firmante del Convenio). Es un sello oficial que da validez internacional al documento.
+- **Traducción jurada al español** si el poder se redactó en otro idioma.
 
-Una vez que la finca es tuya, tienes opciones:
-- **Venderla**: Busca un comprador local o un inversor.
-- **Arrendarla**: Si tiene valor agrícola o forestal.
-- **Gestionarla a distancia**: Con un profesional que la mantenga.
-- **No hacer nada**: Pero cuidado con las obligaciones de limpieza.
+**Coste**: Variable según el país, pero entre 100€ y 500€ contando notario + apostilla + traducción.
+
+### 3. El poder debe ser lo suficientemente amplio
+
+El poder tiene que autorizar a tu representante a:
+- Aceptar herencias en tu nombre
+- Firmar escrituras de aceptación y adjudicación
+- Gestionar trámites ante el Catastro y el Registro de la Propiedad
+- Presentar y pagar impuestos (sucesiones, plusvalía)
+- Opcionalmente: vender, arrendar o gestionar las fincas
+
+**Consejo importante**: Pide al notario que el poder sea lo más amplio posible. Un poder demasiado restringido puede obligarte a otorgar otro para completar algún trámite, lo que supone más tiempo y dinero.
+
+### 4. Designa un representante de confianza
+
+Las opciones habituales:
+- **Un familiar en Galicia**: Lo más económico, pero asegúrate de que tiene tiempo y capacidad para los trámites.
+- **Un abogado o gestor**: Más caro pero más eficiente. Un abogado especializado en herencias puede gestionar todo el proceso por entre 800€ y 2.000€ de honorarios (además de los costes de notario, impuestos y registro).
+- **Una gestoría**: Más económica que un abogado para herencias sencillas. Honorarios de 400€ a 1.000€.
+
+### 5. Liquida el impuesto de sucesiones
+
+En Galicia hay **bonificaciones muy importantes** para herencias entre familiares directos (padres, hijos, cónyuge). La bonificación puede llegar al 99%, lo que significa que en la práctica muchas herencias de montes pagan cantidades mínimas de impuesto.
+
+**Plazo**: 6 meses desde el fallecimiento (prorrogable otros 6).
+
+**Desde el extranjero**: Tu representante con el poder puede presentar y pagar el impuesto por ti en la Atriga (Agencia Tributaria de Galicia).
+
+### 6. Inscribe en el Registro de la Propiedad
+
+Sin inscripción, no eres propietario a todos los efectos. No podrás vender ni gestionar la finca. Tu representante puede hacer este trámite con el poder.
+
+## ¿Cuánto cuesta todo el proceso desde el extranjero?
+
+| Concepto | Coste aproximado |
+|---|---|
+| Poder notarial (consulado o notario + apostilla) | 50€ - 500€ |
+| Certificados (defunción, últimas voluntades) | 5€ - 10€ |
+| Notario en Galicia (escritura de herencia) | 300€ - 1.500€ |
+| Impuesto de sucesiones (familiares directos) | 0€ - 200€ |
+| Registro de la Propiedad (por finca) | 100€ - 300€ |
+| Representante/abogado (honorarios) | 400€ - 2.000€ |
+| **Total orientativo** | **1.000€ - 4.500€** |
+
+## ¿Y después qué? Qué hacer con las fincas
+
+Una vez que la finca es tuya legalmente, tienes varias opciones:
+
+### Venderla
+Si no tienes interés en conservarla, busca un comprador. Las opciones son:
+- Maderistas (si tiene arbolado maduro): compran la madera y a veces también el suelo.
+- Vecinos colindantes: a menudo están interesados en ampliar su propiedad.
+- Particulares: a través de portales inmobiliarios rurales o contactos locales.
+
+El precio dependerá del tipo de monte, la superficie, el acceso y la madera. Consulta nuestro artículo sobre tasación de montes para hacerte una idea.
+
+### Arrendarla
+Si tiene valor agrícola o forestal, puedes arrendarla a un vecino o empresa que la explote. Los arrendamientos forestales en Galicia suelen pactarse como un porcentaje del valor de la madera cuando se corte (entre el 10% y el 30%).
+
+### Gestionarla a distancia
+Contratar a un profesional forestal o gestor que se encargue de las plantaciones, los permisos de corta, la limpieza y la venta de madera. Es viable si el monte tiene un valor productivo que justifique los costes de gestión.
+
+### No hacer nada (con precaución)
+Puedes conservar la finca sin explotarla, pero ten en cuenta:
+- Si está a menos de 50 metros de viviendas, tienes **obligación de limpieza** y te pueden multar si no cumples.
+- Si tiene arbolado, puede necesitar tratamientos fitosanitarios o podas.
+- El IBI rústico puede estar llegando (o no) al domicilio del fallecido.
+
+## El caso especial de la doble nacionalidad
+
+Si tienes doble nacionalidad (española y de otro país), los trámites se simplifican porque puedes usar tu DNI o pasaporte español directamente. Si solo tienes nacionalidad extranjera, necesitarás un NIE (Número de Identidad de Extranjero) para cualquier trámite fiscal en España. Tu representante puede solicitar el NIE por ti con el poder notarial.
+
+## Consejo práctico
+
+Antes de gastar dinero en trámites, averigua qué fincas son, dónde están y qué valor pueden tener. Pide a un familiar que busque en la Sede Electrónica del Catastro a nombre del fallecido. Con esa información puedes decidir si merece la pena aceptar la herencia o si los costes superan el valor de las fincas.

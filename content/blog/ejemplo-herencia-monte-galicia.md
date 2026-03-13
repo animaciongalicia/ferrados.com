@@ -6,23 +6,78 @@ pilar: "herencias"
 tags: ["herencias", "montes", "galicia", "trámites"]
 ---
 
-Heredar un monte en Galicia es más habitual de lo que parece. Miles de gallegos (o hijos y nietos de gallegos) se encuentran cada año con que han heredado una o varias parcelas forestales, muchas veces sin saber muy bien qué hacer con ellas.
+Heredar un monte en Galicia es más habitual de lo que parece. Miles de gallegos (o hijos y nietos de gallegos) se encuentran cada año con que han heredado una o varias parcelas forestales, muchas veces sin saber muy bien qué hacer con ellas. Esta guía te explica el proceso real, con los costes y plazos que nadie te cuenta.
 
-## ¿Por dónde empezar?
+## Lo primero: los documentos que necesitas
 
-Lo primero es reunir la documentación básica: certificado de defunción, certificado de últimas voluntades y, si existe, el testamento. Con esto, un notario puede iniciar la tramitación.
+Antes de ir al notario, reúne estos papeles:
+
+1. **Certificado de defunción**: Se pide en el Registro Civil del lugar de fallecimiento o por internet en el Ministerio de Justicia. Es gratuito.
+2. **Certificado de últimas voluntades**: Se solicita al Registro General de Actos de Última Voluntad (Ministerio de Justicia). Hay que esperar 15 días desde el fallecimiento. Cuesta unos 4€.
+3. **Testamento** (si existe): El certificado de últimas voluntades te dirá ante qué notario se otorgó. Pide una copia autorizada en esa notaría.
+4. **Escrituras de las fincas** o, si no las hay, notas simples del Registro de la Propiedad.
+5. **Datos catastrales**: Referencia catastral, valor catastral. Se consultan gratis en la Sede Electrónica del Catastro.
+
+## El proceso paso a paso
+
+### 1. Aceptar la herencia ante notario
+
+Con toda la documentación, acudes a un notario (puede ser cualquiera, no tiene que ser de Galicia) y se hace la **escritura de aceptación y adjudicación de herencia**. Si hay varios herederos, todos deben estar de acuerdo en el reparto o firmar conjuntamente.
+
+**Coste**: La minuta del notario depende del valor de los bienes. Para un monte de valor catastral bajo, suele estar entre 300€ y 800€. Si hay muchas fincas o la herencia es compleja, puede llegar a 1.500€.
+
+### 2. Pagar el impuesto de sucesiones
+
+En Galicia existe una **bonificación del 99%** para herencias entre padres e hijos, cónyuge y ascendientes, siempre que la base imponible no supere ciertos límites (que se actualizan periódicamente). En la práctica, la mayoría de herencias de montes entre familiares directos pagan muy poco o nada de impuesto de sucesiones.
+
+**Plazo**: 6 meses desde el fallecimiento. Se puede prorrogar otros 6 meses si lo solicitas dentro de los 5 primeros meses. **Si te pasas del plazo, hay recargos**: 5% los primeros 3 meses, 10% de 3 a 6 meses, 15% de 6 a 12 meses y 20% a partir de ahí.
+
+**Dónde se presenta**: En la Atriga (Agencia Tributaria de Galicia), presencialmente o por sede electrónica.
+
+### 3. Inscribir en el Registro de la Propiedad
+
+Con la escritura de herencia y el justificante de pago del impuesto, hay que inscribir las fincas a tu nombre en el Registro de la Propiedad correspondiente.
+
+**Coste**: Entre 100€ y 300€ por finca, dependiendo del valor.
+
+**¿Es obligatorio?** Legalmente no es obligatorio, pero sin la inscripción no puedes vender, hipotecar ni hacer casi nada con la finca. Es imprescindible.
+
+### 4. Actualizar el Catastro
+
+El último paso es comunicar el cambio de titularidad al Catastro mediante el modelo 900D. Es gratuito y se puede hacer por internet. Muchos propietarios se olvidan de este paso y luego tienen problemas cuando quieren vender o cuando les llegan requerimientos de limpieza a nombre del fallecido.
 
 ## ¿Qué pasa si no hay testamento?
 
-Si la persona fallecida no dejó testamento, hay que hacer una declaración de herederos. El proceso es algo más largo pero perfectamente viable.
+Si la persona fallecida no dejó testamento, hay que hacer una **declaración de herederos abintestato** ante notario. El notario redacta un acta de notoriedad con dos testigos que conozcan al fallecido y su familia. El coste del acta suele estar entre 250€ y 500€, y se suma al coste normal de la escritura de herencia.
+
+El orden de herederos sin testamento es: hijos → padres → cónyuge → hermanos → sobrinos → otros parientes hasta 4º grado.
 
 ## ¿Y si vivo fuera de Galicia?
 
-Muchos de los propietarios que heredan montes en Galicia viven en Madrid, Barcelona o incluso en el extranjero. La buena noticia es que la mayoría de los trámites se pueden hacer a distancia.
+Es muy habitual. Muchos herederos viven en Madrid, Barcelona, el extranjero. La buena noticia es que **casi todo se puede hacer a distancia** con un poder notarial. Otorgas un poder ante notario (o ante el cónsul español si vives fuera de España) a favor de un familiar o profesional en Galicia, y esa persona hace todos los trámites en tu nombre.
 
-## Errores habituales
+## El problema real: montes sin escrituras
 
-- Dejar pasar los plazos del impuesto de sucesiones.
-- No inscribir la herencia en el Registro de la Propiedad.
-- No actualizar el Catastro con el cambio de titularidad.
-- Ignorar las obligaciones de limpieza que pueden recaer sobre el nuevo propietario.
+En Galicia es muy común que los montes no estén inscritos en el Registro de la Propiedad. Llevan generaciones pasando de padres a hijos "de palabra" sin formalizar nada. Esto complica la herencia porque hay que **reconstruir la cadena de titularidad**, que puede requerir actas de notoriedad, expedientes de dominio o certificaciones catastrales.
+
+Si tu monte no tiene escrituras, no te asustes: tiene solución, pero es un trámite más largo y costoso (entre 500€ y 2.000€ adicionales, dependiendo de la complejidad).
+
+## Errores habituales que debes evitar
+
+- **Dejar pasar los plazos del impuesto de sucesiones**. Los recargos se acumulan y al final pagas más de impuesto que de notario.
+- **No inscribir la herencia en el Registro de la Propiedad**. Sin inscripción, la finca sigue a nombre del fallecido y no puedes hacer nada con ella.
+- **No actualizar el Catastro**. Te puede llegar un requerimiento de limpieza o un IBI a nombre de una persona fallecida hace 10 años.
+- **Ignorar las obligaciones de limpieza**. Como nuevo propietario, heredas también la obligación de mantener la finca limpia si está a menos de 50 metros de viviendas. Y las multas son tuyas desde el momento en que aceptas la herencia.
+- **No comprobar si hay deudas o cargas**. Antes de aceptar, pide una nota simple en el Registro para ver si la finca tiene hipotecas, embargos o servidumbres.
+
+## Coste total orientativo de heredar un monte
+
+| Concepto | Coste aproximado |
+|---|---|
+| Certificados (defunción, últimas voluntades) | 5€ - 10€ |
+| Copia del testamento | 30€ - 60€ |
+| Notario (escritura de herencia) | 300€ - 1.500€ |
+| Impuesto de sucesiones (familiares directos) | 0€ - 200€ (con bonificación gallega) |
+| Registro de la Propiedad | 100€ - 300€ por finca |
+| Catastro (modelo 900D) | Gratuito |
+| **Total orientativo** | **500€ - 2.000€** |
