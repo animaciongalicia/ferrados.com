@@ -7,6 +7,7 @@ import HerenciasForm from "@/components/forms/HerenciasForm";
 import LindesForm from "@/components/forms/LindesForm";
 import MaderaForm from "@/components/forms/MaderaForm";
 import ProindivisoForm from "@/components/forms/ProindivisoForm";
+import CompraVentaForm from "@/components/forms/CompraVentaForm";
 
 const embudos = [
   {
@@ -39,6 +40,12 @@ const embudos = [
     title: "Proindiviso o monte compartido",
     desc: "Compartes un monte con otros propietarios y necesitas desbloquear la situación.",
   },
+  {
+    id: "compraventa" as const,
+    icon: "🏡",
+    title: "Comprar o vender un terreno",
+    desc: "Quieres comprar o vender un terreno, finca o monte en Galicia y necesitas orientación.",
+  },
 ];
 
 type EmbudoId = (typeof embudos)[number]["id"];
@@ -49,6 +56,7 @@ const formComponents: Record<EmbudoId, React.ComponentType<{ origen?: string }>>
   lindes: LindesForm,
   madera: MaderaForm,
   proindiviso: ProindivisoForm,
+  compraventa: CompraVentaForm,
 };
 
 export default function EmpezarPage() {

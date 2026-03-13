@@ -50,7 +50,7 @@ const pilares = [
     description:
       "Quieres comprar o vender un terreno, una finca o un monte en Galicia. Te orientamos en el proceso.",
     icon: "🏡",
-    comingSoon: true,
+    comingSoon: false,
   },
 ];
 
