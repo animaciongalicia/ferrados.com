@@ -21,6 +21,7 @@ export default function Footer() {
               <li><Link href="/precio-venta-madera-galicia" className="hover:text-white">Venta de madera</Link></li>
               <li><Link href="/limpieza-desbroce-multas-xunta" className="hover:text-white">Limpieza y multas</Link></li>
               <li><Link href="/vender-parte-monte-proindiviso" className="hover:text-white">Proindivisos</Link></li>
+              <li><Link href="/compra-venta-terrenos-galicia" className="hover:text-white">Compraventa de terrenos</Link></li>
             </ul>
           </div>
 
@@ -28,6 +29,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-3">Empresa</h4>
             <ul className="space-y-2 text-sm mb-6">
               <li><Link href="/quienes-somos" className="hover:text-white">Quiénes somos</Link></li>
+              <li><Link href="/colaboradores" className="hover:text-white">Colaboradores</Link></li>
               <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
             </ul>
             <h4 className="text-white font-semibold mb-3">Contacto</h4>
@@ -43,8 +45,13 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-xs text-gray-500">
-          © {new Date().getFullYear()} Ferrados.com — Todos los derechos reservados.
+        <div className="border-t border-gray-700 mt-8 pt-6 text-xs text-gray-500">
+          <div className="flex flex-wrap justify-center gap-4 mb-3">
+            <Link href="/politica-privacidad" className="hover:text-white">Política de Privacidad</Link>
+          </div>
+          <p className="text-center">
+            © {new Date().getFullYear()} Ferrados.com — Todos los derechos reservados.
+          </p>
         </div>
       </div>
     </footer>

@@ -74,9 +74,6 @@ export async function POST(request: NextRequest) {
       created_at: new Date().toISOString(),
     };
 
-    // --- LOG ---
-    console.log("Nuevo lead recibido:", JSON.stringify(lead, null, 2));
-
     // --- MAKE WEBHOOK ---
     // Envía el lead a Make para conectar con Google Sheets, email, CRM, etc.
     const makeWebhookUrl = process.env.MAKE_WEBHOOK_URL;
