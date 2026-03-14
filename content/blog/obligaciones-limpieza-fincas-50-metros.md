@@ -86,3 +86,17 @@ Los ayuntamientos también organizan a veces campañas de limpieza colectiva o c
 ## Consejo práctico
 
 No esperes a que te llegue la notificación. Si ya [te ha llegado una multa por no limpiar tu finca](/blog/multa-limpieza-finca-galicia), actúa de inmediato. Si limpias de forma preventiva antes de mayo, te ahorras el estrés, las prisas y probablemente dinero, porque en temporada alta (mayo-junio) hay más demanda de empresas de desbroce y los precios suben. Además, una finca limpia vale más si algún día quieres venderla. Y si tu vecino es el que no limpia, lee [cómo obligar a tu vecino a desbrozar su monte](/blog/vecino-no-limpia-monte-galicia).
+
+## Preguntas frecuentes
+
+### ¿Como se miden los 50 metros de la obligacion de limpieza de fincas?
+Los 50 metros se miden en linea recta desde la edificacion mas cercana (vivienda, nave, deposito de materiales inflamables), no desde el limite del nucleo urbano. Esto significa que fincas aparentemente rurales pueden estar afectadas si hay una casa aislada a menos de 50 metros. Puedes comprobarlo en el visor cartografico de la Xunta o de forma aproximada en Google Maps.
+
+### ¿Que fecha limite hay para limpiar las fincas cada ano en Galicia?
+La fecha limite es el 31 de mayo de cada ano. A partir de junio la Xunta comienza las inspecciones mediante tecnicos, drones e imagenes aereas. Si tu finca no esta limpia para esa fecha, te expones a recibir un requerimiento y, en caso de no actuar, una multa que puede ir desde 100 hasta 100.000 euros segun la gravedad.
+
+### ¿Quien es responsable de limpiar si la finca tiene varios propietarios?
+Cuando una finca pertenece a varios propietarios en proindiviso, todos son responsables solidariamente de la limpieza. Esto significa que la Xunta puede dirigirse contra cualquiera de ellos para exigir el cumplimiento y cobrar las sanciones. Lo recomendable es llegar a un acuerdo entre copropietarios para repartir el coste del desbroce.
+
+### ¿Existen ayudas o subvenciones para pagar la limpieza de fincas en Galicia?
+Si. La Xunta publica periodicamente ayudas que suelen cubrir entre el 50% y el 80% del coste de limpieza para propietarios particulares con fincas en la franja de proteccion. Ademas, algunos ayuntamientos organizan campanas de limpieza colectiva o convenios con empresas de desbroce a precios reducidos. Consulta la web de la Conselleria de Medio Rural para ver las convocatorias vigentes.

@@ -140,3 +140,17 @@ Coste total: 800€ - 2.000€ (notario + topógrafo + registro). Resultado: Cat
 El 90% de los problemas de lindes en Galicia se resuelven con un topógrafo, un notario y algo de paciencia. Solo el 10% acaba en un juzgado. No dejes que el miedo al juicio te impida resolver el problema.
 
 [Cuéntanos tu caso](/empezar?tipo=lindes) y te conectamos con un topógrafo o abogado especializado en tu zona.
+
+## Preguntas frecuentes
+
+### ¿Qué prevalece, el Catastro o el Registro de la Propiedad?
+Ninguno de los dos garantiza que la superficie real sea correcta. El Catastro tiene finalidad fiscal y el Registro tiene finalidad jurídica. Para conocer la superficie real de tu finca necesitas un levantamiento topográfico profesional. En caso de venta, el Registro acredita la propiedad, pero la superficie que consta puede estar equivocada.
+
+### ¿Cuánto cuesta corregir la superficie de una finca en el Catastro?
+El proceso completo suele costar entre 300 y 800 euros, que corresponden principalmente al levantamiento topográfico. La solicitud de corrección ante el Catastro es gratuita y el plazo de resolución es de 3 a 6 meses. Si la corrección afecta a fincas colindantes, puede alargarse por el trámite de alegaciones.
+
+### ¿Puedo vender una finca si el Catastro y las escrituras tienen superficies distintas?
+Sí, pero conviene corregir la discrepancia antes de la venta. Si la diferencia es menor del 10%, el notario puede corregirla directamente en la escritura. Si es mayor, lo recomendable es contratar un topógrafo, corregir el Catastro y después escriturar con los datos actualizados para evitar problemas con el banco del comprador.
+
+### ¿Necesito ir a juicio si mi vecino reclama parte de mi finca?
+En la mayoría de los casos no. La solución más habitual es contratar un topógrafo entre ambos vecinos para determinar dónde está la linde real, y después firmar un acta de deslinde notarial que la deje fijada para siempre. Solo si no hay acuerdo posible se recurre al deslinde judicial, que es lento y caro.

@@ -96,3 +96,17 @@ Los profesionales utilizan varios métodos, a menudo combinados:
 ## Consejo práctico
 
 Si quieres saber cuánto vale tu monte para decidir si vender, consulta el [precio actual del eucalipto en Galicia](/blog/precio-eucalipto-galicia-2026) o [cuándo es el mejor momento para vender pino](/blog/vender-pino-galicia-cuando), y empieza pidiendo 2-3 presupuestos a maderistas de la zona. Es gratis (ellos quieren comprar tu madera) y te da una idea rápida del valor de la madera en pie. Si necesitas una tasación formal (herencia, juicio, expropiación), contrata a un ingeniero de montes colegiado. El dinero invertido en la tasación se recupera con creces en la negociación.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta una tasación de un monte en Galicia?
+Una tasación oficial realizada por un ingeniero de montes o perito forestal cuesta entre 300 y 1.200 euros, dependiendo de la superficie y la complejidad. Para un monte de 1 a 5 hectáreas, el rango habitual es de 400 a 700 euros. Si solo necesitas una valoración orientativa para decidir si vender, puedes obtenerla por 100 a 300 euros o incluso gratis si la hace un maderista interesado en comprar tu madera.
+
+### ¿El valor catastral refleja lo que vale realmente mi monte?
+No. El valor catastral de las fincas rústicas en Galicia suele estar muy por debajo del valor de mercado, a veces entre 5 y 10 veces menos. Un monte que el Catastro valora en 1.500 euros puede venderse por 15.000 euros en el mercado. El valor catastral sirve para calcular impuestos como el IBI o el de sucesiones, pero no es una referencia fiable del precio real de venta.
+
+### ¿Cuándo necesito una tasación oficial de mi monte?
+Necesitas una tasación pericial cuando la valoración va a tener efectos legales o fiscales: herencias y liquidación del impuesto de sucesiones, divorcios con reparto de bienes, expropiaciones, ventas judiciales, procedimientos legales o solicitudes de financiación con la finca como garantía. En estos casos es imprescindible que la realice un profesional colegiado.
+
+### ¿Cuánto vale una hectárea de monte en Galicia?
+Depende fundamentalmente de la especie y la edad del arbolado. Una hectárea de eucalipto globulus maduro puede valer entre 10.000 y 25.000 euros, mientras que un monte raso sin arbolado se mueve entre 1.500 y 6.000 euros. También influyen el acceso para camiones, la proximidad a fábricas y la situación legal de la finca.

@@ -90,3 +90,17 @@ Esto genera mucha confusión:
 ## Consejo práctico
 
 Si has heredado fincas en Galicia y no sabes ni cuáles son ni dónde están, lee nuestra guía completa para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Empieza por el Catastro: busca a nombre del fallecido (necesitas su NIF) en la Sede Electrónica y te saldrán todas las parcelas catastrales a su nombre. Es gratuito y te da un punto de partida para todo lo demás.
+
+## Preguntas frecuentes
+
+### ¿Cómo puedo saber la referencia catastral de una finca si no tengo ningún documento?
+La forma más sencilla es entrar en la Sede Electrónica del Catastro y buscar por el mapa, navegando hasta la zona donde sabes que está tu finca. También puedes buscar por el nombre del titular con su NIF. Si conoces alguna referencia cercana como una iglesia o una casa vecina, úsala como punto de partida y navega desde ahí.
+
+### ¿La referencia catastral y el Registro de la Propiedad son lo mismo?
+No. El Catastro es un inventario fiscal gestionado por Hacienda que identifica los inmuebles para cobrar impuestos, mientras que el Registro de la Propiedad depende de Justicia y acredita quién es el dueño legal. Puedes figurar en uno y no en el otro, y lo ideal es que ambos estén actualizados y coincidan.
+
+### ¿Qué hago si mi finca no aparece en el Catastro?
+Puede ocurrir porque nunca se dio de alta, porque está integrada en otra parcela catastral más grande o porque los límites no coinciden con la realidad. La solución es solicitar un alta o una modificación catastral aportando escrituras, certificado del Registro o un informe topográfico que acredite la existencia y los límites de tu parcela.
+
+### ¿Es obligatorio tener la referencia catastral para vender o heredar una finca?
+Sí. Cualquier escritura notarial de compraventa, herencia o donación exige incluir la referencia catastral de los inmuebles. También la necesitas para pedir permisos de corta de madera, solicitar ayudas agrícolas o forestales, y para inscribir la finca en el Registro de la Propiedad.

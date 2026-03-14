@@ -98,3 +98,17 @@ El plazo para alegaciones suele ser de 15 días hábiles desde la notificación.
 - **Si no puedes hacerlo tú**, contrata una empresa. Puedes pactar un mantenimiento anual por un precio más económico que hacerlo de urgencia.
 - **Si la finca no te interesa**, valora [venderla siguiendo nuestra guía de compra-venta de terrenos](/compra-venta-terrenos-galicia) o cederla. Es mejor desprenderte de ella que acumular multas año tras año.
 - **Apúntate a las alertas del Catastro** para saber si te llegan notificaciones a nombre de tus fincas.
+
+## Preguntas frecuentes
+
+### ¿Cuanto tiempo tengo para limpiar mi finca despues de recibir el requerimiento de la Xunta?
+Normalmente la Xunta concede un plazo de 15 a 30 dias habiles desde la notificacion del requerimiento. Es fundamental actuar dentro de ese plazo, porque si lo dejas pasar, la Xunta puede enviar una empresa a limpiar por ti y pasarte una factura que suele ser entre 2 y 3 veces mas cara que si lo hubieras hecho por tu cuenta.
+
+### ¿Puedo recurrir una multa por no limpiar mi finca en Galicia?
+Si, tienes derecho a presentar alegaciones en un plazo de 15 dias habiles desde la notificacion de la sancion. Los motivos mas habituales son errores en la identificacion de la parcela o del propietario, que la finca no este realmente dentro de la franja de 50 metros, o que ya hubieras realizado la limpieza antes de la inspeccion. Un gestor o abogado puede presentarlas por ti por 150 a 300 euros.
+
+### ¿Cuanto cuesta limpiar una finca en Galicia para evitar la multa?
+El coste depende de la superficie, el tipo de vegetacion y la pendiente. Como referencia, el desbroce de matorral denso cuesta entre 80 y 150 euros por ferrado (unos 630 metros cuadrados). Una finca de 10 ferrados con matorral y arboles puede salir entre 1.000 y 2.000 euros si lo contratas tu, frente a los 3.000-5.000 euros que costaria si lo ejecuta la Xunta de forma subsidiaria.
+
+### ¿Me pueden multar si herede la finca y no sabia que era propietario?
+El desconocimiento de la titularidad puede ser un atenuante a la hora de fijar la sancion, pero no te exime de la obligacion de limpiar. La Xunta envia las notificaciones al domicilio que figura en el Catastro, que puede ser el del familiar fallecido. Por eso es importante actualizar la titularidad catastral en cuanto heredes fincas.

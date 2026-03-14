@@ -113,3 +113,17 @@ La Xunta no multa todo el año. Hay un patrón:
 3. **No saber que la ejecución subsidiaria existe**. Mucha gente piensa que la multa es el peor escenario. No. El peor escenario es multa + factura de la Xunta, que puede triplicar el coste.
 
 Si ya te ha llegado la carta o quieres limpiar antes de que llegue, [pide presupuesto aquí](/empezar?tipo=limpieza). Te conectamos con empresas de desbroce de tu zona en menos de 24 horas. Y si es tu vecino el que no limpia y temes por tu casa, lee [cómo obligar a tu vecino a desbrozar su monte legalmente](/blog/vecino-no-limpia-monte-galicia).
+
+## Preguntas frecuentes
+
+### ¿Cuánto tiempo tengo para limpiar la finca después de recibir la carta de la Xunta?
+El plazo habitual es de 15 a 30 días naturales desde la fecha de notificación. El plazo exacto viene indicado en la propia carta. Si no lo encuentras, cuenta 15 días desde que la recibiste y actúa lo antes posible, porque si se te pasa el plazo se abre un expediente sancionador.
+
+### ¿Cuánto cuesta la multa por no desbrozar una finca en Galicia?
+Las multas van desde 200 euros en infracciones leves hasta 100.000 euros en casos muy graves. La cuantía depende de la proximidad a viviendas, si es la primera vez o hay reincidencia, y el estado del monte. Además, la Xunta puede enviar una cuadrilla a limpiar y pasarte la factura, que suele ser 2 o 3 veces más cara que hacerlo por tu cuenta.
+
+### ¿Puedo pedir una prórroga si no me da tiempo a limpiar dentro del plazo?
+Sí, aunque no siempre se concede. Si demuestras que ya has contratado una empresa de desbroce y tienes fecha de ejecución, la administración a veces concede unos días más. Presenta un escrito al organismo que te notificó explicando la situación y aportando el presupuesto o contrato firmado.
+
+### ¿Qué pasa si vivo fuera de Galicia y me llega una carta por una finca heredada?
+No necesitas desplazarte. Una empresa de desbroce puede limpiar tu finca a distancia si le proporcionas la referencia catastral. Lo importante es que tu dirección esté actualizada en el Catastro, porque si la Xunta envía la carta a una dirección antigua y no la recibes, la notificación se considera igualmente hecha tras publicarse en el BOE o DOG.

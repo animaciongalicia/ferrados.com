@@ -174,3 +174,17 @@ En estos casos, un **abogado o gestor especializado en propiedad rural gallega**
 En Galicia hay aproximadamente **500.000 hectáreas de monte en estado de abandono** parcial, muchas de ellas vinculadas a herencias sin resolver. Detrás de cada hectárea abandonada hay una familia que no terminó el papeleo. No seas una de ellas. Las fincas no esperan: se llenan de maleza, atraen [multas por incumplir la normativa de desbroce](/limpieza-desbroce-multas-xunta) y, con el tiempo, se vuelven irrecuperables en términos prácticos. Además, no cometas [los errores más caros al heredar fincas rústicas en Galicia](/blog/errores-heredar-fincas-rusticas-galicia).
 
 Empieza hoy. El primer paso es abrir el Catastro.
+
+## Preguntas frecuentes
+
+### ¿Puedo consultar las fincas de un familiar fallecido en el Catastro sin ser heredero?
+No directamente. Para acceder a la información de titularidad de un fallecido necesitas acreditar tu parentesco presentando el certificado de defunción y un documento que demuestre la relación familiar (libro de familia, certificado de nacimiento). Sin esa documentación, el Catastro no te facilitará el listado de propiedades.
+
+### ¿Qué pasa si las fincas de mi abuelo no aparecen en el Registro de la Propiedad?
+Es algo muy habitual en Galicia: millones de fincas rústicas nunca se inscribieron. Que no estén registradas no significa que no sean tuyas. Simplemente, cuando quieras vender o formalizar la herencia, tendrás que realizar un procedimiento de inmatriculación ante notario para inscribirlas por primera vez.
+
+### ¿Cuánto cuesta localizar y regularizar fincas heredadas en Galicia?
+Si haces las gestiones tú mismo (Catastro, Registro, ayuntamiento), el coste es mínimo: solo pagarás las notas simples del Registro (unos 9 euros por finca). Si contratas a un abogado o gestor especializado para todo el proceso de localización y regularización, el coste típico oscila entre 1.000 y 3.000 euros dependiendo de la complejidad y el numero de fincas.
+
+### ¿Tengo que pagar el IBI atrasado de las fincas que heredo?
+Sí. Las deudas tributarias del fallecido pasan a los herederos, incluido el IBI impagado. La buena noticia es que el IBI rústico en Galicia suele ser muy bajo (entre 10 y 50 euros por finca al año) y los ayuntamientos suelen ofrecer facilidades de pago para regularizar los atrasos.

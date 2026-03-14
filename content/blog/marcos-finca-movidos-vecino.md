@@ -143,3 +143,17 @@ Y si todavía no has formalizado la herencia, hazlo ya. Lee nuestra [guía para 
 **El consejo que vale más que todo este artículo**: Actúa rápido. Cuanto más tiempo pase con el marco movido, más difícil será demostrar dónde estaba. Y cuanto más tiempo ocupe el vecino tu terreno, más posibilidades tiene de reclamar la prescripción adquisitiva.
 
 Si necesitas un topógrafo o un abogado especializado en lindes en Galicia, [cuéntanos tu caso](/empezar?tipo=lindes) y te ponemos en contacto con el profesional adecuado.
+
+## Preguntas frecuentes
+
+### ¿Es delito mover los marcos o mojones de una finca en Galicia?
+Sí, mover o arrancar marcos de forma intencionada puede constituir un delito de alteracion de lindes recogido en el articulo 246 del Codigo Penal, castigado con multa de tres a dieciocho meses. Ademas, si el vecino ocupa parte de tu terreno, podria incurrir en un delito de usurpacion. Para que sea perseguible penalmente hay que demostrar la intencionalidad.
+
+### ¿Cuanto cuesta contratar un topografo para resolver una disputa de lindes?
+Un levantamiento topografico con GPS de precision centimetrica cuesta entre 300 y 800 euros por finca. Si ambos vecinos acuerdan pagarlo a medias, el coste se reduce a 150-400 euros por persona. Es la inversion mas rentable en estos casos, ya que con el informe tecnico se resuelven aproximadamente el 80% de las disputas sin necesidad de juicio.
+
+### ¿Puede mi vecino quedarse con parte de mi finca por llevar anos ocupandola?
+Si el vecino lleva mas de 30 anos poseyendo ese terreno de forma publica, pacifica e ininterrumpida, puede reclamar la propiedad por prescripcion adquisitiva (usucapion). Por eso es fundamental actuar rapido en cuanto descubras que los marcos han sido movidos y consultar con un abogado si sospechas que la ocupacion lleva mucho tiempo.
+
+### ¿Que validez tiene el Catastro para determinar los lindes de mi finca?
+El Catastro es una referencia util pero no definitiva. Los limites catastrales en Galicia pueden tener errores de varios metros, ya que su funcion principal es fiscal, no juridica. Para acreditar la propiedad y los lindes exactos, lo que prevalece son las escrituras, el Registro de la Propiedad y, en su defecto, el informe de un topografo profesional.

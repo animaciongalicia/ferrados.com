@@ -112,3 +112,17 @@ Si tienes doble nacionalidad (española y de otro país), los trámites se simpl
 ## Consejo práctico
 
 Antes de gastar dinero en trámites, averigua qué fincas son, dónde están y qué valor pueden tener. Tenemos una guía completa para [localizar fincas de un familiar fallecido cuando no tienes escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). También puedes pedir a un familiar que busque en la Sede Electrónica del Catastro a nombre del fallecido. Con esa información puedes decidir si merece la pena aceptar la herencia o si los costes superan el valor de las fincas.
+
+## Preguntas frecuentes
+
+### ¿Necesito viajar a Galicia para heredar una finca desde el extranjero?
+No. Con un poder notarial amplio puedes hacer todo el proceso a distancia. El poder se otorga en el consulado español de tu país o ante un notario local con Apostilla de La Haya y traducción jurada. Tu representante en Galicia se encarga de la escritura de herencia, los impuestos, el Registro y el Catastro en tu nombre.
+
+### ¿Cuánto cuesta heredar fincas en Galicia viviendo fuera de España?
+El coste total orientativo está entre 1.000 y 4.500 euros, incluyendo el poder notarial, los certificados, la escritura de herencia, el impuesto de sucesiones, el Registro y los honorarios del representante o abogado. En Galicia, las herencias entre familiares directos tienen una bonificación del 99% en el impuesto de sucesiones, por lo que la carga fiscal suele ser mínima.
+
+### ¿Necesito un NIE para heredar una finca en Galicia si no tengo nacionalidad española?
+Sí. Si no tienes nacionalidad española, necesitas un NIE (Numero de Identidad de Extranjero) para cualquier trámite fiscal en España, incluido el pago del impuesto de sucesiones. Tu representante en Galicia puede solicitar el NIE por ti usando el poder notarial, sin que necesites desplazarte.
+
+### ¿Merece la pena aceptar la herencia de fincas en Galicia desde el extranjero?
+Depende del valor de las fincas y de tu situación. Antes de gastar en trámites, averigua qué propiedades hay buscando en la Sede Electrónica del Catastro a nombre del fallecido. Si las fincas tienen madera madura, buena ubicación o superficie considerable, el valor puede superar con creces los costes del proceso. Si son parcelas pequeñas sin valor productivo, valora si el coste de la herencia compensa.

@@ -184,10 +184,10 @@ export default function HomePage() {
           <div className="flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-xl">
             <span className="text-green-700 text-2xl mt-0.5 font-bold">0 €</span>
             <div>
-              <h3 className="font-bold text-gray-900">Gratis para ti</h3>
+              <h3 className="font-bold text-gray-900">Sin coste por nuestra parte</h3>
               <p className="text-sm text-gray-600 mt-1">
-                Nuestra consulta inicial no tiene coste. Te orientamos y
-                conectamos con profesionales sin que tú pagues nada por el servicio.
+                Te orientamos y conectamos con profesionales de tu zona. Tú
+                solo pagas al profesional si decides seguir adelante.
               </p>
             </div>
           </div>

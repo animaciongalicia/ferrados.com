@@ -88,3 +88,17 @@ Si no tienes estos cinco datos, no estás vendiendo madera: **te la están compr
 ## ¿Necesitas una valoración de tu eucalipto?
 
 En Ferrados.com gestionamos directamente las compras de eucalipto de gran tamaño en A Coruña. Conocemos el mercado, los precios reales y los maderistas serios de la zona. [Pídenos una valoración gratuita](/empezar?tipo=madera) y te decimos exactamente cuánto vale tu plantación y cómo venderla sin perder dinero.
+
+## Preguntas frecuentes
+
+### ¿Cual es el precio actual de la tonelada de eucalipto en A Coruna?
+El eucalipto globulus en la provincia de A Coruna se paga actualmente entre 25 y 55 euros por tonelada en pie, dependiendo de la ubicacion, el acceso y el estado de la plantacion. Las mejores fincas costeras con buen acceso y arboles de mas de 15 anos alcanzan los 45-55 euros por tonelada, mientras que las de interior con acceso dificil se mueven en el rango de 25-35 euros.
+
+### ¿Que es la tara del eucalipto y cual es un porcentaje normal?
+La tara es el porcentaje de peso que se descuenta de la madera en la bascula de la fabrica por conceptos como humedad, corteza, barro y restos de ramas. Una tara normal para eucalipto globulus recien cortado esta entre el 8% y el 12%. Si un maderista te aplica mas del 12%, deberias exigir los tickets de bascula originales para comprobar que no te estan inflando ese descuento.
+
+### ¿Como puedo evitar que me enganen al vender eucalipto en Galicia?
+Las claves son: exigir siempre los tickets de bascula originales de la fabrica, contar los camiones que salen de tu finca, pactar el precio por tonelada neta en bascula (no a ojo alzado), pedir una tasacion independiente antes de vender y firmar un contrato escrito que incluya el precio, la tara maxima pactada y la forma de pago. Nunca aceptes un acuerdo verbal.
+
+### ¿Cuando es el mejor momento para vender eucalipto en A Coruna?
+Los mejores momentos coinciden con periodos de precios altos de la celulosa a nivel mundial y con la ausencia de temporales recientes que inunden el mercado de madera de emergencia. La edad optima de corta del eucalipto globulus es entre 12 y 18 anos. Puedes seguir la evolucion de los precios de celulosa en indices internacionales como FOEX o RISI para elegir el momento adecuado.

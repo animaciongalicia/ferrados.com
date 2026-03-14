@@ -78,3 +78,17 @@ No hay una regla fija, pero estas señales ayudan:
 - Los maderistas de tu zona están buscando madera activamente.
 
 Si no tienes urgencia, vigila los precios y espera a que el mercado esté favorable. Lee nuestro análisis sobre [si conviene cortar el monte ahora o esperar](/blog/cortar-monte-ahora-o-esperar) para tomar la decisión con datos. Si tu plantación está en A Coruña, tenemos además un artículo específico sobre [el precio del eucalipto en A Coruña y la trampa de la tara](/blog/precio-eucalipto-coruna-tara). Los precios del eucalipto en Galicia oscilan en ciclos de 2-4 años.
+
+## Preguntas frecuentes
+
+### ¿Cuánto pagan por una tonelada de eucalipto en Galicia en 2026?
+El eucalipto globulus se paga actualmente entre 35 y 55 euros por tonelada en pie, dependiendo de la zona, el acceso y el volumen de la plantación. El eucalipto nitens cotiza algo más bajo, entre 25 y 40 euros por tonelada, ya que su fibra se valora ligeramente menos en las pasteras.
+
+### ¿Cuántas toneladas de eucalipto produce una hectárea en Galicia?
+Una plantación bien cuidada de eucalipto globulus de entre 15 y 20 años puede producir entre 200 y 400 toneladas por hectárea. Esto significa que una hectárea de eucalipto maduro puede valer entre 7.000 y 20.000 euros solo en madera, sin contar el valor del suelo.
+
+### ¿Qué diferencia hay entre vender eucalipto en pie y en cargadero?
+Vender en pie significa que el maderista paga por la madera tal como está y se encarga de la corta, la saca y el transporte. Vender en cargadero implica que tú contratas la corta y la saca, y el maderista recoge la madera ya apilada en pista. El precio en cargadero es más alto, pero asumes el coste y el riesgo de la operación forestal.
+
+### ¿Es obligatorio pedir permiso para cortar eucalipto en Galicia?
+Sí, en Galicia es obligatorio solicitar un permiso de corta antes de talar cualquier plantación forestal. Se tramita en la oficina agraria comarcal o por la sede electrónica de la Xunta, es gratuito y tarda unos días. Además, tras la tala estás obligado a replantar, y si quieres cambiar de especie o uso del suelo necesitas autorización previa.

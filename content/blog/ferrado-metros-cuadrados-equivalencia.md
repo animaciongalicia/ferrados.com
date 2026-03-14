@@ -90,3 +90,17 @@ Si estás vendiendo, comprando, heredando o simplemente quieres saber cuánto mi
 Nuestro nombre es un homenaje a esta medida que define la relación de los gallegos con su tierra. Cada ferrado cuenta una historia de minifundio, herencia, emigración y vuelta. Entender qué es un ferrado —y saber que no todos los ferrados son iguales— es el primer paso para gestionar tu patrimonio forestal en Galicia con cabeza.
 
 Si tienes fincas en Galicia y no sabes ni cuántas son, ni dónde están, ni cuánto miden, empieza por [localizar las propiedades de tu familia](/blog/localizar-fincas-familiar-fallecido-sin-escrituras) y después [mídelas bien](/localizar-medir-fincas-galicia). El ferrado te da una idea. Los metros cuadrados te dan la verdad.
+
+## Preguntas frecuentes
+
+### ¿Cuántos metros cuadrados tiene un ferrado en Galicia?
+Depende de la zona. El ferrado más conocido, el de A Coruña y Santiago, equivale a 629 metros cuadrados. Pero en Lugo un ferrado son solo 436 metros cuadrados, y en Ourense varía entre 437 y 564 metros cuadrados. Antes de comprar o vender usando ferrados, asegúrate de saber qué ferrado se está usando en tu comarca.
+
+### ¿Por qué el ferrado mide distinto según el concello?
+El ferrado no era una medida de superficie, sino de capacidad: era la tierra que se podía sembrar con un ferrado de grano. Como la densidad de siembra variaba según el cereal, el tipo de suelo y la costumbre local, cada comarca acabó con un ferrado de tamaño diferente. Esa variación se ha mantenido hasta hoy por la tradición oral.
+
+### ¿Cuántos ferrados tiene una hectárea?
+Con el ferrado estándar de A Coruña (629 m²), una hectárea equivale a unos 15,9 ferrados. Con el ferrado de Lugo (436 m²), una hectárea son 22,9 ferrados. La diferencia es enorme, así que siempre conviene hablar en metros cuadrados o hectáreas para evitar confusiones.
+
+### ¿Es fiable usar ferrados para calcular el precio de una finca?
+No es recomendable. Al no ser una medida estándar, usar ferrados en una compraventa puede generar malentendidos de hasta un 30-40% en la superficie. Lo correcto es pedir un levantamiento topográfico profesional o al menos consultar la superficie catastral en metros cuadrados antes de cerrar cualquier operación.

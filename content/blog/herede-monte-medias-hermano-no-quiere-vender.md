@@ -123,3 +123,17 @@ La Ley 2/2006 de Derecho Civil de Galicia tiene normas específicas que pueden a
 María y su hermano Pedro heredaron un monte de 4 hectáreas en Pontevedra. Pedro vive en Madrid y no quiere saber nada. María envió un burofax ofreciéndole comprar su 50% por 8.000€ (la mitad de la tasación). Pedro no contestó. María inició una demanda de división de cosa común. El juez determinó que la finca no era divisible y ordenó la subasta. María pujó y se quedó con la finca por 14.500€. Descontada su parte (50%), pagó a Pedro 7.250€ que quedaron en depósito judicial hasta que Pedro los reclamó. Total del proceso: 14 meses y 3.200€ en costas legales.
 
 ¿El resultado? María tiene ahora la finca a su nombre, limpia, produciendo madera, y sin depender de nadie. Si quieres saber cuánto podrías sacar de la tuya, consulta los [precios actualizados de venta de madera en Galicia](/precio-venta-madera-galicia).
+
+## Preguntas frecuentes
+
+### ¿Puedo vender mi parte de un monte heredado sin el permiso de mi hermano?
+Sí. Puedes vender tu cuota del proindiviso libremente sin necesidad de que los demás copropietarios estén de acuerdo. Sin embargo, ellos tienen derecho de retracto: disponen de un mes desde que se enteran de la venta para igualar la oferta y quedarse con tu parte. Ten en cuenta que los compradores de cuotas de proindiviso suelen ofrecer un 30-50% menos del valor real.
+
+### ¿Cuánto cuesta la demanda de división de cosa común para un monte en Galicia?
+El coste total orientativo está entre 2.500 y 6.000 euros, incluyendo abogado, procurador, tasación pericial y costas judiciales. El proceso suele durar entre 12 y 24 meses, aunque si la otra parte no se opone puede resolverse en 6 a 9 meses. Generalmente cada parte paga sus propias costas.
+
+### ¿Qué pasa con las multas de limpieza si la finca está en proindiviso?
+La Xunta puede multar a todos los copropietarios solidariamente por no cumplir la obligación de desbroce, independientemente de que uno de ellos no quiera colaborar. Si solo pagas tú los gastos de limpieza, puedes reclamar a los demás su parte proporcional. No limpiar no es opción, porque la multa la puede cobrar a cualquiera de los copropietarios.
+
+### ¿Existe alguna alternativa al juicio para resolver un proindiviso de fincas?
+Sí. Antes de demandar puedes intentar un acto de conciliación ante el Letrado de la Administración de Justicia, que es prácticamente gratuito. También puedes enviar un burofax proponiendo que uno compre la parte del otro o que se venda y se reparta. Si tu hermano no acude a la conciliación o no contesta al burofax, queda constancia legal de su negativa, lo que refuerza tu posición en un juicio posterior.

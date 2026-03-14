@@ -81,3 +81,17 @@ Si tu monte no tiene escrituras, no te asustes: tiene solución, pero es un trá
 | Registro de la Propiedad | 100€ - 300€ por finca |
 | Catastro (modelo 900D) | Gratuito |
 | **Total orientativo** | **500€ - 2.000€** |
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta heredar un monte en Galicia?
+El coste total orientativo oscila entre 500 y 2.000 euros, incluyendo notario, impuesto de sucesiones, Registro de la Propiedad y certificados. En Galicia, las herencias entre familiares directos tienen una bonificación del 99% en el impuesto de sucesiones, por lo que la carga fiscal suele ser mínima.
+
+### ¿Qué plazo tengo para hacer la herencia de un monte?
+El plazo clave es el del impuesto de sucesiones: 6 meses desde el fallecimiento. Puedes prorrogarlo otros 6 meses si lo solicitas dentro de los primeros 5 meses. Si te pasas del plazo sin pedir prórroga, se aplican recargos automáticos que van del 5% al 20% más intereses de demora.
+
+### ¿Puedo heredar un monte en Galicia si vivo fuera?
+Sí. Casi todo el proceso se puede hacer a distancia mediante un poder notarial. Otorgas un poder ante notario o en el consulado español a favor de un familiar o profesional en Galicia, y esa persona realiza todos los trámites en tu nombre: escritura, impuestos, Registro y Catastro.
+
+### ¿Qué hago si el monte heredado no tiene escrituras ni está en el Registro?
+Es un caso muy habitual en Galicia. Puedes aceptar la herencia igualmente y después regularizar la situación mediante un expediente de dominio notarial o usando la certificación catastral como título para inscribir. El coste adicional suele estar entre 500 y 2.000 euros dependiendo de la complejidad.

@@ -94,3 +94,17 @@ Es más habitual de lo que parece. Tres hermanos heredan un monte y uno quiere v
 ## Consejo práctico
 
 Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos [los errores más caros al heredar fincas rústicas](/blog/errores-heredar-fincas-rusticas-galicia). Es el mejor regalo que puedes dejarles junto con las fincas.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta heredar un monte en Galicia si no hay testamento?
+El coste total orientativo para tres fincas está entre 1.000 y 2.500 euros. El sobrecoste respecto a una herencia con testamento es de 250 a 500 euros, que corresponden al acta de declaración de herederos abintestato ante notario. El resto de gastos (escritura, impuestos, Registro) son los mismos que con testamento.
+
+### ¿Quién hereda un monte en Galicia si el propietario no dejó testamento?
+El orden legal es: primero los hijos y descendientes a partes iguales, después los padres y ascendientes, luego el cónyuge, seguido de hermanos y sobrinos, y finalmente otros parientes hasta el cuarto grado. Si no aparece ningún pariente, hereda el Estado. El cónyuge viudo siempre conserva un derecho de usufructo sobre una parte de la herencia.
+
+### ¿Qué es la declaración de herederos abintestato y dónde se hace?
+Es un acta notarial que determina quiénes son los herederos legales cuando no hay testamento. Se hace ante notario con dos testigos que conozcan al fallecido y su situación familiar, y que no sean herederos ni familiares de los herederos. Desde la reforma de 2015 ya no es necesario acudir al juzgado. El acta se resuelve normalmente en 20 a 30 días.
+
+### ¿Puedo heredar un monte sin testamento si no tengo escrituras de la finca?
+Sí, aunque el proceso es más largo. Primero haces la declaración de herederos y la escritura de herencia con los datos catastrales disponibles. Después, para inscribir la finca en el Registro de la Propiedad, puedes usar un expediente de dominio notarial o la certificación catastral descriptiva y gráfica como título. El coste adicional de regularizar fincas no inscritas suele estar entre 500 y 1.500 euros.

@@ -69,3 +69,17 @@ El pino gallego se destina principalmente a:
 4. **Firma un contrato** (aunque sea sencillo) donde quede todo por escrito.
 5. **Controla la corta**: asegúrate de que cortan solo lo acordado y no dañan árboles jóvenes que quieras conservar.
 6. **Replanta** según la normativa vigente.
+
+## Preguntas frecuentes
+
+### ¿A qué edad se debe cortar el pino en Galicia para obtener el mejor precio?
+El turno optimo depende de la especie: el pino pinaster (pino del pais) alcanza su mejor momento entre los 25 y 35 anos, mientras que el pino radiata (pino insigne), que crece mas rapido, se corta idealmente entre los 20 y 30 anos. La clave es que los troncos alcancen al menos 25 cm de diametro para que la madera se destine a aserradero, que paga entre 40 y 65 euros por tonelada, frente a los 18-28 euros de la trituracion.
+
+### ¿Cuanto vale una plantacion de pino de 2 hectareas en Galicia?
+El valor depende de la edad, el diametro y el destino de la madera. Una plantacion madura de pino pinaster con madera apta para aserradero puede generar entre 40 y 65 euros por tonelada en pie. Una finca de 2 hectareas con buena densidad y arboles de mas de 25 anos puede producir varios cientos de toneladas, lo que se traduce en un ingreso de entre 10.000 y 30.000 euros aproximadamente.
+
+### ¿Es obligatorio replantar despues de cortar pino en Galicia?
+Si, la normativa gallega obliga a replantar tras la tala de cualquier plantacion forestal. Tienes un plazo determinado para hacerlo y, si no cumples, te expones a una sancion. Ademas, si quieres cambiar la especie forestal o el uso del suelo, necesitas solicitar una autorizacion previa a la Xunta antes de proceder.
+
+### ¿Necesito permiso para cortar pinos en mi finca en Galicia?
+Si, es obligatorio solicitar un permiso de corta antes de talar. Se tramita en la oficina agraria comarcal de tu zona o a traves de la sede electronica de la Xunta de Galicia. El tramite es gratuito y suele resolverse en pocos dias. Sin este permiso, la venta de madera es ilegal y te expones a sanciones administrativas.

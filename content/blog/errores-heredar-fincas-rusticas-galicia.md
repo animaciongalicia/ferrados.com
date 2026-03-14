@@ -129,3 +129,17 @@ Si marcas todas las casillas, puedes respirar tranquilo. Si te falta alguna, pon
 ## El consejo que vale más que todo este artículo
 
 Si tus padres están vivos y tienen fincas en Galicia, siéntate con ellos un domingo y haced una lista de todas las fincas. Apuntad las [referencias catastrales de cada finca](/blog/catastro-finca-galicia-referencia), dónde están, si tienen escrituras y si están en el Registro. Esa lista, que se hace en una tarde, puede ahorrar meses de búsquedas, miles de euros en trámites y una cantidad incalculable de disgustos familiares.
+
+## Preguntas frecuentes
+
+### ¿Qué pasa si presento el impuesto de sucesiones fuera de plazo en Galicia?
+Se aplican recargos automáticos sobre la cuota teórica antes de bonificaciones: 5% los primeros 3 meses de retraso, 10% de 3 a 6 meses, 15% de 6 a 12 meses y 20% más intereses a partir del año. Esto puede convertir una cuota de 50 euros en una liquidación de más de 1.000 euros. La solución es pedir la prórroga de 6 meses antes de que se cumplan los primeros 5.
+
+### ¿Tengo que declarar el valor de la madera en pie al heredar un monte?
+Sí, es muy recomendable. Si declaras solo el valor del suelo e ignoras la madera, Hacienda puede detectar la discrepancia si vendes esa madera después y enviarte una liquidación complementaria con recargos. Lo correcto es declarar el valor del suelo más el valor aproximado de la madera en pie, pidiendo un presupuesto a un maderista como referencia.
+
+### ¿Es obligatorio inscribir las fincas heredadas en el Registro de la Propiedad?
+Legalmente no es obligatorio, pero en la práctica es imprescindible. Sin la inscripción no puedes vender, hipotecar ni acreditar tu propiedad frente a terceros. Además, si no registras, el problema se acumula de generación en generación y el coste de regularizar se multiplica con el tiempo.
+
+### ¿Cómo sé si la Administración va a revisar la valoración de mis fincas heredadas?
+No hay forma de saberlo con certeza, pero el riesgo aumenta si declaras las fincas por un valor muy inferior al de mercado. Antes de presentar la herencia, consulta el valor de referencia catastral de cada finca en la Sede Electrónica del Catastro. Si no tiene valor de referencia asignado, considera pedir una tasación profesional para justificar la valoración que declares.

@@ -30,12 +30,13 @@ export default function QuienesSomosPage() {
         </p>
 
         <p>
-          Detrás de Ferrados.com hay un consultor empresarial de Consultoría
-          Método de Coruña y un ingeniero de montes. Llevamos años viendo la
-          misma historia: herederos que no saben dónde están sus fincas,
-          propietarios pagando multas de la Xunta por no desbrozar, y familias
-          peleándose por vender la madera de un proindiviso mientras el
-          maderista de turno les ofrece un precio ridículo.
+          Detrás de Ferrados.com hay gente con barro en las botas. Llevamos
+          más de 20 años pateando montes por toda Galicia, y conocemos el
+          terreno palmo a palmo. Hemos visto la misma historia cientos de
+          veces: herederos que no saben dónde están sus fincas, propietarios
+          pagando multas de la Xunta por no desbrozar, y familias peleándose
+          por vender la madera de un proindiviso mientras el maderista de
+          turno les ofrece un precio ridículo.
         </p>
 
         <p>
@@ -48,14 +49,14 @@ export default function QuienesSomosPage() {
 
         <div className="bg-green-50 border border-green-200 rounded-xl p-6 my-8">
           <h2 className="text-xl font-bold text-green-800 mb-3">
-            Somos tasadores, no oficinistas
+            Gente de monte, no de despacho
           </h2>
           <p className="text-gray-700">
             Te voy a decir la verdad: no somos unos oficinistas que han montado
-            una web. Somos tasadores. Sabemos medir una finca, sabemos calcular
-            la madera que tienes y sabemos a cuánto se paga hoy la tonelada de
-            eucalipto o pino en Galicia. Pisamos el monte para que tú no tengas
-            que hacerlo.
+            una web. Somos gente que conoce el terreno. Sabemos medir una
+            finca, sabemos calcular la madera que tienes y sabemos a cuánto se
+            paga hoy la tonelada de eucalipto o pino en Galicia. Llevamos 20
+            años pisando monte para que tú no tengas que hacerlo.
           </p>
         </div>
 
@@ -199,8 +200,8 @@ export default function QuienesSomosPage() {
             <div>
               <h3 className="font-bold text-gray-900">Transparencia</h3>
               <p className="text-sm text-gray-600 mt-1">
-                Sin costes ocultos para ti. Nuestra consulta inicial es gratuita
-                y los profesionales te dan presupuesto antes de empezar.
+                Sin costes ocultos para ti. Te orientamos y los profesionales
+                te dan presupuesto antes de empezar.
               </p>
             </div>
           </div>

@@ -120,3 +120,17 @@ Las opciones son las mismas: denuncia administrativa + documentación. Pero adem
 ## ¿Necesitas ayuda?
 
 Si tu caso es complejo (vecino ilocatable, herencia sin resolver, finca en proindiviso, o necesitas un abogado que conozca la normativa forestal gallega), [cuéntanos tu situación](/empezar?tipo=limpieza). Te ponemos en contacto con el profesional adecuado en tu zona: un abogado si necesitas la vía legal, o una empresa de desbroce si lo que necesitas es limpiar tu propia finca para protegerla.
+
+## Preguntas frecuentes
+
+### ¿Dónde denuncio a un vecino que no limpia su finca en Galicia?
+El primer paso es presentar una denuncia por escrito en el registro del Concello (ayuntamiento), identificando la parcela y describiendo la situación con fotos adjuntas. Si el Concello no actua en un plazo razonable, puedes elevar la denuncia a la Jefatura Territorial de la Conselleria de Medio Rural de tu provincia, que tiene agentes forestales con potestad para imponer multas directamente.
+
+### ¿Puede mi vecino ser responsable si un incendio se propaga desde su finca a mi casa?
+Si, si se demuestra que el incendio se origino o se propago desde una finca que incumplia la normativa de limpieza, el propietario puede ser civilmente responsable de todos los danos causados a terceros. Esto incluye danos materiales a tu vivienda, contenido de la casa e incluso lucro cesante. Para que la reclamacion prospere es fundamental haber documentado previamente el estado de abandono de la finca con fotos, denuncias y comunicaciones con el vecino.
+
+### ¿Que hago si no se quien es el propietario de la finca abandonada junto a mi casa?
+Puedes consultar la referencia catastral de la parcela en la Sede Electronica del Catastro para intentar identificar al titular. Si el propietario ha fallecido o es ilocalizable, el Concello o la Xunta pueden actuar de oficio ejecutando la limpieza de forma subsidiaria cuando la finca suponga un riesgo claro. Presenta igualmente la denuncia administrativa para que la administracion inicie el procedimiento.
+
+### ¿Cuanto puede tardar la administracion en obligar a mi vecino a limpiar?
+Los plazos varian mucho segun el Concello y la carga de trabajo de la administracion. Desde que presentas la denuncia, el Concello suele tardar varias semanas en enviar un requerimiento al propietario, y este tiene despues entre 15 y 30 dias para cumplir. Si no cumple, la ejecucion subsidiaria puede tardar meses. Por eso es importante denunciar en primavera, antes de que empiece la temporada de incendios.

@@ -74,8 +74,27 @@ export async function POST(request: NextRequest) {
       created_at: new Date().toISOString(),
     };
 
+    // --- GOOGLE SHEETS DIRECTO (sin Make) ---
+    // Si tienes un Google Apps Script desplegado como webapp que recibe POST
+    // y escribe en una hoja de cálculo, pon su URL aquí.
+    // Instrucciones: Crea un Apps Script con doPost(e), parsea el JSON y
+    // escribe una fila. Despliega como webapp → copia la URL → pégala en .env.local
+    //   GOOGLE_SHEETS_WEBHOOK_URL=https://script.google.com/macros/s/.../exec
+    const sheetsWebhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+    if (sheetsWebhookUrl) {
+      try {
+        await fetch(sheetsWebhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(lead),
+        });
+      } catch (sheetsError) {
+        console.error("Error enviando a Google Sheets:", sheetsError);
+      }
+    }
+
     // --- MAKE WEBHOOK ---
-    // Envía el lead a Make para conectar con Google Sheets, email, CRM, etc.
+    // Envía el lead a Make para conectar con email, CRM, Slack, etc.
     const makeWebhookUrl = process.env.MAKE_WEBHOOK_URL;
     if (makeWebhookUrl) {
       try {
@@ -85,7 +104,6 @@ export async function POST(request: NextRequest) {
           body: JSON.stringify(lead),
         });
       } catch (webhookError) {
-        // No bloqueamos la respuesta al usuario si Make falla
         console.error("Error enviando a Make:", webhookError);
       }
     }

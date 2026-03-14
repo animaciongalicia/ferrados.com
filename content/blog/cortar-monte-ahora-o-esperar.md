@@ -98,3 +98,17 @@ Si has respondido "No" a 3 o más: puedes permitirte esperar, pero marca una fec
 El maderista gana dinero comprando barato. Tú ganas dinero vendiendo bien informado. Si no sabes cuántas toneladas tienes, cuánto vale tu madera hoy ni cuáles son los precios reales del mercado, estás negociando a ciegas.
 
 [Pídenos una valoración gratuita de tu plantación](/empezar?tipo=madera). Te decimos cuánto vale, si es buen momento para vender y cómo conseguir el mejor precio sin que te la cuelen con la tara ni con los plazos.
+
+## Preguntas frecuentes
+
+### ¿Cuál es la mejor edad para cortar eucalipto en Galicia?
+El turno óptimo de corta del eucalipto globulus es entre los 12 y los 18 años. A partir de esa edad, la fibra empieza a perder calidad para la industria de celulosa y el crecimiento anual se frena. Un eucalipto de 25 años no vale el doble que uno de 15; de hecho, puede valer lo mismo o incluso menos.
+
+### ¿Merece la pena esperar a que suba el precio de la madera?
+Depende de tu situación concreta. Si tu plantación ya ha superado el turno óptimo y tienes costes de limpieza obligatoria o riesgo de incendio, esperar suele salir más caro que vender ahora. El mercado de la madera no se comporta como la bolsa: las subidas son moderadas y los riesgos de pérdida total por incendio o temporal son reales.
+
+### ¿Qué pasa si corto la madera antes de tiempo?
+Si el eucalipto tiene menos de 12 años o el pino menos de 22, la madera no habrá alcanzado el diámetro mínimo para un precio decente. Te pagarán precio de trituración (18-25 euros por tonelada) en vez de precio de celulosa o aserradero (35-55 euros por tonelada). Es mejor esperar a que la plantación madure.
+
+### ¿Cómo sé si un maderista me está ofreciendo un precio justo?
+Lo más importante es pedir presupuesto a varios maderistas, al menos tres, para tener una referencia real de mercado. Compara las ofertas con los precios orientativos publicados y desconfía si alguien te dice que esperes sin darte una razón concreta. Un maderista puede pedirte que esperes porque no tiene liquidez o porque así se asegura de ser tu único comprador.
