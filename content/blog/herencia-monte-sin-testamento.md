@@ -6,7 +6,7 @@ pilar: "herencias"
 tags: ["herencias", "testamento", "galicia", "montes", "notario"]
 ---
 
-"Mi padre falleció hace dos años y nunca hizo testamento. Ahora resulta que tenemos tres fincas en Ourense y no sabemos ni por dónde empezar." Esta es una de las consultas más frecuentes que recibimos. Y la buena noticia es que tiene solución, aunque es algo más largo y caro que cuando hay testamento.
+"Mi padre falleció hace dos años y nunca hizo testamento. Ahora resulta que tenemos tres fincas en Ourense y no sabemos ni por dónde empezar." Esta es una de las consultas más frecuentes que recibimos. Si necesitas el proceso general, consulta nuestra [guía completa sobre herencias de montes en Galicia](/herencias-montes-galicia). Y la buena noticia es que tiene solución, aunque es algo más largo y caro que cuando hay testamento.
 
 ## Lo primero: confirmar que no hay testamento
 
@@ -76,7 +76,7 @@ Sin testamento, el sobrecoste respecto a una herencia con testamento es de 250�
 
 ## El problema real: los montes sin escrituras
 
-En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. La gente decía "esta leira era de mi abuelo" y punto.
+En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. Si no sabes ni qué fincas tenía el fallecido, lee nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). La gente decía "esta leira era de mi abuelo" y punto.
 
 Cuando esto ocurre, hay que **reconstruir la cadena de titularidad**. Las opciones son:
 
@@ -85,12 +85,12 @@ Cuando esto ocurre, hay que **reconstruir la cadena de titularidad**. Las opcion
 
 ## ¿Y si los herederos no se ponen de acuerdo?
 
-Es más habitual de lo que parece. Tres hermanos heredan un monte y uno quiere vender, otro quiere conservar y el tercero ni contesta. En estos casos:
+Es más habitual de lo que parece. Tres hermanos heredan un monte y uno quiere vender, otro quiere conservar y el tercero ni contesta. Si este es tu caso, lee en detalle [qué hacer cuando heredas un monte a medias y tu hermano no quiere vender](/blog/herede-monte-medias-hermano-no-quiere-vender). En resumen, las opciones son:
 
 - **Lo ideal**: Llegar a un acuerdo. Que uno compre la parte de los otros, o que vendan y repartan.
 - **Si no hay acuerdo**: Se puede solicitar judicialmente la división de la cosa común. Es lento (1-2 años) y costoso, pero es un derecho de cualquier copropietario.
-- **Proindiviso**: Mientras no se resuelva, las fincas están en proindiviso (propiedad compartida). Todos son dueños de todo, pero ninguno puede hacer nada individualmente sin el consentimiento de los demás.
+- **Proindiviso**: Mientras no se resuelva, las fincas están en proindiviso (propiedad compartida). Todos son dueños de todo, pero ninguno puede hacer nada individualmente sin el consentimiento de los demás. Consulta todas las [opciones para vender tu parte o disolver un proindiviso](/vender-parte-monte-proindiviso).
 
 ## Consejo práctico
 
-Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos meses de trámites, cientos de euros y muchos dolores de cabeza. Es el mejor regalo que puedes dejarles junto con las fincas.
+Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos [los errores más caros al heredar fincas rústicas](/blog/errores-heredar-fincas-rusticas-galicia). Es el mejor regalo que puedes dejarles junto con las fincas.

@@ -6,11 +6,11 @@ pilar: "limpieza"
 tags: ["multas", "limpieza", "xunta", "incendios", "galicia"]
 ---
 
-Si has recibido una carta de la Xunta notificándote que tu finca no cumple con la normativa de prevención de incendios, no estás solo. Miles de propietarios en Galicia se enfrentan a esta situación cada año, y la mayoría no sabe cómo actuar. Te explicamos qué hacer paso a paso, cuánto te va a costar y cómo evitar que la cosa vaya a más.
+Si has recibido una carta de la Xunta notificándote que tu finca no cumple con la normativa de prevención de incendios, no estás solo. Consulta también nuestra [guía completa sobre multas y limpieza de fincas en Galicia](/limpieza-desbroce-multas-xunta) con calculadora de multas incluida. Miles de propietarios en Galicia se enfrentan a esta situación cada año, y la mayoría no sabe cómo actuar. Te explicamos qué hacer paso a paso, cuánto te va a costar y cómo evitar que la cosa vaya a más.
 
 ## ¿Por qué me multan exactamente?
 
-La Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia (modificada en 2020 y 2021) obliga a los propietarios a mantener limpias las fincas situadas a menos de **50 metros de viviendas, edificaciones o núcleos de población**. Es lo que se conoce como la "faja de protección".
+La Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia (modificada en 2020 y 2021) obliga a los propietarios a mantener limpias las fincas situadas a menos de **50 metros de viviendas, edificaciones o núcleos de población**. Es lo que se conoce como la "faja de protección". Te lo explicamos en detalle en nuestro artículo sobre [la regla de los 50 metros y las obligaciones de limpieza](/blog/obligaciones-limpieza-fincas-50-metros).
 
 Lo que exige la ley dentro de esa faja:
 
@@ -50,7 +50,7 @@ Es el error más común y el más caro. Cada día que pasa puede agravar la situ
 
 ### 2. Identifica la parcela exacta
 
-La notificación incluye la referencia catastral de la parcela. Localízala en el mapa del Catastro (sedecatastro.gob.es) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
+La notificación incluye la referencia catastral de la parcela. Si no sabes qué es ni cómo buscarla, lee nuestra guía para [encontrar la referencia catastral de tu finca en Galicia](/blog/catastro-finca-galicia-referencia). Localízala en el mapa del Catastro (sedecatastro.gob.es) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
 
 ### 3. Solicita presupuestos de desbroce
 
@@ -88,7 +88,7 @@ Sí, tienes derecho a presentar alegaciones. Las alegaciones más habituales:
 - **Error en la identificación de la parcela**: A veces la Xunta se equivoca de propietario o de parcela.
 - **Limpieza ya realizada**: Si limpiaste antes de recibir la notificación, aporta las pruebas.
 - **Finca fuera de la franja de 50 metros**: Si tu finca no está realmente a menos de 50 metros de viviendas, puedes alegar esto con un plano.
-- **Desconocimiento de la titularidad**: Si heredaste la finca recientemente y no sabías que eras propietario, puede ser atenuante (aunque no te exime de la obligación).
+- **Desconocimiento de la titularidad**: Si [heredaste la finca recientemente](/herencias-montes-galicia) y no sabías que eras propietario, puede ser atenuante (aunque no te exime de la obligación).
 
 El plazo para alegaciones suele ser de 15 días hábiles desde la notificación. Si no sabes hacerlo tú mismo, un gestor administrativo o abogado puede presentarlas por ti por 150€ a 300€.
 
@@ -96,5 +96,5 @@ El plazo para alegaciones suele ser de 15 días hábiles desde la notificación.
 
 - **Limpia cada año antes del 31 de mayo**. La campaña de inspección de la Xunta empieza en junio.
 - **Si no puedes hacerlo tú**, contrata una empresa. Puedes pactar un mantenimiento anual por un precio más económico que hacerlo de urgencia.
-- **Si la finca no te interesa**, valora venderla o cederla. Es mejor desprenderte de ella que acumular multas año tras año.
+- **Si la finca no te interesa**, valora [venderla siguiendo nuestra guía de compra-venta de terrenos](/compra-venta-terrenos-galicia) o cederla. Es mejor desprenderte de ella que acumular multas año tras año.
 - **Apúntate a las alertas del Catastro** para saber si te llegan notificaciones a nombre de tus fincas.

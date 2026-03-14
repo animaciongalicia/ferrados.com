@@ -6,7 +6,7 @@ pilar: "limpieza"
 tags: ["limpieza", "50 metros", "normativa", "xunta", "incendios", "galicia"]
 ---
 
-Si tienes una finca a menos de 50 metros de una casa o un núcleo de población en Galicia, estás obligado a mantenerla limpia. No es opcional. No importa si vives en Galicia o en el extranjero. No importa si la finca la heredaste hace un mes o la tiene tu familia hace tres generaciones. La obligación es tuya, y las consecuencias de no cumplir pueden ser muy caras.
+Si tienes una finca a menos de 50 metros de una casa o un núcleo de población en Galicia, estás obligado a mantenerla limpia. Usa nuestra [calculadora de multas por no limpiar fincas](/limpieza-desbroce-multas-xunta#calculadora) para saber cuánto te puede costar si no cumples. No es opcional. No importa si vives en Galicia o en el extranjero. No importa si la finca la heredaste hace un mes o la tiene tu familia hace tres generaciones. La obligación es tuya, y las consecuencias de no cumplir pueden ser muy caras.
 
 ## ¿Qué dice la ley exactamente?
 
@@ -35,7 +35,7 @@ La Xunta ha publicado un visor cartográfico donde puedes comprobar si tu parcel
 ## ¿Qué pasa si no limpio? La escalada de consecuencias
 
 ### Paso 1: Notificación / Requerimiento
-La Xunta te envía una carta (notificación al domicilio catastral o al que figure en el padrón) dándote un plazo para limpiar. Normalmente 15 a 30 días.
+La Xunta te envía una carta (notificación al domicilio catastral o al que figure en el padrón) dándote un plazo para limpiar. Si ya la tienes en mano, lee nuestro artículo sobre [qué hacer cuando recibes una carta de la Xunta por finca sin desbrozar](/blog/carta-xunta-finca-sin-desbrozar). Normalmente el plazo es de 15 a 30 días.
 
 ### Paso 2: Ejecución subsidiaria
 Si no limpias en plazo, la Xunta contrata una empresa que lo hace por ti. Te pasan la factura, que suele ser **2 a 3 veces más cara** que si lo hubieras hecho tú.
@@ -69,11 +69,11 @@ La obligación es del **propietario de la finca**, no del ayuntamiento. Sin emba
 
 - Si la finca está en **suelo urbano o de núcleo rural**, la responsabilidad puede ser compartida con el ayuntamiento en determinados casos.
 - Si la finca es **comunal** (monte vecinal en mano común), la responsabilidad es de la comunidad de montes.
-- Si hay **varios propietarios** (proindiviso), todos son responsables solidariamente. La Xunta puede dirigirse contra cualquiera de ellos.
+- Si hay **varios propietarios** ([proindiviso](/vender-parte-monte-proindiviso)), todos son responsables solidariamente. La Xunta puede dirigirse contra cualquiera de ellos.
 
 ## ¿Qué pasa si no sé que soy propietario?
 
-Es más común de lo que parece. Heredas unas fincas de un abuelo y ni sabes que existen. La Xunta envía la notificación al domicilio que figura en el Catastro (que puede ser el del abuelo fallecido). Tú no te enteras y cuando te llega la ejecución subsidiaria ya es tarde.
+Es más común de lo que parece. [Heredas unas fincas](/herencias-montes-galicia) de un abuelo y ni sabes que existen. Si es tu caso, lee cómo [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). La Xunta envía la notificación al domicilio que figura en el Catastro (que puede ser el del abuelo fallecido). Tú no te enteras y cuando te llega la ejecución subsidiaria ya es tarde.
 
 **Cómo evitarlo**: Si has heredado fincas (o crees que puedes haber heredado), actualiza la titularidad en el Catastro cuanto antes. Así las notificaciones llegarán a tu domicilio real.
 
@@ -85,4 +85,4 @@ Los ayuntamientos también organizan a veces campañas de limpieza colectiva o c
 
 ## Consejo práctico
 
-No esperes a que te llegue la notificación. Si limpias de forma preventiva antes de mayo, te ahorras el estrés, las prisas y probablemente dinero, porque en temporada alta (mayo-junio) hay más demanda de empresas de desbroce y los precios suben. Además, una finca limpia vale más si algún día quieres venderla.
+No esperes a que te llegue la notificación. Si ya [te ha llegado una multa por no limpiar tu finca](/blog/multa-limpieza-finca-galicia), actúa de inmediato. Si limpias de forma preventiva antes de mayo, te ahorras el estrés, las prisas y probablemente dinero, porque en temporada alta (mayo-junio) hay más demanda de empresas de desbroce y los precios suben. Además, una finca limpia vale más si algún día quieres venderla. Y si tu vecino es el que no limpia, lee [cómo obligar a tu vecino a desbrozar su monte](/blog/vecino-no-limpia-monte-galicia).

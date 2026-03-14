@@ -6,7 +6,7 @@ pilar: "lindes"
 tags: ["catastro", "referencia catastral", "fincas", "galicia", "lindes"]
 ---
 
-La referencia catastral es el DNI de tu finca. Sin ella, no puedes hacer casi nada: ni vender, ni heredar, ni reclamar lindes, ni pedir permisos de corta. Pero encontrarla no siempre es fácil, especialmente en Galicia, donde muchas fincas llevan décadas sin actualizar y los límites en el Catastro no coinciden con la realidad.
+La referencia catastral es el DNI de tu finca. Sin ella, no puedes hacer casi nada: ni [vender terrenos en Galicia](/compra-venta-terrenos-galicia), ni [heredar un monte](/herencias-montes-galicia), ni reclamar lindes, ni pedir permisos de corta. Pero encontrarla no siempre es fácil, especialmente en Galicia, donde muchas fincas llevan décadas sin actualizar y los límites en el Catastro no coinciden con la realidad.
 
 ## ¿Qué es la referencia catastral?
 
@@ -55,7 +55,7 @@ Puede pasar por varias razones:
 
 El Catastro en Galicia es famoso por ser impreciso. Las superficies pueden variar un 20-30% respecto a la realidad, y los límites a menudo no coinciden con los muros, cierres o mojones que existen sobre el terreno.
 
-**Solución**: Si necesitas precisión (para vender, resolver un conflicto de lindes, o hacer una segregación), necesitas un levantamiento topográfico con GPS de precisión. Un topógrafo o ingeniero te mide la parcela real y tramita la corrección ante el Catastro.
+**Solución**: Si necesitas precisión (para vender, resolver un conflicto de lindes, o hacer una segregación), necesitas un [topógrafo profesional para localizar y medir tu finca](/localizar-medir-fincas-galicia). Un topógrafo o ingeniero te mide la parcela real y tramita la corrección ante el Catastro.
 
 **Coste de un levantamiento topográfico**: Entre 200€ y 800€ por parcela, dependiendo de la superficie y la dificultad del terreno.
 
@@ -84,9 +84,9 @@ Esto genera mucha confusión:
 - Para pedir un **permiso de corta** de madera.
 - Para solicitar **ayudas y subvenciones** agrícolas o forestales (PAC, etc.).
 - Para defender tus **lindes** en un conflicto con vecinos.
-- Para responder a un **requerimiento de limpieza** de la Xunta.
+- Para responder a un **[requerimiento de limpieza de la Xunta](/blog/carta-xunta-finca-sin-desbrozar)**.
 - Para inscribir la finca en el **Registro de la Propiedad**.
 
 ## Consejo práctico
 
-Si has heredado fincas en Galicia y no sabes ni cuáles son ni dónde están, empieza por el Catastro. Busca a nombre del fallecido (necesitas su NIF) en la Sede Electrónica y te saldrán todas las parcelas catastrales a su nombre. Es gratuito y te da un punto de partida para todo lo demás.
+Si has heredado fincas en Galicia y no sabes ni cuáles son ni dónde están, lee nuestra guía completa para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Empieza por el Catastro: busca a nombre del fallecido (necesitas su NIF) en la Sede Electrónica y te saldrán todas las parcelas catastrales a su nombre. Es gratuito y te da un punto de partida para todo lo demás.

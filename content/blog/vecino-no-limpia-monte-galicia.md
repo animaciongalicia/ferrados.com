@@ -8,7 +8,7 @@ tags: ["vecino", "limpieza", "denuncia", "concello", "xunta", "incendios", "gali
 
 Miras por la ventana y ves un muro de tojos, silvas y maleza de dos metros de alto pegado a tu casa. Es del vecino. Llevas años pidiéndole que limpie. Te dice que sí, que ya va, que la semana que viene. Y la semana que viene nunca llega. Mientras tanto, cada verano te mueres de miedo pensando en un incendio.
 
-Esta situación se repite en miles de casas en Galicia. Y lo peor es que mucha gente piensa que no puede hacer nada. **Sí puedes**. La ley está de tu lado. Te explico exactamente qué pasos dar.
+Esta situación se repite en miles de casas en Galicia. Consulta nuestra [guía completa sobre multas y obligaciones de limpieza de fincas](/limpieza-desbroce-multas-xunta) para conocer todo el marco legal. Y lo peor es que mucha gente piensa que no puede hacer nada. **Sí puedes**. La ley está de tu lado. Te explico exactamente qué pasos dar.
 
 ## Por qué la ley te protege
 
@@ -94,7 +94,7 @@ En estos casos:
 
 - **Puedes solicitar al Catastro la referencia catastral** de la parcela para intentar identificar al titular. [Nuestro artículo sobre catastro y fincas](/blog/catastro-finca-galicia-referencia) te explica cómo hacerlo.
 
-- **Si la finca lleva décadas abandonada**, puede haber un problema de herencia sin resolver. Esto es habitual en Galicia: propietarios que murieron hace 20 o 30 años y nadie hizo la herencia. El Concello se encuentra con que la finca está a nombre de alguien que falleció en 1987.
+- **Si la finca lleva décadas abandonada**, puede haber un problema de [herencia de monte sin resolver](/herencias-montes-galicia). Esto es habitual en Galicia: propietarios que murieron hace 20 o 30 años y nadie hizo la herencia. El Concello se encuentra con que la finca está a nombre de alguien que falleció en 1987.
 
 ## ¿Y si yo soy el propietario del monte de al lado?
 

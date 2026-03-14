@@ -8,7 +8,7 @@ tags: ["multas", "limpieza", "xunta", "carta", "desbroce", "galicia", "plazos"]
 
 Te ha llegado una carta certificada. La abres y lees algo así: "Requerimiento de xestión da biomasa" o "Notificación de incumprimento da Lei de prevención de incendios forestais". El corazón te da un vuelco. No sabes si es un aviso, una multa o una sentencia de muerte económica.
 
-Respira. Todavía puedes salvar la situación. Pero tienes que actuar ya, no la semana que viene. Te explico exactamente qué significa esa carta, cuánto tiempo tienes y qué te va a costar si no haces nada.
+Respira. Todavía puedes salvar la situación. Pero tienes que actuar ya, no la semana que viene. Consulta nuestra [guía completa sobre multas y limpieza de fincas en Galicia](/limpieza-desbroce-multas-xunta) para el contexto legal completo. Aquí te explico exactamente qué significa esa carta, cuánto tiempo tienes y qué te va a costar si no haces nada.
 
 ## Paso 1: Identifica qué carta te ha llegado
 
@@ -88,7 +88,7 @@ Si este es tu caso:
 
 - **No necesitas desplazarte a Galicia**. Una empresa de desbroce puede limpiar tu finca sin que tú estés. Solo necesitan saber la referencia catastral y poder acceder al terreno.
 
-- **Comprueba que tu dirección está actualizada en el Catastro**. Si la Xunta manda la carta a la dirección de tu abuelo y tú vives en Madrid, no te va a llegar. Y eso no te exime: la notificación se considera hecha si se publica en el BOE/DOG tras la carta devuelta.
+- **Comprueba que tu dirección está actualizada en el Catastro**. Si no sabes ni qué fincas tienes a tu nombre, lee cómo [localizar fincas heredadas sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Si la Xunta manda la carta a la dirección de tu abuelo y tú vives en Madrid, no te va a llegar. Y eso no te exime: la notificación se considera hecha si se publica en el BOE/DOG tras la carta devuelta.
 
 - **[Cuéntanos tu caso](/empezar?tipo=limpieza)** y nos encargamos de conectarte con una empresa de desbroce de la zona. No tienes que buscar a nadie ni hacer llamadas. Te damos presupuesto orientativo y gestionamos todo a distancia.
 
@@ -112,4 +112,4 @@ La Xunta no multa todo el año. Hay un patrón:
 2. **Esperar a encontrar "la empresa más barata"**. Mientras comparas presupuestos, el plazo se agota. Una empresa un poco más cara que actúa a tiempo te sale mucho más barata que la multa.
 3. **No saber que la ejecución subsidiaria existe**. Mucha gente piensa que la multa es el peor escenario. No. El peor escenario es multa + factura de la Xunta, que puede triplicar el coste.
 
-Si ya te ha llegado la carta o quieres limpiar antes de que llegue, [pide presupuesto aquí](/empezar?tipo=limpieza). Te conectamos con empresas de desbroce de tu zona en menos de 24 horas.
+Si ya te ha llegado la carta o quieres limpiar antes de que llegue, [pide presupuesto aquí](/empezar?tipo=limpieza). Te conectamos con empresas de desbroce de tu zona en menos de 24 horas. Y si es tu vecino el que no limpia y temes por tu casa, lee [cómo obligar a tu vecino a desbrozar su monte legalmente](/blog/vecino-no-limpia-monte-galicia).

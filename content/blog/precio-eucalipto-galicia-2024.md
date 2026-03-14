@@ -6,7 +6,7 @@ pilar: "madera"
 tags: ["madera", "eucalipto", "precios", "galicia", "venta"]
 ---
 
-El eucalipto es el rey de la madera en Galicia. Ocupa más de 400.000 hectáreas y genera un negocio de cientos de millones de euros al año. Si tienes una plantación y estás pensando en vender, lo primero que necesitas saber es cuánto vale. Y lo segundo: cómo no dejarte engañar.
+El eucalipto es el rey de la madera en Galicia. Ocupa más de 400.000 hectáreas y genera un negocio de cientos de millones de euros al año. Si tienes una plantación y estás pensando en vender, consulta nuestra [guía completa de precios y venta de madera en Galicia](/precio-venta-madera-galicia). Lo primero que necesitas saber es cuánto vale. Y lo segundo: cómo no dejarte engañar.
 
 ## Precio actual del eucalipto globulus
 
@@ -54,7 +54,7 @@ El gorgojo del eucalipto (Gonipterus platensis) y el chancro (Mycosphaerella) pu
 
 ## Errores habituales al vender eucalipto
 
-- **Vender sin medir**: Siempre pide una cubicación antes. Un maderista que estima "a ojo" tu plantación va a estimarla a la baja. Una cubicación profesional cuesta entre 150€ y 300€ y te puede hacer ganar miles de euros en la negociación.
+- **Vender sin medir**: Siempre pide una cubicación antes. Si quieres saber cuánto vale exactamente tu plantación, lee cómo se hace una [tasación profesional de un monte en Galicia](/blog/tasacion-monte-galicia). Un maderista que estima "a ojo" tu plantación va a estimarla a la baja. Una cubicación profesional cuesta entre 150€ y 300€ y te puede hacer ganar miles de euros en la negociación.
 - **Aceptar la primera oferta**: Compara al menos 3 presupuestos de maderistas diferentes. Las diferencias pueden ser del 15-25% entre el que más paga y el que menos.
 - **No tener el permiso de corta**: Sin permiso, la venta es ilegal. Se solicita en la oficina agraria comarcal o por sede electrónica de la Xunta. Tarda unos días y es gratuito.
 - **Olvidar la replantación**: Si talas eucalipto, estás obligado a replantar. Si piensas cambiar de especie o uso del suelo, necesitas autorización previa.
@@ -77,4 +77,4 @@ No hay una regla fija, pero estas señales ayudan:
 - Necesitas el dinero y la madera está madura.
 - Los maderistas de tu zona están buscando madera activamente.
 
-Si no tienes urgencia, vigila los precios y espera a que el mercado esté favorable. Los precios del eucalipto en Galicia oscilan en ciclos de 2-4 años.
+Si no tienes urgencia, vigila los precios y espera a que el mercado esté favorable. Lee nuestro análisis sobre [si conviene cortar el monte ahora o esperar](/blog/cortar-monte-ahora-o-esperar) para tomar la decisión con datos. Si tu plantación está en A Coruña, tenemos además un artículo específico sobre [el precio del eucalipto en A Coruña y la trampa de la tara](/blog/precio-eucalipto-coruna-tara). Los precios del eucalipto en Galicia oscilan en ciclos de 2-4 años.

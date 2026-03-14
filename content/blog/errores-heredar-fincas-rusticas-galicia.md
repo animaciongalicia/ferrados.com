@@ -6,7 +6,7 @@ pilar: "herencias"
 tags: ["herencias", "galicia", "fincas", "impuestos", "tasaciones", "errores"]
 ---
 
-Heredar fincas en Galicia parece un regalo. Hasta que llegas al notario, al liquidador de impuestos y al Catastro. Entonces descubres que ese "regalo" puede costarte más de lo que vale si no haces las cosas bien. Estos son los tres errores que vemos una y otra vez, y cómo evitarlos.
+Heredar fincas en Galicia parece un regalo. Si necesitas el proceso completo, consulta nuestra [guía para heredar montes y fincas en Galicia](/herencias-montes-galicia). Pero antes, lee esto: hasta que llegas al notario, al liquidador de impuestos y al Catastro. Entonces descubres que ese "regalo" puede costarte más de lo que vale si no haces las cosas bien. Estos son los tres errores que vemos una y otra vez, y cómo evitarlos.
 
 ## Error 1: Dejar pasar el plazo de 6 meses para el impuesto de sucesiones
 
@@ -65,8 +65,8 @@ Resultado: una liquidación complementaria de impuestos con recargos e intereses
 ### Cómo evitarlo
 
 - **Antes de presentar la herencia, consulta el valor de referencia** de cada finca en la Sede Electrónica del Catastro. Si no tiene valor de referencia, investiga valores de mercado similares en la zona.
-- **Si las fincas tienen madera** (eucalipto, pino), el valor de la madera en pie puede multiplicar por 5 o por 10 el valor del suelo. Una finca de 2 hectáreas de eucalipto listo para cortar puede tener 8.000€ - 15.000€ solo en madera.
-- **Pide una tasación profesional** si el conjunto de fincas tiene un valor significativo. Una buena tasación cuesta 300€ - 600€ y te protege frente a la Administración si asignas valores razonables.
+- **Si las fincas tienen madera** (eucalipto, pino), el [valor de la madera en pie](/precio-venta-madera-galicia) puede multiplicar por 5 o por 10 el valor del suelo. Una finca de 2 hectáreas de eucalipto listo para cortar puede tener 8.000€ - 15.000€ solo en madera.
+- **Pide una [tasación profesional de tu monte](/blog/tasacion-monte-galicia)** si el conjunto de fincas tiene un valor significativo. Una buena tasación cuesta 300€ - 600€ y te protege frente a la Administración si asignas valores razonables.
 - **Si la Administración te envía una comprobación de valores**: Tienes 10 días para solicitar una **tasación pericial contradictoria**. No aceptes la valoración administrativa sin más. Muchas veces se negocian a la baja.
 
 ### La madera: el valor invisible
@@ -104,7 +104,7 @@ Si heredas 5 fincas, el coste total de registrarlas todas puede estar entre 500�
 
 En Galicia, un porcentaje enorme de fincas rústicas **nunca han estado inscritas** en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones solo por costumbre, sin papel ninguno. "Esa leira era del abuelo Manuel y punto."
 
-Si la finca no está en el Registro, no basta con inscribir tu herencia. Primero hay que **inmatricular** la finca (darla de alta por primera vez). Las opciones son:
+Si la finca no está en el Registro, no basta con inscribir tu herencia. Primero hay que **inmatricular** la finca (darla de alta por primera vez). Si además no sabes ni qué propiedades tenía el fallecido, lee nuestra guía para [localizar fincas heredadas sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Las opciones son:
 
 - **Expediente de dominio notarial**: El notario publica un edicto en el BOE y el tablón del ayuntamiento. Si nadie se opone en 30 días, te reconocen la propiedad. Coste: 500€ - 1.500€.
 - **Doble título**: Si tienes dos documentos públicos de transmisión separados por al menos un año (por ejemplo, una herencia y luego una donación entre hermanos), puedes inscribir directamente. Es un truco legal que algunos notarios usan.
@@ -128,4 +128,4 @@ Si marcas todas las casillas, puedes respirar tranquilo. Si te falta alguna, pon
 
 ## El consejo que vale más que todo este artículo
 
-Si tus padres están vivos y tienen fincas en Galicia, siéntate con ellos un domingo y haced una lista de todas las fincas. Apuntad las referencias catastrales, dónde están, si tienen escrituras y si están en el Registro. Esa lista, que se hace en una tarde, puede ahorrar meses de búsquedas, miles de euros en trámites y una cantidad incalculable de disgustos familiares.
+Si tus padres están vivos y tienen fincas en Galicia, siéntate con ellos un domingo y haced una lista de todas las fincas. Apuntad las [referencias catastrales de cada finca](/blog/catastro-finca-galicia-referencia), dónde están, si tienen escrituras y si están en el Registro. Esa lista, que se hace en una tarde, puede ahorrar meses de búsquedas, miles de euros en trámites y una cantidad incalculable de disgustos familiares.

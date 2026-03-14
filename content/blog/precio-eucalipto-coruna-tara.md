@@ -6,7 +6,7 @@ pilar: "madera"
 tags: ["madera", "eucalipto", "precios", "a coruña", "tara", "estafa"]
 ---
 
-Tienes eucalipto en A Coruña y un maderista te ha dado un precio. Perfecto. Ahora la pregunta que deberías hacerte no es "¿es buen precio?" sino **"¿me está midiendo bien la madera?"**. Porque en Galicia, la diferencia entre un propietario que cobra lo justo y uno al que le roban puede estar en un solo número: la tara.
+Tienes eucalipto en A Coruña y un maderista te ha dado un precio. Perfecto. Consulta también nuestra [guía general de precios y venta de madera en Galicia](/precio-venta-madera-galicia) y nuestro artículo sobre [precios del eucalipto en toda Galicia](/blog/precio-eucalipto-galicia-2024). Ahora la pregunta que deberías hacerte no es "¿es buen precio?" sino **"¿me está midiendo bien la madera?"**. Porque en Galicia, la diferencia entre un propietario que cobra lo justo y uno al que le roban puede estar en un solo número: la tara.
 
 ## Precio actual del eucalipto en A Coruña
 
@@ -69,7 +69,7 @@ El mercado del eucalipto tiene ciclos. Algunos indicadores de que es buen moment
 - **No ha habido temporales recientes** que tiren árboles masivamente. Cuando hay un temporal gordo, el mercado se inunda de madera de emergencia y los precios bajan.
 - **Tu plantación tiene entre 12 y 18 años**. Ese es el turno óptimo del globulus. Antes de 12, la madera es fina y vale poco. Después de 18-20, la calidad de la fibra empieza a bajar.
 
-Si no tienes claro cuándo es el mejor momento, te recomendamos leer nuestro artículo sobre [cuándo cortar el monte y la trampa de los precios](/blog/vender-pino-galicia-cuando), que aunque habla de pino, la lógica del mercado es la misma.
+Si no tienes claro cuándo es el mejor momento, te recomendamos leer nuestro artículo sobre [cuándo vender pino en Galicia](/blog/vender-pino-galicia-cuando), que aunque habla de pino, la lógica del mercado es la misma. Y para un análisis más profundo, lee [cortar el monte ahora o esperar: la trampa de los precios](/blog/cortar-monte-ahora-o-esperar).
 
 ## Resumen: los números que tienes que pedir
 

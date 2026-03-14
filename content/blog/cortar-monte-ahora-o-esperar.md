@@ -8,7 +8,7 @@ tags: ["madera", "eucalipto", "pino", "precios", "galicia", "corta"]
 
 "Espera un poco, que el precio va a subir." Si un maderista te ha dicho eso alguna vez, puede que te esté haciendo un favor... o puede que te esté quitando dinero. Porque la trampa no siempre es vender barato. A veces la trampa es no vender.
 
-Vamos a desmontar la idea de que "esperar siempre es mejor" y a darte los datos reales para que tomes la decisión con cabeza.
+Vamos a desmontar la idea de que "esperar siempre es mejor" y a darte los datos reales para que tomes la decisión con cabeza. Si buscas precios concretos, visita nuestra [página de precios y venta de madera en Galicia](/precio-venta-madera-galicia).
 
 ## La trampa de esperar: el coste invisible
 
@@ -53,17 +53,18 @@ Si ha habido un temporal masivo y hay miles de toneladas de madera de emergencia
 
 ### 3. Estás en trámites de herencia
 
-Si la finca está a nombre de un fallecido y no has hecho la aceptación de herencia, **no puedes vender legalmente**. Primero [resuelve la herencia](/empezar?tipo=herencias) y después vendes. Intentar vender sin papeles es buscarte un problema legal.
+Si la finca está a nombre de un fallecido y no has hecho la aceptación de herencia, **no puedes vender legalmente**. Primero [resuelve la herencia](/herencias-montes-galicia) y después vendes. Nuestro artículo sobre [cómo heredar un monte paso a paso](/blog/ejemplo-herencia-monte-galicia) te explica el proceso completo. Intentar vender sin papeles es buscarte un problema legal.
 
 ## ¿Cuándo NO deberías esperar ni un día más?
 
 Estas son señales claras de que estás perdiendo dinero por cada día que pasa:
 
-- **Tu eucalipto tiene más de 16-18 años**: Ya está en turno. Cada año que pasa ganas menos de lo que arriesgas.
+- **Tu eucalipto tiene más de 16-18 años**: Ya está en turno. Cada año que pasa ganas menos de lo que arriesgas. Consulta el [precio actual del eucalipto en Galicia](/blog/precio-eucalipto-galicia-2024) para ver si es buen momento.
 - **Has recibido una carta de la Xunta**: Tienes un plazo para limpiar y si no lo haces [la multa puede ser de miles de euros](/blog/multa-limpieza-finca-galicia). Vender la madera paga la limpieza y te queda beneficio.
 - **Un maderista te ha ofrecido un buen precio pero "solo si es ya"**: Si el precio está en el rango de mercado (consulta nuestra [tabla de precios actualizada](/blog/precio-eucalipto-galicia-2024)), no esperes. Los precios no suben porque tú quieras.
 - **Tu monte está en zona de riesgo de incendio alto**: Si estás en el interior de Pontevedra, sur de Ourense o zona de A Coruña con historial de fuegos, cada verano que pasa sin cortar es una moneda al aire.
-- **Tienes un proindiviso y al menos un copropietario quiere vender**: Si hay acuerdo parcial, aprovecha. Mañana puede cambiar de opinión y te quedas sin venta. [Más sobre cómo resolver proindivisos aquí](/vender-parte-monte-proindiviso).
+- **Tienes un proindiviso y al menos un copropietario quiere vender**: Si hay acuerdo parcial, aprovecha. Mañana puede cambiar de opinión y te quedas sin venta. [Más sobre cómo resolver proindivisos de montes en Galicia](/vender-parte-monte-proindiviso).
+- **Tu monte necesita una tasación**: Si no sabes cuántas toneladas tienes ni cuánto vale, [pide una tasación profesional](/blog/tasacion-monte-galicia) antes de decidir.
 
 ## El truco del maderista: "espera, que va a subir"
 

@@ -6,13 +6,13 @@ pilar: "lindes"
 tags: ["tasaciones", "montes", "valoración", "galicia", "catastro"]
 ---
 
-Es la primera pregunta que se hace cualquier propietario: "¿cuánto vale esto?". Ya sea porque quieres vender, porque necesitas repartir una herencia, porque tienes un conflicto con un vecino o simplemente por curiosidad. La respuesta depende de muchos factores y no hay un precio por metro cuadrado como en un piso.
+Es la primera pregunta que se hace cualquier propietario: "¿cuánto vale esto?". Ya sea porque quieres [vender tu terreno en Galicia](/compra-venta-terrenos-galicia), porque necesitas repartir una [herencia de montes](/herencias-montes-galicia), porque tienes un conflicto con un vecino o simplemente por curiosidad. La respuesta depende de muchos factores y no hay un precio por metro cuadrado como en un piso.
 
 ## Los factores que determinan el valor de un monte
 
 ### 1. La madera en pie (el factor principal)
 
-Si tu monte tiene eucalipto o pino aprovechable, ese es el componente principal del valor. Una plantación madura puede valer más que el propio suelo. Por ejemplo:
+Si tu monte tiene eucalipto o pino aprovechable, ese es el componente principal del valor. Consulta los [precios actualizados de venta de madera en Galicia](/precio-venta-madera-galicia) para hacerte una idea. Una plantación madura puede valer más que el propio suelo. Por ejemplo:
 
 - Un monte de 2 hectáreas con eucalipto globulus de 18 años puede tener 400-600 toneladas de madera, que a 40-50€/tonelada en pie suponen 16.000€ a 30.000€ solo en madera.
 - Ese mismo monte sin árboles (raso) valdría entre 2.000€ y 6.000€.
@@ -37,7 +37,7 @@ Las fincas cerca de la costa o de núcleos urbanos tienen más demanda (y más p
 
 ### 5. La situación legal
 
-Fincas con escrituras claras, sin proindivisos, sin cargas y con el Catastro y el Registro actualizados se venden más rápido y a mejor precio. Un monte con problemas legales (herederos sin localizar, proindiviso sin resolver, límites en disputa) puede tardar meses o años en venderse.
+Fincas con escrituras claras, sin proindivisos, sin cargas y con el Catastro y el Registro actualizados se venden más rápido y a mejor precio. Un monte con problemas legales (herederos sin localizar, [proindiviso sin resolver](/vender-parte-monte-proindiviso), límites en disputa) puede tardar meses o años en venderse.
 
 ## Tipos de tasación
 
@@ -95,4 +95,4 @@ Los profesionales utilizan varios métodos, a menudo combinados:
 
 ## Consejo práctico
 
-Si quieres saber cuánto vale tu monte para decidir si vender, empieza pidiendo 2-3 presupuestos a maderistas de la zona. Es gratis (ellos quieren comprar tu madera) y te da una idea rápida del valor de la madera en pie. Si necesitas una tasación formal (herencia, juicio, expropiación), contrata a un ingeniero de montes colegiado. El dinero invertido en la tasación se recupera con creces en la negociación.
+Si quieres saber cuánto vale tu monte para decidir si vender, consulta el [precio actual del eucalipto en Galicia](/blog/precio-eucalipto-galicia-2024) o [cuándo es el mejor momento para vender pino](/blog/vender-pino-galicia-cuando), y empieza pidiendo 2-3 presupuestos a maderistas de la zona. Es gratis (ellos quieren comprar tu madera) y te da una idea rápida del valor de la madera en pie. Si necesitas una tasación formal (herencia, juicio, expropiación), contrata a un ingeniero de montes colegiado. El dinero invertido en la tasación se recupera con creces en la negociación.

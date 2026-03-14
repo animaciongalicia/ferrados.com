@@ -6,7 +6,7 @@ pilar: "herencias"
 tags: ["herencias", "extranjero", "emigrantes", "galicia", "poderes"]
 ---
 
-Eres hijo o nieto de gallegos, vives en Argentina, Venezuela, Suiza, Alemania o cualquier otro país, y de repente heredas unas fincas en Galicia que no has pisado en tu vida. ¿Qué haces? ¿Tienes que ir a Galicia? ¿Puedes hacer los trámites desde donde estás? ¿Merece la pena?
+Eres hijo o nieto de gallegos, vives en Argentina, Venezuela, Suiza, Alemania o cualquier otro país, y de repente heredas unas fincas en Galicia que no has pisado en tu vida. Si buscas el proceso general, tenemos una [guía completa para heredar montes y fincas en Galicia](/herencias-montes-galicia). ¿Qué haces? ¿Tienes que ir a Galicia? ¿Puedes hacer los trámites desde donde estás? ¿Merece la pena?
 
 Te lo explicamos todo.
 
@@ -91,7 +91,7 @@ Si no tienes interés en conservarla, busca un comprador. Las opciones son:
 - Vecinos colindantes: a menudo están interesados en ampliar su propiedad.
 - Particulares: a través de portales inmobiliarios rurales o contactos locales.
 
-El precio dependerá del tipo de monte, la superficie, el acceso y la madera. Consulta nuestro artículo sobre tasación de montes para hacerte una idea.
+El precio dependerá del tipo de monte, la superficie, el acceso y la madera. Consulta nuestra guía sobre [cómo se tasa una finca forestal en Galicia](/blog/tasacion-monte-galicia) para hacerte una idea, o ve directamente a nuestra [página de precios y venta de madera en Galicia](/precio-venta-madera-galicia).
 
 ### Arrendarla
 Si tiene valor agrícola o forestal, puedes arrendarla a un vecino o empresa que la explote. Los arrendamientos forestales en Galicia suelen pactarse como un porcentaje del valor de la madera cuando se corte (entre el 10% y el 30%).
@@ -101,7 +101,7 @@ Contratar a un profesional forestal o gestor que se encargue de las plantaciones
 
 ### No hacer nada (con precaución)
 Puedes conservar la finca sin explotarla, pero ten en cuenta:
-- Si está a menos de 50 metros de viviendas, tienes **obligación de limpieza** y te pueden multar si no cumples.
+- Si está a menos de 50 metros de viviendas, tienes [obligación de limpieza según la ley de biomasa](/limpieza-desbroce-multas-xunta) y te pueden [multar si no cumples la normativa de desbroce](/blog/multa-limpieza-finca-galicia).
 - Si tiene arbolado, puede necesitar tratamientos fitosanitarios o podas.
 - El IBI rústico puede estar llegando (o no) al domicilio del fallecido.
 
@@ -111,4 +111,4 @@ Si tienes doble nacionalidad (española y de otro país), los trámites se simpl
 
 ## Consejo práctico
 
-Antes de gastar dinero en trámites, averigua qué fincas son, dónde están y qué valor pueden tener. Pide a un familiar que busque en la Sede Electrónica del Catastro a nombre del fallecido. Con esa información puedes decidir si merece la pena aceptar la herencia o si los costes superan el valor de las fincas.
+Antes de gastar dinero en trámites, averigua qué fincas son, dónde están y qué valor pueden tener. Tenemos una guía completa para [localizar fincas de un familiar fallecido cuando no tienes escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). También puedes pedir a un familiar que busque en la Sede Electrónica del Catastro a nombre del fallecido. Con esa información puedes decidir si merece la pena aceptar la herencia o si los costes superan el valor de las fincas.

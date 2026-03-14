@@ -8,7 +8,7 @@ tags: ["herencias", "galicia", "catastro", "escrituras", "fincas", "registro"]
 
 Tu abuelo falleció hace años. Tu padre emigró a Barcelona (o a Suiza, o a Venezuela) y nunca se ocupó de las fincas. Ahora te toca a ti. Sabes que "había fincas en el pueblo" pero no tienes ni un solo papel. Ni escrituras, ni recibos, ni la más remota idea de cuántas son ni dónde están exactamente.
 
-Bienvenido al problema más común de las herencias rurales en Galicia. Y tiene solución.
+Bienvenido al problema más común de las herencias rurales en Galicia. Consulta nuestra [guía completa sobre herencias de montes y fincas](/herencias-montes-galicia) para el proceso legal. Aquí nos centramos en encontrar las propiedades. Y tiene solución.
 
 ## Paso 1: El Catastro — tu mejor aliado
 
@@ -45,7 +45,7 @@ Con el certificado de defunción y tu DNI (más un documento que acredite parent
 
 ### El mapa catastral: ver las fincas sobre el terreno
 
-Una vez tengas las referencias catastrales, entra en la **Sede Electrónica del Catastro** y usa el visor cartográfico. Puedes ver cada finca dibujada sobre la fotografía aérea. Esto te permite:
+Una vez tengas las referencias catastrales (si no sabes qué es, lee [cómo encontrar la referencia catastral de tu finca](/blog/catastro-finca-galicia-referencia)), entra en la **Sede Electrónica del Catastro** y usa el visor cartográfico. Puedes ver cada finca dibujada sobre la fotografía aérea. Esto te permite:
 
 - Saber exactamente dónde está cada finca
 - Ver la superficie real (a veces difiere del catastro antiguo)
@@ -162,7 +162,7 @@ Esta tabla será tu hoja de ruta para el notario. Con ella puede preparar la esc
 Puedes hacer los pasos 1 a 5 por tu cuenta. Pero necesitarás ayuda profesional si:
 
 - Las fincas no aparecen en el Catastro a nombre de ningún familiar conocido
-- Hay disputas de lindes con vecinos
+- Hay disputas de lindes con vecinos (puede que necesites un [topógrafo para localizar y medir fincas](/localizar-medir-fincas-galicia))
 - Las fincas no están inscritas en el Registro y quieres vender
 - Han pasado varias generaciones sin formalizar ninguna herencia (herencia en cadena)
 - Hay fincas en varios municipios de distintas provincias
@@ -171,6 +171,6 @@ En estos casos, un **abogado o gestor especializado en propiedad rural gallega**
 
 ## El dato que te va a motivar
 
-En Galicia hay aproximadamente **500.000 hectáreas de monte en estado de abandono** parcial, muchas de ellas vinculadas a herencias sin resolver. Detrás de cada hectárea abandonada hay una familia que no terminó el papeleo. No seas una de ellas. Las fincas no esperan: se llenan de maleza, pierden valor, atraen multas y, con el tiempo, se vuelven irrecuperables en términos prácticos.
+En Galicia hay aproximadamente **500.000 hectáreas de monte en estado de abandono** parcial, muchas de ellas vinculadas a herencias sin resolver. Detrás de cada hectárea abandonada hay una familia que no terminó el papeleo. No seas una de ellas. Las fincas no esperan: se llenan de maleza, atraen [multas por incumplir la normativa de desbroce](/limpieza-desbroce-multas-xunta) y, con el tiempo, se vuelven irrecuperables en términos prácticos. Además, no cometas [los errores más caros al heredar fincas rústicas en Galicia](/blog/errores-heredar-fincas-rusticas-galicia).
 
 Empieza hoy. El primer paso es abrir el Catastro.

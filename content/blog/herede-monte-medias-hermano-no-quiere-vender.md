@@ -6,7 +6,7 @@ pilar: "herencias"
 tags: ["herencias", "proindiviso", "galicia", "montes", "copropietarios", "venta"]
 ---
 
-"Somos tres hermanos, heredamos un monte en Ourense y el mayor se niega a vender. Lleva dos años sin contestar al teléfono." Si esta frase te suena, no estás solo. Es probablemente la consulta que más recibimos sobre herencias en Galicia. Y sí, tiene solución legal.
+"Somos tres hermanos, heredamos un monte en Ourense y el mayor se niega a vender. Lleva dos años sin contestar al teléfono." Si esta frase te suena, no estás solo. Es probablemente la consulta que más recibimos sobre herencias en Galicia. Consulta nuestra [página sobre proindivisos de montes en Galicia](/vender-parte-monte-proindiviso) para ver todas las opciones. Y sí, tiene solución legal.
 
 ## Qué es un proindiviso (explicado sin jerga)
 
@@ -29,7 +29,7 @@ La opción más rápida y barata. Si tu hermano no quiere vender a un tercero, q
 - El coste es solo la notaría y el registro (300€ - 800€)
 - **Fiscalidad**: La transmisión entre coherederos de la cuota hereditaria tributa por Actos Jurídicos Documentados (AJD), normalmente entre el 0,5% y el 1,5% del valor de la cuota
 
-**Consejo**: Acordad un precio justo basándoos en una tasación profesional. Si uno ofrece 3.000€ y el otro piensa que vale 15.000€, no vais a llegar a ningún sitio.
+**Consejo**: Acordad un precio justo basándoos en una [tasación profesional de la finca forestal](/blog/tasacion-monte-galicia). Si uno ofrece 3.000€ y el otro piensa que vale 15.000€, no vais a llegar a ningún sitio.
 
 ### 2. Vender tu parte a un tercero
 
@@ -91,7 +91,7 @@ Consiste en citar a tu hermano a una comparecencia oficial en el juzgado para in
 Mientras el proindiviso no se resuelva, la situación es incómoda pero tiene reglas claras:
 
 - **Gastos de conservación**: Todos los copropietarios deben contribuir proporcionalmente a los gastos necesarios (limpieza obligatoria, IBI, etc.). Si solo pagas tú, puedes reclamar al resto su parte.
-- **Multa por falta de limpieza**: La Xunta puede multar a **todos** los copropietarios. No vale decir "yo no vivo ahí". Si la finca no está desbrozada en la franja de 50 metros, la multa la pagan todos.
+- **Multa por falta de limpieza**: La Xunta puede [multar a todos los copropietarios por no desbrozar](/limpieza-desbroce-multas-xunta). No vale decir "yo no vivo ahí". Si la finca no cumple la [regla de los 50 metros de limpieza obligatoria](/blog/obligaciones-limpieza-fincas-50-metros), la multa la pagan todos.
 - **Uso de la finca**: Cualquier copropietario puede usar la finca siempre que no impida el uso de los demás. Pero no puede alterarla ni obtener beneficios exclusivos.
 - **Madera caída o dañada**: Si un temporal tira árboles, cualquier copropietario puede solicitar al resto que se autorice la retirada y venta de esa madera. Si no contestan, se puede considerar un acto de conservación necesaria.
 
@@ -122,4 +122,4 @@ La Ley 2/2006 de Derecho Civil de Galicia tiene normas específicas que pueden a
 
 María y su hermano Pedro heredaron un monte de 4 hectáreas en Pontevedra. Pedro vive en Madrid y no quiere saber nada. María envió un burofax ofreciéndole comprar su 50% por 8.000€ (la mitad de la tasación). Pedro no contestó. María inició una demanda de división de cosa común. El juez determinó que la finca no era divisible y ordenó la subasta. María pujó y se quedó con la finca por 14.500€. Descontada su parte (50%), pagó a Pedro 7.250€ que quedaron en depósito judicial hasta que Pedro los reclamó. Total del proceso: 14 meses y 3.200€ en costas legales.
 
-¿El resultado? María tiene ahora la finca a su nombre, limpia, produciendo madera, y sin depender de nadie.
+¿El resultado? María tiene ahora la finca a su nombre, limpia, produciendo madera, y sin depender de nadie. Si quieres saber cuánto podrías sacar de la tuya, consulta los [precios actualizados de venta de madera en Galicia](/precio-venta-madera-galicia).

@@ -6,7 +6,7 @@ pilar: "madera"
 tags: ["madera", "pino", "venta", "galicia", "precios"]
 ---
 
-El pino (Pinus pinaster y Pinus radiata) es la segunda especie más importante de Galicia después del eucalipto. Si tienes una plantación, la pregunta clave es: ¿cuándo cortar? Vender demasiado pronto te hace perder dinero. Vender demasiado tarde también. Aquí te explicamos cómo acertar.
+El pino (Pinus pinaster y Pinus radiata) es la segunda especie más importante de Galicia después del eucalipto. Si tienes una plantación, la pregunta clave es: ¿cuándo cortar? Consulta nuestra [guía completa de precios y venta de madera en Galicia](/precio-venta-madera-galicia) para ver el panorama general. Vender demasiado pronto te hace perder dinero. Vender demasiado tarde también. Aquí te explicamos cómo acertar.
 
 ## Edad óptima de corta según la especie
 
@@ -55,11 +55,11 @@ El pino gallego se destina principalmente a:
 
 ## Errores que cuestan dinero
 
-- **Cortar demasiado pronto** por necesidad de liquidez. La diferencia entre cortar a los 20 y a los 30 años puede ser un 40-60% más de volumen y mejor precio por tonelada.
+- **Cortar demasiado pronto** por necesidad de liquidez. La diferencia entre cortar a los 20 y a los 30 años puede ser un 40-60% más de volumen y mejor precio por tonelada. Si no lo tienes claro, lee nuestro análisis sobre [cortar el monte ahora o esperar](/blog/cortar-monte-ahora-o-esperar).
 - **No solicitar el permiso de corta**. Es obligatorio en Galicia. Sin él, la venta es ilegal y te expones a una sanción. Se solicita en la oficina agraria comarcal o por sede electrónica de la Xunta.
-- **Vender "a ojo" sin cubicación**. Un maderista siempre va a estimar a la baja. Pide una cubicación profesional o, como mínimo, compara 3 presupuestos de maderistas diferentes.
+- **Vender "a ojo" sin cubicación**. Un maderista siempre va a estimar a la baja. Pide una [tasación profesional de tu finca forestal](/blog/tasacion-monte-galicia) o, como mínimo, compara 3 presupuestos de maderistas diferentes.
 - **No negociar quién paga la saca**. La saca (talar, desramar, trocear y sacar la madera al borde de pista) puede costar entre 12€ y 20€ por tonelada. Aclara si el precio que te dan es "en pie" (sin saca) o "en cargadero" (con saca incluida).
-- **Olvidar la replantación**. En Galicia, si talas, estás obligado a replantary tienes un plazo para hacerlo. Si no replantás, te pueden sancionar.
+- **Olvidar la replantación**. En Galicia, si talas, estás obligado a replantar y tienes un plazo para hacerlo. Si no replantás, te pueden sancionar. Y no olvides la [obligación de limpieza si tu finca está a menos de 50 metros de viviendas](/blog/obligaciones-limpieza-fincas-50-metros).
 
 ## ¿Cómo se hace la venta paso a paso?
 
