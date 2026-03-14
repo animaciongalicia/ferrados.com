@@ -6,9 +6,9 @@ import { useState } from "react";
 
 const navLinks = [
   { href: "/herencias-montes-galicia", label: "Herencias" },
-  { href: "/localizar-medir-fincas-galicia", label: "Fincas y Catastro" },
+  { href: "/localizar-medir-fincas-galicia", label: "Fincas-Catastro" },
   { href: "/precio-venta-madera-galicia", label: "Venta de Madera" },
-  { href: "/limpieza-desbroce-multas-xunta", label: "Limpieza y Multas" },
+  { href: "/limpieza-desbroce-multas-xunta", label: "Limpieza-Multas" },
   { href: "/vender-parte-monte-proindiviso", label: "Proindivisos" },
   { href: "/compra-venta-terrenos-galicia", label: "Compra-venta" },
   { href: "/blog", label: "La Gaceta" },

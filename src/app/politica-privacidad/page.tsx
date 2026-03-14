@@ -34,7 +34,8 @@ export default function PoliticaPrivacidadPage() {
           Responsable del tratamiento
         </h2>
         <ul className="list-disc pl-5 space-y-1">
-          <li><strong>Responsable:</strong> Ferrados.com</li>
+          <li><strong>Responsable:</strong> Consultoría Método de Coruña</li>
+          <li><strong>Domicilio:</strong> Ronda de Montealto 4, 15002 A Coruña</li>
           <li><strong>Contacto:</strong> info@ferrados.com</li>
           <li><strong>Sitio web:</strong> https://ferrados.com</li>
         </ul>

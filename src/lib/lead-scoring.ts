@@ -330,6 +330,9 @@ export function calcularScoreLead(data: LeadFormData): {
     case "compraventa":
       score = scoreCompraVenta(data);
       break;
+    case "colaborador":
+      score = 50; // B2B leads don't need scoring
+      break;
   }
 
   // Clasificación legible
@@ -347,6 +350,7 @@ export function calcularScoreLead(data: LeadFormData): {
     madera: "Aserraderos y compradores de madera",
     proindiviso: "Inversores forestales / maderistas",
     compraventa: "Inmobiliarias rurales y agentes de fincas",
+    colaborador: "Interno — solicitud de colaboración B2B",
   };
 
   return {

@@ -30,11 +30,12 @@ export default function QuienesSomosPage() {
         </p>
 
         <p>
-          Mi hermano Alejandro y yo llevamos años viendo la misma historia:
-          herederos que no saben dónde están sus fincas, propietarios pagando
-          multas de la Xunta por no desbrozar, y familias peleándose por vender
-          la madera de un proindiviso mientras el maderista de turno les ofrece
-          un precio ridículo.
+          Detrás de Ferrados.com hay un consultor empresarial de Consultoría
+          Método de Coruña y un ingeniero de montes. Llevamos años viendo la
+          misma historia: herederos que no saben dónde están sus fincas,
+          propietarios pagando multas de la Xunta por no desbrozar, y familias
+          peleándose por vender la madera de un proindiviso mientras el
+          maderista de turno les ofrece un precio ridículo.
         </p>
 
         <p>

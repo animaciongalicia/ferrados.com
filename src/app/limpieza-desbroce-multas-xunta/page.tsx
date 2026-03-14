@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import LimpiezaForm from "@/components/forms/LimpiezaForm";
+import CalculadoraMultas from "@/components/CalculadoraMultas";
 
 export const metadata: Metadata = {
   title: "Multas por no limpiar fincas en Galicia — Ley de biomasa Xunta",
@@ -149,6 +150,11 @@ export default function LimpiezaPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Calculadora de multas */}
+      <section id="calculadora" className="mb-10">
+        <CalculadoraMultas />
       </section>
 
       {/* Vivo fuera */}

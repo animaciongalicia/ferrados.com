@@ -330,6 +330,20 @@ export const compraVentaSchema = z.object({
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
 );
 
+// ===== EMBUDO: COLABORADOR (B2B) =====
+
+export const colaboradorSchema = z.object({
+  embudo: z.literal("colaborador"),
+  nombre: z.string().min(2, "Tu nombre es necesario"),
+  empresa: z.string().optional(),
+  actividad: z.string().min(1, "Selecciona tu actividad"),
+  provincia: z.string().min(1, "Selecciona la provincia"),
+  capacidad: z.string().min(1, "Selecciona la capacidad"),
+  email: z.string().email("Email no válido"),
+  telefono: z.string().min(6, "Teléfono no válido"),
+  origen: z.string().optional(),
+});
+
 // ===== TIPO UNIFICADO =====
 
 export type LimpiezaLead = z.infer<typeof limpiezaSchema>;
@@ -338,6 +352,7 @@ export type LindesLead = z.infer<typeof lindesSchema>;
 export type MaderaLead = z.infer<typeof maderaSchema>;
 export type ProindivisoLead = z.infer<typeof proindivisoSchema>;
 export type CompraVentaLead = z.infer<typeof compraVentaSchema>;
+export type ColaboradorLead = z.infer<typeof colaboradorSchema>;
 
 export type LeadFormData =
   | LimpiezaLead
@@ -345,7 +360,8 @@ export type LeadFormData =
   | LindesLead
   | MaderaLead
   | ProindivisoLead
-  | CompraVentaLead;
+  | CompraVentaLead
+  | ColaboradorLead;
 
 export type EmbudoType = LeadFormData["embudo"];
 
@@ -356,6 +372,7 @@ export const schemaByEmbudo = {
   madera: maderaSchema,
   proindiviso: proindivisoSchema,
   compraventa: compraVentaSchema,
+  colaborador: colaboradorSchema,
 } as const;
 
 export type LeadRecord = LeadFormData & {

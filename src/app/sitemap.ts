@@ -52,6 +52,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.2,
     },
+    {
+      url: `${BASE_URL}/aviso-legal`,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${BASE_URL}/politica-cookies`,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
     ...pilarPages,
     ...blogEntries,
   ];
