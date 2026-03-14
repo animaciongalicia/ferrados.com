@@ -21,7 +21,7 @@ La madera es lo que más pesa en la valoración. Un perito forestal hará un inv
 
 ### 2. La superficie
 
-Más hectáreas = más valor total, pero el precio por hectárea puede bajar en fincas muy grandes y remotas, porque son más difíciles de explotar y gestionar.
+Más hectáreas = más valor total, pero el precio por hectárea puede bajar en fincas muy grandes y remotas, porque son más difíciles de explotar y gestionar. Ojo: la superficie del Catastro puede no ser la real. Si no sabes [a cuántos metros cuadrados equivale un ferrado en tu zona](/blog/ferrado-metros-cuadrados-equivalencia), puedes estar calculando mal.
 
 En la práctica, las fincas más demandadas en Galicia son las de tamaño medio (1 a 10 hectáreas), con buena especie forestal y acceso.
 

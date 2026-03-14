@@ -60,7 +60,7 @@ Es muy habitual. Muchos herederos viven en Madrid, Barcelona, el extranjero. La 
 
 En Galicia es muy común que los montes no estén inscritos en el Registro de la Propiedad. Llevan generaciones pasando de padres a hijos "de palabra" sin formalizar nada. Si no sabes ni qué fincas tenía el fallecido, lee nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Esto complica la herencia porque hay que **reconstruir la cadena de titularidad**, que puede requerir actas de notoriedad, expedientes de dominio o certificaciones catastrales.
 
-Si tu monte no tiene escrituras, no te asustes: tiene solución, pero es un trámite más largo y costoso (entre 500€ y 2.000€ adicionales, dependiendo de la complejidad).
+Si tu monte no tiene escrituras, no te asustes: tiene solución, pero es un trámite más largo y costoso (entre 500€ y 2.000€ adicionales, dependiendo de la complejidad). Y si descubres que [el Catastro dice una cosa y las escrituras otra](/blog/catastro-escrituras-diferencia-lindes), también se puede arreglar sin ir a juicio.
 
 ## Errores habituales que debes evitar
 

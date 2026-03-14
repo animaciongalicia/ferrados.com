@@ -53,7 +53,7 @@ Puede pasar por varias razones:
 
 ### Los datos no coinciden con la realidad
 
-El Catastro en Galicia es famoso por ser impreciso. Las superficies pueden variar un 20-30% respecto a la realidad, y los límites a menudo no coinciden con los muros, cierres o mojones que existen sobre el terreno.
+El Catastro en Galicia es famoso por ser impreciso. Las superficies pueden variar un 20-30% respecto a la realidad, y los límites a menudo no coinciden con los muros, cierres o mojones que existen sobre el terreno. Es un problema muy común que explicamos en detalle en [qué hacer cuando el Catastro dice una cosa y las escrituras otra](/blog/catastro-escrituras-diferencia-lindes).
 
 **Solución**: Si necesitas precisión (para vender, resolver un conflicto de lindes, o hacer una segregación), necesitas un [topógrafo profesional para localizar y medir tu finca](/localizar-medir-fincas-galicia). Un topógrafo o ingeniero te mide la parcela real y tramita la corrección ante el Catastro.
 
@@ -83,7 +83,7 @@ Esto genera mucha confusión:
 - Para **cualquier escritura notarial** (compraventa, herencia, donación).
 - Para pedir un **permiso de corta** de madera.
 - Para solicitar **ayudas y subvenciones** agrícolas o forestales (PAC, etc.).
-- Para defender tus **lindes** en un conflicto con vecinos.
+- Para defender tus **lindes** en un conflicto con vecinos (lee [qué hacer si te han movido los marcos](/blog/marcos-finca-movidos-vecino)).
 - Para responder a un **[requerimiento de limpieza de la Xunta](/blog/carta-xunta-finca-sin-desbrozar)**.
 - Para inscribir la finca en el **Registro de la Propiedad**.
 

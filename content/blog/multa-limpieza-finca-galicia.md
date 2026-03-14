@@ -73,7 +73,7 @@ Los precios dependen de la superficie, el tipo de vegetación, la pendiente y el
 
 | Tipo de terreno | Coste por ferrado (aprox. 630 m²) |
 |---|---|
-| Matorral bajo (hierba alta, helechos) | 50€ - 80€ |
+| Matorral bajo (hierba alta, helechos) | 50€ - 80€ por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) |
 | Matorral alto y denso (tojos, silvas) | 80€ - 150€ |
 | Con árboles (desbroce + poda) | 100€ - 200€ |
 | Terreno con pendiente fuerte | +30% sobre el precio base |

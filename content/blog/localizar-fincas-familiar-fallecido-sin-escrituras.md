@@ -127,7 +127,7 @@ Si el fallecido pertenecía a una comunidad de montes vecinales en mano común, 
 
 ## Cuántas fincas tenía: la sorpresa gallega
 
-En Galicia, el **minifundio** histórico hace que una persona pueda tener 15, 20 o 30 fincas repartidas por toda la parroquia. Muchas de menos de media hectárea. Algunas de apenas 200 metros cuadrados.
+En Galicia, el **minifundio** histórico hace que una persona pueda tener 15, 20 o 30 fincas repartidas por toda la parroquia. Muchas de menos de media hectárea. Algunas de apenas 200 metros cuadrados (menos de medio [ferrado](/blog/ferrado-metros-cuadrados-equivalencia), la medida tradicional gallega).
 
 No te sorprendas si al buscar en el Catastro aparecen más fincas de las que esperabas. Es lo normal. Y cada una de ellas necesita ser incluida en la herencia, aunque su valor individual sea muy bajo.
 

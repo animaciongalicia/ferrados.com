@@ -102,7 +102,7 @@ Puede que no seas el vecino de la casa, sino el propietario de otra finca colind
 
 Las opciones son las mismas: denuncia administrativa + documentación. Pero además:
 
-- **Haz una franja cortafuegos en tu propio linde**. No es tu obligación legal limpiar la finca del otro, pero sí puedes proteger la tuya haciendo una franja de 3-5 metros limpia en el borde colindante. Es una inversión de seguridad.
+- **Haz una franja cortafuegos en tu propio linde**. No es tu obligación legal limpiar la finca del otro, pero sí puedes proteger la tuya haciendo una franja de 3-5 metros limpia en el borde colindante. Asegúrate de que sabes exactamente dónde está tu linde: si hay dudas, lee [qué hacer si te han movido los marcos de la finca](/blog/marcos-finca-movidos-vecino).
 
 - **Si tienes madera madura en riesgo, valora [venderla ahora](/blog/cortar-monte-ahora-o-esperar)** en vez de arriesgar a que se queme. Un monte talado no arde.
 
