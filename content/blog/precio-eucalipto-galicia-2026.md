@@ -1,7 +1,7 @@
 ---
-title: "Precio del eucalipto en Galicia: cuánto vale tu madera hoy"
-description: "Análisis actualizado del precio del eucalipto globulus y nitens en Galicia. Factores que influyen en el valor de tu plantación."
-date: "2024-03-05"
+title: "Precio del eucalipto en Galicia en 2026: cuánto vale tu madera hoy"
+description: "Análisis actualizado del precio del eucalipto globulus y nitens en Galicia en 2026. Factores que influyen en el valor de tu plantación."
+date: "2026-03-14"
 pilar: "madera"
 tags: ["madera", "eucalipto", "precios", "galicia", "venta"]
 ---

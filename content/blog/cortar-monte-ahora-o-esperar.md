@@ -59,9 +59,9 @@ Si la finca está a nombre de un fallecido y no has hecho la aceptación de here
 
 Estas son señales claras de que estás perdiendo dinero por cada día que pasa:
 
-- **Tu eucalipto tiene más de 16-18 años**: Ya está en turno. Cada año que pasa ganas menos de lo que arriesgas. Consulta el [precio actual del eucalipto en Galicia](/blog/precio-eucalipto-galicia-2024) para ver si es buen momento.
+- **Tu eucalipto tiene más de 16-18 años**: Ya está en turno. Cada año que pasa ganas menos de lo que arriesgas. Consulta el [precio actual del eucalipto en Galicia](/blog/precio-eucalipto-galicia-2026) para ver si es buen momento.
 - **Has recibido una carta de la Xunta**: Tienes un plazo para limpiar y si no lo haces [la multa puede ser de miles de euros](/blog/multa-limpieza-finca-galicia). Vender la madera paga la limpieza y te queda beneficio.
-- **Un maderista te ha ofrecido un buen precio pero "solo si es ya"**: Si el precio está en el rango de mercado (consulta nuestra [tabla de precios actualizada](/blog/precio-eucalipto-galicia-2024)), no esperes. Los precios no suben porque tú quieras.
+- **Un maderista te ha ofrecido un buen precio pero "solo si es ya"**: Si el precio está en el rango de mercado (consulta nuestra [tabla de precios actualizada](/blog/precio-eucalipto-galicia-2026)), no esperes. Los precios no suben porque tú quieras.
 - **Tu monte está en zona de riesgo de incendio alto**: Si estás en el interior de Pontevedra, sur de Ourense o zona de A Coruña con historial de fuegos, cada verano que pasa sin cortar es una moneda al aire.
 - **Tienes un proindiviso y al menos un copropietario quiere vender**: Si hay acuerdo parcial, aprovecha. Mañana puede cambiar de opinión y te quedas sin venta. [Más sobre cómo resolver proindivisos de montes en Galicia](/vender-parte-monte-proindiviso).
 - **Tu monte necesita una tasación**: Si no sabes cuántas toneladas tienes ni cuánto vale, [pide una tasación profesional](/blog/tasacion-monte-galicia) antes de decidir.

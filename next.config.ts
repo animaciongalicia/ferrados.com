@@ -111,7 +111,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/2024/09/cuanto-dinero-vale-una-tonelada-de.html",
-        destination: "/blog/precio-eucalipto-galicia-2024",
+        destination: "/blog/precio-eucalipto-galicia-2026",
         permanent: true,
       },
 

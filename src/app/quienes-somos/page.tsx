@@ -63,17 +63,21 @@ export default function QuienesSomosPage() {
           Dónde operamos
         </h2>
         <p>
-          Ahora bien, no podemos estar en toda Galicia a la vez. Nosotros
-          gestionamos directamente las compras de eucalipto de gran tamaño en la
-          provincia de A Coruña, donde controlamos el mercado y aseguramos el
-          mejor margen para el propietario.
+          Galicia es enorme y tiene cientos de miles de fincas repartidas entre
+          minifundios, montes comunales y plantaciones de todo tipo. Ningún
+          equipo puede abarcarlo todo solo. Por eso trabajamos codo con codo con
+          una red de excelentes profesionales gallegos: ingenieros de montes,
+          abogados, topógrafos, maderistas y empresas de desbroce repartidos por
+          las cuatro provincias.
         </p>
 
         <p>
-          Para todo lo demás (tasar un pino en Lugo, partir una herencia en
-          Ourense, desbrozar en Pontevedra o pelear un linde), trabajamos con
-          una red de abogados, ingenieros, topógrafos y empresas de desbroce que
-          seleccionamos nosotros.
+          Nosotros gestionamos directamente las operaciones de madera en la
+          provincia de A Coruña, y para el resto de Galicia conectamos a cada
+          propietario con el profesional de su zona que mejor encaja con su
+          caso. Repartimos clientes entre los mejores, porque el objetivo es que
+          tú resuelvas tu problema rápido y bien, no que nosotros acaparemos
+          todo.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">

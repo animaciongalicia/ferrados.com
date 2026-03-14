@@ -32,11 +32,18 @@ export const GACETA_CATEGORIES: GacetaCategory[] = [
     pilares: ["herencias"],
   },
   {
-    id: "tasaciones",
-    label: "Tasaciones y Catastro",
+    id: "catastro",
+    label: "Fincas y Catastro",
     pillClasses: "bg-amber-50 text-amber-800 border-amber-200",
     pillActiveClasses: "bg-amber-100 text-amber-900 border-amber-400 ring-2 ring-amber-200",
-    pilares: ["lindes", "compraventa"],
+    pilares: ["lindes"],
+  },
+  {
+    id: "compraventa",
+    label: "Compra-Venta",
+    pillClasses: "bg-purple-50 text-purple-800 border-purple-200",
+    pillActiveClasses: "bg-purple-100 text-purple-900 border-purple-400 ring-2 ring-purple-200",
+    pilares: ["compraventa"],
   },
 ];
 
