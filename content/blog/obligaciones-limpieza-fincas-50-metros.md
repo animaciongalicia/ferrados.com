@@ -1,7 +1,7 @@
 ---
 title: "La regla de los 50 metros: obligaciones de limpieza de fincas en Galicia"
 description: "Todo sobre la obligación de limpiar fincas a menos de 50 metros de viviendas en Galicia. Normativa, plazos, sanciones y cómo cumplir."
-date: "2024-03-01"
+date: "2026-03-14"
 pilar: "limpieza"
 tags: ["limpieza", "50 metros", "normativa", "xunta", "incendios", "galicia"]
 ---

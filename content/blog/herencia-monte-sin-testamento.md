@@ -1,7 +1,7 @@
 ---
 title: "Heredar un monte sin testamento en Galicia: lo que nadie te cuenta"
 description: "Qué pasa cuando heredas un monte en Galicia y no hay testamento. Procedimiento, costes y plazos reales de la declaración de herederos."
-date: "2024-03-12"
+date: "2026-03-14"
 pilar: "herencias"
 tags: ["herencias", "testamento", "galicia", "montes", "notario"]
 ---

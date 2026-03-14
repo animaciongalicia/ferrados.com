@@ -1,7 +1,7 @@
 ---
 title: "¿Cuándo es el mejor momento para vender pino en Galicia?"
 description: "Claves para saber cuándo cortar y vender tu plantación de pino en Galicia. Edad óptima, ciclo del mercado y errores que cuestan dinero."
-date: "2024-01-28"
+date: "2026-03-14"
 pilar: "madera"
 tags: ["madera", "pino", "venta", "galicia", "precios"]
 ---

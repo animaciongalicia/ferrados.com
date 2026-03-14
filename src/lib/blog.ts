@@ -112,6 +112,37 @@ export function getPrevNextPosts(currentSlug: string): { prev: BlogPostMeta | nu
   };
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+/**
+ * Extract FAQ pairs from markdown content.
+ * Looks for a "## Preguntas frecuentes" section and parses ### questions
+ * with the text below each as the answer.
+ */
+export function extractFaqs(content: string): FaqItem[] {
+  const faqSectionRegex = /## Preguntas frecuentes\s*\n([\s\S]*?)(?=\n## [^#]|$)/i;
+  const match = faqSectionRegex.exec(content);
+  if (!match) return [];
+
+  const faqContent = match[1];
+  const questionRegex = /### (.+)\n([\s\S]*?)(?=\n### |$)/g;
+  const faqs: FaqItem[] = [];
+  let qMatch;
+
+  while ((qMatch = questionRegex.exec(faqContent)) !== null) {
+    const question = qMatch[1].trim();
+    const answer = qMatch[2].trim().replace(/\n+/g, " ");
+    if (question && answer) {
+      faqs.push({ question, answer });
+    }
+  }
+
+  return faqs;
+}
+
 export function getRelatedPosts(currentSlug: string, pilar?: string, tags?: string[], limit = 3): BlogPostMeta[] {
   const allPosts = getAllPosts().filter((p) => p.slug !== currentSlug);
 

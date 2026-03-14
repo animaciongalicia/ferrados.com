@@ -1,7 +1,7 @@
 ---
 title: "Cómo encontrar la referencia catastral de tu finca en Galicia"
 description: "Guía práctica para localizar la referencia catastral de tu monte o finca usando la Sede Electrónica del Catastro y el Sixpac."
-date: "2024-02-20"
+date: "2026-03-14"
 pilar: "lindes"
 tags: ["catastro", "referencia catastral", "fincas", "galicia", "lindes"]
 ---

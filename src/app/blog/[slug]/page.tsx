@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
-import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts, extractFaqs } from "@/lib/blog";
 import { getCategoryForPilar, GACETA_CATEGORIES } from "@/lib/gaceta-categories";
 import CajaSecuestro from "@/components/CajaSecuestro";
 import TableOfContents from "@/components/TableOfContents";
@@ -75,6 +75,7 @@ export default async function BlogPostPage({ params }: Props) {
   const related = getRelatedPosts(slug, post.meta.pilar, post.meta.tags, 3);
   const { prev, next } = getPrevNextPosts(slug);
   const [firstHalf, secondHalf] = splitContentAtMiddle(post.content);
+  const faqs = extractFaqs(post.content);
 
   // Find category ID for linking to filtered blog
   const categoryId = GACETA_CATEGORIES.find((c) =>
@@ -130,6 +131,27 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+
+      {/* FAQ Schema */}
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <div className="max-w-6xl mx-auto px-4 pt-8">

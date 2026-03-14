@@ -1,7 +1,7 @@
 ---
 title: "A cuánto se paga la tonelada de eucalipto hoy en A Coruña (y cómo evitar que te engañen con la tara)"
 description: "Precio real del eucalipto en A Coruña actualizado. Aprende cómo los maderistas manipulan la tara, el peso y la medición para pagarte menos de lo que vale tu madera."
-date: "2025-06-10"
+date: "2026-03-14"
 pilar: "madera"
 tags: ["madera", "eucalipto", "precios", "a coruña", "tara", "estafa"]
 ---

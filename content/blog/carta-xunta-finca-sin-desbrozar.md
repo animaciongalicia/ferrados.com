@@ -1,7 +1,7 @@
 ---
 title: "Carta de la Xunta por finca sin desbrozar: plazos reales, multas y cómo evitar pagar 1.000€"
 description: "Te ha llegado una carta certificada de la Xunta por no limpiar tu finca. Te explicamos los plazos reales, cuánto te puede caer y qué hacer ahora mismo para evitar la multa."
-date: "2025-05-27"
+date: "2026-03-14"
 pilar: "limpieza"
 tags: ["multas", "limpieza", "xunta", "carta", "desbroce", "galicia", "plazos"]
 ---

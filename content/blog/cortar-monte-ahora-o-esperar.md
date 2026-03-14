@@ -1,7 +1,7 @@
 ---
 title: "¿Cortar el monte ahora o esperar? La trampa de los precios de la madera que te hace perder dinero"
 description: "¿Es buen momento para cortar tu monte en Galicia? Analizamos el ciclo de precios de la madera, cuándo conviene esperar y cuándo estás perdiendo dinero por no actuar."
-date: "2025-06-03"
+date: "2026-03-14"
 pilar: "madera"
 tags: ["madera", "eucalipto", "pino", "precios", "galicia", "corta"]
 ---

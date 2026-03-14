@@ -1,7 +1,7 @@
 ---
 title: "Me ha llegado una multa por no limpiar mi finca: ¿qué hago?"
 description: "Guía urgente para propietarios que han recibido una notificación o multa de la Xunta por incumplir la Lei de prevención de incendios forestais."
-date: "2024-02-10"
+date: "2026-03-14"
 pilar: "limpieza"
 tags: ["multas", "limpieza", "xunta", "incendios", "galicia"]
 ---

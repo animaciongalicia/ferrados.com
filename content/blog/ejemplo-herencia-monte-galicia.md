@@ -1,7 +1,7 @@
 ---
 title: "Cómo heredar un monte en Galicia: guía paso a paso"
 description: "Todo lo que necesitas saber para heredar un monte o finca en Galicia. Papeles, trámites, plazos y errores habituales."
-date: "2024-01-15"
+date: "2026-03-14"
 pilar: "herencias"
 tags: ["herencias", "montes", "galicia", "trámites"]
 ---

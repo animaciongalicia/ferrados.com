@@ -1,7 +1,7 @@
 ---
 title: "Mi vecino no limpia su monte y está pegado a mi casa: pasos legales para obligarle a desbrozar"
 description: "Tu vecino no limpia su finca y temes un incendio. Te explicamos qué hacer paso a paso: denuncias, vía administrativa, Concello y qué derechos tienes como afectado."
-date: "2025-05-20"
+date: "2026-03-14"
 pilar: "limpieza"
 tags: ["vecino", "limpieza", "denuncia", "concello", "xunta", "incendios", "galicia"]
 ---

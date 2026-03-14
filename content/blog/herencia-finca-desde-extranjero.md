@@ -1,7 +1,7 @@
 ---
 title: "Heredar una finca en Galicia viviendo en el extranjero"
 description: "Guía para emigrantes y descendientes de gallegos que heredan fincas o montes en Galicia sin poder estar presentes. Trámites, poderes y costes."
-date: "2024-02-28"
+date: "2026-03-14"
 pilar: "herencias"
 tags: ["herencias", "extranjero", "emigrantes", "galicia", "poderes"]
 ---
