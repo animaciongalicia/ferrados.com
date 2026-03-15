@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import type { BlogPostMeta } from "@/lib/blog";
+import { AdSenseSlot } from "@/components/AdSense";
 import {
   GACETA_CATEGORIES,
   getCategoryForPilar,
@@ -127,13 +128,8 @@ function Sidebar({ topPosts, recentPosts }: { topPosts: BlogPostMeta[]; recentPo
           </ul>
         </div>
 
-        {/* AdSense placeholder */}
-        <div
-          className="bg-gray-50 border border-gray-200 rounded-lg flex items-center justify-center text-gray-400 text-sm"
-          style={{ minHeight: 300, minWidth: 250 }}
-        >
-          Publicidad
-        </div>
+        {/* AdSense */}
+        <AdSenseSlot slot="sidebar-gaceta" />
       </div>
     </aside>
   );

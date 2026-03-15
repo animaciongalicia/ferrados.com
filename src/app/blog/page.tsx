@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getAllPosts } from "@/lib/blog";
 import GacetaClient from "@/components/GacetaClient";
+import { AdSenseScript } from "@/components/AdSense";
 
 export const metadata: Metadata = {
   title: "La Gaceta — Montes, fincas y terrenos en Galicia",
@@ -19,6 +20,7 @@ export default function GacetaPage() {
 
   return (
     <div>
+      <AdSenseScript />
       {/* Header de la Gaceta */}
       <div className="bg-white border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 pt-8 pb-4">
