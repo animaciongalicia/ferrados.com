@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* Smooth scroll for anchor links, offset for sticky header */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem; /* ~88px, enough for sticky header + breathing room */
+}
+
 /* Hide scrollbar for horizontal scroll on triaje menu */
 .scrollbar-hide {
   -ms-overflow-style: none;
