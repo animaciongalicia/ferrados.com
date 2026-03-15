@@ -2,6 +2,7 @@
 title: "El Catastro dice una cosa y mis escrituras otra: cómo solucionar los lindes de tu finca sin ir a juicio"
 description: "Qué hacer cuando el Catastro y el Registro de la Propiedad no coinciden en la superficie o los lindes de tu finca en Galicia. Soluciones reales sin acabar en el juzgado."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "lindes"
 tags: ["catastro", "escrituras", "lindes", "registro", "galicia", "fincas", "topografía"]
 ---
@@ -154,3 +155,7 @@ Sí, pero conviene corregir la discrepancia antes de la venta. Si la diferencia 
 
 ### ¿Necesito ir a juicio si mi vecino reclama parte de mi finca?
 En la mayoría de los casos no. La solución más habitual es contratar un topógrafo entre ambos vecinos para determinar dónde está la linde real, y después firmar un acta de deslinde notarial que la deje fijada para siempre. Solo si no hay acuerdo posible se recurre al deslinde judicial, que es lento y caro.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

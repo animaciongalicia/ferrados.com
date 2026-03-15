@@ -2,6 +2,7 @@
 title: "Precio del pino en Galicia en 2026: cuánto vale tu madera de pino hoy"
 description: "Precios actualizados del pino marítimo y pino radiata en Galicia en 2026. Factores que influyen en el valor, compradores y errores al vender."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "madera"
 tags: ["madera", "pino", "precios", "galicia", "venta"]
 ---
@@ -100,3 +101,7 @@ La zona demarcada es un área donde se ha detectado el nematodo del pino, un par
 
 ### ¿Cuántas toneladas de pino produce una hectárea en Galicia?
 Una plantación de pino marítimo bien gestionada con turno de 35-40 años puede producir entre 250 y 500 toneladas por hectárea, dependiendo de la calidad del suelo y la gestión selvícola. El pino radiata, con turno más corto de 25-30 años, produce entre 200 y 400 toneladas por hectárea.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

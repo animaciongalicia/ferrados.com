@@ -2,6 +2,7 @@
 title: "Mi vecino no limpia su monte y está pegado a mi casa: pasos legales para obligarle a desbrozar"
 description: "Tu vecino no limpia su finca y temes un incendio. Te explicamos qué hacer paso a paso: denuncias, vía administrativa, Concello y qué derechos tienes como afectado."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "limpieza"
 tags: ["vecino", "limpieza", "denuncia", "concello", "xunta", "incendios", "galicia"]
 ---
@@ -134,3 +135,7 @@ Puedes consultar la referencia catastral de la parcela en la Sede Electronica de
 
 ### ¿Cuanto puede tardar la administracion en obligar a mi vecino a limpiar?
 Los plazos varian mucho segun el Concello y la carga de trabajo de la administracion. Desde que presentas la denuncia, el Concello suele tardar varias semanas en enviar un requerimiento al propietario, y este tiene despues entre 15 y 30 dias para cumplir. Si no cumple, la ejecucion subsidiaria puede tardar meses. Por eso es importante denunciar en primavera, antes de que empiece la temporada de incendios.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

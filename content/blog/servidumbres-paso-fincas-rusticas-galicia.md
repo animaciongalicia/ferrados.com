@@ -2,6 +2,7 @@
 title: "Servidumbres de paso en fincas rústicas de Galicia: tus derechos, tus obligaciones y cómo actuar"
 description: "Guía legal práctica sobre servidumbres de paso en fincas rústicas de Galicia. Tipos, cómo se constituyen, cómo se extinguen, conflictos habituales y soluciones."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "lindes"
 tags: ["servidumbres", "paso", "fincas", "galicia", "legislación", "lindes", "conflictos"]
 ---
@@ -130,3 +131,7 @@ La serventía es una figura propia del derecho civil gallego que consiste en un 
 
 ### ¿Tengo que pagar al vecino por pasar por su finca?
 Depende del tipo de servidumbre. Si es una servidumbre legal (forzosa) porque tu finca está enclavada, sí debes pagar una indemnización al propietario de la finca por la que pasas. Si la servidumbre se ha adquirido por prescripción (20 años de uso), no hay obligación de pagar. Si es voluntaria, depende de lo que pactéis.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

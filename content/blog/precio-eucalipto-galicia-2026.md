@@ -2,6 +2,7 @@
 title: "Precio del eucalipto en Galicia en 2026: cuánto vale tu madera hoy"
 description: "Análisis actualizado del precio del eucalipto globulus y nitens en Galicia en 2026. Factores que influyen en el valor de tu plantación."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "madera"
 tags: ["madera", "eucalipto", "precios", "galicia", "venta"]
 ---
@@ -92,3 +93,7 @@ Vender en pie significa que el maderista paga por la madera tal como está y se 
 
 ### ¿Es obligatorio pedir permiso para cortar eucalipto en Galicia?
 Sí, en Galicia es obligatorio solicitar un permiso de corta antes de talar cualquier plantación forestal. Se tramita en la oficina agraria comarcal o por la sede electrónica de la Xunta, es gratuito y tarda unos días. Además, tras la tala estás obligado a replantar, y si quieres cambiar de especie o uso del suelo necesitas autorización previa.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

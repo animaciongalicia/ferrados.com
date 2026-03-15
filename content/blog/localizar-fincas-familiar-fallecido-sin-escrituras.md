@@ -2,6 +2,7 @@
 title: "Cómo localizar fincas de un familiar fallecido si no tienes las escrituras"
 description: "Guía paso a paso para encontrar todas las fincas y montes de un familiar fallecido en Galicia cuando no hay escrituras ni documentación. Catastro, Registro, IBI y otros trucos."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "galicia", "catastro", "escrituras", "fincas", "registro"]
 ---
@@ -188,3 +189,7 @@ Si haces las gestiones tú mismo (Catastro, Registro, ayuntamiento), el coste es
 
 ### ¿Tengo que pagar el IBI atrasado de las fincas que heredo?
 Sí. Las deudas tributarias del fallecido pasan a los herederos, incluido el IBI impagado. La buena noticia es que el IBI rústico en Galicia suele ser muy bajo (entre 10 y 50 euros por finca al año) y los ayuntamientos suelen ofrecer facilidades de pago para regularizar los atrasos.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

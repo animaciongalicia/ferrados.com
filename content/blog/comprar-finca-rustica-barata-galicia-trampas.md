@@ -2,6 +2,7 @@
 title: "Comprar una finca rústica barata en Galicia: las 5 trampas que nadie te cuenta"
 description: "Guía para compradores de fincas rústicas en Galicia: trampas habituales, problemas ocultos y cómo evitar comprar un problema en vez de una oportunidad."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["comprar", "finca rústica", "galicia", "trampas", "compraventa", "inversión"]
 ---
@@ -125,3 +126,7 @@ Si el vendedor ocultó información relevante (cargas, problemas de titularidad,
 
 ### ¿Es mejor comprar a un particular o a una inmobiliaria?
 A un particular suele ser más barato, pero asumes más riesgo. Una inmobiliaria seria habrá verificado la documentación. Lo ideal es comprar a quien sea, pero con tus propias verificaciones hechas (nota simple, medición, consulta urbanística).
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

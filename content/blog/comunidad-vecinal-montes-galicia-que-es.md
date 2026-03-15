@@ -2,6 +2,7 @@
 title: "Comunidades vecinales de montes en Galicia: qué son, cómo funcionan y qué derechos tienes"
 description: "Guía práctica sobre las comunidades vecinales de montes en man común en Galicia. Qué son, cómo se gestionan, quién puede ser comunero y qué hacer si tienes problemas."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "proindiviso"
 tags: ["comunidades vecinales", "montes en man común", "comunero", "galicia", "derechos"]
 ---
@@ -83,3 +84,7 @@ La decisión de vender madera la toma la Asamblea General de comuneros por mayor
 
 ### ¿Tiene la Xunta poder sobre mi comunidad vecinal?
 La Xunta supervisa y puede intervenir si la comunidad incumple la ley o tiene irregularidades graves. También puede asumir la gestión temporal de montes vecinales abandonados o sin comunidad constituida.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

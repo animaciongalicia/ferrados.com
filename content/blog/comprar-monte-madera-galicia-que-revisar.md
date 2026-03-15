@@ -2,6 +2,7 @@
 title: "Comprar un monte con madera en Galicia: qué revisar antes de firmar para no tirar el dinero"
 description: "Checklist práctica para comprar un monte con plantación forestal en Galicia. Qué revisar en la madera, la propiedad, el acceso, las cargas y la fiscalidad antes de firmar."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["comprar", "monte", "madera", "galicia", "inversión", "compraventa", "checklist"]
 ---
@@ -144,3 +145,7 @@ El impuesto principal es el ITP (Impuesto de Transmisiones Patrimoniales) al 8% 
 
 ### ¿Puedo comprar la madera sin comprar el suelo?
 Sí, es posible y de hecho es habitual. Se llama compraventa de madera en pie o aprovechamiento maderero. Compras solo la madera, la cortas y la sacas, y el suelo sigue siendo del propietario. Es lo que hacen los maderistas profesionales. En este caso no pagas ITP por el suelo, solo por la madera.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

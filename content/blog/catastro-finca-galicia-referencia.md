@@ -2,6 +2,7 @@
 title: "Cómo encontrar la referencia catastral de tu finca en Galicia"
 description: "Guía práctica para localizar la referencia catastral de tu monte o finca usando la Sede Electrónica del Catastro y el Sixpac."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "lindes"
 tags: ["catastro", "referencia catastral", "fincas", "galicia", "lindes"]
 ---
@@ -104,3 +105,7 @@ Puede ocurrir porque nunca se dio de alta, porque está integrada en otra parcel
 
 ### ¿Es obligatorio tener la referencia catastral para vender o heredar una finca?
 Sí. Cualquier escritura notarial de compraventa, herencia o donación exige incluir la referencia catastral de los inmuebles. También la necesitas para pedir permisos de corta de madera, solicitar ayudas agrícolas o forestales, y para inscribir la finca en el Registro de la Propiedad.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

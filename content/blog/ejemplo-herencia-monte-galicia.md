@@ -2,6 +2,7 @@
 title: "Cómo heredar un monte en Galicia: guía paso a paso"
 description: "Todo lo que necesitas saber para heredar un monte o finca en Galicia. Papeles, trámites, plazos y errores habituales."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "montes", "galicia", "trámites"]
 ---
@@ -95,3 +96,7 @@ Sí. Casi todo el proceso se puede hacer a distancia mediante un poder notarial.
 
 ### ¿Qué hago si el monte heredado no tiene escrituras ni está en el Registro?
 Es un caso muy habitual en Galicia. Puedes aceptar la herencia igualmente y después regularizar la situación mediante un expediente de dominio notarial o usando la certificación catastral como título para inscribir. El coste adicional suele estar entre 500 y 2.000 euros dependiendo de la complejidad.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

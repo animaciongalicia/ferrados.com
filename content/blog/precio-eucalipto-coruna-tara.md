@@ -2,6 +2,7 @@
 title: "A cuánto se paga la tonelada de eucalipto hoy en A Coruña (y cómo evitar que te engañen con la tara)"
 description: "Precio real del eucalipto en A Coruña actualizado. Aprende cómo los maderistas manipulan la tara, el peso y la medición para pagarte menos de lo que vale tu madera."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "madera"
 tags: ["madera", "eucalipto", "precios", "a coruña", "tara", "estafa"]
 ---
@@ -102,3 +103,7 @@ Las claves son: exigir siempre los tickets de bascula originales de la fabrica, 
 
 ### ¿Cuando es el mejor momento para vender eucalipto en A Coruna?
 Los mejores momentos coinciden con periodos de precios altos de la celulosa a nivel mundial y con la ausencia de temporales recientes que inunden el mercado de madera de emergencia. La edad optima de corta del eucalipto globulus es entre 12 y 18 anos. Puedes seguir la evolucion de los precios de celulosa en indices internacionales como FOEX o RISI para elegir el momento adecuado.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

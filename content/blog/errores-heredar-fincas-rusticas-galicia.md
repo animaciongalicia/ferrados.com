@@ -2,6 +2,7 @@
 title: "Los 3 errores letales al heredar fincas rústicas en Galicia que te dejarán la cuenta a cero"
 description: "Los errores más caros al heredar montes y fincas en Galicia: impuestos, tasaciones y plazos que la mayoría ignora. Aprende a evitarlos."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "galicia", "fincas", "impuestos", "tasaciones", "errores"]
 ---
@@ -143,3 +144,7 @@ Legalmente no es obligatorio, pero en la práctica es imprescindible. Sin la ins
 
 ### ¿Cómo sé si la Administración va a revisar la valoración de mis fincas heredadas?
 No hay forma de saberlo con certeza, pero el riesgo aumenta si declaras las fincas por un valor muy inferior al de mercado. Antes de presentar la herencia, consulta el valor de referencia catastral de cada finca en la Sede Electrónica del Catastro. Si no tiene valor de referencia asignado, considera pedir una tasación profesional para justificar la valoración que declares.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

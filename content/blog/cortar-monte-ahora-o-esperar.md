@@ -2,6 +2,7 @@
 title: "¿Cortar el monte ahora o esperar? La trampa de los precios de la madera que te hace perder dinero"
 description: "¿Es buen momento para cortar tu monte en Galicia? Analizamos el ciclo de precios de la madera, cuándo conviene esperar y cuándo estás perdiendo dinero por no actuar."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "madera"
 tags: ["madera", "eucalipto", "pino", "precios", "galicia", "corta"]
 ---
@@ -112,3 +113,7 @@ Si el eucalipto tiene menos de 12 años o el pino menos de 22, la madera no habr
 
 ### ¿Cómo sé si un maderista me está ofreciendo un precio justo?
 Lo más importante es pedir presupuesto a varios maderistas, al menos tres, para tener una referencia real de mercado. Compara las ofertas con los precios orientativos publicados y desconfía si alguien te dice que esperes sin darte una razón concreta. Un maderista puede pedirte que esperes porque no tiene liquidez o porque así se asegura de ser tu único comprador.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

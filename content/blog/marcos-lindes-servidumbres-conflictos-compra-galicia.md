@@ -2,6 +2,7 @@
 title: "Marcos, lindes y servidumbres: los conflictos invisibles que pueden arruinar tu compra en Galicia"
 description: "Marcos movidos, servidumbres de paso, derechos de agua y lindes que no cuadran. Los problemas que no ves desde la distancia y que pueden convertir tu compra rural en un pleito."
 date: "2026-03-30"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["marcos galicia", "lindes finca", "servidumbres paso", "compra rural galicia", "conflictos vecinos"]
 ---
@@ -93,3 +94,7 @@ En muchos casos, no. El Catastro en el rural gallego arrastra errores histórico
 
 ### ¿Cuánto cuesta contratar un topógrafo para medir una finca en Galicia?
 Depende de la superficie, la accesibilidad y la complejidad del terreno. Para una finca rústica de tamaño medio, un levantamiento topográfico puede costar entre 300 y 800 euros. Para un deslinde completo con replanteo de marcos, puede superar los 1.000 euros. Es una inversión mínima comparada con el coste de un conflicto de lindes tras la compra.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

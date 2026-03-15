@@ -2,6 +2,7 @@
 title: "Subvenciones para limpieza de fincas en Galicia en 2026: todas las ayudas disponibles"
 description: "Guía completa de ayudas y subvenciones de la Xunta para limpieza, desbroce y prevención de incendios en fincas rústicas de Galicia. Plazos, requisitos y cuantías."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "limpieza"
 tags: ["subvenciones", "limpieza", "xunta", "ayudas", "galicia", "desbroce", "incendios"]
 ---
@@ -117,3 +118,7 @@ Sí, tener un expediente sancionador abierto no impide solicitar las ayudas de l
 
 ### ¿Puedo pedir subvención como propietario particular o solo para comunidades de montes?
 Pueden solicitar la subvención tanto propietarios particulares como comunidades de montes vecinales en mano común, sociedades de fomento forestal y cooperativas forestales. Los propietarios individuales tienen los mismos derechos, aunque las agrupaciones de propietarios suelen tener prioridad en la concesión.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

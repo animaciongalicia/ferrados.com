@@ -2,6 +2,7 @@
 title: "Permiso de corta de madera en Galicia: cómo tramitarlo paso a paso sin complicarte"
 description: "Guía práctica para solicitar el permiso de corta de madera en Galicia. Requisitos, plazos, documentación, sede electrónica y errores que bloquean la venta."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "madera"
 tags: ["madera", "permiso corta", "galicia", "xunta", "trámites", "legislación"]
 ---
@@ -144,3 +145,7 @@ Puedes solicitarlo si acreditas la propiedad por otra vía: escritura de herenci
 
 ### ¿Qué pasa si corto madera sin permiso en Galicia?
 Cortar sin autorización es una infracción administrativa que puede suponer multas de entre 1.000 y 100.000 euros dependiendo de la gravedad, la superficie afectada y si se trata de zona protegida. Además, la madera cortada sin permiso puede ser decomisada y el maderista puede negarse a comprarla.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

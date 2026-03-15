@@ -2,6 +2,7 @@
 title: "Heredé un monte a medias con mi hermano y no quiere vender: la solución legal rápida"
 description: "Qué hacer cuando heredas una finca en proindiviso en Galicia y uno de los copropietarios se niega a vender. Opciones legales, plazos y costes reales."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "proindiviso", "galicia", "montes", "copropietarios", "venta"]
 ---
@@ -137,3 +138,7 @@ La Xunta puede multar a todos los copropietarios solidariamente por no cumplir l
 
 ### ¿Existe alguna alternativa al juicio para resolver un proindiviso de fincas?
 Sí. Antes de demandar puedes intentar un acto de conciliación ante el Letrado de la Administración de Justicia, que es prácticamente gratuito. También puedes enviar un burofax proponiendo que uno compre la parte del otro o que se venda y se reparta. Si tu hermano no acude a la conciliación o no contesta al burofax, queda constancia legal de su negativa, lo que refuerza tu posición en un juicio posterior.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

@@ -2,6 +2,7 @@
 title: "Heredar un monte sin testamento en Galicia: lo que nadie te cuenta"
 description: "Qué pasa cuando heredas un monte en Galicia y no hay testamento. Procedimiento, costes y plazos reales de la declaración de herederos."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "testamento", "galicia", "montes", "notario"]
 ---
@@ -108,3 +109,7 @@ Es un acta notarial que determina quiénes son los herederos legales cuando no h
 
 ### ¿Puedo heredar un monte sin testamento si no tengo escrituras de la finca?
 Sí, aunque el proceso es más largo. Primero haces la declaración de herederos y la escritura de herencia con los datos catastrales disponibles. Después, para inscribir la finca en el Registro de la Propiedad, puedes usar un expediente de dominio notarial o la certificación catastral descriptiva y gráfica como título. El coste adicional de regularizar fincas no inscritas suele estar entre 500 y 1.500 euros.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

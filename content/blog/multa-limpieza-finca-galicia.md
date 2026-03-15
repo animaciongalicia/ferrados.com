@@ -2,6 +2,7 @@
 title: "Me ha llegado una multa por no limpiar mi finca: ¿qué hago?"
 description: "Guía urgente para propietarios que han recibido una notificación o multa de la Xunta por incumplir la Lei de prevención de incendios forestais."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "limpieza"
 tags: ["multas", "limpieza", "xunta", "incendios", "galicia"]
 ---
@@ -36,9 +37,9 @@ Además del coste de la ejecución subsidiaria, puede haber una multa que varía
 
 | Gravedad | Multa | Ejemplo |
 |---|---|---|
-| Leve | 100€ - 1.000€ | No limpiar una parcela pequeña |
-| Grave | 1.001€ - 100.000€ | No limpiar repetidamente, zona de alto riesgo |
-| Muy grave | 100.001€ - 1.000.000€ | Negligencia que contribuye a un incendio |
+| Leve | 200€ - 1.000€ | No limpiar una parcela pequeña |
+| Grave | 1.001€ - 10.000€ | No limpiar repetidamente, zona de alto riesgo |
+| Muy grave | 10.001€ - 100.000€ | Reincidencia, proximidad a núcleo urbano, riesgo de incendio alto |
 
 La mayoría de multas a particulares están en el rango de 200€ a 3.000€, pero no es broma: he visto casos de ejecuciones subsidiarias que han costado 5.000€ a 8.000€ por fincas grandes.
 
@@ -71,7 +72,7 @@ Presenta un escrito (por registro o sede electrónica) comunicando que has reali
 
 Los precios dependen de la superficie, el tipo de vegetación, la pendiente y el acceso:
 
-| Tipo de terreno | Coste por ferrado (aprox. 630 m²) |
+| Tipo de terreno | Coste por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) (aprox. 630 m² en A Coruña, varía según concello) |
 |---|---|
 | Matorral bajo (hierba alta, helechos) | 50€ - 80€ por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) |
 | Matorral alto y denso (tojos, silvas) | 80€ - 150€ |
@@ -108,7 +109,11 @@ Normalmente la Xunta concede un plazo de 15 a 30 dias habiles desde la notificac
 Si, tienes derecho a presentar alegaciones en un plazo de 15 dias habiles desde la notificacion de la sancion. Los motivos mas habituales son errores en la identificacion de la parcela o del propietario, que la finca no este realmente dentro de la franja de 50 metros, o que ya hubieras realizado la limpieza antes de la inspeccion. Un gestor o abogado puede presentarlas por ti por 150 a 300 euros.
 
 ### ¿Cuanto cuesta limpiar una finca en Galicia para evitar la multa?
-El coste depende de la superficie, el tipo de vegetacion y la pendiente. Como referencia, el desbroce de matorral denso cuesta entre 80 y 150 euros por ferrado (unos 630 metros cuadrados). Una finca de 10 ferrados con matorral y arboles puede salir entre 1.000 y 2.000 euros si lo contratas tu, frente a los 3.000-5.000 euros que costaria si lo ejecuta la Xunta de forma subsidiaria.
+El coste depende de la superficie, el tipo de vegetacion y la pendiente. Como referencia, el desbroce de matorral denso cuesta entre 80 y 150 euros por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) (unos 630 m² en A Coruña, varía según concello). Una finca de 10 ferrados con matorral y arboles puede salir entre 1.000 y 2.000 euros si lo contratas tu, frente a los 3.000-5.000 euros que costaria si lo ejecuta la Xunta de forma subsidiaria.
 
 ### ¿Me pueden multar si herede la finca y no sabia que era propietario?
 El desconocimiento de la titularidad puede ser un atenuante a la hora de fijar la sancion, pero no te exime de la obligacion de limpiar. La Xunta envia las notificaciones al domicilio que figura en el Catastro, que puede ser el del familiar fallecido. Por eso es importante actualizar la titularidad catastral en cuanto heredes fincas.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

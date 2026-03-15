@@ -2,6 +2,7 @@
 title: "Heredar una finca en Galicia viviendo en el extranjero"
 description: "Guía para emigrantes y descendientes de gallegos que heredan fincas o montes en Galicia sin poder estar presentes. Trámites, poderes y costes."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "extranjero", "emigrantes", "galicia", "poderes"]
 ---
@@ -126,3 +127,7 @@ Sí. Si no tienes nacionalidad española, necesitas un NIE (Numero de Identidad 
 
 ### ¿Merece la pena aceptar la herencia de fincas en Galicia desde el extranjero?
 Depende del valor de las fincas y de tu situación. Antes de gastar en trámites, averigua qué propiedades hay buscando en la Sede Electrónica del Catastro a nombre del fallecido. Si las fincas tienen madera madura, buena ubicación o superficie considerable, el valor puede superar con creces los costes del proceso. Si son parcelas pequeñas sin valor productivo, valora si el coste de la herencia compensa.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

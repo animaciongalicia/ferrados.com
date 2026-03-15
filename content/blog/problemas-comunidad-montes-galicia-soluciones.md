@@ -2,6 +2,7 @@
 title: "7 problemas reales en comunidades de montes en Galicia (y cómo solucionarlos)"
 description: "Los problemas más comunes en comunidades vecinales de montes en Galicia: falta de comuneros, madera sin vender, conflictos internos, multas... Te explicamos cómo resolverlos."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "proindiviso"
 tags: ["comunidades vecinales", "montes en man común", "problemas", "galicia", "soluciones"]
 ---
@@ -69,3 +70,7 @@ Sí, la asamblea puede decidir repartir beneficios entre los comuneros. No obsta
 
 ### ¿Qué pasa si un comunero tala madera por su cuenta sin permiso de la asamblea?
 Es ilegal. La madera del monte vecinal pertenece a la comunidad, no a un comunero individual. La comunidad puede denunciarlo y exigir responsabilidades. Además, talar sin autorización de la Xunta puede acarrear multas adicionales.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

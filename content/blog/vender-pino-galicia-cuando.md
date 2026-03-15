@@ -2,6 +2,7 @@
 title: "¿Cuándo es el mejor momento para vender pino en Galicia?"
 description: "Claves para saber cuándo cortar y vender tu plantación de pino en Galicia. Edad óptima, ciclo del mercado y errores que cuestan dinero."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "madera"
 tags: ["madera", "pino", "venta", "galicia", "precios"]
 ---
@@ -83,3 +84,7 @@ Si, la normativa gallega obliga a replantar tras la tala de cualquier plantacion
 
 ### ¿Necesito permiso para cortar pinos en mi finca en Galicia?
 Si, es obligatorio solicitar un permiso de corta antes de talar. Se tramita en la oficina agraria comarcal de tu zona o a traves de la sede electronica de la Xunta de Galicia. El tramite es gratuito y suele resolverse en pocos dias. Sin este permiso, la venta de madera es ilegal y te expones a sanciones administrativas.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

@@ -2,6 +2,7 @@
 title: "Me han movido los marcos de la finca: qué hacer antes de enfrentarte a tu vecino"
 description: "Tu vecino ha movido los marcos o mojones de tu finca en Galicia. Guía paso a paso para actuar legalmente sin perder la calma ni el terreno."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "lindes"
 tags: ["marcos", "lindes", "vecino", "mojones", "galicia", "fincas", "topografía"]
 ---
@@ -159,3 +160,7 @@ Si el vecino lleva mas de 30 anos poseyendo ese terreno de forma publica, pacifi
 
 ### ¿Que validez tiene el Catastro para determinar los lindes de mi finca?
 El Catastro es una referencia util pero no definitiva. Los limites catastrales en Galicia pueden tener errores de varios metros, ya que su funcion principal es fiscal, no juridica. Para acreditar la propiedad y los lindes exactos, lo que prevalece son las escrituras, el Registro de la Propiedad y, en su defecto, el informe de un topografo profesional.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

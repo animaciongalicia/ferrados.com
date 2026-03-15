@@ -2,6 +2,7 @@
 title: "¿Cuánto vale mi monte? Cómo se tasa una finca forestal en Galicia"
 description: "Aprende cómo se valora un monte en Galicia: métodos de tasación, factores que influyen en el precio y cuándo necesitas una tasación oficial."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "lindes"
 tags: ["tasaciones", "montes", "valoración", "galicia", "catastro"]
 ---
@@ -110,3 +111,7 @@ Necesitas una tasación pericial cuando la valoración va a tener efectos legale
 
 ### ¿Cuánto vale una hectárea de monte en Galicia?
 Depende fundamentalmente de la especie y la edad del arbolado. Una hectárea de eucalipto globulus maduro puede valer entre 10.000 y 25.000 euros, mientras que un monte raso sin arbolado se mueve entre 1.500 y 6.000 euros. También influyen el acceso para camiones, la proximidad a fábricas y la situación legal de la finca.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

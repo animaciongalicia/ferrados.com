@@ -2,6 +2,7 @@
 title: "¿A cuántos metros cuadrados equivale un ferrado? (Cuidado: en cada concello te miden distinto)"
 description: "Equivalencia real del ferrado en metros cuadrados según la zona de Galicia. Tabla por concellos, conversiones y por qué importa saber esto antes de comprar o vender."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "lindes"
 tags: ["ferrado", "metros cuadrados", "galicia", "medidas", "catastro", "fincas"]
 ---
@@ -104,3 +105,7 @@ Con el ferrado estándar de A Coruña (629 m²), una hectárea equivale a unos 1
 
 ### ¿Es fiable usar ferrados para calcular el precio de una finca?
 No es recomendable. Al no ser una medida estándar, usar ferrados en una compraventa puede generar malentendidos de hasta un 30-40% en la superficie. Lo correcto es pedir un levantamiento topográfico profesional o al menos consultar la superficie catastral en metros cuadrados antes de cerrar cualquier operación.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

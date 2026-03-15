@@ -2,6 +2,7 @@
 title: "IBI de fincas rústicas en Galicia: cuánto se paga, quién paga y cuándo no merece la pena reclamar"
 description: "Todo sobre el Impuesto de Bienes Inmuebles de fincas rústicas en Galicia. Cuotas, exenciones, bonificaciones, errores de Catastro y cómo reclamar."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["IBI", "impuestos", "fincas", "catastro", "galicia", "fiscalidad"]
 ---
@@ -126,3 +127,7 @@ Sí, las deudas de IBI prescriben a los 4 años desde que terminó el plazo de p
 
 ### ¿Los montes vecinales en mano común pagan IBI?
 No, los montes vecinales en mano común están exentos del IBI rústico mientras mantengan su clasificación como tales. Es una de las pocas exenciones que aplica a fincas rústicas en Galicia.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

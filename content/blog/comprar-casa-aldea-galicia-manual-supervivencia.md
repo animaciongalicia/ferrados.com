@@ -2,6 +2,7 @@
 title: "Manual de supervivencia para comprar una casa o aldea en Galicia sin cometer un error caro"
 description: "Guía sin filtros para quien quiere comprar una casa vieja, una aldea o una finca en el rural de Galicia. Lo que los portales no te cuentan y lo que puede salirte muy caro si no lo sabes."
 date: "2026-03-16"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["comprar casa galicia", "aldea galicia", "compra rural", "errores compra", "finca galicia"]
 ---
@@ -92,3 +93,7 @@ Sí, hay aldeas a la venta. Pero una aldea implica múltiples propietarios, múl
 
 ### ¿Qué profesionales necesito para comprar una propiedad rural en Galicia?
 Como mínimo: un abogado que conozca el derecho civil gallego para revisar la titularidad y la documentación, un topógrafo para comprobar lindes y superficies reales, y si hay construcción, un arquitecto o aparejador que valore el estado y la viabilidad de la reforma. En [Ferrados.com](/empezar) te conectamos con los profesionales adecuados para tu caso concreto.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

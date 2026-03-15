@@ -2,6 +2,7 @@
 title: "Extinción de condominio de finca rústica en Galicia: cómo dividir lo que heredaste"
 description: "Guía completa sobre la extinción de condominio de fincas rústicas en Galicia. Proceso, costes, fiscalidad y alternativas cuando los copropietarios no se ponen de acuerdo."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "proindiviso", "extincion condominio", "galicia", "fincas", "copropietarios"]
 ---
@@ -126,3 +127,7 @@ Si un copropietario no acepta la extinción amistosa, cualquier otro puede acudi
 
 ### ¿Qué pasa con la plusvalía municipal en una extinción de condominio de finca rústica?
 Las fincas rústicas generalmente no están sujetas al Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana (plusvalía municipal), ya que este impuesto solo grava terrenos urbanos. Por tanto, en la mayoría de extinciones de condominio de fincas rústicas en Galicia no hay que preocuparse por la plusvalía.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

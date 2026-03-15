@@ -2,6 +2,7 @@
 title: "Impuesto de sucesiones en Galicia: cuánto se paga por heredar fincas y montes"
 description: "Guía práctica del impuesto de sucesiones en Galicia aplicado a herencias de fincas rústicas y montes. Bonificaciones, plazos, reducciones y errores que cuestan dinero."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
 tags: ["herencias", "impuestos", "sucesiones", "galicia", "fiscalidad", "fincas"]
 ---
@@ -121,3 +122,7 @@ Sí, la madera en pie forma parte del valor de la herencia y debe declararse. Si
 
 ### ¿Se puede aplicar la reducción del 99% por explotación agraria a un monte con eucalipto?
 Sí, siempre que el monte se considere una explotación forestal en activo, el fallecido fuera su titular y el heredero mantenga la explotación durante al menos 5 años. Es una de las reducciones más potentes y menos conocidas para herencias de montes en Galicia, y puede ahorrar decenas de miles de euros en impuestos.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

@@ -2,6 +2,7 @@
 title: "IRPF por venta de madera en Galicia: cuánto se lleva Hacienda y cómo pagar menos"
 description: "Guía práctica de fiscalidad de la venta de madera en Galicia. Cómo tributa en el IRPF, reducciones aplicables, gastos deducibles y errores que cuestan dinero."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "madera"
 tags: ["madera", "impuestos", "IRPF", "fiscalidad", "galicia", "venta", "hacienda"]
 ---
@@ -122,3 +123,7 @@ No necesariamente. Si eres un particular que vende madera de forma puntual, no n
 
 ### ¿Qué pasa si vendí madera y no lo declaré en años anteriores?
 Puedes presentar una declaración complementaria de los ejercicios no prescritos (últimos 4 años). Si lo haces voluntariamente antes de que Hacienda te requiera, los recargos son menores. Si Hacienda te pilla primero, los recargos e intereses pueden suponer un 20-30% adicional sobre la cuota no pagada.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

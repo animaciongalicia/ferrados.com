@@ -2,6 +2,7 @@
 title: "Ruinas con trampa: lo que debes revisar antes de comprar una casa vieja en Galicia"
 description: "Comprar una ruina barata en Galicia puede parecer un chollo, pero la reforma puede ser inviable por normativa, accesos, servicios o protección patrimonial. Lo que debes saber antes de firmar."
 date: "2026-04-06"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["ruina galicia", "rehabilitacion casa piedra", "normativa urbanistica", "comprar ruina", "reforma rural galicia"]
 ---
@@ -93,3 +94,7 @@ Para reformas integrales que afecten a la estructura, la distribución o la envo
 
 ### ¿Qué es la protección patrimonial y cómo me afecta al comprar una ruina?
 Si la construcción o su entorno están catalogados como bien de interés cultural o forman parte del patrimonio etnográfico gallego (hórreos, conjuntos rurales, etc.), cualquier intervención requiere autorización de Patrimonio Cultural de la Xunta. Eso puede implicar restricciones en materiales, acabados, volúmenes y usos. No es imposible reformar, pero es más lento, más restrictivo y más caro.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

@@ -2,6 +2,7 @@
 title: "Quiero vender una finca rústica en Galicia y no sé por dónde empezar"
 description: "Guía paso a paso para vender una finca rústica heredada en Galicia: documentación necesaria, valoración, trámites y errores que te van a costar dinero."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["vender", "finca rústica", "galicia", "herencia", "trámites", "compraventa"]
 ---
@@ -103,3 +104,7 @@ Solo si tiene edificación (casa, almacén habitable). Para terrenos sin constru
 
 ### ¿Puedo vender solo la madera y quedarme con el terreno?
 Sí. Es muy habitual en Galicia. Se hace un contrato de compraventa de madera en pie, el maderista corta y se lleva la madera, y tú sigues siendo dueño del terreno.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

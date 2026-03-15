@@ -2,6 +2,7 @@
 title: "La regla de los 50 metros: obligaciones de limpieza de fincas en Galicia"
 description: "Todo sobre la obligación de limpiar fincas a menos de 50 metros de viviendas en Galicia. Normativa, plazos, sanciones y cómo cumplir."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "limpieza"
 tags: ["limpieza", "50 metros", "normativa", "xunta", "incendios", "galicia"]
 ---
@@ -42,9 +43,9 @@ Si no limpias en plazo, la Xunta contrata una empresa que lo hace por ti. Te pas
 
 ### Paso 3: Sanción económica
 Además del coste de la ejecución, te puede caer una multa:
-- **Leve**: 100€ a 1.000€
-- **Grave**: 1.001€ a 100.000€
-- **Muy grave**: Más de 100.000€ (en casos extremos vinculados a incendios)
+- **Leve**: 200€ a 1.000€
+- **Grave**: 1.001€ a 10.000€
+- **Muy grave**: 10.001€ a 100.000€ (reincidencia, proximidad a núcleo urbano, riesgo de incendio alto)
 
 ### Paso 4: Responsabilidad civil y penal
 Si se produce un incendio y se demuestra que tu finca estaba sin limpiar y contribuyó a la propagación, puedes ser responsable civilmente de los daños causados a terceros. En casos de negligencia grave, puede haber incluso responsabilidad penal.
@@ -53,7 +54,7 @@ Si se produce un incendio y se demuestra que tu finca estaba sin limpiar y contr
 
 Limpiar antes de que te multen es siempre más barato. Estos son los precios de mercado en Galicia:
 
-| Tipo de terreno | Coste por ferrado (~630 m²) |
+| Tipo de terreno | Coste por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) (~630 m² en A Coruña, varía según concello) |
 |---|---|
 | Hierba alta y matorral bajo | 50€ - 80€ |
 | Matorral denso (tojo, silva) | 80€ - 150€ |
@@ -100,3 +101,7 @@ Cuando una finca pertenece a varios propietarios en proindiviso, todos son respo
 
 ### ¿Existen ayudas o subvenciones para pagar la limpieza de fincas en Galicia?
 Si. La Xunta publica periodicamente ayudas que suelen cubrir entre el 50% y el 80% del coste de limpieza para propietarios particulares con fincas en la franja de proteccion. Ademas, algunos ayuntamientos organizan campanas de limpieza colectiva o convenios con empresas de desbroce a precios reducidos. Consulta la web de la Conselleria de Medio Rural para ver las convocatorias vigentes.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

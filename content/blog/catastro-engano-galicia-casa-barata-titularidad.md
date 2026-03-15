@@ -2,6 +2,7 @@
 title: "El engaño del Catastro en Galicia: por qué esa casa barata puede no ser de quien te la vende"
 description: "Catastro, Registro y realidad no coinciden en Galicia. Antes de comprar una casa o finca, entiende por qué la titularidad es un campo de minas y cómo protegerte."
 date: "2026-03-23"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["catastro galicia", "herencia finca", "titularidad propiedad", "compra casa rural", "registro propiedad"]
 ---
@@ -92,3 +93,7 @@ Es una situación muy común en Galicia. Si no se localizan todos los herederos,
 
 ### ¿Cuánto cuesta revisar la documentación antes de comprar una finca en Galicia?
 Una nota simple del Registro cuesta menos de 10 euros. Un certificado catastral es gratuito. La consulta con un abogado para revisar la titularidad y la documentación puede costar entre 150 y 500 euros, dependiendo de la complejidad. Comparado con el coste de comprar un problema, es la mejor inversión que puedes hacer.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

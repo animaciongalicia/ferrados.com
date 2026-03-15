@@ -2,6 +2,7 @@
 title: "Carta de la Xunta por finca sin desbrozar: plazos reales, multas y cómo evitar pagar 1.000€"
 description: "Te ha llegado una carta certificada de la Xunta por no limpiar tu finca. Te explicamos los plazos reales, cuánto te puede caer y qué hacer ahora mismo para evitar la multa."
 date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "limpieza"
 tags: ["multas", "limpieza", "xunta", "carta", "desbroce", "galicia", "plazos"]
 ---
@@ -127,3 +128,7 @@ Sí, aunque no siempre se concede. Si demuestras que ya has contratado una empre
 
 ### ¿Qué pasa si vivo fuera de Galicia y me llega una carta por una finca heredada?
 No necesitas desplazarte. Una empresa de desbroce puede limpiar tu finca a distancia si le proporcionas la referencia catastral. Lo importante es que tu dirección esté actualizada en el Catastro, porque si la Xunta envía la carta a una dirección antigua y no la recibes, la notificación se considera igualmente hecha tras publicarse en el BOE o DOG.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

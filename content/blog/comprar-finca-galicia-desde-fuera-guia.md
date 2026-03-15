@@ -2,6 +2,7 @@
 title: "Comprar una finca en Galicia desde fuera: guía para no residentes y emigrantes"
 description: "Guía práctica para comprar fincas rústicas en Galicia viviendo fuera de Galicia o del extranjero. Trámites a distancia, apoderamientos, impuestos y errores típicos."
 date: "2026-03-15"
+lastUpdated: "2026-03-15"
 pilar: "compraventa"
 tags: ["comprar", "finca", "galicia", "no residentes", "emigrantes", "compraventa", "extranjero"]
 ---
@@ -144,3 +145,7 @@ Un no residente fiscal en España debe pagar el IBI anual (impuesto municipal, g
 
 ### ¿Cómo puedo gestionar una finca en Galicia viviendo fuera?
 Las opciones más habituales son: nombrar un apoderado o persona de confianza local que se encargue del mantenimiento básico, contratar una empresa de servicios forestales para la limpieza periódica, ceder la finca al Banco de Terras de Galicia para que la gestione, o integrarla en una agrupación forestal de gestión conjunta con propietarios vecinos.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*
