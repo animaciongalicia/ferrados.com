@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { schemaByEmbudo, superficieM2, type EmbudoType } from "@/lib/lead-schema";
 import { calcularScoreLead } from "@/lib/lead-scoring";
 import { rateLimit } from "@/lib/rate-limit";
+import { getMakeWebhookUrl } from "@/lib/make-webhooks";
 
 /**
  * POST /api/leads
@@ -93,9 +94,10 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // --- MAKE WEBHOOK ---
-    // Envía el lead a Make para conectar con email, CRM, Slack, etc.
-    const makeWebhookUrl = process.env.MAKE_WEBHOOK_URL;
+    // --- MAKE WEBHOOKS (uno por embudo) ---
+    // Cada embudo tiene su propio webhook en Make para ruteo independiente.
+    // Si no hay webhook específico, intenta el genérico legacy como fallback.
+    const makeWebhookUrl = getMakeWebhookUrl(embudo) ?? process.env.MAKE_WEBHOOK_URL;
     if (makeWebhookUrl) {
       try {
         await fetch(makeWebhookUrl, {
@@ -104,7 +106,7 @@ export async function POST(request: NextRequest) {
           body: JSON.stringify(lead),
         });
       } catch (webhookError) {
-        console.error("Error enviando a Make:", webhookError);
+        console.error(`Error enviando a Make (${embudo}):`, webhookError);
       }
     }
 

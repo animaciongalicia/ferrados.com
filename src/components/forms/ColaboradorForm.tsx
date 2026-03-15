@@ -40,6 +40,7 @@ export default function ColaboradorForm() {
     const data = {
       embudo: "colaborador",
       origen: "pagina-colaboradores",
+      url_origen: window.location.href,
       nombre: (form.elements.namedItem("nombre") as HTMLInputElement).value,
       empresa: (form.elements.namedItem("empresa") as HTMLInputElement).value,
       actividad: (form.elements.namedItem("actividad") as HTMLSelectElement).value,

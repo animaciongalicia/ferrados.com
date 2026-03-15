@@ -55,7 +55,7 @@ export default function HerenciasForm({ origen = "herencias" }: { origen?: strin
       const res = await fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, origen }),
+        body: JSON.stringify({ ...data, origen, url_origen: window.location.href }),
       });
       if (!res.ok) {
         const body = await res.json().catch(() => ({}));

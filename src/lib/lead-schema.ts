@@ -94,6 +94,7 @@ export const limpiezaSchema = z.object({
   telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
   comentarios: z.string().optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -148,6 +149,7 @@ export const herenciasSchema = z.object({
   telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
   comentarios: z.string().optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -185,6 +187,7 @@ export const lindesSchema = z.object({
   telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
   comentarios: z.string().optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -227,6 +230,7 @@ export const maderaSchema = z.object({
   telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
   comentarios: z.string().optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -269,6 +273,7 @@ export const proindivisoSchema = z.object({
   telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
   comentarios: z.string().optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -325,6 +330,7 @@ export const compraVentaSchema = z.object({
   telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
   comentarios: z.string().optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -342,6 +348,7 @@ export const colaboradorSchema = z.object({
   email: z.string().email("Email no válido"),
   telefono: z.string().min(6, "Teléfono no válido"),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 });
 
 // ===== TIPO UNIFICADO =====
