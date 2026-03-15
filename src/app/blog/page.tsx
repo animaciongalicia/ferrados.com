@@ -14,7 +14,8 @@ export const metadata: Metadata = {
 
 export default function GacetaPage() {
   const posts = getAllPosts();
-  const topPosts = posts.slice(0, 3);
+  const topPosts = posts.slice(0, 4);
+  const recentPosts = posts.slice(0, 4);
 
   return (
     <div>
@@ -31,7 +32,7 @@ export default function GacetaPage() {
       </div>
 
       <Suspense>
-        <GacetaClient posts={posts} topPosts={topPosts} />
+        <GacetaClient posts={posts} topPosts={topPosts} recentPosts={recentPosts} />
       </Suspense>
     </div>
   );

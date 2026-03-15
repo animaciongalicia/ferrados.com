@@ -286,16 +286,36 @@ export default async function BlogPostPage({ params }: Props) {
           {/* ─── Sticky sidebar (desktop only) ─── */}
           <aside className="hidden lg:block">
             <div className="sticky top-20 space-y-6">
-              {/* Back to blog */}
-              <Link
-                href="/blog"
-                className="flex items-center gap-1 text-sm text-gray-500 hover:text-green-700 transition-colors"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                Volver a La Gaceta
-              </Link>
+              {/* Topic navigation menu */}
+              <nav className="bg-white border border-gray-200 rounded-lg p-4">
+                <h3 className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">
+                  Explorar temas
+                </h3>
+                <div className="flex flex-col gap-1.5">
+                  <Link
+                    href="/blog"
+                    className="text-sm text-gray-500 hover:text-green-700 transition-colors py-1 px-2 rounded"
+                  >
+                    ← Todos los artículos
+                  </Link>
+                  {GACETA_CATEGORIES.map((cat) => {
+                    const isCurrentTopic = category?.id === cat.id;
+                    return (
+                      <Link
+                        key={cat.id}
+                        href={`/blog?cat=${cat.id}`}
+                        className={`text-sm py-1.5 px-2 rounded transition-colors ${
+                          isCurrentTopic
+                            ? `${cat.pillActiveClasses} font-semibold`
+                            : `${cat.pillClasses} hover:opacity-80`
+                        }`}
+                      >
+                        {cat.label}
+                      </Link>
+                    );
+                  })}
+                </div>
+              </nav>
 
               {/* Table of Contents */}
               {post.headings.length > 0 && (

@@ -13,6 +13,7 @@ import {
 interface GacetaClientProps {
   posts: BlogPostMeta[];
   topPosts: BlogPostMeta[];
+  recentPosts: BlogPostMeta[];
 }
 
 /* ─── Category Pill ─── */
@@ -62,7 +63,7 @@ function PostCard({ post }: { post: BlogPostMeta }) {
 }
 
 /* ─── Sidebar ─── */
-function Sidebar({ topPosts }: { topPosts: BlogPostMeta[] }) {
+function Sidebar({ topPosts, recentPosts }: { topPosts: BlogPostMeta[]; recentPosts: BlogPostMeta[] }) {
   return (
     <aside className="hidden lg:block">
       <div className="sticky top-20 space-y-6">
@@ -76,15 +77,7 @@ function Sidebar({ topPosts }: { topPosts: BlogPostMeta[] }) {
           Lo tasamos hoy.
         </Link>
 
-        {/* AdSense placeholder */}
-        <div
-          className="bg-gray-50 border border-gray-200 rounded-lg flex items-center justify-center text-gray-400 text-sm"
-          style={{ minHeight: 300, minWidth: 250 }}
-        >
-          Publicidad
-        </div>
-
-        {/* Top Dolores */}
+        {/* Top Dolores — 4 items */}
         <div className="bg-white border border-gray-200 rounded-lg p-4">
           <h3 className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">
             Lo más consultado
@@ -107,13 +100,47 @@ function Sidebar({ topPosts }: { topPosts: BlogPostMeta[] }) {
             ))}
           </ul>
         </div>
+
+        {/* Más recientes — 4 items */}
+        <div className="bg-white border border-gray-200 rounded-lg p-4">
+          <h3 className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">
+            Más recientes
+          </h3>
+          <ul className="space-y-3">
+            {recentPosts.map((post) => {
+              const cat = getCategoryForPilar(post.pilar);
+              return (
+                <li key={post.slug}>
+                  <Link href={`/blog/${post.slug}`} className="block group">
+                    {cat && (
+                      <span className={`inline-block border rounded-full text-[10px] px-1.5 py-0 mb-1 ${cat.pillClasses}`}>
+                        {cat.label}
+                      </span>
+                    )}
+                    <span className="text-sm text-gray-700 group-hover:text-green-800 transition-colors leading-snug font-medium block">
+                      {post.title}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
+        {/* AdSense placeholder */}
+        <div
+          className="bg-gray-50 border border-gray-200 rounded-lg flex items-center justify-center text-gray-400 text-sm"
+          style={{ minHeight: 300, minWidth: 250 }}
+        >
+          Publicidad
+        </div>
       </div>
     </aside>
   );
 }
 
 /* ─── Main Component ─── */
-export default function GacetaClient({ posts, topPosts }: GacetaClientProps) {
+export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaClientProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
   const catParam = searchParams.get("cat");
@@ -205,7 +232,7 @@ export default function GacetaClient({ posts, topPosts }: GacetaClientProps) {
           </div>
 
           {/* Sidebar */}
-          <Sidebar topPosts={topPosts} />
+          <Sidebar topPosts={topPosts} recentPosts={recentPosts} />
         </div>
       </div>
     </>
