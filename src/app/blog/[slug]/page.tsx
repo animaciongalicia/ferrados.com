@@ -8,6 +8,8 @@ import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts, extractF
 import { getCategoryForPilar, GACETA_CATEGORIES } from "@/lib/gaceta-categories";
 import CajaSecuestro from "@/components/CajaSecuestro";
 import TableOfContents from "@/components/TableOfContents";
+import MobileTOC from "@/components/MobileTOC";
+import ReadingProgress from "@/components/ReadingProgress";
 import { AdSenseScript, AdSenseSlot } from "@/components/AdSense";
 
 interface Props {
@@ -73,7 +75,7 @@ export default async function BlogPostPage({ params }: Props) {
   const pilarCta = post.meta.pilar ? pilarLinks[post.meta.pilar] : null;
   const category = getCategoryForPilar(post.meta.pilar);
   const related = getRelatedPosts(slug, post.meta.pilar, post.meta.tags, 3);
-  const { prev, next } = getPrevNextPosts(slug);
+  const { prev, next } = getPrevNextPosts(slug, post.meta.pilar);
   const [firstHalf, secondHalf] = splitContentAtMiddle(post.content);
   const faqs = extractFaqs(post.content);
 
@@ -120,6 +122,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <ReadingProgress />
       <AdSenseScript />
 
       {/* JSON-LD */}
@@ -182,11 +185,16 @@ export default async function BlogPostPage({ params }: Props) {
               {post.meta.title}
             </h1>
 
-            <div className="flex items-center gap-3 text-sm text-gray-500 mb-8">
+            <div className="flex items-center gap-3 text-sm text-gray-500 mb-6">
               <time>{post.meta.date}</time>
               <span aria-hidden="true">·</span>
               <span>{post.meta.readingTime} min de lectura</span>
             </div>
+
+            {/* Mobile TOC — visible only on mobile/tablet */}
+            {post.headings.length > 0 && (
+              <MobileTOC headings={post.headings} />
+            )}
 
             {/* First half of markdown */}
             <div className="prose prose-lg prose-gray max-w-none">
@@ -205,9 +213,14 @@ export default async function BlogPostPage({ params }: Props) {
               </ReactMarkdown>
             </div>
 
-            {/* Prev / Next navigation */}
+            {/* Prev / Next navigation (within same topic) */}
             {(prev || next) && (
               <nav className="border-t border-gray-200 pt-8 mt-12">
+                {category && (
+                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-3">
+                    Más sobre {category.label}
+                  </p>
+                )}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {prev ? (
                     <Link
@@ -215,7 +228,7 @@ export default async function BlogPostPage({ params }: Props) {
                       className="group flex flex-col p-4 rounded-lg border border-gray-200 hover:border-green-300 hover:bg-green-50 transition-all"
                     >
                       <span className="text-xs text-gray-400 uppercase tracking-wide mb-1">
-                        Anterior
+                        ← Anterior
                       </span>
                       <span className="text-sm font-semibold text-gray-800 group-hover:text-green-800 transition-colors leading-snug">
                         {prev.title}
@@ -230,7 +243,7 @@ export default async function BlogPostPage({ params }: Props) {
                       className="group flex flex-col p-4 rounded-lg border border-gray-200 hover:border-green-300 hover:bg-green-50 transition-all sm:text-right"
                     >
                       <span className="text-xs text-gray-400 uppercase tracking-wide mb-1">
-                        Siguiente
+                        Siguiente →
                       </span>
                       <span className="text-sm font-semibold text-gray-800 group-hover:text-green-800 transition-colors leading-snug">
                         {next.title}

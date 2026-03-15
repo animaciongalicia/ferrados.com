@@ -102,8 +102,10 @@ export function getPostBySlug(slug: string) {
   };
 }
 
-export function getPrevNextPosts(currentSlug: string): { prev: BlogPostMeta | null; next: BlogPostMeta | null } {
-  const posts = getAllPosts(); // sorted newest-first
+export function getPrevNextPosts(currentSlug: string, pilar?: string): { prev: BlogPostMeta | null; next: BlogPostMeta | null } {
+  const allPosts = getAllPosts(); // sorted newest-first
+  // If pilar is provided, navigate within the same topic; otherwise fall back to all posts
+  const posts = pilar ? allPosts.filter((p) => p.pilar === pilar) : allPosts;
   const idx = posts.findIndex((p) => p.slug === currentSlug);
   if (idx === -1) return { prev: null, next: null };
   return {
