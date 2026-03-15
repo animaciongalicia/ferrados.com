@@ -1,7 +1,7 @@
 ---
 title: "El engaño del Catastro en Galicia: por qué esa casa barata puede no ser de quien te la vende"
 description: "Catastro, Registro y realidad no coinciden en Galicia. Antes de comprar una casa o finca, entiende por qué la titularidad es un campo de minas y cómo protegerte."
-date: "2026-03-13"
+date: "2026-03-23"
 pilar: "compraventa"
 tags: ["catastro galicia", "herencia finca", "titularidad propiedad", "compra casa rural", "registro propiedad"]
 ---

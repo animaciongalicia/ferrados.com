@@ -1,7 +1,7 @@
 ---
 title: "Manual de supervivencia para comprar una casa o aldea en Galicia sin cometer un error caro"
 description: "Guía sin filtros para quien quiere comprar una casa vieja, una aldea o una finca en el rural de Galicia. Lo que los portales no te cuentan y lo que puede salirte muy caro si no lo sabes."
-date: "2026-03-14"
+date: "2026-03-16"
 pilar: "compraventa"
 tags: ["comprar casa galicia", "aldea galicia", "compra rural", "errores compra", "finca galicia"]
 ---

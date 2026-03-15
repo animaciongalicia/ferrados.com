@@ -1,7 +1,7 @@
 ---
 title: "Ruinas con trampa: lo que debes revisar antes de comprar una casa vieja en Galicia"
 description: "Comprar una ruina barata en Galicia puede parecer un chollo, pero la reforma puede ser inviable por normativa, accesos, servicios o protección patrimonial. Lo que debes saber antes de firmar."
-date: "2026-03-11"
+date: "2026-04-06"
 pilar: "compraventa"
 tags: ["ruina galicia", "rehabilitacion casa piedra", "normativa urbanistica", "comprar ruina", "reforma rural galicia"]
 ---
@@ -64,7 +64,7 @@ Si estás valorando comprar una casa vieja, una ruina o un conjunto de edificaci
 
 1. **Consulta urbanística en el ayuntamiento.** Pide información sobre la clasificación del suelo, las condiciones de edificación y las restricciones que aplican a la parcela.
 2. **Verificar si hay protección patrimonial.** Consulta el Catálogo de Patrimonio del ayuntamiento y la Xunta para saber si la construcción o el entorno están catalogados.
-3. **Comprobar la titularidad y la documentación.** Lo mismo que para cualquier compra: [nota simple del Registro](/blog/catastro-engano-galicia-casa-barata-titularidad), verificación de herencias, cargas, etc.
+3. **Comprobar la titularidad y la documentación.** Lo mismo que para cualquier compra: verificación de herencias, cargas, [discrepancias entre Catastro y Registro](/blog/catastro-engano-galicia-casa-barata-titularidad), etc.
 4. **Visita con un arquitecto o aparejador.** No con tu cuñado que "entiende de obras". Con un técnico cualificado que pueda valorar el estado estructural y la viabilidad de la reforma.
 5. **Presupuesto orientativo de reforma.** Antes de comprometerte con la compra, ten al menos una estimación de lo que costará hacer habitable esa casa. Si la reforma es 10 veces el precio de compra, puede que ya no sea tan "chollo".
 6. **Verificar accesos, suministros y saneamiento.** ¿Llega la luz? ¿Hay agua? ¿Se puede acceder con vehículo y maquinaria? ¿Dónde irán las aguas residuales?

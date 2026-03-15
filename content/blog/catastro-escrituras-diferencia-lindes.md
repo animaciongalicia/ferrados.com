@@ -137,7 +137,7 @@ Coste total: 800€ - 2.000€ (notario + topógrafo + registro). Resultado: Cat
 | Disputa de lindes con vecino | Topógrafo compartido + acta de deslinde notarial | 500€ - 1.300€ |
 | Finca no inscrita en el Registro | Expediente de dominio notarial | 800€ - 2.000€ |
 
-El 90% de los problemas de lindes en Galicia se resuelven con un topógrafo, un notario y algo de paciencia. Solo el 10% acaba en un juzgado. No dejes que el miedo al juicio te impida resolver el problema.
+El 90% de los problemas de lindes en Galicia se resuelven con un topógrafo, un notario y algo de paciencia. Solo el 10% acaba en un juzgado. No dejes que el miedo al juicio te impida resolver el problema. Y si estás pensando en comprar una finca, lee antes sobre [los conflictos invisibles de marcos y servidumbres](/blog/marcos-lindes-servidumbres-conflictos-compra-galicia) y nuestro [manual de supervivencia para comprar en Galicia](/blog/comprar-casa-aldea-galicia-manual-supervivencia).
 
 [Cuéntanos tu caso](/empezar?tipo=lindes) y te conectamos con un topógrafo o abogado especializado en tu zona.
 

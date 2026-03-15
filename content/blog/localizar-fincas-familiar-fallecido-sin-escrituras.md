@@ -167,7 +167,7 @@ Puedes hacer los pasos 1 a 5 por tu cuenta. Pero necesitarás ayuda profesional 
 - Han pasado varias generaciones sin formalizar ninguna herencia (herencia en cadena)
 - Hay fincas en varios municipios de distintas provincias
 
-En estos casos, un **abogado o gestor especializado en propiedad rural gallega** te ahorrará meses de gestiones. El coste típico de un servicio de localización y regularización de fincas heredadas está entre 1.000€ y 3.000€, dependiendo de la complejidad.
+En estos casos, un **abogado o gestor especializado en propiedad rural gallega** te ahorrará meses de gestiones. El coste típico de un servicio de localización y regularización de fincas heredadas está entre 1.000€ y 3.000€, dependiendo de la complejidad. Y si estás pensando en vender esas fincas o recibes una oferta de compra, asegúrate de que todo está en regla: lee sobre [el engaño del Catastro y los problemas de titularidad](/blog/catastro-engano-galicia-casa-barata-titularidad) antes de cerrar nada.
 
 ## El dato que te va a motivar
 

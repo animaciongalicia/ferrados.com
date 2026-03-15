@@ -85,7 +85,7 @@ Hacienda no lo ignora. Si vendes esa madera al año siguiente por 12.000€, tie
 
 Legalmente, la propiedad se transmite con la aceptación de herencia. No necesitas el Registro para ser dueño. Pero en la práctica:
 
-- **No puedes vender** a un comprador que quiera escriturar (que son todos). Ningún notario te va a hacer una escritura de compraventa si la finca no está inscrita a tu nombre.
+- **No puedes vender** a un comprador que quiera escriturar (que son todos). Ningún notario te va a hacer una escritura de compraventa si la finca no está inscrita a tu nombre. (Y si eres comprador, ten cuidado: lee sobre [el engaño del Catastro y los problemas de titularidad](/blog/catastro-engano-galicia-casa-barata-titularidad) antes de firmar nada.)
 - **No puedes pedir un préstamo** con la finca como garantía.
 - **No puedes acreditar la propiedad** si un vecino te invade la finca o si el ayuntamiento quiere expropiar.
 - **Se acumulan generaciones sin registrar**: Tu padre no registró lo que heredó de tu abuelo. Tú no registras lo que heredas de tu padre. Dentro de 20 años, tus hijos tendrán que reconstruir una cadena de tres generaciones. El coste se multiplica exponencialmente.

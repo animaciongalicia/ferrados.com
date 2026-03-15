@@ -142,6 +142,8 @@ Y si todavía no has formalizado la herencia, hazlo ya. Lee nuestra [guía para 
 
 **El consejo que vale más que todo este artículo**: Actúa rápido. Cuanto más tiempo pase con el marco movido, más difícil será demostrar dónde estaba. Y cuanto más tiempo ocupe el vecino tu terreno, más posibilidades tiene de reclamar la prescripción adquisitiva.
 
+Si estás pensando en comprar una finca y quieres evitar heredar un conflicto de lindes, lee nuestro artículo sobre [marcos, lindes y servidumbres en la compra-venta](/blog/marcos-lindes-servidumbres-conflictos-compra-galicia).
+
 Si necesitas un topógrafo o un abogado especializado en lindes en Galicia, [cuéntanos tu caso](/empezar?tipo=lindes) y te ponemos en contacto con el profesional adecuado.
 
 ## Preguntas frecuentes

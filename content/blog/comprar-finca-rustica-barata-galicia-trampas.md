@@ -6,7 +6,7 @@ pilar: "compraventa"
 tags: ["comprar", "finca rústica", "galicia", "trampas", "compraventa", "inversión"]
 ---
 
-Galicia tiene fincas rústicas a precios que parecen un chollo comparados con el resto de España. Un monte de 2 hectáreas por 3.000€, una parcela con vistas al mar por 5.000€. Suena bien. Demasiado bien. Si estás pensando en comprar, primero lee nuestra [guía completa de compra-venta de terrenos en Galicia](/compra-venta-terrenos-galicia) y luego vuelve aquí para las trampas que no aparecen en los anuncios.
+Galicia tiene fincas rústicas a precios que parecen un chollo comparados con el resto de España. Un monte de 2 hectáreas por 3.000€, una parcela con vistas al mar por 5.000€. Suena bien. Demasiado bien. Si estás pensando en comprar, primero lee nuestro [manual de supervivencia para comprar en el rural gallego](/blog/comprar-casa-aldea-galicia-manual-supervivencia) y nuestra [guía completa de compra-venta de terrenos en Galicia](/compra-venta-terrenos-galicia), y luego vuelve aquí para las trampas que no aparecen en los anuncios.
 
 ## Trampa 1: La finca no es de quien te la vende
 
@@ -35,7 +35,7 @@ El Catastro en Galicia es famoso por sus inexactitudes. Puedes comprar una finca
 
 ### Cómo protegerte
 
-Antes de comprar una finca de más de 5.000€, invierte 200-400€ en una **medición con GPS de precisión**. Te evita sorpresas. Consulta nuestra guía de [localización y medición de fincas en Galicia](/localizar-medir-fincas-galicia) para entender las opciones. Y comprueba siempre la [diferencia entre lo que dice el Catastro y las escrituras](/blog/catastro-escrituras-diferencia-lindes).
+Antes de comprar una finca de más de 5.000€, invierte 200-400€ en una **medición con GPS de precisión**. Te evita sorpresas. Consulta nuestra guía de [localización y medición de fincas en Galicia](/localizar-medir-fincas-galicia) para entender las opciones. Comprueba siempre la [diferencia entre lo que dice el Catastro y las escrituras](/blog/catastro-escrituras-diferencia-lindes), y ten en cuenta los [conflictos de marcos, lindes y servidumbres](/blog/marcos-lindes-servidumbres-conflictos-compra-galicia) que pueden complicar la compra.
 
 ## Trampa 3: Las obligaciones que vienen con la finca
 
@@ -65,7 +65,7 @@ El sueño de muchos compradores de fuera: "compro una finca barata y me hago una
 
 ### Cómo protegerte
 
-Antes de comprar, consulta el **Plan General de Ordenación Municipal (PGOM)** del ayuntamiento. Pregunta en el departamento de urbanismo qué usos permite la clasificación de la parcela que quieres comprar. No te fíes de lo que te diga el vendedor o el anuncio.
+Antes de comprar, consulta el **Plan General de Ordenación Municipal (PGOM)** del ayuntamiento. Pregunta en el departamento de urbanismo qué usos permite la clasificación de la parcela que quieres comprar. No te fíes de lo que te diga el vendedor o el anuncio. Si lo que buscas es una casa vieja para rehabilitar, lee antes nuestro artículo sobre [ruinas con trampa en Galicia](/blog/ruinas-trampa-comprar-casa-vieja-galicia).
 
 ## Trampa 5: El acceso no existe (o no es tuyo)
 
