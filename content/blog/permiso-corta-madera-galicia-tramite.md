@@ -60,7 +60,7 @@ Además de lo anterior:
 
 La vía más rápida y cómoda:
 
-1. **Accede a la sede electrónica de la Xunta**: [sede.xunta.gal](https://sede.xunta.gal)
+1. **Accede a la sede electrónica de la Xunta**: Busca "sede electrónica Xunta de Galicia" en Google
 2. **Busca el procedimiento**: Escribe "aprovechamiento forestal" o el código MR604A en el buscador.
 3. **Identifícate**: Con certificado digital, DNI electrónico o Cl@ve.
 4. **Rellena el formulario**: Datos del propietario, parcelas, especie, superficie.
@@ -112,7 +112,7 @@ Si tu monte linda con viviendas, la franja de 50 metros tiene obligaciones espec
 Si la finca está a nombre de un fallecido y no has hecho la herencia, no puedes solicitar el permiso de corta a tu nombre. Solución: hacer la herencia o aportar un acta de declaración de herederos.
 
 ### Referencia catastral incorrecta
-Si la referencia catastral de la solicitud no coincide con la finca real, la administración puede denegar el permiso. Comprueba la referencia en la [sede del Catastro](https://www.sedecatastro.gob.es).
+Si la referencia catastral de la solicitud no coincide con la finca real, la administración puede denegar el permiso. Comprueba la referencia en la sede electrónica del Catastro.
 
 ### Solicitar para la parcela equivocada
 Con la parcelación fragmentada de Galicia, es fácil confundir referencias catastrales. Verifica en el visor cartográfico del Catastro que la parcela es la correcta.

@@ -11,6 +11,22 @@ import TableOfContents from "@/components/TableOfContents";
 import MobileTOC from "@/components/MobileTOC";
 import ReadingProgress from "@/components/ReadingProgress";
 import { AdSenseScript, AdSenseSlot } from "@/components/AdSense";
+import type { Components } from "react-markdown";
+
+/** Custom markdown components: external links open in new tab */
+const markdownComponents: Components = {
+  a: ({ href, children, ...props }) => {
+    const isExternal = href && (href.startsWith("http://") || href.startsWith("https://"));
+    if (isExternal) {
+      return (
+        <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+          {children}
+        </a>
+      );
+    }
+    return <a href={href} {...props}>{children}</a>;
+  },
+};
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -207,9 +223,7 @@ export default async function BlogPostPage({ params }: Props) {
               {post.meta.title}
             </h1>
 
-            <div className="flex items-center gap-3 text-sm text-gray-500 mb-6">
-              <time>{post.meta.date}</time>
-              <span aria-hidden="true">·</span>
+            <div className="text-sm text-gray-500 mb-6">
               <span>{post.meta.readingTime} min de lectura</span>
             </div>
 
@@ -220,7 +234,7 @@ export default async function BlogPostPage({ params }: Props) {
 
             {/* First half of markdown */}
             <div className="prose prose-lg prose-gray max-w-none">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]} components={markdownComponents}>
                 {firstHalf}
               </ReactMarkdown>
             </div>
@@ -230,7 +244,7 @@ export default async function BlogPostPage({ params }: Props) {
 
             {/* Second half of markdown */}
             <div className="prose prose-lg prose-gray max-w-none">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]} components={markdownComponents}>
                 {secondHalf}
               </ReactMarkdown>
             </div>
