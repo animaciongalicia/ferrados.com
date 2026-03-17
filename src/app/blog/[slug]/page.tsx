@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
-import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts, extractFaqs } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts, extractFaqs, extractHowToSteps } from "@/lib/blog";
 import { getCategoryForPilar, GACETA_CATEGORIES } from "@/lib/gaceta-categories";
 import CajaSecuestro from "@/components/CajaSecuestro";
 import TableOfContents from "@/components/TableOfContents";
@@ -78,6 +78,7 @@ export default async function BlogPostPage({ params }: Props) {
   const { prev, next } = getPrevNextPosts(slug, post.meta.pilar);
   const [firstHalf, secondHalf] = splitContentAtMiddle(post.content);
   const faqs = extractFaqs(post.content);
+  const howToSteps = extractHowToSteps(post.content);
 
   // Find category ID for linking to filtered blog
   const categoryId = GACETA_CATEGORIES.find((c) =>
@@ -150,6 +151,27 @@ export default async function BlogPostPage({ params }: Props) {
                   "@type": "Answer",
                   text: faq.answer,
                 },
+              })),
+            }),
+          }}
+        />
+      )}
+
+      {/* HowTo Schema for guide-type posts */}
+      {howToSteps.length >= 2 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              name: post.meta.title,
+              description: post.meta.description,
+              step: howToSteps.map((step, i) => ({
+                "@type": "HowToStep",
+                position: i + 1,
+                name: step.name,
+                text: step.text,
               })),
             }),
           }}
@@ -323,7 +345,7 @@ export default async function BlogPostPage({ params }: Props) {
               )}
 
               {/* AdSense slot */}
-              <AdSenseSlot slot="sidebar-post" />
+              <AdSenseSlot slot="4104181630" />
 
               {/* Related posts */}
               {related.length > 0 && (

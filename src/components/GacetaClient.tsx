@@ -129,7 +129,7 @@ function Sidebar({ topPosts, recentPosts }: { topPosts: BlogPostMeta[]; recentPo
         </div>
 
         {/* AdSense */}
-        <AdSenseSlot slot="sidebar-gaceta" />
+        <AdSenseSlot slot="4060083059" />
       </div>
     </aside>
   );

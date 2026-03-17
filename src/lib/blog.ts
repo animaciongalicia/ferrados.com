@@ -145,6 +145,47 @@ export function extractFaqs(content: string): FaqItem[] {
   return faqs;
 }
 
+export interface HowToStep {
+  name: string;
+  text: string;
+}
+
+/**
+ * Extract HowTo steps from markdown content.
+ * Looks for patterns like "## Paso 1:", "### Paso 1:", "## El proceso paso a paso",
+ * "### 1. Title" within the content.
+ */
+export function extractHowToSteps(content: string): HowToStep[] {
+  const steps: HowToStep[] = [];
+
+  // Pattern 1: "## Paso N: Title" or "### Paso N: Title"
+  const pasoRegex = /#{2,3}\s+Paso\s+\d+[:.]\s*(.+)\n([\s\S]*?)(?=\n#{2,3}\s|$)/gi;
+  let match;
+
+  while ((match = pasoRegex.exec(content)) !== null) {
+    const name = match[1].trim();
+    const text = match[2].trim().split("\n")[0].replace(/\*\*/g, "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+    if (name && text) {
+      steps.push({ name, text });
+    }
+  }
+
+  if (steps.length >= 2) return steps;
+
+  // Pattern 2: "### 1. Title" numbered steps
+  const numberedRegex = /#{2,3}\s+\d+\.\s+(.+)\n([\s\S]*?)(?=\n#{2,3}\s|$)/g;
+
+  while ((match = numberedRegex.exec(content)) !== null) {
+    const name = match[1].trim();
+    const text = match[2].trim().split("\n")[0].replace(/\*\*/g, "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+    if (name && text) {
+      steps.push({ name, text });
+    }
+  }
+
+  return steps.length >= 2 ? steps : [];
+}
+
 export function getRelatedPosts(currentSlug: string, pilar?: string, tags?: string[], limit = 3): BlogPostMeta[] {
   const allPosts = getAllPosts().filter((p) => p.slug !== currentSlug);
 
