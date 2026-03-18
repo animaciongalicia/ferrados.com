@@ -23,7 +23,8 @@ export type EmbudoWebhook =
   | "limpieza"
   | "lindes"
   | "proindiviso"
-  | "compraventa";
+  | "compraventa"
+  | "colaborador";
 
 /**
  * Devuelve la URL del webhook de Make para un embudo concreto.
