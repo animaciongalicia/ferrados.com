@@ -37,6 +37,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm mb-6">
               <li><Link href="/limpieza-desbroce-multas-xunta#calculadora" className="hover:text-white">Calculadora de multas</Link></li>
               <li><Link href="/blog" className="hover:text-white">Blog — La Gaceta</Link></li>
+              <li><Link href="/preguntas-frecuentes" className="hover:text-white">Preguntas frecuentes</Link></li>
             </ul>
 
             <h4 className="text-white font-semibold mb-3">Empresa</h4>

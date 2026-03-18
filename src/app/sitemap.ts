@@ -49,6 +49,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.4,
     },
     {
+      url: `${BASE_URL}/preguntas-frecuentes`,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/politica-privacidad`,
       changeFrequency: "yearly",
       priority: 0.2,

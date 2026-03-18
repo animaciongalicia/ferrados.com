@@ -15,6 +15,7 @@
  *   MAKE_WEBHOOK_CATASTRO=https://hook.eu1.make.com/XXXXXXXX
  *   MAKE_WEBHOOK_PROINDIVISO=https://hook.eu1.make.com/XXXXXXXX
  *   MAKE_WEBHOOK_SUELOS=https://hook.eu1.make.com/XXXXXXXX
+ *   MAKE_WEBHOOK_SUBSCRIBE=https://hook.eu1.make.com/XXXXXXXX  (suscriptores La Gaceta)
  */
 
 export type EmbudoWebhook =

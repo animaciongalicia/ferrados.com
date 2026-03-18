@@ -395,6 +395,19 @@ export default async function BlogPostPage({ params }: Props) {
                 </div>
               )}
 
+              {/* FAQ link */}
+              <Link
+                href="/preguntas-frecuentes"
+                className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-green-300 transition-colors"
+              >
+                <h3 className="text-sm font-bold text-gray-900 mb-1">
+                  Resuelve tus dudas
+                </h3>
+                <p className="text-xs text-gray-500">
+                  Las preguntas más frecuentes sobre montes y fincas en Galicia →
+                </p>
+              </Link>
+
               {/* CTA */}
               <Link
                 href="/empezar"

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PilarCard from "@/components/PilarCard";
+import { getAllPosts } from "@/lib/blog";
+import { getCategoryForPilar } from "@/lib/gaceta-categories";
+import EmailCapture from "@/components/EmailCapture";
 
 export const metadata: Metadata = {
   title: "Ferrados.com — Montes, fincas y terrenos en Galicia",
@@ -232,6 +235,73 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* La Gaceta — últimos artículos */}
+      <LatestPosts />
+
+      {/* Email capture */}
+      <section className="bg-gray-50 border-t border-gray-200">
+        <div className="max-w-3xl mx-auto px-4 py-12 text-center">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+            Cada semana, lo que necesitas saber sobre tus fincas
+          </h2>
+          <p className="text-gray-500 mb-6 text-sm max-w-lg mx-auto">
+            Recibe un resumen semanal con los artículos nuevos de La Gaceta.
+            Sin spam, solo información útil para propietarios en Galicia.
+          </p>
+          <EmailCapture origen="home" />
+        </div>
+      </section>
     </>
+  );
+}
+
+function LatestPosts() {
+  const posts = getAllPosts().slice(0, 6);
+
+  return (
+    <section className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2 text-center">
+        Lo que más consultan los propietarios
+      </h2>
+      <p className="text-gray-500 text-center mb-8 max-w-xl mx-auto">
+        Artículos prácticos sobre herencias, madera, multas y todo lo que
+        afecta a tu monte o finca en Galicia.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {posts.map((post) => {
+          const cat = getCategoryForPilar(post.pilar);
+          return (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="group flex flex-col bg-white border border-gray-200 rounded-xl p-5 hover:border-green-300 hover:shadow-sm transition-all"
+            >
+              {cat && (
+                <span
+                  className={`inline-block self-start border rounded-full text-xs px-2 py-0.5 mb-2 ${cat.pillClasses}`}
+                >
+                  {cat.label}
+                </span>
+              )}
+              <h3 className="font-semibold text-gray-900 group-hover:text-green-800 transition-colors leading-snug mb-2 text-sm">
+                {post.title}
+              </h3>
+              <p className="text-xs text-gray-500 line-clamp-2 mt-auto">
+                {post.description}
+              </p>
+            </Link>
+          );
+        })}
+      </div>
+      <div className="text-center mt-8">
+        <Link
+          href="/blog"
+          className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-800 hover:text-white transition-colors text-sm"
+        >
+          Ver todos los artículos
+        </Link>
+      </div>
+    </section>
   );
 }
