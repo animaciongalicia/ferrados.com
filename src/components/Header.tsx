@@ -48,7 +48,8 @@ export default function Header() {
         <button
           className="lg:hidden p-2 text-gray-700"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Abrir menú"
+          aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+          aria-expanded={menuOpen}
         >
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             {menuOpen ? (

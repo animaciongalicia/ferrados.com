@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/compra-venta-terrenos-galicia",
   ].map((path) => ({
     url: `${BASE_URL}${path}`,
+    lastModified: new Date().toISOString().split("T")[0],
     changeFrequency: "monthly",
     priority: 0.8,
   }));

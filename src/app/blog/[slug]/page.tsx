@@ -13,7 +13,7 @@ import ReadingProgress from "@/components/ReadingProgress";
 import { AdSenseScript, AdSenseSlot } from "@/components/AdSense";
 import type { Components } from "react-markdown";
 
-/** Custom markdown components: external links open in new tab */
+/** Custom markdown components: internal links use Next.js Link for SPA navigation */
 const markdownComponents: Components = {
   a: ({ href, children, ...props }) => {
     const isExternal = href && (href.startsWith("http://") || href.startsWith("https://"));
@@ -23,6 +23,9 @@ const markdownComponents: Components = {
           {children}
         </a>
       );
+    }
+    if (href) {
+      return <Link href={href} {...props}>{children}</Link>;
     }
     return <a href={href} {...props}>{children}</a>;
   },
