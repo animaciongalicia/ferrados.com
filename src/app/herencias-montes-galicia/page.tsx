@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HerenciasForm from "@/components/forms/HerenciasForm";
 import PilarJsonLd from "@/components/PilarJsonLd";
+import PilarSidebar from "@/components/PilarSidebar";
 
 export const metadata: Metadata = {
   title: "Herencias de montes y fincas en Galicia — Guía completa",
@@ -19,7 +20,9 @@ export default function HerenciasPage() {
       slug="herencias-montes-galicia"
       breadcrumbLabel="Herencias de montes y fincas"
     />
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
+        <div>
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
         <span className="mx-2">/</span>
@@ -156,6 +159,9 @@ export default function HerenciasPage() {
       <section id="formulario">
         <HerenciasForm origen="pilar-herencias" />
       </section>
+        </div>
+        <PilarSidebar pilar="herencias" />
+      </div>
     </div>
     </>
   );

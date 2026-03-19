@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ProindivisoForm from "@/components/forms/ProindivisoForm";
 import PilarJsonLd from "@/components/PilarJsonLd";
+import PilarSidebar from "@/components/PilarSidebar";
 
 export const metadata: Metadata = {
   title: "Proindivisos de montes en Galicia — Vender tu parte, disolver, agrupar",
@@ -19,7 +20,9 @@ export default function ProindivisoPage() {
       slug="vender-parte-monte-proindiviso"
       breadcrumbLabel="Proindivisos de montes"
     />
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
+        <div>
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
         <span className="mx-2">/</span>
@@ -141,6 +144,9 @@ export default function ProindivisoPage() {
       <section id="formulario">
         <ProindivisoForm origen="pilar-proindiviso" />
       </section>
+        </div>
+        <PilarSidebar pilar="proindiviso" />
+      </div>
     </div>
     </>
   );

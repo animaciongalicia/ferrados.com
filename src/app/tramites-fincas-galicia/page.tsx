@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TramitesForm from "@/components/forms/TramitesForm";
 import PilarJsonLd from "@/components/PilarJsonLd";
+import PilarSidebar from "@/components/PilarSidebar";
 
 export const metadata: Metadata = {
   title: "Trámites para fincas en Galicia — Escrituras, registro, impuestos y más",
@@ -19,7 +20,9 @@ export default function TramitesPage() {
       slug="tramites-fincas-galicia"
       breadcrumbLabel="Trámites para fincas"
     />
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
+        <div>
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
         <span className="mx-2">/</span>
@@ -191,6 +194,9 @@ export default function TramitesPage() {
       <section id="formulario">
         <TramitesForm origen="pilar-tramites" />
       </section>
+        </div>
+        <PilarSidebar pilar="tramites" />
+      </div>
     </div>
     </>
   );

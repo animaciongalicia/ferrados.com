@@ -3,6 +3,7 @@ import Link from "next/link";
 import LimpiezaForm from "@/components/forms/LimpiezaForm";
 import CalculadoraMultas from "@/components/CalculadoraMultas";
 import PilarJsonLd from "@/components/PilarJsonLd";
+import PilarSidebar from "@/components/PilarSidebar";
 
 export const metadata: Metadata = {
   title: "Multas por no limpiar fincas en Galicia — Ley de biomasa Xunta",
@@ -20,7 +21,9 @@ export default function LimpiezaPage() {
       slug="limpieza-desbroce-multas-xunta"
       breadcrumbLabel="Limpieza de fincas y multas"
     />
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
+        <div>
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
         <span className="mx-2">/</span>
@@ -199,6 +202,9 @@ export default function LimpiezaPage() {
       <section id="formulario">
         <LimpiezaForm origen="pilar-limpieza" />
       </section>
+        </div>
+        <PilarSidebar pilar="limpieza" />
+      </div>
     </div>
     </>
   );
