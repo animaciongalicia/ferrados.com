@@ -45,6 +45,20 @@ export const GACETA_CATEGORIES: GacetaCategory[] = [
     pillActiveClasses: "bg-purple-100 text-purple-900 border-purple-400 ring-2 ring-purple-200",
     pilares: ["compraventa"],
   },
+  {
+    id: "urbanismo",
+    label: "Urbanismo",
+    pillClasses: "bg-emerald-50 text-emerald-800 border-emerald-200",
+    pillActiveClasses: "bg-emerald-100 text-emerald-900 border-emerald-400 ring-2 ring-emerald-200",
+    pilares: ["urbanismo"],
+  },
+  {
+    id: "tramites",
+    label: "Trámites",
+    pillClasses: "bg-indigo-50 text-indigo-800 border-indigo-200",
+    pillActiveClasses: "bg-indigo-100 text-indigo-900 border-indigo-400 ring-2 ring-indigo-200",
+    pilares: ["tramites"],
+  },
 ];
 
 export function getCategoryForPilar(pilar?: string): GacetaCategory | undefined {

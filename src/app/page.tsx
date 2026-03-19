@@ -55,6 +55,20 @@ const pilares = [
     icon: "🏡",
     comingSoon: false,
   },
+  {
+    href: "/urbanismo-suelo-galicia",
+    title: "Urbanismo y tipos de suelo",
+    description:
+      "¿Puedes construir en tu finca? Tipos de suelo, casas prefabricadas, segregaciones y normativa urbanística en Galicia.",
+    icon: "🏗️",
+  },
+  {
+    href: "/tramites-fincas-galicia",
+    title: "Trámites y papeleo",
+    description:
+      "Escrituras, Registro, Catastro, impuestos, inmatriculación... Todo el papeleo que necesitas para tener tu finca en regla.",
+    icon: "📋",
+  },
 ];
 
 export default function HomePage() {

@@ -25,6 +25,8 @@ export type EmbudoWebhook =
   | "lindes"
   | "proindiviso"
   | "compraventa"
+  | "urbanismo"
+  | "tramites"
   | "colaborador";
 
 /**
@@ -39,6 +41,8 @@ export function getMakeWebhookUrl(embudo: string): string | undefined {
     lindes: process.env.MAKE_WEBHOOK_CATASTRO,
     proindiviso: process.env.MAKE_WEBHOOK_PROINDIVISO,
     compraventa: process.env.MAKE_WEBHOOK_SUELOS,
+    urbanismo: process.env.MAKE_WEBHOOK_URBANISMO,
+    tramites: process.env.MAKE_WEBHOOK_TRAMITES,
     colaborador: process.env.MAKE_WEBHOOK_COLABORADOR,
   };
   return map[embudo];

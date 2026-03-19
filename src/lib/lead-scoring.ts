@@ -302,6 +302,69 @@ function scoreCompraVenta(data: Extract<LeadFormData, { embudo: "compraventa" }>
   return Math.min(score, 100);
 }
 
+function scoreUrbanismo(data: Extract<LeadFormData, { embudo: "urbanismo" }>): number {
+  let score = 0;
+
+  // Consulta: construir o poner prefabricada = lead con intención real de invertir
+  const consultaScores: Record<string, number> = {
+    "Quiero saber si puedo construir en mi finca rústica": 20,
+    "Quiero poner una casa prefabricada o tiny house": 18,
+    "Quiero cambiar la calificación del suelo": 15,
+    "Necesito segregar una finca": 15,
+    "Necesito saber qué tipo de suelo tengo": 10,
+    "Quiero saber qué puedo hacer con mi terreno": 8,
+  };
+  score += consultaScores[data.consulta_urbanismo] ?? 0;
+
+  // Tipo de suelo: núcleo rural y urbano = más posibilidades = más valor
+  const sueloScores: Record<string, number> = {
+    "Núcleo rural": 12,
+    "Urbano": 10,
+    "Rústico común": 8,
+    "Rústico de protección agropecuaria": 5,
+    "Rústico de protección forestal": 3,
+    "No lo sé": 6,
+  };
+  score += sueloScores[data.tipo_suelo_actual] ?? 0;
+
+  score += scoreSuperficie(data.superficie_aprox);
+  score += scoreUrgencia(data.urgencia);
+  score += scoreResidencia(data.residencia);
+  score += scoreContactoCompleto(data.email, data.telefono);
+
+  return Math.min(score, 100);
+}
+
+function scoreTramites(data: Extract<LeadFormData, { embudo: "tramites" }>): number {
+  let score = 0;
+
+  // Tipo de trámite: inmatriculación y obra nueva = procesos complejos y caros
+  const tramiteScores: Record<string, number> = {
+    "Necesito inmatricular una finca (primera inscripción)": 22,
+    "Necesito hacer una declaración de obra nueva": 20,
+    "Necesito escriturar una finca (no tengo escritura)": 18,
+    "Quiero inscribir una finca en el Registro de la Propiedad": 15,
+    "Gastos de notaría y registro para una compraventa": 12,
+    "Tengo dudas sobre impuestos (plusvalía, ITP, IRPF)": 10,
+  };
+  score += tramiteScores[data.tipo_tramite] ?? 0;
+
+  // Sin escrituras = más trabajo para el profesional = más valor
+  const escriturasScores: Record<string, number> = {
+    "Sí": 3,
+    "No": 10,
+    "Algunas": 6,
+    "No lo sé": 7,
+  };
+  score += escriturasScores[data.tiene_escrituras ?? ""] ?? 0;
+
+  score += scoreUrgencia(data.urgencia);
+  score += scoreResidencia(data.residencia);
+  score += scoreContactoCompleto(data.email, data.telefono);
+
+  return Math.min(score, 100);
+}
+
 // ===== FUNCIÓN PRINCIPAL =====
 
 export function calcularScoreLead(data: LeadFormData): {
@@ -330,6 +393,12 @@ export function calcularScoreLead(data: LeadFormData): {
     case "compraventa":
       score = scoreCompraVenta(data);
       break;
+    case "urbanismo":
+      score = scoreUrbanismo(data);
+      break;
+    case "tramites":
+      score = scoreTramites(data);
+      break;
     case "colaborador":
       score = 50; // B2B leads don't need scoring
       break;
@@ -350,6 +419,8 @@ export function calcularScoreLead(data: LeadFormData): {
     madera: "Aserraderos y compradores de madera",
     proindiviso: "Inversores forestales / maderistas",
     compraventa: "Inmobiliarias rurales y agentes de fincas",
+    urbanismo: "Arquitectos y técnicos urbanísticos",
+    tramites: "Abogados y gestorías especializadas",
     colaborador: "Interno — solicitud de colaboración B2B",
   };
 
