@@ -92,7 +92,7 @@ export const limpiezaSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(
@@ -147,7 +147,7 @@ export const herenciasSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(
@@ -185,7 +185,7 @@ export const lindesSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(
@@ -228,7 +228,7 @@ export const maderaSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(
@@ -271,7 +271,7 @@ export const proindivisoSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(
@@ -328,7 +328,7 @@ export const compraVentaSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(
@@ -368,7 +368,7 @@ export const urbanismoSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(
@@ -398,7 +398,7 @@ export const tramitesSchema = z.object({
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
   telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
-  comentarios: z.string().optional(),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
   url_origen: z.string().optional(),
 }).refine(

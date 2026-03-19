@@ -4,6 +4,45 @@ import { calcularScoreLead } from "@/lib/lead-scoring";
 import { rateLimit } from "@/lib/rate-limit";
 import { getMakeWebhookUrl } from "@/lib/make-webhooks";
 
+/** Limpia caracteres HTML peligrosos de campos de texto libre */
+function sanitizeHtml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#x27;");
+}
+
+/** Sanitiza todos los campos string de un objeto (solo texto libre, no enums) */
+function sanitizeLead(data: Record<string, unknown>, freeTextFields: string[]): Record<string, unknown> {
+  const result = { ...data };
+  for (const field of freeTextFields) {
+    if (typeof result[field] === "string" && result[field]) {
+      result[field] = sanitizeHtml(result[field] as string);
+    }
+  }
+  return result;
+}
+
+/** Fetch con timeout de 5s y 1 reintento */
+async function fetchWithRetry(url: string, options: RequestInit): Promise<Response> {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
+    try {
+      const res = await fetch(url, { ...options, signal: controller.signal });
+      return res;
+    } catch (err) {
+      if (attempt === 1) throw err;
+      // primer intento falló, reintentar
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+  throw new Error("fetchWithRetry: unreachable");
+}
+
 /**
  * POST /api/leads
  *
@@ -65,6 +104,11 @@ export async function POST(request: NextRequest) {
     }
 
     const data = parsed.data;
+
+    // Sanitizar campos de texto libre (no enums) contra inyección HTML
+    const freeTextFields = ["nombre", "comentarios", "municipio", "empresa", "pais_residencia"];
+    const sanitizedData = sanitizeLead(data as Record<string, unknown>, freeTextFields);
+
     const { score, clasificacion, cliente_b2b_target } = calcularScoreLead(data);
 
     // Calcular superficie en m² si el campo existe
@@ -75,7 +119,7 @@ export async function POST(request: NextRequest) {
 
     const lead = {
       id: crypto.randomUUID(),
-      ...data,
+      ...sanitizedData,
       ...(superficieM2Valor !== null && { superficie_m2: superficieM2Valor }),
       score,
       clasificacion,
@@ -92,7 +136,7 @@ export async function POST(request: NextRequest) {
     const sheetsWebhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
     if (sheetsWebhookUrl) {
       try {
-        await fetch(sheetsWebhookUrl, {
+        await fetchWithRetry(sheetsWebhookUrl, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(lead),
@@ -108,7 +152,7 @@ export async function POST(request: NextRequest) {
     const makeWebhookUrl = getMakeWebhookUrl(embudo) ?? process.env.MAKE_WEBHOOK_URL;
     if (makeWebhookUrl) {
       try {
-        await fetch(makeWebhookUrl, {
+        await fetchWithRetry(makeWebhookUrl, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(lead),

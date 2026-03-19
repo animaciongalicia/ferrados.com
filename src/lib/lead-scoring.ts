@@ -360,6 +360,14 @@ function scoreTramites(data: Extract<LeadFormData, { embudo: "tramites" }>): num
 
   score += scoreUrgencia(data.urgencia);
   score += scoreResidencia(data.residencia);
+
+  // Superficie: trámites sobre fincas grandes = más complejidad = más valor
+  // Campo no existe aún en el schema de trámites, pero si se añade en el futuro ya puntúa
+  const superficie = (data as Record<string, unknown>).superficie_aprox;
+  if (typeof superficie === "string") {
+    score += scoreSuperficie(superficie);
+  }
+
   score += scoreContactoCompleto(data.email, data.telefono);
 
   return Math.min(score, 100);
