@@ -23,7 +23,7 @@ Desde la reforma de la Ley Hipotecaria en 2015, el procedimiento principal es el
 
 ### Documentos necesarios
 
-1. **Título de propiedad.** Una escritura pública que acredite cómo adquiriste la finca (herencia, compraventa, donación). Si no tienes escritura, el notario puede tramitar un acta de notoriedad como paso previo.
+1. **Título de propiedad.** Una [escritura pública](/blog/escritura-finca-rustica-galicia-que-necesitas) que acredite cómo adquiriste la finca (herencia, compraventa, donación). Si no tienes escritura, el notario puede tramitar un acta de notoriedad como paso previo.
 
 2. **Certificación catastral descriptiva y gráfica.** La finca debe estar identificada en el Catastro con referencia catastral y coordenadas georreferenciadas. Si no está en el Catastro, primero hay que darla de alta.
 
@@ -106,7 +106,7 @@ Si la finca procede de una concentración parcelaria o de una reparcelación urb
 
 ### 1. Intentar inmatricular sin tener el Catastro en orden
 
-Si el Catastro tiene errores (superficie incorrecta, titular equivocado, ubicación desplazada), el Registro puede rechazar la inscripción. Arregla el Catastro primero.
+Si el Catastro tiene errores (superficie incorrecta, titular equivocado, ubicación desplazada), el Registro puede rechazar la inscripción. Arregla el Catastro primero — consulta nuestra guía sobre las [diferencias entre Registro y Catastro](/blog/registro-propiedad-vs-catastro-diferencias-galicia) para entender cómo hacerlo.
 
 ### 2. No notificar correctamente a los colindantes
 
@@ -129,3 +129,5 @@ No es obligatorio (el expediente es notarial, no judicial). Pero si el caso es c
 ### ¿Puedo inmatricular desde fuera de Galicia?
 
 Sí. Con un poder notarial, un abogado o gestor en Galicia puede tramitar todo el expediente en tu nombre. Solo necesitas otorgar el poder ante un notario de tu ciudad (o del consulado si estás en el extranjero).
+
+¿Necesitas inmatricular tu finca o resolver otro trámite registral? [Consulta gratis a un especialista](/tramites-fincas-galicia).

@@ -61,7 +61,7 @@ Aquí es donde la cosa se complica, porque el suelo rústico en Galicia tiene m�
 
 El suelo rústico "normal". No tiene ninguna protección especial. **Es el tipo más habitual** en fincas heredadas.
 
-¿Se puede construir? Con muchas restricciones: necesitas **autorización autonómica** (no solo licencia municipal), la parcela debe tener al menos 2.000 m² (varía), y la edificación no puede superar ciertos límites de superficie y altura.
+¿Se puede construir? Con muchas restricciones: necesitas **autorización autonómica** (no solo licencia municipal), la parcela debe tener al menos 2.000 m² (varía), y la edificación no puede superar ciertos límites de superficie y altura. Muchos propietarios preguntan por [poner una casa prefabricada en suelo rústico](/blog/construir-casa-prefabricada-suelo-rustico-galicia) — las condiciones son las mismas.
 
 ### Rústico de protección forestal
 
@@ -87,13 +87,13 @@ Hay dos caminos:
 
 2. **Pedir un certificado urbanístico.** Es un documento oficial del ayuntamiento que te dice exactamente qué clasificación tiene tu parcela, qué usos permite y qué normas de edificación se aplican. Cuesta entre 30 y 100 €.
 
-**No te fíes del Catastro.** El Catastro clasifica las parcelas como "urbano" o "rústico" a efectos fiscales (para cobrar el IBI). Eso no tiene nada que ver con la clasificación urbanística. Una parcela puede ser "rústica" en el Catastro pero estar en núcleo rural según el plan urbanístico — y viceversa.
+**No te fíes del Catastro.** El Catastro clasifica las parcelas como "urbano" o "rústico" a efectos fiscales (para cobrar el IBI). Eso no tiene nada que ver con la clasificación urbanística. Una parcela puede ser "rústica" en el Catastro pero estar en núcleo rural según el plan urbanístico — y viceversa. Si necesitas entender la diferencia entre ambos registros, lee nuestra guía sobre [Registro de la Propiedad vs Catastro](/blog/registro-propiedad-vs-catastro-diferencias-galicia).
 
 ## Preguntas frecuentes
 
 ### ¿Puedo cambiar el tipo de suelo de mi finca?
 
-No directamente. El tipo de suelo lo establece el plan urbanístico municipal. Para cambiarlo, haría falta una modificación del plan — un proceso largo, complejo y caro que depende del ayuntamiento.
+No directamente. El tipo de suelo lo establece el plan urbanístico municipal. Para cambiarlo, haría falta una modificación del plan — un proceso largo, complejo y caro que depende del ayuntamiento. Lo que sí puedes hacer es [segregar tu finca](/blog/segregar-finca-rustica-galicia-requisitos-costes) si cumple los requisitos de superficie mínima.
 
 ### ¿Es lo mismo rústico en el Catastro que rústico en el plan urbanístico?
 
@@ -102,3 +102,5 @@ No. El Catastro es fiscal. El plan urbanístico es normativo. Pueden (y suelen) 
 ### ¿Cuánto vale una finca según su tipo de suelo?
 
 A modo orientativo: un monte rústico sin madera puede valer 0,20 – 0,80 €/m². Una parcela en núcleo rural con posibilidad de construir puede valer 5 – 30 €/m². Un solar urbano, de 15 a 80 €/m² o más.
+
+Si necesitas ayuda con urbanismo, suelo o construcción en Galicia, [consulta gratis a un técnico especializado](/urbanismo-suelo-galicia).

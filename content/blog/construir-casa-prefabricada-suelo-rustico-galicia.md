@@ -83,7 +83,7 @@ Hemos visto casos en Galicia de casas prefabricadas de 60.000 – 80.000 € que
 
 ### Paso 1: Averigua la clasificación urbanística de tu parcela
 
-Pide un **certificado urbanístico** en el ayuntamiento. Te dirá exactamente qué tipo de suelo es y qué usos permite. Coste: 30 – 100 €.
+Pide un **certificado urbanístico** en el ayuntamiento. Te dirá exactamente [qué tipo de suelo tiene tu finca](/blog/tipos-suelo-galicia-rustico-urbano-nucleo-rural) y qué usos permite. Coste: 30 – 100 €.
 
 ### Paso 2: Consulta con un arquitecto
 
@@ -130,3 +130,7 @@ Aparcarla temporalmente, sí. Vivir en ella de forma permanente, legalmente no. 
 ### ¿Y un contenedor marítimo como vivienda?
 
 Mismo régimen que una casa prefabricada. Si se fija al suelo y se destina a vivienda, necesita licencia y proyecto técnico.
+
+Si tu finca no tiene escritura, necesitarás [escriturar antes de solicitar licencia](/blog/escritura-finca-rustica-galicia-que-necesitas). Y si quieres dividir el terreno para construir solo en una parte, consulta los [requisitos para segregar una finca rústica en Galicia](/blog/segregar-finca-rustica-galicia-requisitos-costes).
+
+¿Tienes dudas sobre si puedes construir en tu finca? [Consulta gratis a un técnico urbanístico](/urbanismo-suelo-galicia).

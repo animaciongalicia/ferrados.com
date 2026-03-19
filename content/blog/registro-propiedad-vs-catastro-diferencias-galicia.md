@@ -58,13 +58,13 @@ En el resto de España las discrepancias son habituales, pero en Galicia son **m
 
 El Catastro dice 3.000 m². El Registro dice 5.000 m². La realidad (medida con GPS) son 4.200 m². Es el caso más frecuente.
 
-**Cómo arreglarlo:** Un topógrafo mide la finca real. Con ese plano, se puede actualizar tanto el Catastro (declaración de alteración catastral) como el Registro (georreferenciación de la finca).
+**Cómo arreglarlo:** Un [topógrafo mide la finca](/localizar-medir-fincas-galicia) real. Con ese plano, se puede actualizar tanto el Catastro (declaración de alteración catastral) como el Registro (georreferenciación de la finca).
 
 ### El titular no coincide
 
 El Catastro está a nombre de Juan (que paga el IBI desde hace 20 años). El Registro está a nombre de Manuel (el abuelo de Juan, fallecido en 1985).
 
-**Cómo arreglarlo:** Hacer la escritura de herencia (de Manuel a sus herederos) e inscribirla en el Registro. Después, actualizar el Catastro si es necesario.
+**Cómo arreglarlo:** Hacer la [escritura de herencia](/blog/escritura-finca-rustica-galicia-que-necesitas) (de Manuel a sus herederos) e inscribirla en el Registro. Después, actualizar el Catastro si es necesario.
 
 ### La finca está en un sitio diferente
 
@@ -123,8 +123,10 @@ No. La inscripción es voluntaria. Pero sin ella, no tienes la protección de la
 
 ### ¿Puedo vender una finca que solo está en el Catastro?
 
-Técnicamente sí (el Catastro no es requisito para la venta), pero ningún comprador serio comprará sin nota simple del Registro. Y si la finca no está inscrita, primero hay que inmatricular.
+Técnicamente sí (el Catastro no es requisito para la venta), pero ningún comprador serio comprará sin nota simple del Registro. Y si la finca no está inscrita, primero hay que [inmatricular](/blog/inmatriculacion-finca-galicia-primera-inscripcion-registro).
 
 ### ¿Cuánto tarda poner en orden una finca?
 
-Si solo es actualizar el Catastro: 1 – 3 meses. Si hay que inscribir en el Registro por primera vez (inmatriculación): 4 – 8 meses. Si hay herencia pendiente: sumale 2 – 4 meses más.
+Si solo es actualizar el Catastro: 1 – 3 meses. Si hay que [inscribir en el Registro por primera vez (inmatriculación)](/blog/inmatriculacion-finca-galicia-primera-inscripcion-registro): 4 – 8 meses. Si hay [herencia pendiente](/herencias-montes-galicia): súmale 2 – 4 meses más.
+
+¿Necesitas poner en orden los papeles de tu finca? [Consulta gratis a un especialista en trámites de fincas](/tramites-fincas-galicia).

@@ -35,7 +35,7 @@ Esto significa que si tu finca tiene 4.000 m² y la UMC de tu zona es 2.500 m²,
 
 1. **Licencia de segregación del ayuntamiento.** Es el primer paso. El ayuntamiento verifica que las parcelas resultantes cumplen la UMC y la normativa urbanística. Coste: 50 – 200 €.
 
-2. **Informe técnico de medición.** Un topógrafo o ingeniero debe medir la finca y definir exactamente cómo se divide, con coordenadas georreferenciadas. Coste: 300 – 800 €.
+2. **Informe técnico de medición.** Un [topógrafo o ingeniero debe medir la finca](/localizar-medir-fincas-galicia) y definir exactamente cómo se divide, con coordenadas georreferenciadas. Coste: 300 – 800 €.
 
 3. **Escritura pública de segregación.** Ante notario, con la licencia municipal y el informe técnico. Coste: 300 – 600 €.
 
@@ -73,7 +73,7 @@ Con el plano del topógrafo, ve al ayuntamiento y solicita la licencia de segreg
 
 ### Paso 4: Firma ante notario
 
-Con la licencia concedida, el notario otorga la escritura de segregación. Si la finca original estaba a nombre de una persona fallecida, primero hay que hacer la herencia.
+Con la licencia concedida, el notario otorga la escritura de segregación. Si la finca original estaba a nombre de una persona fallecida, primero hay que [hacer la herencia](/herencias-montes-galicia).
 
 ### Paso 5: Inscribe en el Registro de la Propiedad
 
@@ -111,7 +111,7 @@ La agrupación es habitual en Galicia para concentrar la propiedad y aumentar el
 
 ### ¿Se puede segregar una finca que está en proindiviso?
 
-Sí, pero necesitas el acuerdo de todos los copropietarios. Si no hay acuerdo, primero hay que disolver el proindiviso (judicial o extrajudicialmente) y luego segregar.
+Sí, pero necesitas el acuerdo de todos los copropietarios. Si no hay acuerdo, primero hay que [disolver el proindiviso](/vender-parte-monte-proindiviso) (judicial o extrajudicialmente) y luego segregar.
 
 ### ¿Cuánto tarda el proceso completo?
 
@@ -119,4 +119,6 @@ De 3 a 6 meses, dependiendo de la agilidad del ayuntamiento y del Registro. El p
 
 ### ¿Puedo segregar una finca que solo está en el Catastro (sin Registro)?
 
-No directamente. Primero necesitas inscribirla en el Registro (inmatriculación) y luego segregar. Son dos trámites separados.
+No directamente. Primero necesitas [inscribirla en el Registro (inmatriculación)](/blog/inmatriculacion-finca-galicia-primera-inscripcion-registro) y luego segregar. Son dos trámites separados.
+
+¿Necesitas saber qué tipo de suelo tiene tu finca antes de segregar? Lee nuestra guía sobre [tipos de suelo en Galicia](/blog/tipos-suelo-galicia-rustico-urbano-nucleo-rural). Y si necesitas ayuda profesional, [consulta gratis a un técnico](/urbanismo-suelo-galicia).

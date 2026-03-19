@@ -20,7 +20,7 @@ La escritura pública es un documento otorgado ante notario que acredita un acto
 - **Hipotecarla** (si la necesitas como garantía)
 - **Demostrar tu propiedad** frente a terceros
 
-Sin escritura, la finca puede estar en el Catastro a tu nombre (o al de tu abuelo), pero no tienes un título de propiedad oponible a terceros.
+Sin escritura, la finca puede estar en el Catastro a tu nombre (o al de tu abuelo), pero no tienes un título de propiedad oponible a terceros. Y recuerda: [que figure en el Catastro no significa que estés protegido legalmente](/blog/registro-propiedad-vs-catastro-diferencias-galicia).
 
 ## Caso 1: Tienes la finca heredada pero sin escritura
 
@@ -43,7 +43,7 @@ Es el caso más habitual. Tu padre o tu abuelo tenían la finca, fallecieron, y 
 2. El notario redacta la **escritura de adjudicación de herencia**
 3. Todos los herederos firman (o dan poder notarial a uno de ellos)
 4. Se liquida el **Impuesto de Sucesiones** en la Xunta (en Galicia, con bonificación del 99% entre familiares directos)
-5. Se presenta la escritura en el **Registro de la Propiedad** para inscribir
+5. Se presenta la escritura en el **Registro de la Propiedad** para inscribir (si la finca no estaba inscrita, necesitarás [inmatricular](/blog/inmatriculacion-finca-galicia-primera-inscripcion-registro))
 
 ### ¿Cuánto cuesta?
 
@@ -116,3 +116,5 @@ No es obligatorio, pero es mucho más barato hacerlo todo junto. El notario cobr
 ### ¿Puedo escriturar una finca que no está en el Catastro?
 
 Primero necesitas darla de alta en el Catastro (declaración catastral). Una vez que tiene referencia catastral, puedes escriturar.
+
+¿No sabes por dónde empezar con los trámites de tu finca? [Consulta gratis a un especialista en trámites de fincas rústicas en Galicia](/tramites-fincas-galicia).
