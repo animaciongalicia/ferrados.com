@@ -69,6 +69,13 @@ const pilares = [
       "Escrituras, Registro, Catastro, impuestos, inmatriculación... Todo el papeleo que necesitas para tener tu finca en regla.",
     icon: "📋",
   },
+  {
+    href: "/blog",
+    title: "Bona — La Gaceta",
+    description:
+      "Artículos prácticos sobre herencias, madera, multas, lindes, urbanismo y todo lo que afecta a tu monte o finca en Galicia.",
+    icon: "📰",
+  },
 ];
 
 export default function HomePage() {

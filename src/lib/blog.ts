@@ -15,6 +15,7 @@ export interface BlogPostMeta {
   title: string;
   description: string;
   date: string;
+  lastUpdated?: string;
   pilar?: string;
   tags?: string[];
   readingTime: number; // minutes
@@ -66,6 +67,7 @@ export function getAllPosts(): BlogPostMeta[] {
       title: data.title ?? slug,
       description: data.description ?? "",
       date: data.date ?? "",
+      lastUpdated: data.lastUpdated,
       pilar: data.pilar,
       tags: data.tags,
       readingTime: calculateReadingTime(content),
@@ -93,6 +95,7 @@ export function getPostBySlug(slug: string) {
       title: data.title ?? slug,
       description: data.description ?? "",
       date: data.date ?? "",
+      lastUpdated: data.lastUpdated,
       pilar: data.pilar,
       tags: data.tags,
       readingTime: calculateReadingTime(content),

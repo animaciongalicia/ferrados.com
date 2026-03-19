@@ -2,6 +2,7 @@
 title: "Incendios forestales en Galicia: responsabilidad del propietario, seguro y cómo proteger tu monte"
 description: "Qué responsabilidad legal tiene el propietario de un monte en Galicia ante un incendio forestal. Seguros, prevención obligatoria, multas y cómo actuar si tu finca arde."
 date: "2026-03-17"
+lastUpdated: "2026-03-17"
 pilar: "limpieza"
 tags: ["incendios", "limpieza", "responsabilidad", "seguro forestal", "galicia", "prevención", "multas", "xunta", "monte"]
 ---

@@ -2,6 +2,7 @@
 title: "Inmatriculación de fincas en Galicia: cómo inscribir por primera vez en el Registro de la Propiedad"
 description: "Tu finca en Galicia nunca ha estado en el Registro de la Propiedad. Te explicamos qué es la inmatriculación, cómo funciona el expediente de dominio notarial, cuánto cuesta y cuánto tarda."
 date: "2026-03-17"
+lastUpdated: "2026-03-17"
 pilar: "tramites"
 tags: ["inmatriculación galicia", "registro propiedad", "expediente de dominio", "primera inscripción", "finca sin registrar"]
 ---

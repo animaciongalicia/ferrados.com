@@ -33,7 +33,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const body = await request.json();
+    let body: Record<string, unknown>;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json(
+        { error: "El cuerpo de la solicitud no es JSON válido" },
+        { status: 400 }
+      );
+    }
 
     // Determinar qué schema usar según el embudo
     const embudo = body.embudo as EmbudoType;

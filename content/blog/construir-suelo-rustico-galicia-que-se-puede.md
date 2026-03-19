@@ -2,6 +2,7 @@
 title: "¿Se puede construir en suelo rústico en Galicia? Lo que dice la ley (de verdad)"
 description: "Qué se puede y qué no se puede construir en suelo rústico en Galicia: vivienda unifamiliar, caseta de aperos, rehabilitación de ruinas. Requisitos, licencias y errores que cuestan caros."
 date: "2026-03-18"
+lastUpdated: "2026-03-18"
 pilar: "compraventa"
 tags: ["suelo rústico", "construir", "licencia", "galicia", "urbanismo", "vivienda", "fincas"]
 ---

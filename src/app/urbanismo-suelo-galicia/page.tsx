@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import UrbanismoForm from "@/components/forms/UrbanismoForm";
+import PilarJsonLd from "@/components/PilarJsonLd";
 
 export const metadata: Metadata = {
   title: "Urbanismo y tipos de suelo en Galicia — ¿Qué puedo hacer con mi finca?",
   description:
     "¿Puedes construir en tu finca rústica en Galicia? Tipos de suelo, casas prefabricadas, segregaciones, cambios de calificación y normativa urbanística gallega explicada sin jerga.",
+  alternates: { canonical: "/urbanismo-suelo-galicia" },
 };
 
 export default function UrbanismoPage() {
   return (
+    <>
+    <PilarJsonLd
+      title="Urbanismo y tipos de suelo en Galicia"
+      description="Tipos de suelo, construcción en rústico, casas prefabricadas y normativa urbanística en Galicia."
+      slug="urbanismo-suelo-galicia"
+      breadcrumbLabel="Urbanismo y tipos de suelo"
+    />
     <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
@@ -158,5 +167,6 @@ export default function UrbanismoPage() {
         <UrbanismoForm origen="pilar-urbanismo" />
       </section>
     </div>
+    </>
   );
 }

@@ -2,6 +2,7 @@
 title: "Fincas abandonadas en Galicia: cómo adquirirlas legalmente (y los riesgos que nadie te cuenta)"
 description: "Guía completa sobre fincas y montes abandonados en Galicia: cómo localizarlas, vías legales para adquirirlas, el Banco de Terras, usucapión y los problemas reales que vas a encontrar."
 date: "2026-03-18"
+lastUpdated: "2026-03-18"
 pilar: "compraventa"
 tags: ["fincas abandonadas", "compraventa", "banco de terras", "galicia", "usucapión", "montes", "terrenos"]
 ---

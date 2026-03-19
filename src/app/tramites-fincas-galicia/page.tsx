@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TramitesForm from "@/components/forms/TramitesForm";
+import PilarJsonLd from "@/components/PilarJsonLd";
 
 export const metadata: Metadata = {
   title: "Trámites para fincas en Galicia — Escrituras, registro, impuestos y más",
   description:
     "¿Necesitas escriturar una finca, inscribirla en el Registro, inmatricular o saber qué impuestos pagas? Guía completa de trámites para fincas rústicas en Galicia.",
+  alternates: { canonical: "/tramites-fincas-galicia" },
 };
 
 export default function TramitesPage() {
   return (
+    <>
+    <PilarJsonLd
+      title="Trámites para fincas en Galicia"
+      description="Escrituras, Registro de la Propiedad, inmatriculación, impuestos y papeleo para fincas en Galicia."
+      slug="tramites-fincas-galicia"
+      breadcrumbLabel="Trámites para fincas"
+    />
     <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
@@ -183,5 +192,6 @@ export default function TramitesPage() {
         <TramitesForm origen="pilar-tramites" />
       </section>
     </div>
+    </>
   );
 }

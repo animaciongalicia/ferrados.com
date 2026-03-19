@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HerenciasForm from "@/components/forms/HerenciasForm";
+import PilarJsonLd from "@/components/PilarJsonLd";
 
 export const metadata: Metadata = {
   title: "Herencias de montes y fincas en Galicia — Guía completa",
   description:
     "¿Has heredado un monte en Galicia y no sabes qué hacer? Sucesiones, papeles, Catastro, impuestos. Guía para herederos en Galicia y desde el extranjero.",
+  alternates: { canonical: "/herencias-montes-galicia" },
 };
 
 export default function HerenciasPage() {
   return (
+    <>
+    <PilarJsonLd
+      title="Herencias de montes y fincas en Galicia"
+      description="Asesoramiento para herederos de montes y fincas en Galicia. Sucesiones, papeles, Catastro, impuestos."
+      slug="herencias-montes-galicia"
+      breadcrumbLabel="Herencias de montes y fincas"
+    />
     <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
@@ -148,5 +157,6 @@ export default function HerenciasPage() {
         <HerenciasForm origen="pilar-herencias" />
       </section>
     </div>
+    </>
   );
 }

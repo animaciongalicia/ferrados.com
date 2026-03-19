@@ -2,6 +2,7 @@
 title: "No quiero heredar un monte en Galicia: cómo renunciar a la herencia sin arruinarte"
 description: "Guía completa para renunciar a la herencia de un monte o finca rústica en Galicia. Requisitos, costes, plazos y cuándo merece la pena aceptar en vez de rechazar."
 date: "2026-03-17"
+lastUpdated: "2026-03-17"
 pilar: "herencias"
 tags: ["herencias", "renuncia herencia", "galicia", "montes", "fincas", "notario", "impuestos", "herencia no deseada"]
 ---

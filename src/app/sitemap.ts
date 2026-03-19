@@ -20,6 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/limpieza-desbroce-multas-xunta",
     "/vender-parte-monte-proindiviso",
     "/compra-venta-terrenos-galicia",
+    "/urbanismo-suelo-galicia",
+    "/tramites-fincas-galicia",
+    "/empezar",
   ].map((path) => ({
     url: `${BASE_URL}${path}`,
     lastModified: new Date().toISOString().split("T")[0],

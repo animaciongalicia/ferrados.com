@@ -2,6 +2,7 @@
 title: "Registro de la Propiedad vs Catastro: por qué no coinciden y cómo arreglarlo"
 description: "En Galicia, el Registro de la Propiedad y el Catastro casi nunca coinciden. Te explicamos qué es cada uno, por qué importa la diferencia y cómo resolver las discrepancias."
 date: "2026-03-18"
+lastUpdated: "2026-03-18"
 pilar: "tramites"
 tags: ["registro propiedad galicia", "catastro galicia", "diferencias registro catastro", "nota simple", "referencia catastral"]
 ---

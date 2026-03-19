@@ -2,15 +2,24 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import LimpiezaForm from "@/components/forms/LimpiezaForm";
 import CalculadoraMultas from "@/components/CalculadoraMultas";
+import PilarJsonLd from "@/components/PilarJsonLd";
 
 export const metadata: Metadata = {
   title: "Multas por no limpiar fincas en Galicia — Ley de biomasa Xunta",
   description:
     "¿Te ha llegado una carta de la Xunta por la maleza? Multas de hasta 100.000 €. Te explicamos qué hacer, cuánto cuesta limpiar y cómo evitar la sanción.",
+  alternates: { canonical: "/limpieza-desbroce-multas-xunta" },
 };
 
 export default function LimpiezaPage() {
   return (
+    <>
+    <PilarJsonLd
+      title="Limpieza de fincas y multas de la Xunta en Galicia"
+      description="Ley de biomasa, multas por no limpiar, costes de desbroce y cómo evitar sanciones en Galicia."
+      slug="limpieza-desbroce-multas-xunta"
+      breadcrumbLabel="Limpieza de fincas y multas"
+    />
     <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
@@ -191,5 +200,6 @@ export default function LimpiezaPage() {
         <LimpiezaForm origen="pilar-limpieza" />
       </section>
     </div>
+    </>
   );
 }

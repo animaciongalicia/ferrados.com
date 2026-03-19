@@ -2,6 +2,7 @@
 title: "Segregar una finca rústica en Galicia: requisitos, costes y cómo hacerlo paso a paso"
 description: "Quieres dividir una finca rústica en Galicia en parcelas más pequeñas. Te explicamos los requisitos legales, la unidad mínima de cultivo, los costes y el proceso completo."
 date: "2026-03-17"
+lastUpdated: "2026-03-17"
 pilar: "urbanismo"
 tags: ["segregar finca galicia", "unidad mínima de cultivo", "división finca rústica", "notaría finca", "urbanismo rural"]
 ---

@@ -125,6 +125,7 @@ export default async function BlogPostPage({ params }: Props) {
       "@type": "WebPage",
       "@id": `https://ferrados.com/blog/${slug}`,
     },
+    ...(post.meta.lastUpdated && { dateModified: post.meta.lastUpdated }),
     ...(category && { articleSection: category.label }),
     ...(post.meta.tags && { keywords: post.meta.tags.join(", ") }),
   };

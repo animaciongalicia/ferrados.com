@@ -2,6 +2,7 @@
 title: "Eucalipto o pino: qué es más rentable plantar en tu monte de Galicia en 2026"
 description: "Comparativa real entre eucalipto y pino en Galicia: rentabilidad por hectárea, turnos de corta, riesgos, subvenciones y cuál te conviene según tu finca."
 date: "2026-03-17"
+lastUpdated: "2026-03-17"
 pilar: "madera"
 tags: ["madera", "eucalipto", "pino", "rentabilidad", "plantar", "galicia", "reforestación", "inversión forestal"]
 ---

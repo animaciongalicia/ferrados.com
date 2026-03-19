@@ -2,6 +2,7 @@
 title: "Cómo escriturar una finca rústica en Galicia: qué necesitas, cuánto cuesta y qué pasa si no tienes escritura"
 description: "Miles de fincas en Galicia no tienen escritura. Te explicamos cómo escriturar tu finca rústica, qué documentos necesitas, cuánto cuesta y qué alternativas tienes si no hay título previo."
 date: "2026-03-19"
+lastUpdated: "2026-03-19"
 pilar: "tramites"
 tags: ["escritura finca galicia", "notaría finca rústica", "acta de notoriedad", "expediente de dominio", "trámites finca"]
 ---

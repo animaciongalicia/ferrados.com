@@ -2,6 +2,7 @@
 title: "¿Puedo quemar mi finca en Galicia? Queimas, permisos y multas"
 description: "Todo lo que necesitas saber sobre queimas controladas en Galicia: cuándo se puede quemar, qué permisos necesitas, épocas permitidas y multas por quemar sin autorización."
 date: "2026-03-18"
+lastUpdated: "2026-03-18"
 pilar: "limpieza"
 tags: ["queimas", "limpieza", "incendios", "permisos", "xunta", "galicia", "multas"]
 ---

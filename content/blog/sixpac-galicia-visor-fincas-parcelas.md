@@ -2,6 +2,7 @@
 title: "Cómo usar el SIXPAC en Galicia para ver tus fincas y parcelas"
 description: "Guía práctica para utilizar el visor SIXPAC de la Xunta de Galicia: localiza tus parcelas, mide superficies, compara con el Catastro y descarga información de tus fincas."
 date: "2026-03-18"
+lastUpdated: "2026-03-18"
 pilar: "lindes"
 tags: ["sixpac", "catastro", "fincas", "parcelas", "galicia", "lindes", "xunta"]
 ---

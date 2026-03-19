@@ -2,6 +2,7 @@
 title: "Pacto de mejora en Galicia: cómo repartir la herencia en vida (y ahorrarse problemas)"
 description: "Qué es el pacto de mejora gallego, cómo funciona, ventajas fiscales, diferencias con la donación y por qué es la mejor herramienta para transmitir fincas y montes a los hijos sin conflictos."
 date: "2026-03-18"
+lastUpdated: "2026-03-18"
 pilar: "herencias"
 tags: ["pacto de mejora", "herencias", "galicia", "donación", "impuestos", "sucesiones", "fincas"]
 ---

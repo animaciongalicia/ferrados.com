@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ProindivisoForm from "@/components/forms/ProindivisoForm";
+import PilarJsonLd from "@/components/PilarJsonLd";
 
 export const metadata: Metadata = {
   title: "Proindivisos de montes en Galicia — Vender tu parte, disolver, agrupar",
   description:
     "¿Compartes un monte con primos, tíos o desconocidos? Proindivisos, minifundios, copropiedades en Galicia. Cómo vender tu parte o disolver el lío.",
+  alternates: { canonical: "/vender-parte-monte-proindiviso" },
 };
 
 export default function ProindivisoPage() {
   return (
+    <>
+    <PilarJsonLd
+      title="Proindivisos de montes en Galicia"
+      description="Cómo vender tu parte, disolver un proindiviso o agrupar fincas en Galicia."
+      slug="vender-parte-monte-proindiviso"
+      breadcrumbLabel="Proindivisos de montes"
+    />
     <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
@@ -133,5 +142,6 @@ export default function ProindivisoPage() {
         <ProindivisoForm origen="pilar-proindiviso" />
       </section>
     </div>
+    </>
   );
 }

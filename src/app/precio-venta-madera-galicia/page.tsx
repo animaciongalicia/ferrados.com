@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import MaderaForm from "@/components/forms/MaderaForm";
+import PilarJsonLd from "@/components/PilarJsonLd";
 
 export const metadata: Metadata = {
   title: "Precio y venta de madera en Galicia — Pinos, eucaliptos, aserraderos",
   description:
     "¿Quieres vender la madera de tu monte? Precios actuales de pino y eucalipto en Galicia, permisos de corta, cómo encontrar comprador y evitar que te engañen.",
+  alternates: { canonical: "/precio-venta-madera-galicia" },
 };
 
 export default function MaderaPage() {
   return (
+    <>
+    <PilarJsonLd
+      title="Precio y venta de madera en Galicia"
+      description="Precios de pino y eucalipto, permisos de corta y cómo encontrar comprador en Galicia."
+      slug="precio-venta-madera-galicia"
+      breadcrumbLabel="Venta de madera"
+    />
     <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
@@ -136,5 +145,6 @@ export default function MaderaPage() {
         <MaderaForm origen="pilar-madera" />
       </section>
     </div>
+    </>
   );
 }

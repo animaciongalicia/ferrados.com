@@ -2,6 +2,7 @@
 title: "Tipos de suelo en Galicia: rústico, urbano, núcleo rural y urbanizable — qué significa cada uno"
 description: "Tu finca tiene un tipo de suelo que determina qué puedes hacer con ella. Te explicamos las diferencias entre rústico, urbano, núcleo rural y urbanizable en Galicia, sin jerga técnica."
 date: "2026-03-19"
+lastUpdated: "2026-03-19"
 pilar: "urbanismo"
 tags: ["tipos de suelo galicia", "suelo rústico", "núcleo rural", "urbanismo galicia", "LOUGA"]
 ---

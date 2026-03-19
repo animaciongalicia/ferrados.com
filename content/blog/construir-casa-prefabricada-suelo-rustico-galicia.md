@@ -2,6 +2,7 @@
 title: "¿Puedo poner una casa prefabricada en suelo rústico en Galicia? La verdad sin adornos"
 description: "Quieres poner una casa prefabricada o una tiny house en tu finca rústica en Galicia. Te explicamos qué dice la ley, cuándo se puede, cuándo no y qué te puede pasar si lo haces sin licencia."
 date: "2026-03-18"
+lastUpdated: "2026-03-18"
 pilar: "urbanismo"
 tags: ["casa prefabricada galicia", "suelo rústico", "tiny house galicia", "construir rústico", "licencia urbanística"]
 ---
