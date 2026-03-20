@@ -214,15 +214,6 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
           {/* ─── Main content column ─── */}
           <article className="max-w-3xl">
-            {category && (
-              <Link
-                href={categoryId ? `/blog?cat=${categoryId}` : "/blog"}
-                className={`inline-block border rounded-full text-xs px-2 py-0.5 mb-4 hover:opacity-80 transition-opacity ${category.pillClasses}`}
-              >
-                {category.label}
-              </Link>
-            )}
-
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3 leading-tight">
               {post.meta.title}
             </h1>
