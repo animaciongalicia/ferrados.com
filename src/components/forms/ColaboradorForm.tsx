@@ -9,6 +9,8 @@ const actividades = [
   "Empresa de desbroce / Limpieza",
   "Inmobiliaria rústica",
   "Gestoría / Asesoría fiscal",
+  "Trámites (escrituras, registro, inmatriculación)",
+  "Urbanismo (licencias, suelo, segregaciones)",
   "Otro",
 ] as const;
 
