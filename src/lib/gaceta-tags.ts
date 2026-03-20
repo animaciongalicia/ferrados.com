@@ -48,7 +48,7 @@ export const GACETA_TAGS: GacetaTag[] = [
   {
     id: "errores",
     label: "Errores a evitar",
-    chipClasses: "bg-red-50 text-red-700 border-red-200",
+    chipClasses: "bg-pink-50 text-pink-700 border-pink-200",
   },
   {
     id: "legislacion",

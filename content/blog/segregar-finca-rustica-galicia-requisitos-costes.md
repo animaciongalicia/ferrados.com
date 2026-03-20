@@ -4,7 +4,7 @@ description: "Quieres dividir una finca rústica en Galicia en parcelas más peq
 date: "2026-03-17"
 lastUpdated: "2026-03-17"
 pilar: "urbanismo"
-tags: ["paso-a-paso","documentacion"]
+tags: ["paso-a-paso","documentacion","precios"]
 ---
 
 Tienes una finca grande en Galicia y quieres vender una parte, repartirla entre herederos o simplemente dividirla en parcelas independientes. El problema: no puedes cortar una finca como si fuera un pastel. Hay reglas, y si no las cumples, la segregación es nula.

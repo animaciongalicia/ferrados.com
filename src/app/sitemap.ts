@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
+import { GACETA_CATEGORIES } from "@/lib/gaceta-categories";
+import { GACETA_TAGS } from "@/lib/gaceta-tags";
 
 const BASE_URL = "https://ferrados.com";
 
@@ -11,6 +13,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: post.date,
     changeFrequency: "monthly",
     priority: 0.7,
+  }));
+
+  const categoryEntries: MetadataRoute.Sitemap = GACETA_CATEGORIES.map((cat) => ({
+    url: `${BASE_URL}/blog?cat=${cat.id}`,
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
+  const tagEntries: MetadataRoute.Sitemap = GACETA_TAGS.map((tag) => ({
+    url: `${BASE_URL}/blog?tag=${tag.id}`,
+    changeFrequency: "weekly",
+    priority: 0.5,
   }));
 
   const pilarPages: MetadataRoute.Sitemap = [
@@ -72,6 +86,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.2,
     },
     ...pilarPages,
+    ...categoryEntries,
+    ...tagEntries,
     ...blogEntries,
   ];
 }

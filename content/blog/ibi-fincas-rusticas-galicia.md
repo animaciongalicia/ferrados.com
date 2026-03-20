@@ -4,7 +4,7 @@ description: "Todo sobre el Impuesto de Bienes Inmuebles de fincas rústicas en 
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["impuestos"]
+tags: ["impuestos","precios"]
 ---
 
 El IBI de fincas rústicas es uno de esos impuestos que casi nadie revisa porque las cuotas son pequeñas. Pero cuando heredas 20 fincas en 3 concellos diferentes y empiezan a llegar recibos, la cosa cambia. Si tienes dudas sobre la titularidad de tus fincas en Catastro, consulta primero nuestra guía sobre [cómo encontrar la referencia catastral de tu finca en Galicia](/blog/catastro-finca-galicia-referencia).

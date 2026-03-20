@@ -4,7 +4,7 @@ description: "Quieres poner una casa prefabricada o una tiny house en tu finca r
 date: "2026-03-18"
 lastUpdated: "2026-03-18"
 pilar: "urbanismo"
-tags: ["legislacion","xunta"]
+tags: ["legislacion","xunta","subvenciones"]
 ---
 
 Es la pregunta que más recibimos en Ferrados.com después de las herencias y las multas por no limpiar: **¿puedo poner una casa prefabricada en mi finca rústica en Galicia?**

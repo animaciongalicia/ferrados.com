@@ -38,7 +38,7 @@ function CategoryPill({
 }
 
 /* ─── Post Card ─── */
-function PostCard({ post }: { post: BlogPostMeta }) {
+function PostCard({ post, onTagClick }: { post: BlogPostMeta; onTagClick: (tagId: string) => void }) {
   const category = getCategoryForPilar(post.pilar);
 
   return (
@@ -65,7 +65,13 @@ function PostCard({ post }: { post: BlogPostMeta }) {
             return (
               <span
                 key={tagId}
-                className={`inline-block border rounded-full text-[10px] px-1.5 py-0 ${tag.chipClasses}`}
+                role="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  onTagClick(tagId);
+                }}
+                className={`inline-block border rounded-full text-[10px] px-1.5 py-0 hover:ring-1 hover:ring-current transition-all cursor-pointer ${tag.chipClasses}`}
               >
                 {tag.label}
               </span>
@@ -200,6 +206,12 @@ export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaCli
     router.replace(buildUrl(activeCategory, tagId), { scroll: false });
   }
 
+  function handleClearFilters() {
+    setActiveCategory(null);
+    setActiveTag(null);
+    router.replace("/blog", { scroll: false });
+  }
+
   const filteredPosts = posts.filter((post) => {
     if (activeCategory) {
       const cat = GACETA_CATEGORIES.find((c) => c.id === activeCategory);
@@ -211,62 +223,73 @@ export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaCli
     return true;
   });
 
+  // Active filter labels for empty state messaging
+  const activeCatLabel = activeCategory
+    ? GACETA_CATEGORIES.find((c) => c.id === activeCategory)?.label
+    : null;
+  const activeTagLabel = activeTag
+    ? GACETA_TAGS.find((t) => t.id === activeTag)?.label
+    : null;
+
   return (
     <>
-      {/* ─── Menú de Triaje ─── */}
-      <div className="border-b border-gray-200 bg-white">
-        <div className="max-w-6xl mx-auto px-4 py-3">
-          <div className="flex gap-2 overflow-x-auto lg:justify-center scrollbar-hide">
-            {/* "Todos" chip */}
-            <button
-              onClick={() => handleCategoryChange(null)}
-              className={`shrink-0 border rounded-full text-sm px-3 py-1 transition-all cursor-pointer ${
-                activeCategory === null
-                  ? "bg-gray-900 text-white border-gray-900"
-                  : "bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100"
-              }`}
-            >
-              Todos
-            </button>
-            {GACETA_CATEGORIES.map((cat) => (
+      {/* ─── Filtros (sticky) ─── */}
+      <div className="sticky top-0 z-30 bg-white shadow-sm">
+        {/* ─── Menú de Triaje ─── */}
+        <div className="border-b border-gray-200">
+          <div className="max-w-6xl mx-auto px-4 py-3">
+            <div className="flex gap-2 overflow-x-auto lg:justify-center scrollbar-hide">
+              {/* "Todos" chip */}
               <button
-                key={cat.id}
-                onClick={() =>
-                  handleCategoryChange(activeCategory === cat.id ? null : cat.id)
-                }
+                onClick={() => handleCategoryChange(null)}
                 className={`shrink-0 border rounded-full text-sm px-3 py-1 transition-all cursor-pointer ${
-                  activeCategory === cat.id
-                    ? cat.pillActiveClasses
-                    : `${cat.pillClasses} hover:opacity-80`
+                  activeCategory === null
+                    ? "bg-gray-900 text-white border-gray-900"
+                    : "bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100"
                 }`}
               >
-                {cat.label}
+                Todos
               </button>
-            ))}
+              {GACETA_CATEGORIES.map((cat) => (
+                <button
+                  key={cat.id}
+                  onClick={() =>
+                    handleCategoryChange(activeCategory === cat.id ? null : cat.id)
+                  }
+                  className={`shrink-0 border rounded-full text-sm px-3 py-1 transition-all cursor-pointer ${
+                    activeCategory === cat.id
+                      ? cat.pillActiveClasses
+                      : `${cat.pillClasses} hover:opacity-80`
+                  }`}
+                >
+                  {cat.label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* ─── Etiquetas transversales ─── */}
-      <div className="border-b border-gray-100 bg-gray-50/50">
-        <div className="max-w-6xl mx-auto px-4 py-2">
-          <div className="flex gap-1.5 overflow-x-auto lg:justify-center scrollbar-hide items-center">
-            <span className="shrink-0 text-xs text-gray-400 mr-1 hidden sm:inline">Etiquetas:</span>
-            {GACETA_TAGS.map((tag) => (
-              <button
-                key={tag.id}
-                onClick={() =>
-                  handleTagChange(activeTag === tag.id ? null : tag.id)
-                }
-                className={`shrink-0 border rounded-full text-xs px-2.5 py-0.5 transition-all cursor-pointer ${
-                  activeTag === tag.id
-                    ? `${tag.chipClasses} ring-1 ring-current font-semibold`
-                    : `${tag.chipClasses} opacity-70 hover:opacity-100`
-                }`}
-              >
-                {tag.label}
-              </button>
-            ))}
+        {/* ─── Etiquetas transversales ─── */}
+        <div className="border-b border-gray-100 bg-gray-50/50">
+          <div className="max-w-6xl mx-auto px-4 py-2">
+            <div className="flex gap-1.5 overflow-x-auto lg:justify-center scrollbar-hide items-center">
+              <span className="shrink-0 text-xs text-gray-400 mr-1">Etiquetas:</span>
+              {GACETA_TAGS.map((tag) => (
+                <button
+                  key={tag.id}
+                  onClick={() =>
+                    handleTagChange(activeTag === tag.id ? null : tag.id)
+                  }
+                  className={`shrink-0 border rounded-full text-xs px-2.5 py-0.5 transition-all cursor-pointer ${
+                    activeTag === tag.id
+                      ? `${tag.chipClasses} ring-1 ring-current font-semibold`
+                      : `${tag.chipClasses} opacity-70 hover:opacity-100`
+                  }`}
+                >
+                  {tag.label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -278,14 +301,38 @@ export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaCli
           <div>
             {filteredPosts.length === 0 ? (
               <div className="bg-white border border-gray-200 rounded-lg p-8 text-center">
-                <p className="text-gray-500">
-                  No hay artículos en esta categoría todavía.
+                <p className="text-gray-500 mb-2">
+                  No hay artículos
+                  {activeCatLabel && activeTagLabel
+                    ? ` en «${activeCatLabel}» con la etiqueta «${activeTagLabel}»`
+                    : activeCatLabel
+                      ? ` en «${activeCatLabel}»`
+                      : activeTagLabel
+                        ? ` con la etiqueta «${activeTagLabel}»`
+                        : ""
+                  } todavía.
                 </p>
+                <div className="flex flex-wrap gap-2 justify-center mt-3">
+                  {activeTag && activeCategory && (
+                    <button
+                      onClick={() => handleTagChange(null)}
+                      className="text-sm text-green-700 hover:text-green-900 underline underline-offset-2 cursor-pointer"
+                    >
+                      Quitar etiqueta
+                    </button>
+                  )}
+                  <button
+                    onClick={handleClearFilters}
+                    className="text-sm text-green-700 hover:text-green-900 underline underline-offset-2 cursor-pointer"
+                  >
+                    Ver todos los artículos
+                  </button>
+                </div>
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {filteredPosts.map((post) => (
-                  <PostCard key={post.slug} post={post} />
+                  <PostCard key={post.slug} post={post} onTagClick={handleTagChange} />
                 ))}
               </div>
             )}

@@ -14,7 +14,9 @@ export async function GET() {
       <guid isPermaLink="true">${BASE_URL}/blog/${post.slug}</guid>
       <description><![CDATA[${post.description}]]></description>
       <pubDate>${new Date(post.date).toUTCString()}</pubDate>
-      <category>${post.pilar ?? "general"}</category>
+      <category>${post.pilar ?? "general"}</category>${
+        post.tags?.map((tag) => `\n      <category>${tag}</category>`).join("") ?? ""
+      }
     </item>`
     )
     .join("\n");

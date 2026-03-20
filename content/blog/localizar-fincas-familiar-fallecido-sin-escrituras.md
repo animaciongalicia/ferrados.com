@@ -4,7 +4,7 @@ description: "Guía paso a paso para encontrar todas las fincas y montes de un f
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["documentacion","paso-a-paso"]
+tags: ["documentacion","paso-a-paso","emigrantes"]
 ---
 
 Tu abuelo falleció hace años. Tu padre emigró a Barcelona (o a Suiza, o a Venezuela) y nunca se ocupó de las fincas. Ahora te toca a ti. Sabes que "había fincas en el pueblo" pero no tienes ni un solo papel. Ni escrituras, ni recibos, ni la más remota idea de cuántas son ni dónde están exactamente.
