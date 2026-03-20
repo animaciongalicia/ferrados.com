@@ -3,6 +3,7 @@ import { schemaByEmbudo, superficieM2, type EmbudoType } from "@/lib/lead-schema
 import { calcularScoreLead } from "@/lib/lead-scoring";
 import { rateLimit } from "@/lib/rate-limit";
 import { getMakeWebhookUrl } from "@/lib/make-webhooks";
+import { notifyTelegramLead } from "@/lib/telegram";
 
 /** Limpia caracteres HTML peligrosos de campos de texto libre */
 function sanitizeHtml(str: string): string {
@@ -161,6 +162,18 @@ export async function POST(request: NextRequest) {
         console.error(`Error enviando a Make (${embudo}):`, webhookError);
       }
     }
+
+    // --- TELEGRAM ---
+    // Notificación instantánea al móvil cuando entra un lead
+    notifyTelegramLead({
+      id: lead.id,
+      embudo,
+      nombre: typeof sanitizedData.nombre === "string" ? sanitizedData.nombre : undefined,
+      telefono: typeof sanitizedData.telefono === "string" ? sanitizedData.telefono : undefined,
+      municipio: typeof sanitizedData.municipio === "string" ? sanitizedData.municipio : undefined,
+      score: lead.score,
+      clasificacion: lead.clasificacion,
+    });
 
     return NextResponse.json(
       {

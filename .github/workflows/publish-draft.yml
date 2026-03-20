@@ -1,0 +1,86 @@
+name: Publicar post programado
+
+on:
+  schedule:
+    # Cada 2 días a las 08:00 UTC (10:00 hora España)
+    - cron: "0 8 */2 * *"
+  workflow_dispatch: # Permitir ejecución manual
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Buscar el siguiente draft para publicar
+        id: find-draft
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+
+          # Buscar el draft con la fecha más antigua que sea <= hoy
+          DRAFT=$(find content/drafts -name "*.md" -type f 2>/dev/null | while read file; do
+            DATE=$(grep -m1 '^date:' "$file" | sed 's/date:\s*"\?\([0-9-]*\)"\?/\1/')
+            if [ -n "$DATE" ] && [ "$DATE" \<= "$TODAY" ]; then
+              echo "$DATE $file"
+            fi
+          done | sort | head -1 | cut -d' ' -f2)
+
+          if [ -z "$DRAFT" ]; then
+            echo "No hay drafts pendientes para publicar hoy."
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            echo "file=$DRAFT" >> "$GITHUB_OUTPUT"
+            BASENAME=$(basename "$DRAFT")
+            echo "basename=$BASENAME" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Mover draft a blog
+        if: steps.find-draft.outputs.found == 'true'
+        run: |
+          mv "${{ steps.find-draft.outputs.file }}" "content/blog/${{ steps.find-draft.outputs.basename }}"
+
+      - name: Commit y push
+        if: steps.find-draft.outputs.found == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/blog/ content/drafts/
+          git commit -m "Publicar post: ${{ steps.find-draft.outputs.basename }}"
+          git push
+
+      - name: Contar drafts restantes
+        if: steps.find-draft.outputs.found == 'true'
+        id: count
+        run: |
+          REMAINING=$(find content/drafts -name "*.md" -type f 2>/dev/null | wc -l)
+          echo "remaining=$REMAINING" >> "$GITHUB_OUTPUT"
+          echo "Quedan $REMAINING drafts en cola."
+
+      - name: Alerta stock bajo
+        if: steps.find-draft.outputs.found == 'true' && steps.count.outputs.remaining <= 4
+        run: |
+          REMAINING=${{ steps.count.outputs.remaining }}
+
+          # Crear issue de aviso si quedan pocos posts
+          gh issue create \
+            --title "⚠️ Quedan solo $REMAINING posts en cola" \
+            --body "El pipeline de publicación automática tiene solo **$REMAINING** posts pendientes en \`content/drafts/\`. Es hora de generar más contenido." \
+            --label "content"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Notificar Telegram (stock bajo)
+        if: steps.find-draft.outputs.found == 'true' && steps.count.outputs.remaining <= 4
+        run: |
+          REMAINING=${{ steps.count.outputs.remaining }}
+          if [ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] && [ -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
+            curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+              -H "Content-Type: application/json" \
+              -d "{\"chat_id\": \"${{ secrets.TELEGRAM_CHAT_ID }}\", \"text\": \"⚠️ Quedan solo ${REMAINING} posts en cola en Ferrados.com. Hora de generar más contenido.\", \"parse_mode\": \"HTML\"}"
+          fi
