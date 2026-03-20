@@ -4,7 +4,7 @@ description: "Te ha llegado una carta certificada de la Xunta por no limpiar tu 
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "limpieza"
-tags: ["multas", "limpieza", "xunta", "carta", "desbroce", "galicia", "plazos"]
+tags: ["xunta","legislacion","paso-a-paso"]
 ---
 
 Te ha llegado una carta certificada. La abres y lees algo así: "Requerimiento de xestión da biomasa" o "Notificación de incumprimento da Lei de prevención de incendios forestais". El corazón te da un vuelco. No sabes si es un aviso, una multa o una sentencia de muerte económica.

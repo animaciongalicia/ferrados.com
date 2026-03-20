@@ -4,7 +4,7 @@ description: "Todo lo que necesitas saber sobre impuestos al vender una finca he
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["herencia", "impuestos", "plusvalía", "vender", "galicia", "IRPF", "compraventa"]
+tags: ["impuestos"]
 ---
 
 Acabas de heredar una finca en Galicia y lo tienes claro: quieres venderla. No la necesitas, no vives allí, y cada año te llega el IBI y la amenaza de multa por no limpiar. El problema es que entre el Impuesto de Sucesiones, la plusvalía y el IRPF, la factura fiscal puede comerse una parte importante de lo que cobres. Te explicamos cuánto te va a costar, paso a paso. Consulta también nuestra [guía completa de compra-venta de terrenos en Galicia](/compra-venta-terrenos-galicia) y la guía de [herencias de montes en Galicia](/herencias-montes-galicia).

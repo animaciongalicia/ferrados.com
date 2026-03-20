@@ -4,7 +4,7 @@ description: "Guía práctica de fiscalidad de la venta de madera en Galicia. C�
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "impuestos", "IRPF", "fiscalidad", "galicia", "venta", "hacienda"]
+tags: ["impuestos"]
 ---
 
 Vendiste la madera del monte, cobraste 15.000€ y pensaste que todo era beneficio. Hasta que llegó la declaración de la renta. La venta de madera tributa en el IRPF, y si no lo haces bien, Hacienda se lleva un bocado innecesariamente grande. Si todavía no has vendido, consulta primero nuestra [guía de precios y venta de madera en Galicia](/precio-venta-madera-galicia) para maximizar lo que cobras.

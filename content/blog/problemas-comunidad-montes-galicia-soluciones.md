@@ -4,7 +4,7 @@ description: "Los problemas más comunes en comunidades vecinales de montes en G
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "proindiviso"
-tags: ["comunidades vecinales", "montes en man común", "problemas", "galicia", "soluciones"]
+tags: ["vecinos"]
 ---
 
 Las comunidades vecinales de montes en man común son una pieza clave del paisaje gallego. Pero la realidad es que muchas de ellas tienen problemas serios que impiden aprovechar el monte y generan dolores de cabeza a los comuneros. Aquí te contamos los 7 más habituales y qué puedes hacer en cada caso.

@@ -4,7 +4,7 @@ description: "Análisis actualizado del precio del eucalipto globulus y nitens e
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "eucalipto", "precios", "galicia", "venta"]
+tags: ["precios"]
 ---
 
 El eucalipto es el rey de la madera en Galicia. Ocupa más de 400.000 hectáreas y genera un negocio de cientos de millones de euros al año. Si tienes una plantación y estás pensando en vender, consulta nuestra [guía completa de precios y venta de madera en Galicia](/precio-venta-madera-galicia). Lo primero que necesitas saber es cuánto vale. Y lo segundo: cómo no dejarte engañar.

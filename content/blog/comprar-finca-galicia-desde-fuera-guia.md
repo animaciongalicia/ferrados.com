@@ -4,7 +4,7 @@ description: "Guía práctica para comprar fincas rústicas en Galicia viviendo 
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["comprar", "finca", "galicia", "no residentes", "emigrantes", "compraventa", "extranjero"]
+tags: ["emigrantes","paso-a-paso"]
 ---
 
 Vives en Madrid, Barcelona, Londres o Buenos Aires y quieres comprar una finca o una casa de aldea en Galicia. Quizás es la tierra de tus abuelos, quizás es una inversión o quizás simplemente quieres un trozo de monte en la Costa da Morte. El problema es que comprar a distancia en el rural gallego es territorio comanche si no sabes cómo funciona. Si tu interés es una casa de aldea, lee antes nuestro [manual de supervivencia para comprar casa en Galicia](/blog/comprar-casa-aldea-galicia-manual-supervivencia).

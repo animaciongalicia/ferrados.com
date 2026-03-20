@@ -4,7 +4,7 @@ description: "Guía completa para renunciar a la herencia de un monte o finca r�
 date: "2026-03-17"
 lastUpdated: "2026-03-17"
 pilar: "herencias"
-tags: ["herencias", "renuncia herencia", "galicia", "montes", "fincas", "notario", "impuestos", "herencia no deseada"]
+tags: ["impuestos","legislacion"]
 ---
 
 "He heredado un monte en Lugo que no quiero. Vivo en Barcelona, no tengo dinero para limpiarlo y me van a caer multas." Esta consulta nos llega todas las semanas. Y la respuesta no es tan simple como un "renuncia y olvídate". Si quieres entender primero cómo funciona el proceso de herencia, consulta nuestra [guía completa de herencias de montes en Galicia](/herencias-montes-galicia).

@@ -4,7 +4,7 @@ description: "Guía práctica del impuesto de sucesiones en Galicia aplicado a h
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "impuestos", "sucesiones", "galicia", "fiscalidad", "fincas"]
+tags: ["impuestos"]
 ---
 
 Acabas de heredar unas fincas en Galicia y alguien te dice que tienes que pagar el impuesto de sucesiones. La primera pregunta es cuánto. La segunda es si hay forma de pagar menos. La respuesta a ambas es: depende de lo que hagas y cuándo lo hagas. Si acabas de heredar y no sabes por dónde empezar, consulta nuestra [guía completa de herencias de montes en Galicia](/herencias-montes-galicia).

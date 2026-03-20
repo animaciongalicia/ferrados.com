@@ -4,7 +4,7 @@ description: "Comparativa real entre eucalipto y pino en Galicia: rentabilidad p
 date: "2026-03-17"
 lastUpdated: "2026-03-17"
 pilar: "madera"
-tags: ["madera", "eucalipto", "pino", "rentabilidad", "plantar", "galicia", "reforestación", "inversión forestal"]
+tags: ["precios"]
 ---
 
 "Tengo un monte vacío en Pontevedra y no sé si plantar eucalipto o pino." Es una de las preguntas más frecuentes que recibimos, y la respuesta no es tan obvia como parece. El eucalipto da dinero antes, pero el pino puede dar más. Depende de tu finca, tu zona y tu horizonte temporal.

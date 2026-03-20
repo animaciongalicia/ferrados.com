@@ -4,7 +4,7 @@ description: "Guía práctica para solicitar el permiso de corta de madera en Ga
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "permiso corta", "galicia", "xunta", "trámites", "legislación"]
+tags: ["xunta","paso-a-paso","documentacion"]
 ---
 
 No puedes cortar ni un solo árbol de tu monte en Galicia sin permiso. Da igual que sea tuyo, que lleve 30 años sin tocar y que el maderista esté esperando con la procesadora. Sin permiso de corta, la venta es ilegal y la multa puede superar el valor de la madera. Si estás preparando la venta, consulta primero nuestra [guía de precios y venta de madera en Galicia](/precio-venta-madera-galicia).

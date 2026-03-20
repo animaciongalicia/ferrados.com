@@ -4,7 +4,7 @@ description: "Tu finca en Galicia nunca ha estado en el Registro de la Propiedad
 date: "2026-03-17"
 lastUpdated: "2026-03-17"
 pilar: "tramites"
-tags: ["inmatriculación galicia", "registro propiedad", "expediente de dominio", "primera inscripción", "finca sin registrar"]
+tags: ["documentacion","paso-a-paso"]
 ---
 
 Tu finca en Galicia no está inscrita en el Registro de la Propiedad. No aparece. No existe para el Registro. Y necesitas que exista porque quieres vender, o heredar formalmente, o simplemente tener la seguridad jurídica de que nadie te la puede disputar.

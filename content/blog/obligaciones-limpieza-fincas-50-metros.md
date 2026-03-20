@@ -4,7 +4,7 @@ description: "Todo sobre la obligación de limpiar fincas a menos de 50 metros d
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "limpieza"
-tags: ["limpieza", "50 metros", "normativa", "xunta", "incendios", "galicia"]
+tags: ["xunta","legislacion"]
 ---
 
 Si tienes una finca a menos de 50 metros de una casa o un núcleo de población en Galicia, estás obligado a mantenerla limpia. Usa nuestra [calculadora de multas por no limpiar fincas](/limpieza-desbroce-multas-xunta#calculadora) para saber cuánto te puede costar si no cumples. No es opcional. No importa si vives en Galicia o en el extranjero. No importa si la finca la heredaste hace un mes o la tiene tu familia hace tres generaciones. La obligación es tuya, y las consecuencias de no cumplir pueden ser muy caras.

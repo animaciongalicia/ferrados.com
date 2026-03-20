@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
 import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts, extractFaqs, extractHowToSteps } from "@/lib/blog";
 import { getCategoryForPilar, GACETA_CATEGORIES } from "@/lib/gaceta-categories";
+import { getTagById } from "@/lib/gaceta-tags";
 import CajaSecuestro from "@/components/CajaSecuestro";
 import TableOfContents from "@/components/TableOfContents";
 import MobileTOC from "@/components/MobileTOC";
@@ -218,8 +219,29 @@ export default async function BlogPostPage({ params }: Props) {
               {post.meta.title}
             </h1>
 
-            <div className="text-sm text-gray-500 mb-6">
+            <div className="flex flex-wrap items-center gap-2 text-sm text-gray-500 mb-6">
               <span>{post.meta.readingTime} min de lectura</span>
+              {category && (
+                <Link
+                  href={`/blog?cat=${categoryId}`}
+                  className={`inline-block border rounded-full text-xs px-2 py-0.5 hover:opacity-80 transition-opacity ${category.pillClasses}`}
+                >
+                  {category.label}
+                </Link>
+              )}
+              {post.meta.tags?.map((tagId) => {
+                const tag = getTagById(tagId);
+                if (!tag) return null;
+                return (
+                  <Link
+                    key={tagId}
+                    href={`/blog?tag=${tagId}`}
+                    className={`inline-block border rounded-full text-xs px-2 py-0.5 hover:opacity-80 transition-opacity ${tag.chipClasses}`}
+                  >
+                    {tag.label}
+                  </Link>
+                );
+              })}
             </div>
 
             {/* Mobile TOC — visible only on mobile/tablet */}

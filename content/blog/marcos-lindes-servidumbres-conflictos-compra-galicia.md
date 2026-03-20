@@ -4,7 +4,7 @@ description: "Marcos movidos, servidumbres de paso, derechos de agua y lindes qu
 date: "2026-03-30"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["marcos galicia", "lindes finca", "servidumbres paso", "compra rural galicia", "conflictos vecinos"]
+tags: ["vecinos","errores"]
 ---
 
 Imagina la escena. Has comprado una finca preciosa en una parroquia gallega. Todo verde, todo tranquilo. Empiezas a limpiar el terreno y te aparece el vecino: "Esa esquina es mía. El marco siempre estuvo más allá."

@@ -4,7 +4,7 @@ description: "Todo lo que necesitas saber sobre queimas controladas en Galicia: 
 date: "2026-03-18"
 lastUpdated: "2026-03-18"
 pilar: "limpieza"
-tags: ["queimas", "limpieza", "incendios", "permisos", "xunta", "galicia", "multas"]
+tags: ["xunta","paso-a-paso"]
 ---
 
 "Toda la vida se quemó el monte y nunca pasó nada." Esta frase la oímos constantemente, y es precisamente la que precede a la mayoría de multas por queima ilegal en Galicia. Las cosas han cambiado, y mucho. Si estás pensando en quemar matorral, restos de poda o rastrojos en tu finca, necesitas saber exactamente qué puedes y qué no puedes hacer, porque las sanciones son severas. Consulta también nuestra [guía completa sobre limpieza y multas de la Xunta](/limpieza-desbroce-multas-xunta).

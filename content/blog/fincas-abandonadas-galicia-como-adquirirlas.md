@@ -4,7 +4,7 @@ description: "Guía completa sobre fincas y montes abandonados en Galicia: cómo
 date: "2026-03-18"
 lastUpdated: "2026-03-18"
 pilar: "compraventa"
-tags: ["fincas abandonadas", "compraventa", "banco de terras", "galicia", "usucapión", "montes", "terrenos"]
+tags: ["legislacion","paso-a-paso"]
 ---
 
 Galicia tiene un problema enorme de abandono de tierras. Se calcula que entre el 30% y el 40% del suelo agrícola y forestal gallego está infrautilizado o directamente abandonado. Es terreno que nadie cultiva, nadie limpia y nadie gestiona. Y al mismo tiempo, hay gente que busca fincas para comprar, para cultivar o para gestionar madera y no encuentra. La paradoja es real, y tiene una explicación: la mayoría de esas fincas abandonadas tienen dueño, pero nadie sabe quién es o cómo contactarle. Si estás buscando adquirir una finca abandonada en Galicia, te explicamos las vías legales, los riesgos y la realidad.

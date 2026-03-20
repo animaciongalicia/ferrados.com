@@ -4,7 +4,7 @@ description: "Tu vecino no limpia su finca y temes un incendio. Te explicamos qu
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "limpieza"
-tags: ["vecino", "limpieza", "denuncia", "concello", "xunta", "incendios", "galicia"]
+tags: ["vecinos","xunta"]
 ---
 
 Miras por la ventana y ves un muro de tojos, silvas y maleza de dos metros de alto pegado a tu casa. Es del vecino. Llevas años pidiéndole que limpie. Te dice que sí, que ya va, que la semana que viene. Y la semana que viene nunca llega. Mientras tanto, cada verano te mueres de miedo pensando en un incendio.

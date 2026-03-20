@@ -4,7 +4,7 @@ description: "En Galicia, el Registro de la Propiedad y el Catastro casi nunca c
 date: "2026-03-18"
 lastUpdated: "2026-03-18"
 pilar: "tramites"
-tags: ["registro propiedad galicia", "catastro galicia", "diferencias registro catastro", "nota simple", "referencia catastral"]
+tags: ["documentacion"]
 ---
 
 Si tienes una finca en Galicia, es casi seguro que te has encontrado con esto: lo que dice el Catastro no coincide con lo que dice el Registro de la Propiedad. Ni en la superficie, ni en los lindes, ni a veces ni siquiera en el titular.

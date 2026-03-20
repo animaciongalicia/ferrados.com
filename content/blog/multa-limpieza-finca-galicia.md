@@ -4,7 +4,7 @@ description: "Guía urgente para propietarios que han recibido una notificación
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "limpieza"
-tags: ["multas", "limpieza", "xunta", "incendios", "galicia"]
+tags: ["xunta","legislacion"]
 ---
 
 Si has recibido una carta de la Xunta notificándote que tu finca no cumple con la normativa de prevención de incendios, no estás solo. Consulta también nuestra [guía completa sobre multas y limpieza de fincas en Galicia](/limpieza-desbroce-multas-xunta) con calculadora de multas incluida. Miles de propietarios en Galicia se enfrentan a esta situación cada año, y la mayoría no sabe cómo actuar. Te explicamos qué hacer paso a paso, cuánto te va a costar y cómo evitar que la cosa vaya a más.

@@ -4,7 +4,7 @@ description: "Guía para compradores de fincas rústicas en Galicia: trampas hab
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["comprar", "finca rústica", "galicia", "trampas", "compraventa", "inversión"]
+tags: ["errores"]
 ---
 
 Galicia tiene fincas rústicas a precios que parecen un chollo comparados con el resto de España. Un monte de 2 hectáreas por 3.000€, una parcela con vistas al mar por 5.000€. Suena bien. Demasiado bien. Si estás pensando en comprar, primero lee nuestro [manual de supervivencia para comprar en el rural gallego](/blog/comprar-casa-aldea-galicia-manual-supervivencia) y nuestra [guía completa de compra-venta de terrenos en Galicia](/compra-venta-terrenos-galicia), y luego vuelve aquí para las trampas que no aparecen en los anuncios.

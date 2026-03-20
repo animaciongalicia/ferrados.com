@@ -4,7 +4,7 @@ description: "Qué hacer cuando el Catastro y el Registro de la Propiedad no coi
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "lindes"
-tags: ["catastro", "escrituras", "lindes", "registro", "galicia", "fincas", "topografía"]
+tags: ["documentacion"]
 ---
 
 Vas a vender tu finca. Sacas las escrituras: "Superficie: 4.200 metros cuadrados." Miras el Catastro: "Superficie: 2.800 metros cuadrados." Buscas la nota simple del Registro: "Superficie: 5.100 metros cuadrados." Tres documentos, tres superficies distintas. ¿Cuál es la buena? ¿Y por qué narices no coinciden?

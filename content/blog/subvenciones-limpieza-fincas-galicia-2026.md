@@ -4,7 +4,7 @@ description: "Guía completa de ayudas y subvenciones de la Xunta para limpieza,
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "limpieza"
-tags: ["subvenciones", "limpieza", "xunta", "ayudas", "galicia", "desbroce", "incendios"]
+tags: ["subvenciones","xunta"]
 ---
 
 Cada año la Xunta de Galicia destina millones de euros a ayudar a propietarios de fincas rústicas a cumplir con las obligaciones de limpieza y prevención de incendios forestales. El problema es que casi nadie se entera de que existen, los plazos son cortos y la burocracia asusta. Si necesitas limpiar tu finca y quieres saber cuánto te costaría, empieza por nuestra [guía completa de limpieza, desbroce y multas](/limpieza-desbroce-multas-xunta) con calculadora incluida.

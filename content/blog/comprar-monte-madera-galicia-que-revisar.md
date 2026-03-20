@@ -4,7 +4,7 @@ description: "Checklist práctica para comprar un monte con plantación forestal
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["comprar", "monte", "madera", "galicia", "inversión", "compraventa", "checklist"]
+tags: ["errores","precios"]
 ---
 
 Comprar un monte con madera madura puede ser un negocio excelente: pagas por el terreno, vendes la madera y recuperas la inversión en meses. O puede ser un desastre: la madera vale menos de lo que pensabas, la propiedad tiene problemas, el acceso es imposible o hay cargas que nadie te contó. Si ya has leído sobre [las trampas de comprar finca rústica barata en Galicia](/blog/comprar-finca-rustica-barata-galicia-trampas), sabes de qué hablamos. Aquí nos centramos en lo específico de comprar un monte con madera.

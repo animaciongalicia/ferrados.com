@@ -4,7 +4,7 @@ description: "Guía paso a paso para vender una finca rústica heredada en Galic
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["vender", "finca rústica", "galicia", "herencia", "trámites", "compraventa"]
+tags: ["paso-a-paso","documentacion"]
 ---
 
 Tienes una finca en Galicia. Puede que la heredaras hace años, puede que te enteraras ayer de que eras propietario. El caso es que quieres venderla y no tienes ni idea de por dónde empezar. Tranquilo: es la situación más habitual que nos encontramos. Consulta también nuestra [guía completa de compra-venta de terrenos en Galicia](/compra-venta-terrenos-galicia) para tener el panorama completo.

@@ -4,7 +4,7 @@ description: "Equivalencia real del ferrado en metros cuadrados según la zona d
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "lindes"
-tags: ["ferrado", "metros cuadrados", "galicia", "medidas", "catastro", "fincas"]
+tags: ["documentacion"]
 ---
 
 "¿Cuánto mide un ferrado?" Parece una pregunta sencilla. Y la respuesta que encontrarás en Google es: "Un ferrado equivale a 629 metros cuadrados." Pero eso solo es verdad en una parte de Galicia. En otros concellos, un ferrado puede ser 436 m², 564 m² o incluso 900 m². Y si compras o vendes una finca usando el ferrado equivocado, puedes estar regalando (o pagando de más) un 30-40% de terreno.

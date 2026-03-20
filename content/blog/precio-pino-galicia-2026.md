@@ -4,7 +4,7 @@ description: "Precios actualizados del pino marítimo y pino radiata en Galicia 
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "pino", "precios", "galicia", "venta"]
+tags: ["precios"]
 ---
 
 El pino es la segunda especie forestal de Galicia después del eucalipto. El pino marítimo (Pinus pinaster) y el pino radiata (Pinus radiata, también llamado pino insigne) ocupan cientos de miles de hectáreas, sobre todo en zonas de interior y media montaña. Si estás pensando en vender, consulta primero nuestra [guía completa de precios y venta de madera en Galicia](/precio-venta-madera-galicia) para entender el proceso completo.

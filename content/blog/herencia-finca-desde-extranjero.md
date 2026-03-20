@@ -4,7 +4,7 @@ description: "Guía para emigrantes y descendientes de gallegos que heredan finc
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "extranjero", "emigrantes", "galicia", "poderes"]
+tags: ["emigrantes","documentacion"]
 ---
 
 Eres hijo o nieto de gallegos, vives en Argentina, Venezuela, Suiza, Alemania o cualquier otro país, y de repente heredas unas fincas en Galicia que no has pisado en tu vida. Si buscas el proceso general, tenemos una [guía completa para heredar montes y fincas en Galicia](/herencias-montes-galicia). ¿Qué haces? ¿Tienes que ir a Galicia? ¿Puedes hacer los trámites desde donde estás? ¿Merece la pena?

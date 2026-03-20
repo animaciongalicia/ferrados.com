@@ -4,7 +4,7 @@ description: "Qué pasa cuando heredas un monte en Galicia y no hay testamento. 
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "testamento", "galicia", "montes", "notario"]
+tags: ["legislacion","documentacion"]
 ---
 
 "Mi padre falleció hace dos años y nunca hizo testamento. Ahora resulta que tenemos tres fincas en Ourense y no sabemos ni por dónde empezar." Esta es una de las consultas más frecuentes que recibimos. Si necesitas el proceso general, consulta nuestra [guía completa sobre herencias de montes en Galicia](/herencias-montes-galicia). Y la buena noticia es que tiene solución, aunque es algo más largo y caro que cuando hay testamento.

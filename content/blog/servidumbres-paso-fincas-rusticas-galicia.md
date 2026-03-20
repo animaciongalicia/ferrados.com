@@ -4,7 +4,7 @@ description: "Guía legal práctica sobre servidumbres de paso en fincas rústic
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "lindes"
-tags: ["servidumbres", "paso", "fincas", "galicia", "legislación", "lindes", "conflictos"]
+tags: ["vecinos","legislacion"]
 ---
 
 "Mi vecino pasa por mi finca desde siempre y dice que tiene derecho." O al revés: "Para llegar a mi monte tengo que cruzar la finca del vecino y me ha cerrado el paso." Las servidumbres de paso son la fuente de conflictos más persistente en el rural gallego, solo por detrás de las herencias. Si tu problema está relacionado con lindes y marcos, consulta también nuestro artículo sobre [marcos movidos por el vecino](/blog/marcos-finca-movidos-vecino).

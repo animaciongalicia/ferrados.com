@@ -4,7 +4,7 @@ description: "Comprar una ruina barata en Galicia puede parecer un chollo, pero 
 date: "2026-04-06"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["ruina galicia", "rehabilitacion casa piedra", "normativa urbanistica", "comprar ruina", "reforma rural galicia"]
+tags: ["errores","legislacion"]
 ---
 
 La foto es irresistible: una casa de piedra con hórreo, rodeada de castaños, con vistas al valle. Precio: 15.000 euros. Tu cabeza ya está calculando cuánto cuesta reformarla, qué colores van a tener las paredes y dónde vas a poner la estufa de leña.

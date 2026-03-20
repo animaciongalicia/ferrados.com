@@ -4,7 +4,7 @@ description: "Tu vecino ha movido los marcos o mojones de tu finca en Galicia. G
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "lindes"
-tags: ["marcos", "lindes", "vecino", "mojones", "galicia", "fincas", "topografía"]
+tags: ["vecinos","legislacion"]
 ---
 
 Vas al monte a ver tu finca y algo no cuadra. El marco de piedra que siempre estuvo ahí ya no está. O está dos metros más adentro. O han plantado eucaliptos donde antes estaba tu linde. O el vecino ha metido la retroexcavadora y ha extendido su camino por tu terreno.

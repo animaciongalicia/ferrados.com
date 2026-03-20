@@ -4,7 +4,7 @@ description: "Qué se puede y qué no se puede construir en suelo rústico en Ga
 date: "2026-03-18"
 lastUpdated: "2026-03-18"
 pilar: "compraventa"
-tags: ["suelo rústico", "construir", "licencia", "galicia", "urbanismo", "vivienda", "fincas"]
+tags: ["legislacion","xunta"]
 ---
 
 Es la pregunta del millón en Galicia: "Tengo una finca rústica, ¿puedo construirme una casa?" La respuesta corta es: depende. La respuesta larga es más complicada de lo que te gustaría, y hay mucha gente que se ha metido en problemas muy serios por no informarse bien. Si estás pensando en [comprar una finca rústica](/blog/comprar-finca-rustica-barata-galicia-trampas) con la idea de construir, lee esto primero.

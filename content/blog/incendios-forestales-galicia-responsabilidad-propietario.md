@@ -4,7 +4,7 @@ description: "Qué responsabilidad legal tiene el propietario de un monte en Gal
 date: "2026-03-17"
 lastUpdated: "2026-03-17"
 pilar: "limpieza"
-tags: ["incendios", "limpieza", "responsabilidad", "seguro forestal", "galicia", "prevención", "multas", "xunta", "monte"]
+tags: ["legislacion","xunta"]
 ---
 
 Cada verano, Galicia arde. En los peores años se queman más de 50.000 hectáreas. Y cada verano, miles de propietarios de montes se hacen las mismas preguntas: ¿me pueden multar si mi finca se quema? ¿Soy responsable si el fuego salta a la finca del vecino? ¿Merece la pena contratar un seguro? ¿Qué hago si me llega una carta de la Xunta?

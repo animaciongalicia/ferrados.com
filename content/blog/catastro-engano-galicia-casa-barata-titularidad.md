@@ -4,7 +4,7 @@ description: "Catastro, Registro y realidad no coinciden en Galicia. Antes de co
 date: "2026-03-23"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["catastro galicia", "herencia finca", "titularidad propiedad", "compra casa rural", "registro propiedad"]
+tags: ["errores","documentacion"]
 ---
 
 Has encontrado una casa de piedra en un pueblo gallego. El precio es increíble. El vendedor te dice que es suya, te enseña un plano del Catastro y todo parece estar en orden. Firmas arras, sueltas dinero y empiezas a hacer planes.

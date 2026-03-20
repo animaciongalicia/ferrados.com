@@ -4,7 +4,7 @@ description: "Tu finca tiene un tipo de suelo que determina qué puedes hacer co
 date: "2026-03-19"
 lastUpdated: "2026-03-19"
 pilar: "urbanismo"
-tags: ["tipos de suelo galicia", "suelo rústico", "núcleo rural", "urbanismo galicia", "LOUGA"]
+tags: ["legislacion"]
 ---
 
 Tienes una finca en Galicia y alguien te ha dicho que es "rústica". Pero cuando empiezas a preguntar si puedes construir, si puedes segregar o si puedes venderla como solar, te encuentras con que hay tipos de rústico, que no es lo mismo núcleo rural que urbano, y que el Catastro dice una cosa y el ayuntamiento otra.

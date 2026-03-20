@@ -4,7 +4,7 @@ description: "Claves para saber cuándo cortar y vender tu plantación de pino e
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "pino", "venta", "galicia", "precios"]
+tags: ["precios"]
 ---
 
 El pino (Pinus pinaster y Pinus radiata) es la segunda especie más importante de Galicia después del eucalipto. Si tienes una plantación, la pregunta clave es: ¿cuándo cortar? Consulta nuestra [guía completa de precios y venta de madera en Galicia](/precio-venta-madera-galicia) para ver el panorama general. Vender demasiado pronto te hace perder dinero. Vender demasiado tarde también. Aquí te explicamos cómo acertar.

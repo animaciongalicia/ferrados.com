@@ -4,7 +4,7 @@ description: "Qué es el pacto de mejora gallego, cómo funciona, ventajas fisca
 date: "2026-03-18"
 lastUpdated: "2026-03-18"
 pilar: "herencias"
-tags: ["pacto de mejora", "herencias", "galicia", "donación", "impuestos", "sucesiones", "fincas"]
+tags: ["impuestos","legislacion"]
 ---
 
 En el resto de España, si quieres darle una finca a tu hijo en vida, tienes que hacer una donación. En Galicia tienes algo mucho mejor: el **pacto de mejora**. Es una institución jurídica propia del derecho civil gallego que permite transmitir bienes a los descendientes en vida, con las ventajas fiscales de una herencia y sin los inconvenientes de una donación. Si tienes fincas, montes o propiedades en Galicia y estás pensando en cómo organizar la sucesión, esto es lo que necesitas saber.

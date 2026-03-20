@@ -4,7 +4,7 @@ description: "Guía práctica para localizar la referencia catastral de tu monte
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "lindes"
-tags: ["catastro", "referencia catastral", "fincas", "galicia", "lindes"]
+tags: ["documentacion","paso-a-paso"]
 ---
 
 La referencia catastral es el DNI de tu finca. Sin ella, no puedes hacer casi nada: ni [vender terrenos en Galicia](/compra-venta-terrenos-galicia), ni [heredar un monte](/herencias-montes-galicia), ni reclamar lindes, ni pedir permisos de corta. Pero encontrarla no siempre es fácil, especialmente en Galicia, donde muchas fincas llevan décadas sin actualizar y los límites en el Catastro no coinciden con la realidad.

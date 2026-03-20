@@ -4,7 +4,7 @@ description: "Todo lo que necesitas saber para heredar un monte o finca en Galic
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "montes", "galicia", "trámites"]
+tags: ["paso-a-paso","documentacion"]
 ---
 
 Heredar un monte en Galicia es más habitual de lo que parece. Miles de gallegos (o hijos y nietos de gallegos) se encuentran cada año con que han heredado una o varias parcelas forestales, muchas veces sin saber muy bien qué hacer con ellas. Esta guía te explica el proceso real, con los costes y plazos que nadie te cuenta.

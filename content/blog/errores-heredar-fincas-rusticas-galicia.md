@@ -4,7 +4,7 @@ description: "Los errores más caros al heredar montes y fincas en Galicia: impu
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "galicia", "fincas", "impuestos", "tasaciones", "errores"]
+tags: ["errores","documentacion"]
 ---
 
 Heredar fincas en Galicia parece un regalo. Si necesitas el proceso completo, consulta nuestra [guía para heredar montes y fincas en Galicia](/herencias-montes-galicia). Pero antes, lee esto: hasta que llegas al notario, al liquidador de impuestos y al Catastro. Entonces descubres que ese "regalo" puede costarte más de lo que vale si no haces las cosas bien. Estos son los tres errores que vemos una y otra vez, y cómo evitarlos.

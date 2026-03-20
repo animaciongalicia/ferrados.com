@@ -10,6 +10,7 @@ import {
   getCategoryForPilar,
   type GacetaCategory,
 } from "@/lib/gaceta-categories";
+import { GACETA_TAGS, getTagById } from "@/lib/gaceta-tags";
 
 interface GacetaClientProps {
   posts: BlogPostMeta[];
@@ -53,9 +54,25 @@ function PostCard({ post }: { post: BlogPostMeta }) {
       <h2 className="text-lg font-extrabold text-gray-900 mb-2 leading-snug group-hover:text-green-800 transition-colors">
         {post.title}
       </h2>
-      <p className="text-sm text-gray-600 line-clamp-2 mb-4 flex-1">
+      <p className="text-sm text-gray-600 line-clamp-2 mb-3 flex-1">
         {post.description}
       </p>
+      {post.tags && post.tags.length > 0 && (
+        <div className="flex flex-wrap gap-1 mb-3">
+          {post.tags.slice(0, 3).map((tagId) => {
+            const tag = getTagById(tagId);
+            if (!tag) return null;
+            return (
+              <span
+                key={tagId}
+                className={`inline-block border rounded-full text-[10px] px-1.5 py-0 ${tag.chipClasses}`}
+              >
+                {tag.label}
+              </span>
+            );
+          })}
+        </div>
+      )}
       <span className="text-sm text-green-700 font-bold mt-auto">
         Leer solución →
       </span>
@@ -140,36 +157,59 @@ export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaCli
   const searchParams = useSearchParams();
   const router = useRouter();
   const catParam = searchParams.get("cat");
+  const tagParam = searchParams.get("tag");
 
   const [activeCategory, setActiveCategory] = useState<string | null>(
     catParam && GACETA_CATEGORIES.some((c) => c.id === catParam) ? catParam : null
+  );
+  const [activeTag, setActiveTag] = useState<string | null>(
+    tagParam && GACETA_TAGS.some((t) => t.id === tagParam) ? tagParam : null
   );
 
   // Sync with URL when searchParams change
   useEffect(() => {
     const cat = searchParams.get("cat");
+    const tag = searchParams.get("tag");
     if (cat && GACETA_CATEGORIES.some((c) => c.id === cat)) {
       setActiveCategory(cat);
     } else {
       setActiveCategory(null);
     }
+    if (tag && GACETA_TAGS.some((t) => t.id === tag)) {
+      setActiveTag(tag);
+    } else {
+      setActiveTag(null);
+    }
   }, [searchParams]);
+
+  function buildUrl(catId: string | null, tagId: string | null) {
+    const params = new URLSearchParams();
+    if (catId) params.set("cat", catId);
+    if (tagId) params.set("tag", tagId);
+    const qs = params.toString();
+    return qs ? `/blog?${qs}` : "/blog";
+  }
 
   function handleCategoryChange(catId: string | null) {
     setActiveCategory(catId);
-    if (catId) {
-      router.replace(`/blog?cat=${catId}`, { scroll: false });
-    } else {
-      router.replace("/blog", { scroll: false });
-    }
+    router.replace(buildUrl(catId, activeTag), { scroll: false });
   }
 
-  const filteredPosts = activeCategory
-    ? posts.filter((post) => {
-        const cat = GACETA_CATEGORIES.find((c) => c.id === activeCategory);
-        return cat && post.pilar && cat.pilares.includes(post.pilar);
-      })
-    : posts;
+  function handleTagChange(tagId: string | null) {
+    setActiveTag(tagId);
+    router.replace(buildUrl(activeCategory, tagId), { scroll: false });
+  }
+
+  const filteredPosts = posts.filter((post) => {
+    if (activeCategory) {
+      const cat = GACETA_CATEGORIES.find((c) => c.id === activeCategory);
+      if (!cat || !post.pilar || !cat.pilares.includes(post.pilar)) return false;
+    }
+    if (activeTag) {
+      if (!post.tags || !post.tags.includes(activeTag)) return false;
+    }
+    return true;
+  });
 
   return (
     <>
@@ -201,6 +241,30 @@ export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaCli
                 }`}
               >
                 {cat.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── Etiquetas transversales ─── */}
+      <div className="border-b border-gray-100 bg-gray-50/50">
+        <div className="max-w-6xl mx-auto px-4 py-2">
+          <div className="flex gap-1.5 overflow-x-auto lg:justify-center scrollbar-hide items-center">
+            <span className="shrink-0 text-xs text-gray-400 mr-1 hidden sm:inline">Etiquetas:</span>
+            {GACETA_TAGS.map((tag) => (
+              <button
+                key={tag.id}
+                onClick={() =>
+                  handleTagChange(activeTag === tag.id ? null : tag.id)
+                }
+                className={`shrink-0 border rounded-full text-xs px-2.5 py-0.5 transition-all cursor-pointer ${
+                  activeTag === tag.id
+                    ? `${tag.chipClasses} ring-1 ring-current font-semibold`
+                    : `${tag.chipClasses} opacity-70 hover:opacity-100`
+                }`}
+              >
+                {tag.label}
               </button>
             ))}
           </div>

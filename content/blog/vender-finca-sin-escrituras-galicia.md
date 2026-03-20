@@ -4,7 +4,7 @@ description: "Guía completa para vender una finca rústica en Galicia cuando no
 date: "2026-03-17"
 lastUpdated: "2026-03-17"
 pilar: "compraventa"
-tags: ["vender", "finca rústica", "escrituras", "galicia", "regularizar", "expediente dominio", "notario", "registro propiedad", "compraventa"]
+tags: ["documentacion","paso-a-paso"]
 ---
 
 "Quiero vender la finca de mi abuelo pero no hay escrituras de nada." En Galicia, esto es lo normal, no la excepción. Miles de fincas rústicas se han transmitido de padres a hijos durante generaciones sin pasar nunca por un notario ni por el Registro de la Propiedad. La finca "es tuya" porque siempre fue de tu familia, pero no tienes ningún papel que lo demuestre.

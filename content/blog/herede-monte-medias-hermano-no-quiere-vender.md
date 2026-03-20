@@ -4,7 +4,7 @@ description: "Qué hacer cuando heredas una finca en proindiviso en Galicia y un
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "proindiviso", "galicia", "montes", "copropietarios", "venta"]
+tags: ["vecinos"]
 ---
 
 "Somos tres hermanos, heredamos un monte en Ourense y el mayor se niega a vender. Lleva dos años sin contestar al teléfono." Si esta frase te suena, no estás solo. Es probablemente la consulta que más recibimos sobre herencias en Galicia. Consulta nuestra [página sobre proindivisos de montes en Galicia](/vender-parte-monte-proindiviso) para ver todas las opciones. Y sí, tiene solución legal.

@@ -4,7 +4,7 @@ description: "Guía práctica sobre las comunidades vecinales de montes en man c
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "proindiviso"
-tags: ["comunidades vecinales", "montes en man común", "comunero", "galicia", "derechos"]
+tags: ["legislacion","vecinos"]
 ---
 
 Si eres gallego o tienes raíces en Galicia, es muy probable que hayas oído hablar de los **montes vecinales en man común** (MVMC). Son una figura jurídica única en España, casi exclusiva de Galicia, y afectan a cientos de miles de familias. En este artículo te explicamos todo lo que necesitas saber.

@@ -4,7 +4,7 @@ description: "Aprende cómo se valora un monte en Galicia: métodos de tasación
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "lindes"
-tags: ["tasaciones", "montes", "valoración", "galicia", "catastro"]
+tags: ["precios"]
 ---
 
 Es la primera pregunta que se hace cualquier propietario: "¿cuánto vale esto?". Ya sea porque quieres [vender tu terreno en Galicia](/compra-venta-terrenos-galicia), porque necesitas repartir una [herencia de montes](/herencias-montes-galicia), porque tienes un conflicto con un vecino o simplemente por curiosidad. La respuesta depende de muchos factores y no hay un precio por metro cuadrado como en un piso.

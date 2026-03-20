@@ -4,7 +4,7 @@ description: "Guía práctica para utilizar el visor SIXPAC de la Xunta de Galic
 date: "2026-03-18"
 lastUpdated: "2026-03-18"
 pilar: "lindes"
-tags: ["sixpac", "catastro", "fincas", "parcelas", "galicia", "lindes", "xunta"]
+tags: ["paso-a-paso"]
 ---
 
 Si alguna vez has intentado localizar una finca en Galicia, sabrás que el Catastro y la realidad no siempre coinciden. Ahí es donde entra el SIXPAC (Sistema de Información Xeográfica de Parcelas Agrícolas), una herramienta gratuita de la Xunta que te permite ver las parcelas sobre fotografía aérea real. Es, probablemente, la herramienta más útil que existe para cualquier propietario de fincas en Galicia, y la mayoría de la gente no sabe que existe. Si buscas información complementaria sobre el Catastro, consulta nuestra guía sobre [cómo encontrar la referencia catastral de tu finca](/blog/catastro-finca-galicia-referencia).

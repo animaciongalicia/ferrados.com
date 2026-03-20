@@ -4,7 +4,7 @@ description: "Guía sin filtros para quien quiere comprar una casa vieja, una al
 date: "2026-03-16"
 lastUpdated: "2026-03-15"
 pilar: "compraventa"
-tags: ["comprar casa galicia", "aldea galicia", "compra rural", "errores compra", "finca galicia"]
+tags: ["paso-a-paso","errores"]
 ---
 
 Te has enamorado de Galicia. Has visto fotos de casas de piedra rodeadas de verde, aldeas por cuatro duros, fincas enormes a precio de garaje en Madrid. Y has pensado: "¿Por qué no?".

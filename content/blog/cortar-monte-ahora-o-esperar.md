@@ -4,7 +4,7 @@ description: "¿Es buen momento para cortar tu monte en Galicia? Analizamos el c
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "eucalipto", "pino", "precios", "galicia", "corta"]
+tags: ["precios","errores"]
 ---
 
 "Espera un poco, que el precio va a subir." Si un maderista te ha dicho eso alguna vez, puede que te esté haciendo un favor... o puede que te esté quitando dinero. Porque la trampa no siempre es vender barato. A veces la trampa es no vender.

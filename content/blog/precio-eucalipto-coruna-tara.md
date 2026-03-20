@@ -4,7 +4,7 @@ description: "Precio real del eucalipto en A Coruña actualizado. Aprende cómo 
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "eucalipto", "precios", "a coruña", "tara", "estafa"]
+tags: ["precios"]
 ---
 
 Tienes eucalipto en A Coruña y un maderista te ha dado un precio. Perfecto. Consulta también nuestra [guía general de precios y venta de madera en Galicia](/precio-venta-madera-galicia) y nuestro artículo sobre [precios del eucalipto en toda Galicia](/blog/precio-eucalipto-galicia-2026). Ahora la pregunta que deberías hacerte no es "¿es buen precio?" sino **"¿me está midiendo bien la madera?"**. Porque en Galicia, la diferencia entre un propietario que cobra lo justo y uno al que le roban puede estar en un solo número: la tara.

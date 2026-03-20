@@ -4,7 +4,7 @@ description: "Miles de fincas en Galicia no tienen escritura. Te explicamos cóm
 date: "2026-03-19"
 lastUpdated: "2026-03-19"
 pilar: "tramites"
-tags: ["escritura finca galicia", "notaría finca rústica", "acta de notoriedad", "expediente de dominio", "trámites finca"]
+tags: ["documentacion","paso-a-paso"]
 ---
 
 Tu finca no tiene escritura. No es raro: en Galicia, miles de fincas se han transmitido durante generaciones de padres a hijos sin pasar jamás por un notario. Se heredaba "de palabra", se repartían las parcelas por costumbre y todo el mundo sabía qué era de quién.

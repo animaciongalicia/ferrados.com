@@ -4,7 +4,7 @@ description: "Guía completa sobre la extinción de condominio de fincas rústic
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "proindiviso", "extincion condominio", "galicia", "fincas", "copropietarios"]
+tags: ["vecinos","legislacion"]
 ---
 
 Tres hermanos heredan un monte. Uno quiere vender, otro quiere esperar y el tercero no contesta al teléfono. ¿Te suena? Es la situación más habitual en las herencias de fincas en Galicia. La solución legal se llama **extinción de condominio**, y es mucho más barata y rápida que una compraventa normal. Si tu situación es que un copropietario se niega a vender, consulta nuestra [guía específica sobre proindivisos de montes](/vender-parte-monte-proindiviso).
