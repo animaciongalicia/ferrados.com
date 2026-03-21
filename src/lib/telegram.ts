@@ -13,7 +13,10 @@ interface LeadNotification {
   embudo: string;
   nombre?: string;
   telefono?: string;
+  email?: string;
   municipio?: string;
+  provincia?: string;
+  urgencia?: string;
   score: number;
   clasificacion: string;
 }
@@ -42,7 +45,10 @@ export async function notifyTelegramLead(lead: LeadNotification): Promise<void> 
 
   if (lead.nombre) lines.push(`<b>Nombre:</b> ${lead.nombre}`);
   if (lead.telefono) lines.push(`<b>Teléfono:</b> ${lead.telefono}`);
+  if (lead.email) lines.push(`<b>Email:</b> ${lead.email}`);
+  if (lead.provincia) lines.push(`<b>Provincia:</b> ${lead.provincia}`);
   if (lead.municipio) lines.push(`<b>Municipio:</b> ${lead.municipio}`);
+  if (lead.urgencia) lines.push(`<b>Urgencia:</b> ${lead.urgencia}`);
 
   lines.push(``, `<code>${lead.id}</code>`);
 

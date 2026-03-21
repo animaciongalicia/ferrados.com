@@ -170,7 +170,10 @@ export async function POST(request: NextRequest) {
       embudo,
       nombre: typeof sanitizedData.nombre === "string" ? sanitizedData.nombre : undefined,
       telefono: typeof sanitizedData.telefono === "string" ? sanitizedData.telefono : undefined,
+      email: typeof sanitizedData.email === "string" ? sanitizedData.email : undefined,
       municipio: typeof sanitizedData.municipio === "string" ? sanitizedData.municipio : undefined,
+      provincia: typeof sanitizedData.provincia === "string" ? sanitizedData.provincia : undefined,
+      urgencia: typeof sanitizedData.urgencia === "string" ? sanitizedData.urgencia : undefined,
       score: lead.score,
       clasificacion: lead.clasificacion,
     });
