@@ -1,16 +1,28 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import CompraVentaForm from "@/components/forms/CompraVentaForm";
+import PilarJsonLd from "@/components/PilarJsonLd";
+import PilarSidebar from "@/components/PilarSidebar";
 
 export const metadata: Metadata = {
   title: "Compra-venta de terrenos y fincas en Galicia — Guía completa",
   description:
     "¿Quieres comprar o vender un terreno, finca o monte en Galicia? Precios orientativos, trámites, errores a evitar y asesoramiento inmobiliario especializado en fincas rústicas.",
+  alternates: { canonical: "/compra-venta-terrenos-galicia" },
 };
 
 export default function CompraVentaPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+    <>
+    <PilarJsonLd
+      title="Compra-venta de terrenos y fincas en Galicia"
+      description="Asesoramiento para comprar o vender terrenos, fincas y montes en Galicia."
+      slug="compra-venta-terrenos-galicia"
+      breadcrumbLabel="Compra-venta de terrenos"
+    />
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
+        <div>
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
         <span className="mx-2">/</span>
@@ -234,6 +246,10 @@ export default function CompraVentaPage() {
       <section id="formulario">
         <CompraVentaForm origen="pilar-compraventa" />
       </section>
+        </div>
+        <PilarSidebar pilar="compraventa" />
+      </div>
     </div>
+    </>
   );
 }

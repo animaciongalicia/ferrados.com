@@ -2,6 +2,47 @@ import { NextRequest, NextResponse } from "next/server";
 import { schemaByEmbudo, superficieM2, type EmbudoType } from "@/lib/lead-schema";
 import { calcularScoreLead } from "@/lib/lead-scoring";
 import { rateLimit } from "@/lib/rate-limit";
+import { getMakeWebhookUrl } from "@/lib/make-webhooks";
+import { notifyTelegramLead } from "@/lib/telegram";
+
+/** Limpia caracteres HTML peligrosos de campos de texto libre */
+function sanitizeHtml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#x27;");
+}
+
+/** Sanitiza todos los campos string de un objeto (solo texto libre, no enums) */
+function sanitizeLead(data: Record<string, unknown>, freeTextFields: string[]): Record<string, unknown> {
+  const result = { ...data };
+  for (const field of freeTextFields) {
+    if (typeof result[field] === "string" && result[field]) {
+      result[field] = sanitizeHtml(result[field] as string);
+    }
+  }
+  return result;
+}
+
+/** Fetch con timeout de 5s y 1 reintento */
+async function fetchWithRetry(url: string, options: RequestInit): Promise<Response> {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
+    try {
+      const res = await fetch(url, { ...options, signal: controller.signal });
+      return res;
+    } catch (err) {
+      if (attempt === 1) throw err;
+      // primer intento falló, reintentar
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+  throw new Error("fetchWithRetry: unreachable");
+}
 
 /**
  * POST /api/leads
@@ -32,7 +73,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const body = await request.json();
+    let body: Record<string, unknown>;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json(
+        { error: "El cuerpo de la solicitud no es JSON válido" },
+        { status: 400 }
+      );
+    }
 
     // Determinar qué schema usar según el embudo
     const embudo = body.embudo as EmbudoType;
@@ -56,6 +105,11 @@ export async function POST(request: NextRequest) {
     }
 
     const data = parsed.data;
+
+    // Sanitizar campos de texto libre (no enums) contra inyección HTML
+    const freeTextFields = ["nombre", "comentarios", "municipio", "empresa", "pais_residencia"];
+    const sanitizedData = sanitizeLead(data as Record<string, unknown>, freeTextFields);
+
     const { score, clasificacion, cliente_b2b_target } = calcularScoreLead(data);
 
     // Calcular superficie en m² si el campo existe
@@ -66,7 +120,7 @@ export async function POST(request: NextRequest) {
 
     const lead = {
       id: crypto.randomUUID(),
-      ...data,
+      ...sanitizedData,
       ...(superficieM2Valor !== null && { superficie_m2: superficieM2Valor }),
       score,
       clasificacion,
@@ -74,24 +128,55 @@ export async function POST(request: NextRequest) {
       created_at: new Date().toISOString(),
     };
 
-    // --- LOG ---
-    console.log("Nuevo lead recibido:", JSON.stringify(lead, null, 2));
+    // --- GOOGLE SHEETS DIRECTO (sin Make) ---
+    // Si tienes un Google Apps Script desplegado como webapp que recibe POST
+    // y escribe en una hoja de cálculo, pon su URL aquí.
+    // Instrucciones: Crea un Apps Script con doPost(e), parsea el JSON y
+    // escribe una fila. Despliega como webapp → copia la URL → pégala en .env.local
+    //   GOOGLE_SHEETS_WEBHOOK_URL=https://script.google.com/macros/s/.../exec
+    const sheetsWebhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+    if (sheetsWebhookUrl) {
+      try {
+        await fetchWithRetry(sheetsWebhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(lead),
+        });
+      } catch (sheetsError) {
+        console.error("Error enviando a Google Sheets:", sheetsError);
+      }
+    }
 
-    // --- MAKE WEBHOOK ---
-    // Envía el lead a Make para conectar con Google Sheets, email, CRM, etc.
-    const makeWebhookUrl = process.env.MAKE_WEBHOOK_URL;
+    // --- MAKE WEBHOOKS (uno por embudo) ---
+    // Cada embudo tiene su propio webhook en Make para ruteo independiente.
+    // Si no hay webhook específico, intenta el genérico legacy como fallback.
+    const makeWebhookUrl = getMakeWebhookUrl(embudo) ?? process.env.MAKE_WEBHOOK_URL;
     if (makeWebhookUrl) {
       try {
-        await fetch(makeWebhookUrl, {
+        await fetchWithRetry(makeWebhookUrl, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(lead),
         });
       } catch (webhookError) {
-        // No bloqueamos la respuesta al usuario si Make falla
-        console.error("Error enviando a Make:", webhookError);
+        console.error(`Error enviando a Make (${embudo}):`, webhookError);
       }
     }
+
+    // --- TELEGRAM ---
+    // Notificación instantánea al móvil cuando entra un lead
+    notifyTelegramLead({
+      id: lead.id,
+      embudo,
+      nombre: typeof sanitizedData.nombre === "string" ? sanitizedData.nombre : undefined,
+      telefono: typeof sanitizedData.telefono === "string" ? sanitizedData.telefono : undefined,
+      email: typeof sanitizedData.email === "string" ? sanitizedData.email : undefined,
+      municipio: typeof sanitizedData.municipio === "string" ? sanitizedData.municipio : undefined,
+      provincia: typeof sanitizedData.provincia === "string" ? sanitizedData.provincia : undefined,
+      urgencia: typeof sanitizedData.urgencia === "string" ? sanitizedData.urgencia : undefined,
+      score: lead.score,
+      clasificacion: lead.clasificacion,
+    });
 
     return NextResponse.json(
       {

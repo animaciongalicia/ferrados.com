@@ -15,6 +15,7 @@ export interface BlogPostMeta {
   title: string;
   description: string;
   date: string;
+  lastUpdated?: string;
   pilar?: string;
   tags?: string[];
   readingTime: number; // minutes
@@ -66,6 +67,7 @@ export function getAllPosts(): BlogPostMeta[] {
       title: data.title ?? slug,
       description: data.description ?? "",
       date: data.date ?? "",
+      lastUpdated: data.lastUpdated,
       pilar: data.pilar,
       tags: data.tags,
       readingTime: calculateReadingTime(content),
@@ -93,6 +95,7 @@ export function getPostBySlug(slug: string) {
       title: data.title ?? slug,
       description: data.description ?? "",
       date: data.date ?? "",
+      lastUpdated: data.lastUpdated,
       pilar: data.pilar,
       tags: data.tags,
       readingTime: calculateReadingTime(content),
@@ -102,14 +105,88 @@ export function getPostBySlug(slug: string) {
   };
 }
 
-export function getPrevNextPosts(currentSlug: string): { prev: BlogPostMeta | null; next: BlogPostMeta | null } {
-  const posts = getAllPosts(); // sorted newest-first
+export function getPrevNextPosts(currentSlug: string, pilar?: string): { prev: BlogPostMeta | null; next: BlogPostMeta | null } {
+  const allPosts = getAllPosts(); // sorted newest-first
+  // If pilar is provided, navigate within the same topic; otherwise fall back to all posts
+  const posts = pilar ? allPosts.filter((p) => p.pilar === pilar) : allPosts;
   const idx = posts.findIndex((p) => p.slug === currentSlug);
   if (idx === -1) return { prev: null, next: null };
   return {
     prev: idx < posts.length - 1 ? posts[idx + 1] : null, // older post
     next: idx > 0 ? posts[idx - 1] : null, // newer post
   };
+}
+
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+/**
+ * Extract FAQ pairs from markdown content.
+ * Looks for a "## Preguntas frecuentes" section and parses ### questions
+ * with the text below each as the answer.
+ */
+export function extractFaqs(content: string): FaqItem[] {
+  const faqSectionRegex = /## Preguntas frecuentes\s*\n([\s\S]*?)(?=\n## [^#]|$)/i;
+  const match = faqSectionRegex.exec(content);
+  if (!match) return [];
+
+  const faqContent = match[1];
+  const questionRegex = /### (.+)\n([\s\S]*?)(?=\n### |$)/g;
+  const faqs: FaqItem[] = [];
+  let qMatch;
+
+  while ((qMatch = questionRegex.exec(faqContent)) !== null) {
+    const question = qMatch[1].trim();
+    const answer = qMatch[2].trim().replace(/\n+/g, " ");
+    if (question && answer) {
+      faqs.push({ question, answer });
+    }
+  }
+
+  return faqs;
+}
+
+export interface HowToStep {
+  name: string;
+  text: string;
+}
+
+/**
+ * Extract HowTo steps from markdown content.
+ * Looks for patterns like "## Paso 1:", "### Paso 1:", "## El proceso paso a paso",
+ * "### 1. Title" within the content.
+ */
+export function extractHowToSteps(content: string): HowToStep[] {
+  const steps: HowToStep[] = [];
+
+  // Pattern 1: "## Paso N: Title" or "### Paso N: Title"
+  const pasoRegex = /#{2,3}\s+Paso\s+\d+[:.]\s*(.+)\n([\s\S]*?)(?=\n#{2,3}\s|$)/gi;
+  let match;
+
+  while ((match = pasoRegex.exec(content)) !== null) {
+    const name = match[1].trim();
+    const text = match[2].trim().split("\n")[0].replace(/\*\*/g, "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+    if (name && text) {
+      steps.push({ name, text });
+    }
+  }
+
+  if (steps.length >= 2) return steps;
+
+  // Pattern 2: "### 1. Title" numbered steps
+  const numberedRegex = /#{2,3}\s+\d+\.\s+(.+)\n([\s\S]*?)(?=\n#{2,3}\s|$)/g;
+
+  while ((match = numberedRegex.exec(content)) !== null) {
+    const name = match[1].trim();
+    const text = match[2].trim().split("\n")[0].replace(/\*\*/g, "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+    if (name && text) {
+      steps.push({ name, text });
+    }
+  }
+
+  return steps.length >= 2 ? steps : [];
 }
 
 export function getRelatedPosts(currentSlug: string, pilar?: string, tags?: string[], limit = 3): BlogPostMeta[] {

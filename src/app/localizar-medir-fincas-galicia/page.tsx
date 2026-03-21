@@ -1,16 +1,28 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import LindesForm from "@/components/forms/LindesForm";
+import PilarJsonLd from "@/components/PilarJsonLd";
+import PilarSidebar from "@/components/PilarSidebar";
 
 export const metadata: Metadata = {
   title: "Localizar y medir fincas en Galicia — Catastro, lindes, topografía",
   description:
     "¿No sabes dónde está tu finca? ¿El Catastro tiene datos incorrectos? ¿Conflicto de lindes? Un topógrafo puede resolverlo.",
+  alternates: { canonical: "/localizar-medir-fincas-galicia" },
 };
 
 export default function FincasPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+    <>
+    <PilarJsonLd
+      title="Localizar y medir fincas en Galicia"
+      description="Topografía, lindes, Catastro y georreferenciación de fincas en Galicia."
+      slug="localizar-medir-fincas-galicia"
+      breadcrumbLabel="Localizar y medir fincas"
+    />
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
+        <div>
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
         <span className="mx-2">/</span>
@@ -113,6 +125,10 @@ export default function FincasPage() {
       <section id="formulario">
         <LindesForm origen="pilar-lindes" />
       </section>
+        </div>
+        <PilarSidebar pilar="lindes" />
+      </div>
     </div>
+    </>
   );
 }

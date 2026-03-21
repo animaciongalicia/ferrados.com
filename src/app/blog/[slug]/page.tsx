@@ -4,11 +4,33 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
-import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getRelatedPosts, getPrevNextPosts, extractFaqs, extractHowToSteps } from "@/lib/blog";
 import { getCategoryForPilar, GACETA_CATEGORIES } from "@/lib/gaceta-categories";
+import { getTagById } from "@/lib/gaceta-tags";
 import CajaSecuestro from "@/components/CajaSecuestro";
 import TableOfContents from "@/components/TableOfContents";
+import MobileTOC from "@/components/MobileTOC";
+import ReadingProgress from "@/components/ReadingProgress";
 import { AdSenseScript, AdSenseSlot } from "@/components/AdSense";
+import type { Components } from "react-markdown";
+
+/** Custom markdown components: internal links use Next.js Link for SPA navigation */
+const markdownComponents: Components = {
+  a: ({ href, children, ...props }) => {
+    const isExternal = href && (href.startsWith("http://") || href.startsWith("https://"));
+    if (isExternal) {
+      return (
+        <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+          {children}
+        </a>
+      );
+    }
+    if (href) {
+      return <Link href={href} {...props}>{children}</Link>;
+    }
+    return <a href={href} {...props}>{children}</a>;
+  },
+};
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -73,8 +95,10 @@ export default async function BlogPostPage({ params }: Props) {
   const pilarCta = post.meta.pilar ? pilarLinks[post.meta.pilar] : null;
   const category = getCategoryForPilar(post.meta.pilar);
   const related = getRelatedPosts(slug, post.meta.pilar, post.meta.tags, 3);
-  const { prev, next } = getPrevNextPosts(slug);
+  const { prev, next } = getPrevNextPosts(slug, post.meta.pilar);
   const [firstHalf, secondHalf] = splitContentAtMiddle(post.content);
+  const faqs = extractFaqs(post.content);
+  const howToSteps = extractHowToSteps(post.content);
 
   // Find category ID for linking to filtered blog
   const categoryId = GACETA_CATEGORIES.find((c) =>
@@ -102,6 +126,7 @@ export default async function BlogPostPage({ params }: Props) {
       "@type": "WebPage",
       "@id": `https://ferrados.com/blog/${slug}`,
     },
+    ...(post.meta.lastUpdated && { dateModified: post.meta.lastUpdated }),
     ...(category && { articleSection: category.label }),
     ...(post.meta.tags && { keywords: post.meta.tags.join(", ") }),
   };
@@ -119,6 +144,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <ReadingProgress />
       <AdSenseScript />
 
       {/* JSON-LD */}
@@ -130,6 +156,48 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+
+      {/* FAQ Schema */}
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
+
+      {/* HowTo Schema for guide-type posts */}
+      {howToSteps.length >= 2 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              name: post.meta.title,
+              description: post.meta.description,
+              step: howToSteps.map((step, i) => ({
+                "@type": "HowToStep",
+                position: i + 1,
+                name: step.name,
+                text: step.text,
+              })),
+            }),
+          }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <div className="max-w-6xl mx-auto px-4 pt-8">
@@ -147,28 +215,43 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
           {/* ─── Main content column ─── */}
           <article className="max-w-3xl">
-            {category && (
-              <Link
-                href={categoryId ? `/blog?cat=${categoryId}` : "/blog"}
-                className={`inline-block border rounded-full text-xs px-2 py-0.5 mb-4 hover:opacity-80 transition-opacity ${category.pillClasses}`}
-              >
-                {category.label}
-              </Link>
-            )}
-
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3 leading-tight">
               {post.meta.title}
             </h1>
 
-            <div className="flex items-center gap-3 text-sm text-gray-500 mb-8">
-              <time>{post.meta.date}</time>
-              <span aria-hidden="true">·</span>
+            <div className="flex flex-wrap items-center gap-2 text-sm text-gray-500 mb-6">
               <span>{post.meta.readingTime} min de lectura</span>
+              {category && (
+                <Link
+                  href={`/blog?cat=${categoryId}`}
+                  className={`inline-block border rounded-full text-xs px-2 py-0.5 hover:opacity-80 transition-opacity ${category.pillClasses}`}
+                >
+                  {category.label}
+                </Link>
+              )}
+              {post.meta.tags?.map((tagId) => {
+                const tag = getTagById(tagId);
+                if (!tag) return null;
+                return (
+                  <Link
+                    key={tagId}
+                    href={`/blog?tag=${tagId}`}
+                    className={`inline-block border rounded-full text-xs px-2 py-0.5 hover:opacity-80 transition-opacity ${tag.chipClasses}`}
+                  >
+                    {tag.label}
+                  </Link>
+                );
+              })}
             </div>
+
+            {/* Mobile TOC — visible only on mobile/tablet */}
+            {post.headings.length > 0 && (
+              <MobileTOC headings={post.headings} />
+            )}
 
             {/* First half of markdown */}
             <div className="prose prose-lg prose-gray max-w-none">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]} components={markdownComponents}>
                 {firstHalf}
               </ReactMarkdown>
             </div>
@@ -178,14 +261,19 @@ export default async function BlogPostPage({ params }: Props) {
 
             {/* Second half of markdown */}
             <div className="prose prose-lg prose-gray max-w-none">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]} components={markdownComponents}>
                 {secondHalf}
               </ReactMarkdown>
             </div>
 
-            {/* Prev / Next navigation */}
+            {/* Prev / Next navigation (within same topic) */}
             {(prev || next) && (
               <nav className="border-t border-gray-200 pt-8 mt-12">
+                {category && (
+                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-3">
+                    Más sobre {category.label}
+                  </p>
+                )}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {prev ? (
                     <Link
@@ -193,7 +281,7 @@ export default async function BlogPostPage({ params }: Props) {
                       className="group flex flex-col p-4 rounded-lg border border-gray-200 hover:border-green-300 hover:bg-green-50 transition-all"
                     >
                       <span className="text-xs text-gray-400 uppercase tracking-wide mb-1">
-                        Anterior
+                        ← Anterior
                       </span>
                       <span className="text-sm font-semibold text-gray-800 group-hover:text-green-800 transition-colors leading-snug">
                         {prev.title}
@@ -208,7 +296,7 @@ export default async function BlogPostPage({ params }: Props) {
                       className="group flex flex-col p-4 rounded-lg border border-gray-200 hover:border-green-300 hover:bg-green-50 transition-all sm:text-right"
                     >
                       <span className="text-xs text-gray-400 uppercase tracking-wide mb-1">
-                        Siguiente
+                        Siguiente →
                       </span>
                       <span className="text-sm font-semibold text-gray-800 group-hover:text-green-800 transition-colors leading-snug">
                         {next.title}
@@ -251,16 +339,36 @@ export default async function BlogPostPage({ params }: Props) {
           {/* ─── Sticky sidebar (desktop only) ─── */}
           <aside className="hidden lg:block">
             <div className="sticky top-20 space-y-6">
-              {/* Back to blog */}
-              <Link
-                href="/blog"
-                className="flex items-center gap-1 text-sm text-gray-500 hover:text-green-700 transition-colors"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                Volver a La Gaceta
-              </Link>
+              {/* Topic navigation menu */}
+              <nav className="bg-white border border-gray-200 rounded-lg p-4">
+                <h3 className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">
+                  Explorar temas
+                </h3>
+                <div className="flex flex-col gap-1.5">
+                  <Link
+                    href="/blog"
+                    className="text-sm text-gray-500 hover:text-green-700 transition-colors py-1 px-2 rounded"
+                  >
+                    ← Todos los artículos
+                  </Link>
+                  {GACETA_CATEGORIES.map((cat) => {
+                    const isCurrentTopic = category?.id === cat.id;
+                    return (
+                      <Link
+                        key={cat.id}
+                        href={`/blog?cat=${cat.id}`}
+                        className={`text-sm py-1.5 px-2 rounded transition-colors ${
+                          isCurrentTopic
+                            ? `${cat.pillActiveClasses} font-semibold`
+                            : `${cat.pillClasses} hover:opacity-80`
+                        }`}
+                      >
+                        {cat.label}
+                      </Link>
+                    );
+                  })}
+                </div>
+              </nav>
 
               {/* Table of Contents */}
               {post.headings.length > 0 && (
@@ -268,7 +376,7 @@ export default async function BlogPostPage({ params }: Props) {
               )}
 
               {/* AdSense slot */}
-              <AdSenseSlot slot="sidebar-post" />
+              <AdSenseSlot slot="4104181630" />
 
               {/* Related posts */}
               {related.length > 0 && (
@@ -300,6 +408,19 @@ export default async function BlogPostPage({ params }: Props) {
                   </ul>
                 </div>
               )}
+
+              {/* FAQ link */}
+              <Link
+                href="/preguntas-frecuentes"
+                className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-green-300 transition-colors"
+              >
+                <h3 className="text-sm font-bold text-gray-900 mb-1">
+                  Resuelve tus dudas
+                </h3>
+                <p className="text-xs text-gray-500">
+                  Las preguntas más frecuentes sobre montes y fincas en Galicia →
+                </p>
+              </Link>
 
               {/* CTA */}
               <Link

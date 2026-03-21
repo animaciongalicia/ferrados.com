@@ -3,9 +3,7 @@
 import Script from "next/script";
 
 /**
- * AdSense loader — uses next/script with strategy="lazyOnload"
- * so the ad script loads AFTER the page is fully interactive.
- * This preserves PageSpeed 100.
+ * AdSense loader — manual ad slots ONLY (auto-ads disabled).
  *
  * Usage:
  *   1. Add <AdSenseScript /> once in your layout or page (loads the library).
@@ -21,12 +19,21 @@ export function AdSenseScript() {
   if (!CLIENT_ID) return null;
 
   return (
-    <Script
-      async
-      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${CLIENT_ID}`}
-      crossOrigin="anonymous"
-      strategy="lazyOnload"
-    />
+    <>
+      {/* Disable auto-ads — only manual slots will render */}
+      <Script id="adsense-disable-auto" strategy="lazyOnload">
+        {`(adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "${CLIENT_ID}",
+          enable_page_level_ads: false
+        });`}
+      </Script>
+      <Script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${CLIENT_ID}`}
+        crossOrigin="anonymous"
+        strategy="lazyOnload"
+      />
+    </>
   );
 }
 

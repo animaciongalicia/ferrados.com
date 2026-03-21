@@ -1,12 +1,13 @@
 ---
 title: "Heredar un monte sin testamento en Galicia: lo que nadie te cuenta"
 description: "Qué pasa cuando heredas un monte en Galicia y no hay testamento. Procedimiento, costes y plazos reales de la declaración de herederos."
-date: "2024-03-12"
+date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "herencias"
-tags: ["herencias", "testamento", "galicia", "montes", "notario"]
+tags: ["legislacion","documentacion"]
 ---
 
-"Mi padre falleció hace dos años y nunca hizo testamento. Ahora resulta que tenemos tres fincas en Ourense y no sabemos ni por dónde empezar." Esta es una de las consultas más frecuentes que recibimos. Y la buena noticia es que tiene solución, aunque es algo más largo y caro que cuando hay testamento.
+"Mi padre falleció hace dos años y nunca hizo testamento. Ahora resulta que tenemos tres fincas en Ourense y no sabemos ni por dónde empezar." Esta es una de las consultas más frecuentes que recibimos. Si necesitas el proceso general, consulta nuestra [guía completa sobre herencias de montes en Galicia](/herencias-montes-galicia). Y la buena noticia es que tiene solución, aunque es algo más largo y caro que cuando hay testamento.
 
 ## Lo primero: confirmar que no hay testamento
 
@@ -76,7 +77,7 @@ Sin testamento, el sobrecoste respecto a una herencia con testamento es de 250�
 
 ## El problema real: los montes sin escrituras
 
-En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. La gente decía "esta leira era de mi abuelo" y punto.
+En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. Si no sabes ni qué fincas tenía el fallecido, lee nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). La gente decía "esta leira era de mi abuelo" y punto.
 
 Cuando esto ocurre, hay que **reconstruir la cadena de titularidad**. Las opciones son:
 
@@ -85,12 +86,30 @@ Cuando esto ocurre, hay que **reconstruir la cadena de titularidad**. Las opcion
 
 ## ¿Y si los herederos no se ponen de acuerdo?
 
-Es más habitual de lo que parece. Tres hermanos heredan un monte y uno quiere vender, otro quiere conservar y el tercero ni contesta. En estos casos:
+Es más habitual de lo que parece. Tres hermanos heredan un monte y uno quiere vender, otro quiere conservar y el tercero ni contesta. Si este es tu caso, lee en detalle [qué hacer cuando heredas un monte a medias y tu hermano no quiere vender](/blog/herede-monte-medias-hermano-no-quiere-vender). En resumen, las opciones son:
 
 - **Lo ideal**: Llegar a un acuerdo. Que uno compre la parte de los otros, o que vendan y repartan.
 - **Si no hay acuerdo**: Se puede solicitar judicialmente la división de la cosa común. Es lento (1-2 años) y costoso, pero es un derecho de cualquier copropietario.
-- **Proindiviso**: Mientras no se resuelva, las fincas están en proindiviso (propiedad compartida). Todos son dueños de todo, pero ninguno puede hacer nada individualmente sin el consentimiento de los demás.
+- **Proindiviso**: Mientras no se resuelva, las fincas están en proindiviso (propiedad compartida). Todos son dueños de todo, pero ninguno puede hacer nada individualmente sin el consentimiento de los demás. Consulta todas las [opciones para vender tu parte o disolver un proindiviso](/vender-parte-monte-proindiviso).
 
 ## Consejo práctico
 
-Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos meses de trámites, cientos de euros y muchos dolores de cabeza. Es el mejor regalo que puedes dejarles junto con las fincas.
+Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos [los errores más caros al heredar fincas rústicas](/blog/errores-heredar-fincas-rusticas-galicia). Es el mejor regalo que puedes dejarles junto con las fincas.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta heredar un monte en Galicia si no hay testamento?
+El coste total orientativo para tres fincas está entre 1.000 y 2.500 euros. El sobrecoste respecto a una herencia con testamento es de 250 a 500 euros, que corresponden al acta de declaración de herederos abintestato ante notario. El resto de gastos (escritura, impuestos, Registro) son los mismos que con testamento.
+
+### ¿Quién hereda un monte en Galicia si el propietario no dejó testamento?
+El orden legal es: primero los hijos y descendientes a partes iguales, después los padres y ascendientes, luego el cónyuge, seguido de hermanos y sobrinos, y finalmente otros parientes hasta el cuarto grado. Si no aparece ningún pariente, hereda el Estado. El cónyuge viudo siempre conserva un derecho de usufructo sobre una parte de la herencia.
+
+### ¿Qué es la declaración de herederos abintestato y dónde se hace?
+Es un acta notarial que determina quiénes son los herederos legales cuando no hay testamento. Se hace ante notario con dos testigos que conozcan al fallecido y su situación familiar, y que no sean herederos ni familiares de los herederos. Desde la reforma de 2015 ya no es necesario acudir al juzgado. El acta se resuelve normalmente en 20 a 30 días.
+
+### ¿Puedo heredar un monte sin testamento si no tengo escrituras de la finca?
+Sí, aunque el proceso es más largo. Primero haces la declaración de herederos y la escritura de herencia con los datos catastrales disponibles. Después, para inscribir la finca en el Registro de la Propiedad, puedes usar un expediente de dominio notarial o la certificación catastral descriptiva y gráfica como título. El coste adicional de regularizar fincas no inscritas suele estar entre 500 y 1.500 euros.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

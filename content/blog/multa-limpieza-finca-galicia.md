@@ -1,16 +1,17 @@
 ---
 title: "Me ha llegado una multa por no limpiar mi finca: ¿qué hago?"
 description: "Guía urgente para propietarios que han recibido una notificación o multa de la Xunta por incumplir la Lei de prevención de incendios forestais."
-date: "2024-02-10"
+date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "limpieza"
-tags: ["multas", "limpieza", "xunta", "incendios", "galicia"]
+tags: ["xunta","legislacion"]
 ---
 
-Si has recibido una carta de la Xunta notificándote que tu finca no cumple con la normativa de prevención de incendios, no estás solo. Miles de propietarios en Galicia se enfrentan a esta situación cada año, y la mayoría no sabe cómo actuar. Te explicamos qué hacer paso a paso, cuánto te va a costar y cómo evitar que la cosa vaya a más.
+Si has recibido una carta de la Xunta notificándote que tu finca no cumple con la normativa de prevención de incendios, no estás solo. Consulta también nuestra [guía completa sobre multas y limpieza de fincas en Galicia](/limpieza-desbroce-multas-xunta) con calculadora de multas incluida. Miles de propietarios en Galicia se enfrentan a esta situación cada año, y la mayoría no sabe cómo actuar. Te explicamos qué hacer paso a paso, cuánto te va a costar y cómo evitar que la cosa vaya a más.
 
 ## ¿Por qué me multan exactamente?
 
-La Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia (modificada en 2020 y 2021) obliga a los propietarios a mantener limpias las fincas situadas a menos de **50 metros de viviendas, edificaciones o núcleos de población**. Es lo que se conoce como la "faja de protección".
+La Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia (modificada en 2020 y 2021) obliga a los propietarios a mantener limpias las fincas situadas a menos de **50 metros de viviendas, edificaciones o núcleos de población**. Es lo que se conoce como la "faja de protección". Te lo explicamos en detalle en nuestro artículo sobre [la regla de los 50 metros y las obligaciones de limpieza](/blog/obligaciones-limpieza-fincas-50-metros).
 
 Lo que exige la ley dentro de esa faja:
 
@@ -36,9 +37,9 @@ Además del coste de la ejecución subsidiaria, puede haber una multa que varía
 
 | Gravedad | Multa | Ejemplo |
 |---|---|---|
-| Leve | 100€ - 1.000€ | No limpiar una parcela pequeña |
-| Grave | 1.001€ - 100.000€ | No limpiar repetidamente, zona de alto riesgo |
-| Muy grave | 100.001€ - 1.000.000€ | Negligencia que contribuye a un incendio |
+| Leve | 200€ - 1.000€ | No limpiar una parcela pequeña |
+| Grave | 1.001€ - 10.000€ | No limpiar repetidamente, zona de alto riesgo |
+| Muy grave | 10.001€ - 100.000€ | Reincidencia, proximidad a núcleo urbano, riesgo de incendio alto |
 
 La mayoría de multas a particulares están en el rango de 200€ a 3.000€, pero no es broma: he visto casos de ejecuciones subsidiarias que han costado 5.000€ a 8.000€ por fincas grandes.
 
@@ -50,7 +51,7 @@ Es el error más común y el más caro. Cada día que pasa puede agravar la situ
 
 ### 2. Identifica la parcela exacta
 
-La notificación incluye la referencia catastral de la parcela. Localízala en el mapa del Catastro (sedecatastro.gob.es) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
+La notificación incluye la referencia catastral de la parcela. Si no sabes qué es ni cómo buscarla, lee nuestra guía para [encontrar la referencia catastral de tu finca en Galicia](/blog/catastro-finca-galicia-referencia). Localízala en el mapa del Catastro (sedecatastro.gob.es) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
 
 ### 3. Solicita presupuestos de desbroce
 
@@ -71,9 +72,9 @@ Presenta un escrito (por registro o sede electrónica) comunicando que has reali
 
 Los precios dependen de la superficie, el tipo de vegetación, la pendiente y el acceso:
 
-| Tipo de terreno | Coste por ferrado (aprox. 630 m²) |
+| Tipo de terreno | Coste por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) (aprox. 630 m² en A Coruña, varía según concello) |
 |---|---|
-| Matorral bajo (hierba alta, helechos) | 50€ - 80€ |
+| Matorral bajo (hierba alta, helechos) | 50€ - 80€ por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) |
 | Matorral alto y denso (tojos, silvas) | 80€ - 150€ |
 | Con árboles (desbroce + poda) | 100€ - 200€ |
 | Terreno con pendiente fuerte | +30% sobre el precio base |
@@ -88,7 +89,7 @@ Sí, tienes derecho a presentar alegaciones. Las alegaciones más habituales:
 - **Error en la identificación de la parcela**: A veces la Xunta se equivoca de propietario o de parcela.
 - **Limpieza ya realizada**: Si limpiaste antes de recibir la notificación, aporta las pruebas.
 - **Finca fuera de la franja de 50 metros**: Si tu finca no está realmente a menos de 50 metros de viviendas, puedes alegar esto con un plano.
-- **Desconocimiento de la titularidad**: Si heredaste la finca recientemente y no sabías que eras propietario, puede ser atenuante (aunque no te exime de la obligación).
+- **Desconocimiento de la titularidad**: Si [heredaste la finca recientemente](/herencias-montes-galicia) y no sabías que eras propietario, puede ser atenuante (aunque no te exime de la obligación).
 
 El plazo para alegaciones suele ser de 15 días hábiles desde la notificación. Si no sabes hacerlo tú mismo, un gestor administrativo o abogado puede presentarlas por ti por 150€ a 300€.
 
@@ -96,5 +97,23 @@ El plazo para alegaciones suele ser de 15 días hábiles desde la notificación.
 
 - **Limpia cada año antes del 31 de mayo**. La campaña de inspección de la Xunta empieza en junio.
 - **Si no puedes hacerlo tú**, contrata una empresa. Puedes pactar un mantenimiento anual por un precio más económico que hacerlo de urgencia.
-- **Si la finca no te interesa**, valora venderla o cederla. Es mejor desprenderte de ella que acumular multas año tras año.
+- **Si la finca no te interesa**, valora [venderla siguiendo nuestra guía de compra-venta de terrenos](/compra-venta-terrenos-galicia) o cederla. Es mejor desprenderte de ella que acumular multas año tras año.
 - **Apúntate a las alertas del Catastro** para saber si te llegan notificaciones a nombre de tus fincas.
+
+## Preguntas frecuentes
+
+### ¿Cuanto tiempo tengo para limpiar mi finca despues de recibir el requerimiento de la Xunta?
+Normalmente la Xunta concede un plazo de 15 a 30 dias habiles desde la notificacion del requerimiento. Es fundamental actuar dentro de ese plazo, porque si lo dejas pasar, la Xunta puede enviar una empresa a limpiar por ti y pasarte una factura que suele ser entre 2 y 3 veces mas cara que si lo hubieras hecho por tu cuenta.
+
+### ¿Puedo recurrir una multa por no limpiar mi finca en Galicia?
+Si, tienes derecho a presentar alegaciones en un plazo de 15 dias habiles desde la notificacion de la sancion. Los motivos mas habituales son errores en la identificacion de la parcela o del propietario, que la finca no este realmente dentro de la franja de 50 metros, o que ya hubieras realizado la limpieza antes de la inspeccion. Un gestor o abogado puede presentarlas por ti por 150 a 300 euros.
+
+### ¿Cuanto cuesta limpiar una finca en Galicia para evitar la multa?
+El coste depende de la superficie, el tipo de vegetacion y la pendiente. Como referencia, el desbroce de matorral denso cuesta entre 80 y 150 euros por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) (unos 630 m² en A Coruña, varía según concello). Una finca de 10 ferrados con matorral y arboles puede salir entre 1.000 y 2.000 euros si lo contratas tu, frente a los 3.000-5.000 euros que costaria si lo ejecuta la Xunta de forma subsidiaria.
+
+### ¿Me pueden multar si herede la finca y no sabia que era propietario?
+El desconocimiento de la titularidad puede ser un atenuante a la hora de fijar la sancion, pero no te exime de la obligacion de limpiar. La Xunta envia las notificaciones al domicilio que figura en el Catastro, que puede ser el del familiar fallecido. Por eso es importante actualizar la titularidad catastral en cuanto heredes fincas.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

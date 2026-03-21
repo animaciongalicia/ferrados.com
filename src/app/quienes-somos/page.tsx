@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Quiénes somos — Ferrados.com",
   description:
-    "Somos Ferrados.com, una plataforma gallega que conecta propietarios de montes y fincas con profesionales locales. Conoce nuestra historia y misión.",
+    "Somos tasadores de montes y fincas en Galicia. Gestionamos compras de eucalipto en A Coruña y conectamos propietarios con profesionales en toda Galicia.",
 };
 
 export default function QuienesSomosPage() {
@@ -19,11 +19,91 @@ export default function QuienesSomosPage() {
       </nav>
 
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-        Quiénes somos
+        No somos una ONG forestal. Somos los que te quitamos el marrón de
+        encima.
       </h1>
 
       <div className="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
         <p className="text-lg">
+          Si tienes un monte o una finca en Galicia que te quita el sueño, estás
+          en el sitio correcto.
+        </p>
+
+        <p>
+          Detrás de Ferrados.com hay gente con barro en las botas. Llevamos
+          más de 20 años pateando montes por toda Galicia, y conocemos el
+          terreno palmo a palmo. Hemos visto la misma historia cientos de
+          veces: herederos que no saben dónde están sus fincas, propietarios
+          pagando multas de la Xunta por no desbrozar, y familias peleándose
+          por vender la madera de un proindiviso mientras el maderista de
+          turno les ofrece un precio ridículo.
+        </p>
+
+        <p>
+          El sector maderero en Galicia mueve miles de millones de euros al año,
+          pero si no sabes cómo moverte, vas a perder dinero. Nosotros vimos
+          cómo la burocracia, los intermediarios y la falta de información le
+          costaba miles de euros a gente que solo quería vender y estar
+          tranquila. Por eso montamos Ferrados.com.
+        </p>
+
+        <div className="bg-green-50 border border-green-200 rounded-xl p-6 my-8">
+          <h2 className="text-xl font-bold text-green-800 mb-3">
+            Gente de monte, no de despacho
+          </h2>
+          <p className="text-gray-700">
+            Te voy a decir la verdad: no somos unos oficinistas que han montado
+            una web. Somos gente que conoce el terreno. Sabemos medir una
+            finca, sabemos calcular la madera que tienes y sabemos a cuánto se
+            paga hoy la tonelada de eucalipto o pino en Galicia. Llevamos 20
+            años pisando monte para que tú no tengas que hacerlo.
+          </p>
+        </div>
+
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
+          Dónde operamos
+        </h2>
+        <p>
+          Galicia es enorme y tiene cientos de miles de fincas repartidas entre
+          minifundios, montes comunales y plantaciones de todo tipo. Ningún
+          equipo puede abarcarlo todo solo. Por eso trabajamos codo con codo con
+          una red de excelentes profesionales gallegos: ingenieros de montes,
+          abogados, topógrafos, maderistas y empresas de desbroce repartidos por
+          las cuatro provincias.
+        </p>
+
+        <p>
+          Nosotros gestionamos directamente las operaciones de madera en la
+          provincia de A Coruña, y para el resto de Galicia conectamos a cada
+          propietario con el profesional de su zona que mejor encaja con su
+          caso. Repartimos clientes entre los mejores, porque el objetivo es que
+          tú resuelvas tu problema rápido y bien, no que nosotros acaparemos
+          todo.
+        </p>
+
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
+          Cómo funciona
+        </h2>
+        <p>
+          Tú no tienes que buscar a nadie, ni comparar presupuestos, ni
+          pelearte con la administración. Tú nos cuentas tu caso, lo analizamos
+          y te ponemos en contacto directo con el profesional adecuado para
+          resolverlo rápido y sin rodeos.
+        </p>
+
+        <p>
+          Si estás preparado para dejar de perder tiempo y convertir ese monte
+          en tranquilidad (o en dinero), elige tu problema en el menú y
+          empezamos.
+        </p>
+
+        {/* Contenido original */}
+        <hr className="my-10 border-gray-200" />
+
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
+          Nuestra misión
+        </h2>
+        <p>
           <strong>Ferrados.com</strong> nace de una realidad que conocemos de
           primera mano: miles de gallegos —y miles más que viven fuera de
           Galicia— tienen montes, fincas o terrenos heredados y no saben qué
@@ -31,9 +111,6 @@ export default function QuienesSomosPage() {
         </p>
 
         <div className="bg-green-50 border border-green-200 rounded-xl p-6 my-8">
-          <h2 className="text-xl font-bold text-green-800 mb-3">
-            Nuestra misión
-          </h2>
           <p className="text-gray-700">
             Conectar a propietarios de montes y fincas en Galicia con los
             profesionales adecuados para resolver su situación: abogados,
@@ -123,8 +200,8 @@ export default function QuienesSomosPage() {
             <div>
               <h3 className="font-bold text-gray-900">Transparencia</h3>
               <p className="text-sm text-gray-600 mt-1">
-                Sin costes ocultos para ti. Nuestra consulta inicial es gratuita
-                y los profesionales te dan presupuesto antes de empezar.
+                Sin costes ocultos para ti. Te orientamos y los profesionales
+                te dan presupuesto antes de empezar.
               </p>
             </div>
           </div>

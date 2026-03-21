@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
+import Link from "next/link";
 
 interface FormWrapperProps {
   totalSteps: number;
@@ -27,6 +28,8 @@ export default function FormWrapper({
   submitLabel = "Enviar mi consulta",
   children,
 }: FormWrapperProps) {
+  const [accepted, setAccepted] = useState(false);
+
   if (submitted) {
     return (
       <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center max-w-xl mx-auto">
@@ -63,6 +66,27 @@ export default function FormWrapper({
         <p className="text-red-600 text-sm mt-3 bg-red-50 p-3 rounded-lg">{error}</p>
       )}
 
+      {currentStep === totalSteps && (
+        <label className="flex items-start gap-3 mt-6 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={accepted}
+            onChange={(e) => setAccepted(e.target.checked)}
+            className="mt-1 h-4 w-4 text-green-700 border-gray-300 rounded focus:ring-green-600"
+          />
+          <span className="text-xs text-gray-600 leading-relaxed">
+            He leído y acepto la{" "}
+            <Link href="/politica-privacidad" target="_blank" className="text-green-700 underline hover:text-green-800">
+              Política de Privacidad
+            </Link>
+            . Autorizo expresamente a Ferrados.com a ceder mis datos de contacto
+            y los detalles de mi consulta a profesionales del sector (abogados,
+            ingenieros, maderistas, empresas de desbroce, etc.) con el único fin
+            de que me contacten para ofrecerme una solución o un presupuesto.
+          </span>
+        </label>
+      )}
+
       <div className="flex gap-3 mt-6">
         {currentStep > 1 && (
           <button
@@ -86,7 +110,7 @@ export default function FormWrapper({
           <button
             type="button"
             onClick={onSubmit}
-            disabled={submitting}
+            disabled={submitting || !accepted}
             className="flex-1 py-3 px-4 bg-green-700 text-white rounded-lg text-sm font-semibold hover:bg-green-800 transition-colors disabled:opacity-50"
           >
             {submitting ? "Enviando..." : submitLabel}

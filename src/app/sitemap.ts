@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
+import { GACETA_CATEGORIES } from "@/lib/gaceta-categories";
+import { GACETA_TAGS } from "@/lib/gaceta-tags";
 
 const BASE_URL = "https://ferrados.com";
 
@@ -13,6 +15,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const categoryEntries: MetadataRoute.Sitemap = GACETA_CATEGORIES.map((cat) => ({
+    url: `${BASE_URL}/blog?cat=${cat.id}`,
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
+  const tagEntries: MetadataRoute.Sitemap = GACETA_TAGS.map((tag) => ({
+    url: `${BASE_URL}/blog?tag=${tag.id}`,
+    changeFrequency: "weekly",
+    priority: 0.5,
+  }));
+
+  const provinciaPages: MetadataRoute.Sitemap = [
+    "/fincas-montes-coruna",
+    "/fincas-montes-lugo",
+    "/fincas-montes-ourense",
+    "/fincas-montes-pontevedra",
+  ].map((path) => ({
+    url: `${BASE_URL}${path}`,
+    lastModified: new Date().toISOString().split("T")[0],
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   const pilarPages: MetadataRoute.Sitemap = [
     "/herencias-montes-galicia",
     "/localizar-medir-fincas-galicia",
@@ -20,8 +46,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/limpieza-desbroce-multas-xunta",
     "/vender-parte-monte-proindiviso",
     "/compra-venta-terrenos-galicia",
+    "/urbanismo-suelo-galicia",
+    "/tramites-fincas-galicia",
+    "/empezar",
   ].map((path) => ({
     url: `${BASE_URL}${path}`,
+    lastModified: new Date().toISOString().split("T")[0],
     changeFrequency: "monthly",
     priority: 0.8,
   }));
@@ -42,7 +72,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.5,
     },
+    {
+      url: `${BASE_URL}/colaboradores`,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${BASE_URL}/preguntas-frecuentes`,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/politica-privacidad`,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${BASE_URL}/aviso-legal`,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${BASE_URL}/politica-cookies`,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
     ...pilarPages,
+    ...provinciaPages,
+    ...categoryEntries,
+    ...tagEntries,
     ...blogEntries,
   ];
 }

@@ -1,18 +1,19 @@
 ---
 title: "¿Cuánto vale mi monte? Cómo se tasa una finca forestal en Galicia"
 description: "Aprende cómo se valora un monte en Galicia: métodos de tasación, factores que influyen en el precio y cuándo necesitas una tasación oficial."
-date: "2024-02-15"
+date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "lindes"
-tags: ["tasaciones", "montes", "valoración", "galicia", "catastro"]
+tags: ["precios"]
 ---
 
-Es la primera pregunta que se hace cualquier propietario: "¿cuánto vale esto?". Ya sea porque quieres vender, porque necesitas repartir una herencia, porque tienes un conflicto con un vecino o simplemente por curiosidad. La respuesta depende de muchos factores y no hay un precio por metro cuadrado como en un piso.
+Es la primera pregunta que se hace cualquier propietario: "¿cuánto vale esto?". Ya sea porque quieres [vender tu terreno en Galicia](/compra-venta-terrenos-galicia), porque necesitas repartir una [herencia de montes](/herencias-montes-galicia), porque tienes un conflicto con un vecino o simplemente por curiosidad. La respuesta depende de muchos factores y no hay un precio por metro cuadrado como en un piso.
 
 ## Los factores que determinan el valor de un monte
 
 ### 1. La madera en pie (el factor principal)
 
-Si tu monte tiene eucalipto o pino aprovechable, ese es el componente principal del valor. Una plantación madura puede valer más que el propio suelo. Por ejemplo:
+Si tu monte tiene eucalipto o pino aprovechable, ese es el componente principal del valor. Consulta los [precios actualizados de venta de madera en Galicia](/precio-venta-madera-galicia) para hacerte una idea. Una plantación madura puede valer más que el propio suelo. Por ejemplo:
 
 - Un monte de 2 hectáreas con eucalipto globulus de 18 años puede tener 400-600 toneladas de madera, que a 40-50€/tonelada en pie suponen 16.000€ a 30.000€ solo en madera.
 - Ese mismo monte sin árboles (raso) valdría entre 2.000€ y 6.000€.
@@ -21,7 +22,7 @@ La madera es lo que más pesa en la valoración. Un perito forestal hará un inv
 
 ### 2. La superficie
 
-Más hectáreas = más valor total, pero el precio por hectárea puede bajar en fincas muy grandes y remotas, porque son más difíciles de explotar y gestionar.
+Más hectáreas = más valor total, pero el precio por hectárea puede bajar en fincas muy grandes y remotas, porque son más difíciles de explotar y gestionar. Ojo: la superficie del Catastro puede no ser la real. Si no sabes [a cuántos metros cuadrados equivale un ferrado en tu zona](/blog/ferrado-metros-cuadrados-equivalencia), puedes estar calculando mal.
 
 En la práctica, las fincas más demandadas en Galicia son las de tamaño medio (1 a 10 hectáreas), con buena especie forestal y acceso.
 
@@ -37,7 +38,7 @@ Las fincas cerca de la costa o de núcleos urbanos tienen más demanda (y más p
 
 ### 5. La situación legal
 
-Fincas con escrituras claras, sin proindivisos, sin cargas y con el Catastro y el Registro actualizados se venden más rápido y a mejor precio. Un monte con problemas legales (herederos sin localizar, proindiviso sin resolver, límites en disputa) puede tardar meses o años en venderse.
+Fincas con escrituras claras, sin proindivisos, sin cargas y con el Catastro y el Registro actualizados se venden más rápido y a mejor precio. Un monte con problemas legales (herederos sin localizar, [proindiviso sin resolver](/vender-parte-monte-proindiviso), límites en disputa) puede tardar meses o años en venderse.
 
 ## Tipos de tasación
 
@@ -95,4 +96,22 @@ Los profesionales utilizan varios métodos, a menudo combinados:
 
 ## Consejo práctico
 
-Si quieres saber cuánto vale tu monte para decidir si vender, empieza pidiendo 2-3 presupuestos a maderistas de la zona. Es gratis (ellos quieren comprar tu madera) y te da una idea rápida del valor de la madera en pie. Si necesitas una tasación formal (herencia, juicio, expropiación), contrata a un ingeniero de montes colegiado. El dinero invertido en la tasación se recupera con creces en la negociación.
+Si quieres saber cuánto vale tu monte para decidir si vender, consulta el [precio actual del eucalipto en Galicia](/blog/precio-eucalipto-galicia-2026) o [cuándo es el mejor momento para vender pino](/blog/vender-pino-galicia-cuando), y empieza pidiendo 2-3 presupuestos a maderistas de la zona. Es gratis (ellos quieren comprar tu madera) y te da una idea rápida del valor de la madera en pie. Si necesitas una tasación formal (herencia, juicio, expropiación), contrata a un ingeniero de montes colegiado. El dinero invertido en la tasación se recupera con creces en la negociación.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta una tasación de un monte en Galicia?
+Una tasación oficial realizada por un ingeniero de montes o perito forestal cuesta entre 300 y 1.200 euros, dependiendo de la superficie y la complejidad. Para un monte de 1 a 5 hectáreas, el rango habitual es de 400 a 700 euros. Si solo necesitas una valoración orientativa para decidir si vender, puedes obtenerla por 100 a 300 euros o incluso gratis si la hace un maderista interesado en comprar tu madera.
+
+### ¿El valor catastral refleja lo que vale realmente mi monte?
+No. El valor catastral de las fincas rústicas en Galicia suele estar muy por debajo del valor de mercado, a veces entre 5 y 10 veces menos. Un monte que el Catastro valora en 1.500 euros puede venderse por 15.000 euros en el mercado. El valor catastral sirve para calcular impuestos como el IBI o el de sucesiones, pero no es una referencia fiable del precio real de venta.
+
+### ¿Cuándo necesito una tasación oficial de mi monte?
+Necesitas una tasación pericial cuando la valoración va a tener efectos legales o fiscales: herencias y liquidación del impuesto de sucesiones, divorcios con reparto de bienes, expropiaciones, ventas judiciales, procedimientos legales o solicitudes de financiación con la finca como garantía. En estos casos es imprescindible que la realice un profesional colegiado.
+
+### ¿Cuánto vale una hectárea de monte en Galicia?
+Depende fundamentalmente de la especie y la edad del arbolado. Una hectárea de eucalipto globulus maduro puede valer entre 10.000 y 25.000 euros, mientras que un monte raso sin arbolado se mueve entre 1.500 y 6.000 euros. También influyen el acceso para camiones, la proximidad a fábricas y la situación legal de la finca.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

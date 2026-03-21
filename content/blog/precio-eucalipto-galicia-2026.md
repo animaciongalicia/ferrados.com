@@ -1,12 +1,13 @@
 ---
-title: "Precio del eucalipto en Galicia: cuánto vale tu madera hoy"
-description: "Análisis actualizado del precio del eucalipto globulus y nitens en Galicia. Factores que influyen en el valor de tu plantación."
-date: "2024-03-05"
+title: "Precio del eucalipto en Galicia en 2026: cuánto vale tu madera hoy"
+description: "Análisis actualizado del precio del eucalipto globulus y nitens en Galicia en 2026. Factores que influyen en el valor de tu plantación."
+date: "2026-03-14"
+lastUpdated: "2026-03-15"
 pilar: "madera"
-tags: ["madera", "eucalipto", "precios", "galicia", "venta"]
+tags: ["precios"]
 ---
 
-El eucalipto es el rey de la madera en Galicia. Ocupa más de 400.000 hectáreas y genera un negocio de cientos de millones de euros al año. Si tienes una plantación y estás pensando en vender, lo primero que necesitas saber es cuánto vale. Y lo segundo: cómo no dejarte engañar.
+El eucalipto es el rey de la madera en Galicia. Ocupa más de 400.000 hectáreas y genera un negocio de cientos de millones de euros al año. Si tienes una plantación y estás pensando en vender, consulta nuestra [guía completa de precios y venta de madera en Galicia](/precio-venta-madera-galicia). Lo primero que necesitas saber es cuánto vale. Y lo segundo: cómo no dejarte engañar.
 
 ## Precio actual del eucalipto globulus
 
@@ -54,7 +55,7 @@ El gorgojo del eucalipto (Gonipterus platensis) y el chancro (Mycosphaerella) pu
 
 ## Errores habituales al vender eucalipto
 
-- **Vender sin medir**: Siempre pide una cubicación antes. Un maderista que estima "a ojo" tu plantación va a estimarla a la baja. Una cubicación profesional cuesta entre 150€ y 300€ y te puede hacer ganar miles de euros en la negociación.
+- **Vender sin medir**: Siempre pide una cubicación antes. Si quieres saber cuánto vale exactamente tu plantación, lee cómo se hace una [tasación profesional de un monte en Galicia](/blog/tasacion-monte-galicia). Un maderista que estima "a ojo" tu plantación va a estimarla a la baja. Una cubicación profesional cuesta entre 150€ y 300€ y te puede hacer ganar miles de euros en la negociación.
 - **Aceptar la primera oferta**: Compara al menos 3 presupuestos de maderistas diferentes. Las diferencias pueden ser del 15-25% entre el que más paga y el que menos.
 - **No tener el permiso de corta**: Sin permiso, la venta es ilegal. Se solicita en la oficina agraria comarcal o por sede electrónica de la Xunta. Tarda unos días y es gratuito.
 - **Olvidar la replantación**: Si talas eucalipto, estás obligado a replantar. Si piensas cambiar de especie o uso del suelo, necesitas autorización previa.
@@ -77,4 +78,22 @@ No hay una regla fija, pero estas señales ayudan:
 - Necesitas el dinero y la madera está madura.
 - Los maderistas de tu zona están buscando madera activamente.
 
-Si no tienes urgencia, vigila los precios y espera a que el mercado esté favorable. Los precios del eucalipto en Galicia oscilan en ciclos de 2-4 años.
+Si no tienes urgencia, vigila los precios y espera a que el mercado esté favorable. Lee nuestro análisis sobre [si conviene cortar el monte ahora o esperar](/blog/cortar-monte-ahora-o-esperar) para tomar la decisión con datos. Si tu plantación está en A Coruña, tenemos además un artículo específico sobre [el precio del eucalipto en A Coruña y la trampa de la tara](/blog/precio-eucalipto-coruna-tara). Los precios del eucalipto en Galicia oscilan en ciclos de 2-4 años.
+
+## Preguntas frecuentes
+
+### ¿Cuánto pagan por una tonelada de eucalipto en Galicia en 2026?
+El eucalipto globulus se paga actualmente entre 35 y 55 euros por tonelada en pie, dependiendo de la zona, el acceso y el volumen de la plantación. El eucalipto nitens cotiza algo más bajo, entre 25 y 40 euros por tonelada, ya que su fibra se valora ligeramente menos en las pasteras.
+
+### ¿Cuántas toneladas de eucalipto produce una hectárea en Galicia?
+Una plantación bien cuidada de eucalipto globulus de entre 15 y 20 años puede producir entre 200 y 400 toneladas por hectárea. Esto significa que una hectárea de eucalipto maduro puede valer entre 7.000 y 20.000 euros solo en madera, sin contar el valor del suelo.
+
+### ¿Qué diferencia hay entre vender eucalipto en pie y en cargadero?
+Vender en pie significa que el maderista paga por la madera tal como está y se encarga de la corta, la saca y el transporte. Vender en cargadero implica que tú contratas la corta y la saca, y el maderista recoge la madera ya apilada en pista. El precio en cargadero es más alto, pero asumes el coste y el riesgo de la operación forestal.
+
+### ¿Es obligatorio pedir permiso para cortar eucalipto en Galicia?
+Sí, en Galicia es obligatorio solicitar un permiso de corta antes de talar cualquier plantación forestal. Se tramita en la oficina agraria comarcal o por la sede electrónica de la Xunta, es gratuito y tarda unos días. Además, tras la tala estás obligado a replantar, y si quieres cambiar de especie o uso del suelo necesitas autorización previa.
+
+---
+
+*Este contenido es informativo y no constituye asesoramiento jurídico, fiscal ni profesional. Las cifras, plazos y normativas pueden variar. Consulta con un profesional antes de tomar decisiones sobre tu situación concreta.*

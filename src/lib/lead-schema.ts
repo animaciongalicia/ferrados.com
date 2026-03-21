@@ -91,9 +91,10 @@ export const limpiezaSchema = z.object({
   residencia: z.enum(residencias, { message: "Indica dónde vives" }),
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
-  telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
-  comentarios: z.string().optional(),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -145,9 +146,10 @@ export const herenciasSchema = z.object({
   urgencia: z.enum(urgencias, { message: "Indica la urgencia" }),
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
-  telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
-  comentarios: z.string().optional(),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -182,9 +184,10 @@ export const lindesSchema = z.object({
   residencia: z.enum(residencias, { message: "Indica dónde vives" }),
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
-  telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
-  comentarios: z.string().optional(),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -224,9 +227,10 @@ export const maderaSchema = z.object({
   residencia: z.enum(residencias, { message: "Indica dónde vives" }),
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
-  telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
-  comentarios: z.string().optional(),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -266,9 +270,10 @@ export const proindivisoSchema = z.object({
   residencia: z.enum(residencias, { message: "Indica dónde vives" }),
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
-  telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
-  comentarios: z.string().optional(),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
@@ -322,13 +327,99 @@ export const compraVentaSchema = z.object({
   residencia: z.enum(residencias, { message: "Indica dónde vives" }),
   nombre: z.string().min(2, "Tu nombre es necesario"),
   email: z.string().email("Email no válido").or(z.literal("")),
-  telefono: z.string().min(6, "Teléfono no válido").or(z.literal("")),
-  comentarios: z.string().optional(),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
   origen: z.string().optional(),
+  url_origen: z.string().optional(),
 }).refine(
   (d) => d.email !== "" || d.telefono !== "",
   { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
 );
+
+// ===== EMBUDO: URBANISMO =====
+
+export const consultaUrbanismo = [
+  "Quiero saber si puedo construir en mi finca rústica",
+  "Quiero poner una casa prefabricada o tiny house",
+  "Necesito saber qué tipo de suelo tengo",
+  "Quiero cambiar la calificación del suelo",
+  "Necesito segregar una finca",
+  "Quiero saber qué puedo hacer con mi terreno",
+] as const;
+
+export const tipoSueloActual = [
+  "Rústico común",
+  "Rústico de protección forestal",
+  "Rústico de protección agropecuaria",
+  "Núcleo rural",
+  "Urbano",
+  "No lo sé",
+] as const;
+
+export const urbanismoSchema = z.object({
+  embudo: z.literal("urbanismo"),
+  consulta_urbanismo: z.enum(consultaUrbanismo, { message: "Selecciona tu consulta" }),
+  tipo_suelo_actual: z.enum(tipoSueloActual, { message: "Selecciona el tipo de suelo" }),
+  provincia: z.enum(provincias, { message: "Selecciona la provincia" }),
+  municipio: z.string().optional(),
+  superficie_aprox: z.enum(rangosSuperficie, { message: "Selecciona la superficie" }),
+  urgencia: z.enum(urgencias, { message: "Indica la urgencia" }),
+  residencia: z.enum(residencias, { message: "Indica dónde vives" }),
+  nombre: z.string().min(2, "Tu nombre es necesario"),
+  email: z.string().email("Email no válido").or(z.literal("")),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
+  origen: z.string().optional(),
+  url_origen: z.string().optional(),
+}).refine(
+  (d) => d.email !== "" || d.telefono !== "",
+  { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
+);
+
+// ===== EMBUDO: TRÁMITES =====
+
+export const tipoTramite = [
+  "Necesito escriturar una finca (no tengo escritura)",
+  "Quiero inscribir una finca en el Registro de la Propiedad",
+  "Necesito inmatricular una finca (primera inscripción)",
+  "Tengo dudas sobre impuestos (plusvalía, ITP, IRPF)",
+  "Necesito hacer una declaración de obra nueva",
+  "Gastos de notaría y registro para una compraventa",
+] as const;
+
+export const tramitesSchema = z.object({
+  embudo: z.literal("tramites"),
+  tipo_tramite: z.enum(tipoTramite, { message: "Selecciona qué trámite necesitas" }),
+  tiene_escrituras: z.enum(["Sí", "No", "Algunas", "No lo sé"] as const).optional(),
+  provincia: z.enum(provincias, { message: "Selecciona la provincia" }),
+  municipio: z.string().optional(),
+  urgencia: z.enum(urgencias, { message: "Indica la urgencia" }),
+  residencia: z.enum(residencias, { message: "Indica dónde vives" }),
+  nombre: z.string().min(2, "Tu nombre es necesario"),
+  email: z.string().email("Email no válido").or(z.literal("")),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)").or(z.literal("")),
+  comentarios: z.string().max(2000, "Máximo 2000 caracteres").optional(),
+  origen: z.string().optional(),
+  url_origen: z.string().optional(),
+}).refine(
+  (d) => d.email !== "" || d.telefono !== "",
+  { message: "Necesitamos al menos un email o teléfono", path: ["email"] }
+);
+
+// ===== EMBUDO: COLABORADOR (B2B) =====
+
+export const colaboradorSchema = z.object({
+  embudo: z.literal("colaborador"),
+  nombre: z.string().min(2, "Tu nombre es necesario"),
+  empresa: z.string().optional(),
+  actividad: z.string().min(1, "Selecciona tu actividad"),
+  provincia: z.string().min(1, "Selecciona la provincia"),
+  capacidad: z.string().min(1, "Selecciona la capacidad"),
+  email: z.string().email("Email no válido"),
+  telefono: z.string().regex(/^\+?\d[\d\s\-]{7,}\d$/, "Introduce un teléfono válido (mín. 9 dígitos)"),
+  origen: z.string().optional(),
+  url_origen: z.string().optional(),
+});
 
 // ===== TIPO UNIFICADO =====
 
@@ -338,6 +429,9 @@ export type LindesLead = z.infer<typeof lindesSchema>;
 export type MaderaLead = z.infer<typeof maderaSchema>;
 export type ProindivisoLead = z.infer<typeof proindivisoSchema>;
 export type CompraVentaLead = z.infer<typeof compraVentaSchema>;
+export type UrbanismoLead = z.infer<typeof urbanismoSchema>;
+export type TramitesLead = z.infer<typeof tramitesSchema>;
+export type ColaboradorLead = z.infer<typeof colaboradorSchema>;
 
 export type LeadFormData =
   | LimpiezaLead
@@ -345,7 +439,10 @@ export type LeadFormData =
   | LindesLead
   | MaderaLead
   | ProindivisoLead
-  | CompraVentaLead;
+  | CompraVentaLead
+  | UrbanismoLead
+  | TramitesLead
+  | ColaboradorLead;
 
 export type EmbudoType = LeadFormData["embudo"];
 
@@ -356,6 +453,9 @@ export const schemaByEmbudo = {
   madera: maderaSchema,
   proindiviso: proindivisoSchema,
   compraventa: compraVentaSchema,
+  urbanismo: urbanismoSchema,
+  tramites: tramitesSchema,
+  colaborador: colaboradorSchema,
 } as const;
 
 export type LeadRecord = LeadFormData & {

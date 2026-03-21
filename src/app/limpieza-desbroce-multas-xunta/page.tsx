@@ -1,16 +1,29 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import LimpiezaForm from "@/components/forms/LimpiezaForm";
+import CalculadoraMultas from "@/components/CalculadoraMultas";
+import PilarJsonLd from "@/components/PilarJsonLd";
+import PilarSidebar from "@/components/PilarSidebar";
 
 export const metadata: Metadata = {
   title: "Multas por no limpiar fincas en Galicia — Ley de biomasa Xunta",
   description:
     "¿Te ha llegado una carta de la Xunta por la maleza? Multas de hasta 100.000 €. Te explicamos qué hacer, cuánto cuesta limpiar y cómo evitar la sanción.",
+  alternates: { canonical: "/limpieza-desbroce-multas-xunta" },
 };
 
 export default function LimpiezaPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+    <>
+    <PilarJsonLd
+      title="Limpieza de fincas y multas de la Xunta en Galicia"
+      description="Ley de biomasa, multas por no limpiar, costes de desbroce y cómo evitar sanciones en Galicia."
+      slug="limpieza-desbroce-multas-xunta"
+      breadcrumbLabel="Limpieza de fincas y multas"
+    />
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10">
+        <div>
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-green-700">Inicio</Link>
         <span className="mx-2">/</span>
@@ -151,6 +164,11 @@ export default function LimpiezaPage() {
         </div>
       </section>
 
+      {/* Calculadora de multas */}
+      <section id="calculadora" className="mb-10">
+        <CalculadoraMultas />
+      </section>
+
       {/* Vivo fuera */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-gray-900 mb-3">
@@ -184,6 +202,10 @@ export default function LimpiezaPage() {
       <section id="formulario">
         <LimpiezaForm origen="pilar-limpieza" />
       </section>
+        </div>
+        <PilarSidebar pilar="limpieza" />
+      </div>
     </div>
+    </>
   );
 }

@@ -6,11 +6,13 @@ import { useState } from "react";
 
 const navLinks = [
   { href: "/herencias-montes-galicia", label: "Herencias" },
-  { href: "/localizar-medir-fincas-galicia", label: "Fincas y Catastro" },
-  { href: "/precio-venta-madera-galicia", label: "Venta de Madera" },
-  { href: "/limpieza-desbroce-multas-xunta", label: "Limpieza y Multas" },
+  { href: "/localizar-medir-fincas-galicia", label: "Catastro" },
+  { href: "/precio-venta-madera-galicia", label: "Madera" },
+  { href: "/limpieza-desbroce-multas-xunta", label: "Multas" },
   { href: "/vender-parte-monte-proindiviso", label: "Proindivisos" },
   { href: "/compra-venta-terrenos-galicia", label: "Compra-venta" },
+  { href: "/urbanismo-suelo-galicia", label: "Urbanismo" },
+  { href: "/tramites-fincas-galicia", label: "Trámites" },
   { href: "/blog", label: "La Gaceta" },
 ];
 
@@ -26,7 +28,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-5">
+        <nav className="hidden lg:flex items-center gap-4">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -48,7 +50,8 @@ export default function Header() {
         <button
           className="lg:hidden p-2 text-gray-700"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Abrir menú"
+          aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+          aria-expanded={menuOpen}
         >
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             {menuOpen ? (
