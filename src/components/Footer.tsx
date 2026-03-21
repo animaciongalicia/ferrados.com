@@ -29,6 +29,8 @@ export default function Footer() {
               <li><Link href="/limpieza-desbroce-multas-xunta" className="hover:text-white">Limpieza y multas</Link></li>
               <li><Link href="/vender-parte-monte-proindiviso" className="hover:text-white">Proindivisos</Link></li>
               <li><Link href="/compra-venta-terrenos-galicia" className="hover:text-white">Compraventa de terrenos</Link></li>
+              <li><Link href="/urbanismo-suelo-galicia" className="hover:text-white">Urbanismo y suelo</Link></li>
+              <li><Link href="/tramites-fincas-galicia" className="hover:text-white">Trámites y papeleo</Link></li>
             </ul>
           </div>
 
