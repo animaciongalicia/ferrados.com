@@ -53,6 +53,13 @@ export const GACETA_CATEGORIES: GacetaCategory[] = [
     pilares: ["urbanismo"],
   },
   {
+    id: "proindiviso",
+    label: "Proindivisos",
+    pillClasses: "bg-rose-50 text-rose-800 border-rose-200",
+    pillActiveClasses: "bg-rose-100 text-rose-900 border-rose-400 ring-2 ring-rose-200",
+    pilares: ["proindiviso"],
+  },
+  {
     id: "tramites",
     label: "Trámites",
     pillClasses: "bg-indigo-50 text-indigo-800 border-indigo-200",

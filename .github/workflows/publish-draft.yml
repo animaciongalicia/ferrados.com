@@ -2,8 +2,8 @@ name: Publicar post programado
 
 on:
   schedule:
-    # Cada 2 días a las 08:00 UTC (10:00 hora España)
-    - cron: "0 8 */2 * *"
+    # Lunes, miércoles y viernes a las 08:00 UTC (10:00 hora España)
+    - cron: "0 8 * * 1,3,5"
   workflow_dispatch: # Permitir ejecución manual
 
 permissions:
@@ -63,7 +63,7 @@ jobs:
           echo "Quedan $REMAINING drafts en cola."
 
       - name: Alerta stock bajo
-        if: steps.find-draft.outputs.found == 'true' && steps.count.outputs.remaining <= 4
+        if: steps.find-draft.outputs.found == 'true' && fromJSON(steps.count.outputs.remaining) <= 4
         run: |
           REMAINING=${{ steps.count.outputs.remaining }}
 
@@ -76,7 +76,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Notificar Telegram (stock bajo)
-        if: steps.find-draft.outputs.found == 'true' && steps.count.outputs.remaining <= 4
+        if: steps.find-draft.outputs.found == 'true' && fromJSON(steps.count.outputs.remaining) <= 4
         run: |
           REMAINING=${{ steps.count.outputs.remaining }}
           if [ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] && [ -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
