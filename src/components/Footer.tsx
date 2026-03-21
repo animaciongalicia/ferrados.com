@@ -64,7 +64,20 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-6 text-xs text-gray-500">
+        <div className="border-t border-gray-700 mt-8 pt-6 pb-4 text-sm text-gray-400 text-center">
+          <p className="mb-1">Trabajamos en toda Galicia</p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link href="/fincas-montes-coruna" className="hover:text-white">A Coruña</Link>
+            <span className="text-gray-600">·</span>
+            <Link href="/fincas-montes-lugo" className="hover:text-white">Lugo</Link>
+            <span className="text-gray-600">·</span>
+            <Link href="/fincas-montes-ourense" className="hover:text-white">Ourense</Link>
+            <span className="text-gray-600">·</span>
+            <Link href="/fincas-montes-pontevedra" className="hover:text-white">Pontevedra</Link>
+          </div>
+        </div>
+
+        <div className="border-t border-gray-700 mt-4 pt-6 text-xs text-gray-500">
           <div className="flex flex-wrap justify-center gap-4 mb-3">
             <Link href="/aviso-legal" className="hover:text-white">Aviso Legal</Link>
             <span className="text-gray-700">|</span>

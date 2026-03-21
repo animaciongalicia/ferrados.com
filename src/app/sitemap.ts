@@ -27,6 +27,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
+  const provinciaPages: MetadataRoute.Sitemap = [
+    "/fincas-montes-coruna",
+    "/fincas-montes-lugo",
+    "/fincas-montes-ourense",
+    "/fincas-montes-pontevedra",
+  ].map((path) => ({
+    url: `${BASE_URL}${path}`,
+    lastModified: new Date().toISOString().split("T")[0],
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   const pilarPages: MetadataRoute.Sitemap = [
     "/herencias-montes-galicia",
     "/localizar-medir-fincas-galicia",
@@ -86,6 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.2,
     },
     ...pilarPages,
+    ...provinciaPages,
     ...categoryEntries,
     ...tagEntries,
     ...blogEntries,
