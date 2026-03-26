@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   publish:
@@ -17,46 +18,54 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Buscar el siguiente draft para publicar
-        id: find-draft
+      - name: Buscar y publicar drafts pendientes
+        id: publish-drafts
         shell: bash
         run: |
           TODAY=$(date +%Y-%m-%d)
+          echo "Fecha de hoy: $TODAY"
 
-          # Buscar el draft con la fecha más antigua que sea <= hoy
-          DRAFT=$(find content/drafts -name "*.md" -type f 2>/dev/null | while read -r file; do
+          # Buscar TODOS los drafts con fecha <= hoy (recupera backlog)
+          DRAFTS=$(find content/drafts -name "*.md" -type f 2>/dev/null | while read -r file; do
             DATE=$(grep -m1 '^date:' "$file" | sed 's/date:[[:space:]]*"\{0,1\}\([0-9-]*\)"\{0,1\}/\1/')
             if [[ -n "$DATE" && ! "$DATE" > "$TODAY" ]]; then
               echo "$DATE $file"
             fi
-          done | sort | head -1 | cut -d' ' -f2)
+          done | sort)
 
-          if [ -z "$DRAFT" ]; then
+          if [ -z "$DRAFTS" ]; then
             echo "No hay drafts pendientes para publicar hoy."
             echo "found=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "found=true" >> "$GITHUB_OUTPUT"
-            echo "file=$DRAFT" >> "$GITHUB_OUTPUT"
-            BASENAME=$(basename "$DRAFT")
-            echo "basename=$BASENAME" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
 
-      - name: Mover draft a blog
-        if: steps.find-draft.outputs.found == 'true'
-        run: |
-          mv "${{ steps.find-draft.outputs.file }}" "content/blog/${{ steps.find-draft.outputs.basename }}"
+          echo "found=true" >> "$GITHUB_OUTPUT"
+
+          PUBLISHED=""
+          COUNT=0
+          while IFS= read -r line; do
+            FILE=$(echo "$line" | cut -d' ' -f2)
+            BASENAME=$(basename "$FILE")
+            mv "$FILE" "content/blog/$BASENAME"
+            PUBLISHED="${PUBLISHED}${BASENAME}\n"
+            COUNT=$((COUNT + 1))
+            echo "Publicado: $BASENAME"
+          done <<< "$DRAFTS"
+
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Publicados $COUNT posts."
 
       - name: Commit y push
-        if: steps.find-draft.outputs.found == 'true'
+        if: steps.publish-drafts.outputs.found == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/blog/ content/drafts/
-          git commit -m "Publicar post: ${{ steps.find-draft.outputs.basename }}"
+          PUBLISHED=${{ steps.publish-drafts.outputs.count }}
+          git commit -m "Publicar $PUBLISHED post(s) programado(s)"
           git push
 
       - name: Contar drafts restantes
-        if: steps.find-draft.outputs.found == 'true'
         id: count
         run: |
           REMAINING=$(find content/drafts -name "*.md" -type f 2>/dev/null | wc -l)
@@ -64,7 +73,7 @@ jobs:
           echo "Quedan $REMAINING drafts en cola."
 
       - name: Alerta stock bajo
-        if: steps.find-draft.outputs.found == 'true' && fromJSON(steps.count.outputs.remaining) <= 4
+        if: fromJSON(steps.count.outputs.remaining) <= 4
         run: |
           REMAINING=${{ steps.count.outputs.remaining }}
 
@@ -77,7 +86,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Notificar Telegram (stock bajo)
-        if: steps.find-draft.outputs.found == 'true' && fromJSON(steps.count.outputs.remaining) <= 4
+        if: fromJSON(steps.count.outputs.remaining) <= 4
         run: |
           REMAINING=${{ steps.count.outputs.remaining }}
           if [ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] && [ -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
