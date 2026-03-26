@@ -19,13 +19,14 @@ jobs:
 
       - name: Buscar el siguiente draft para publicar
         id: find-draft
+        shell: bash
         run: |
           TODAY=$(date +%Y-%m-%d)
 
           # Buscar el draft con la fecha más antigua que sea <= hoy
-          DRAFT=$(find content/drafts -name "*.md" -type f 2>/dev/null | while read file; do
-            DATE=$(grep -m1 '^date:' "$file" | sed 's/date:\s*"\?\([0-9-]*\)"\?/\1/')
-            if [ -n "$DATE" ] && [ "$DATE" \<= "$TODAY" ]; then
+          DRAFT=$(find content/drafts -name "*.md" -type f 2>/dev/null | while read -r file; do
+            DATE=$(grep -m1 '^date:' "$file" | sed 's/date:[[:space:]]*"\{0,1\}\([0-9-]*\)"\{0,1\}/\1/')
+            if [[ -n "$DATE" && ! "$DATE" > "$TODAY" ]]; then
               echo "$DATE $file"
             fi
           done | sort | head -1 | cut -d' ' -f2)
