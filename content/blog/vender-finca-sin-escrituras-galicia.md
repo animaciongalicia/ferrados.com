@@ -3,7 +3,7 @@ title: "Vender una finca en Galicia sin escrituras: cómo regularizar y no perde
 description: "Guía completa para vender una finca rústica en Galicia cuando no tienes escrituras. Expediente de dominio, acta de notoriedad, plazos, costes y alternativas legales."
 date: "2026-03-17"
 lastUpdated: "2026-03-17"
-pilar: "compraventa"
+pilar: "tramites"
 tags: ["documentacion","paso-a-paso"]
 ---
 

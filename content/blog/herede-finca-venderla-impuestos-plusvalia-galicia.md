@@ -3,7 +3,7 @@ title: "Heredé una finca y quiero venderla ya: impuestos, plusvalía y lo que t
 description: "Todo lo que necesitas saber sobre impuestos al vender una finca heredada en Galicia: IRPF, plusvalía, sucesiones y cómo minimizar la factura fiscal legalmente."
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
-pilar: "compraventa"
+pilar: "herencias"
 tags: ["impuestos","precios"]
 ---
 

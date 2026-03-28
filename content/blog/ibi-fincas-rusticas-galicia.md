@@ -3,7 +3,7 @@ title: "IBI de fincas rústicas en Galicia: cuánto se paga, quién paga y cuán
 description: "Todo sobre el Impuesto de Bienes Inmuebles de fincas rústicas en Galicia. Cuotas, exenciones, bonificaciones, errores de Catastro y cómo reclamar."
 date: "2026-03-15"
 lastUpdated: "2026-03-15"
-pilar: "compraventa"
+pilar: "tramites"
 tags: ["impuestos","precios"]
 ---
 

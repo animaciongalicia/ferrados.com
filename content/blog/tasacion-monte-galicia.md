@@ -3,7 +3,7 @@ title: "¿Cuánto vale mi monte? Cómo se tasa una finca forestal en Galicia"
 description: "Aprende cómo se valora un monte en Galicia: métodos de tasación, factores que influyen en el precio y cuándo necesitas una tasación oficial."
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
-pilar: "lindes"
+pilar: "compraventa"
 tags: ["precios"]
 ---
 
