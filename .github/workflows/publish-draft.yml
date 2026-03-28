@@ -42,17 +42,27 @@ jobs:
           echo "found=true" >> "$GITHUB_OUTPUT"
 
           PUBLISHED=""
+          TITLES=""
           COUNT=0
           while IFS= read -r line; do
             FILE=$(echo "$line" | cut -d' ' -f2)
             BASENAME=$(basename "$FILE")
+            TITLE=$(grep -m1 '^title:' "$FILE" | sed 's/title:[[:space:]]*"\{0,1\}\(.*\)"\{0,1\}/\1/' | sed 's/"$//')
+            SLUG=$(echo "$BASENAME" | sed 's/\.md$//')
             mv "$FILE" "content/blog/$BASENAME"
             PUBLISHED="${PUBLISHED}${BASENAME}\n"
+            TITLES="${TITLES}• ${TITLE:-$SLUG}\n"
             COUNT=$((COUNT + 1))
             echo "Publicado: $BASENAME"
           done <<< "$DRAFTS"
 
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          # Guardar títulos para la notificación (multiline)
+          {
+            echo "titles<<EOFTITLES"
+            echo -e "$TITLES"
+            echo "EOFTITLES"
+          } >> "$GITHUB_OUTPUT"
           echo "Publicados $COUNT posts."
 
       - name: Commit y push
@@ -64,6 +74,23 @@ jobs:
           PUBLISHED=${{ steps.publish-drafts.outputs.count }}
           git commit -m "Publicar $PUBLISHED post(s) programado(s)"
           git push
+
+      - name: Notificar Telegram (publicación)
+        if: steps.publish-drafts.outputs.found == 'true'
+        run: |
+          COUNT=${{ steps.publish-drafts.outputs.count }}
+          TITLES="${{ steps.publish-drafts.outputs.titles }}"
+          if [ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] && [ -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
+            TEXT="📝 <b>Publicación diaria en Ferrados.com</b>
+
+Se publicaron <b>${COUNT}</b> post(s):
+
+${TITLES}
+🔗 <a href=\"https://ferrados.com/blog\">Ver blog</a>"
+            curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+              -H "Content-Type: application/json" \
+              -d "$(jq -n --arg chat_id "${{ secrets.TELEGRAM_CHAT_ID }}" --arg text "$TEXT" '{chat_id: $chat_id, text: $text, parse_mode: "HTML"}')"
+          fi
 
       - name: Contar drafts restantes
         id: count
