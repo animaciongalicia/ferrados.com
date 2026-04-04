@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useMemo } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import type { BlogPostMeta } from "@/lib/blog";
@@ -162,30 +162,14 @@ function Sidebar({ topPosts, recentPosts }: { topPosts: BlogPostMeta[]; recentPo
 export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaClientProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const catParam = searchParams.get("cat");
-  const tagParam = searchParams.get("tag");
-
-  const [activeCategory, setActiveCategory] = useState<string | null>(
-    catParam && GACETA_CATEGORIES.some((c) => c.id === catParam) ? catParam : null
-  );
-  const [activeTag, setActiveTag] = useState<string | null>(
-    tagParam && GACETA_TAGS.some((t) => t.id === tagParam) ? tagParam : null
-  );
-
-  // Sync with URL when searchParams change
-  useEffect(() => {
+  const activeCategory = useMemo(() => {
     const cat = searchParams.get("cat");
+    return cat && GACETA_CATEGORIES.some((c) => c.id === cat) ? cat : null;
+  }, [searchParams]);
+
+  const activeTag = useMemo(() => {
     const tag = searchParams.get("tag");
-    if (cat && GACETA_CATEGORIES.some((c) => c.id === cat)) {
-      setActiveCategory(cat);
-    } else {
-      setActiveCategory(null);
-    }
-    if (tag && GACETA_TAGS.some((t) => t.id === tag)) {
-      setActiveTag(tag);
-    } else {
-      setActiveTag(null);
-    }
+    return tag && GACETA_TAGS.some((t) => t.id === tag) ? tag : null;
   }, [searchParams]);
 
   function buildUrl(catId: string | null, tagId: string | null) {
@@ -197,18 +181,14 @@ export default function GacetaClient({ posts, topPosts, recentPosts }: GacetaCli
   }
 
   function handleCategoryChange(catId: string | null) {
-    setActiveCategory(catId);
     router.replace(buildUrl(catId, activeTag), { scroll: false });
   }
 
   function handleTagChange(tagId: string | null) {
-    setActiveTag(tagId);
     router.replace(buildUrl(activeCategory, tagId), { scroll: false });
   }
 
   function handleClearFilters() {
-    setActiveCategory(null);
-    setActiveTag(null);
     router.replace("/blog", { scroll: false });
   }
 
