@@ -14,7 +14,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -67,29 +67,36 @@ jobs:
 
       - name: Commit y push
         if: steps.publish-drafts.outputs.found == 'true'
+        env:
+          PUBLISHED_COUNT: ${{ steps.publish-drafts.outputs.count }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/blog/ content/drafts/
-          PUBLISHED=${{ steps.publish-drafts.outputs.count }}
-          git commit -m "Publicar $PUBLISHED post(s) programado(s)"
+          git commit -m "Publicar ${PUBLISHED_COUNT} post(s) programado(s)"
           git push
 
       - name: Notificar Telegram (publicación)
         if: steps.publish-drafts.outputs.found == 'true'
+        env:
+          COUNT: ${{ steps.publish-drafts.outputs.count }}
+          TITLES: ${{ steps.publish-drafts.outputs.titles }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          COUNT=${{ steps.publish-drafts.outputs.count }}
-          TITLES="${{ steps.publish-drafts.outputs.titles }}"
-          if [ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] && [ -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
-            TEXT="📝 <b>Publicación diaria en Ferrados.com</b>
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            TEXT=$(cat <<EOFMSG
+          📝 <b>Publicación diaria en Ferrados.com</b>
 
-Se publicaron <b>${COUNT}</b> post(s):
+          Se publicaron <b>${COUNT}</b> post(s):
 
-${TITLES}
-🔗 <a href=\"https://ferrados.com/blog\">Ver blog</a>"
-            curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          ${TITLES}
+          🔗 <a href="https://ferrados.com/blog">Ver blog</a>
+          EOFMSG
+          )
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
               -H "Content-Type: application/json" \
-              -d "$(jq -n --arg chat_id "${{ secrets.TELEGRAM_CHAT_ID }}" --arg text "$TEXT" '{chat_id: $chat_id, text: $text, parse_mode: "HTML"}')"
+              -d "$(jq -n --arg chat_id "$TELEGRAM_CHAT_ID" --arg text "$TEXT" '{chat_id: $chat_id, text: $text, parse_mode: "HTML"}')"
           fi
 
       - name: Contar drafts restantes
@@ -101,23 +108,24 @@ ${TITLES}
 
       - name: Alerta stock bajo
         if: fromJSON(steps.count.outputs.remaining) <= 4
-        run: |
-          REMAINING=${{ steps.count.outputs.remaining }}
-
-          # Crear issue de aviso si quedan pocos posts
-          gh issue create \
-            --title "⚠️ Quedan solo $REMAINING posts en cola" \
-            --body "El pipeline de publicación automática tiene solo **$REMAINING** posts pendientes en \`content/drafts/\`. Es hora de generar más contenido." \
-            --label "content"
         env:
+          REMAINING: ${{ steps.count.outputs.remaining }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "⚠️ Quedan solo ${REMAINING} posts en cola" \
+            --body "El pipeline de publicación automática tiene solo **${REMAINING}** posts pendientes en \`content/drafts/\`. Es hora de generar más contenido." \
+            --label "content" || echo "No se pudo crear issue (¿existe el label 'content'?)"
 
       - name: Notificar Telegram (stock bajo)
         if: fromJSON(steps.count.outputs.remaining) <= 4
+        env:
+          REMAINING: ${{ steps.count.outputs.remaining }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          REMAINING=${{ steps.count.outputs.remaining }}
-          if [ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] && [ -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
-            curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
               -H "Content-Type: application/json" \
-              -d "{\"chat_id\": \"${{ secrets.TELEGRAM_CHAT_ID }}\", \"text\": \"⚠️ Quedan solo ${REMAINING} posts en cola en Ferrados.com. Hora de generar más contenido.\", \"parse_mode\": \"HTML\"}"
+              -d "$(jq -n --arg chat_id "$TELEGRAM_CHAT_ID" --arg text "⚠️ Quedan solo ${REMAINING} posts en cola en Ferrados.com. Hora de generar más contenido." '{chat_id: $chat_id, text: $text, parse_mode: "HTML"}')"
           fi
