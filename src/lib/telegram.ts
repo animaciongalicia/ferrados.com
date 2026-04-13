@@ -8,6 +8,25 @@
 
 const TELEGRAM_API = "https://api.telegram.org";
 
+/**
+ * Aviso único (por proceso) si faltan las env vars de Telegram.
+ * Evita spamear la consola en cada lead; solo loguea la primera vez.
+ */
+let telegramEnvChecked = false;
+function checkTelegramEnv(token: string | undefined, chatId: string | undefined): void {
+  if (telegramEnvChecked) return;
+  telegramEnvChecked = true;
+  const missing: string[] = [];
+  if (!token) missing.push("TELEGRAM_BOT_TOKEN");
+  if (!chatId) missing.push("TELEGRAM_CHAT_ID");
+  if (missing.length > 0) {
+    console.warn(
+      `[telegram] Variables de entorno no configuradas: ${missing.join(", ")}. ` +
+        `Las notificaciones de leads a Telegram están desactivadas.`
+    );
+  }
+}
+
 interface LeadNotification {
   id: string;
   embudo: string;
@@ -29,6 +48,7 @@ export async function notifyTelegramLead(lead: LeadNotification): Promise<void> 
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
+  checkTelegramEnv(token, chatId);
   if (!token || !chatId) return;
 
   const emoji =
