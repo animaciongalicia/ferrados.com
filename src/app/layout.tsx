@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     siteName: "Ferrados.com",
+    url: "https://ferrados.com",
     title: "Ferrados.com — Montes, fincas y terrenos en Galicia",
     description:
       "Ayudamos a propietarios de montes y fincas en Galicia: herencias, venta de madera, limpieza, lindes, proindivisos y más.",
@@ -32,6 +33,25 @@ export const metadata: Metadata = {
     description:
       "Ayudamos a propietarios de montes y fincas en Galicia: herencias, venta de madera, limpieza, lindes, proindivisos y más.",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
+  authors: [{ name: "Ferrados.com" }],
+  creator: "Ferrados.com",
+  publisher: "Ferrados.com",
 };
 
 // Organization JSON-LD
@@ -40,11 +60,26 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: "Ferrados.com",
   url: "https://ferrados.com",
+  logo: "https://ferrados.com/logo.svg",
   description:
     "Ayudamos a propietarios de montes y fincas en Galicia: herencias, venta de madera, limpieza, lindes, proindivisos y más.",
   areaServed: {
     "@type": "AdministrativeArea",
     name: "Galicia, España",
+  },
+};
+
+// WebSite JSON-LD (SiteLinks searchbox / identifica el sitio como entidad)
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Ferrados.com",
+  url: "https://ferrados.com",
+  inLanguage: "es-ES",
+  publisher: {
+    "@type": "Organization",
+    name: "Ferrados.com",
+    url: "https://ferrados.com",
   },
 };
 
@@ -93,6 +128,10 @@ fbq('track', 'PageView');`}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <Header />
         <main className="min-h-screen">{children}</main>

@@ -38,6 +38,12 @@ export default function GlobalError({
               >
                 Reintentar
               </button>
+              {/*
+                global-error.tsx sustituye el root layout cuando éste falla,
+                por lo que <Link> de next/link no tiene contexto aquí. Usamos
+                <a> plano a propósito; la regla de ESLint es un falso positivo.
+              */}
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
               <a
                 href="/"
                 className="border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-800 hover:text-white transition-colors"

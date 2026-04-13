@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: "Política de Privacidad — Ferrados.com",
   description:
     "Política de privacidad de Ferrados.com. Información sobre el tratamiento de datos personales, cesión a profesionales colaboradores y derechos RGPD.",
+  alternates: { canonical: "/politica-privacidad" },
+  robots: { index: false, follow: true },
 };
 
 export default function PoliticaPrivacidadPage() {

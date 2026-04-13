@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Quiénes somos — Ferrados.com",
   description:
     "Somos tasadores de montes y fincas en Galicia. Gestionamos compras de eucalipto en A Coruña y conectamos propietarios con profesionales en toda Galicia.",
+  alternates: { canonical: "/quienes-somos" },
 };
 
 export default function QuienesSomosPage() {

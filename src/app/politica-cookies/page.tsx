@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: "Política de Cookies — Ferrados.com",
   description:
     "Política de cookies de Ferrados.com. Información sobre las cookies que utiliza este sitio web y cómo gestionarlas.",
+  alternates: { canonical: "/politica-cookies" },
+  robots: { index: false, follow: true },
 };
 
 export default function PoliticaCookiesPage() {

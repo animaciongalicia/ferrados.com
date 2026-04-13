@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Compra leads reales de montes y fincas — Ferrados.com",
   description:
     "No vendemos visitas. Te ponemos en la mesa clientes que necesitan firmar hoy. Exclusividad provincial para abogados, maderistas, topógrafos y empresas de desbroce en Galicia.",
+  alternates: { canonical: "/colaboradores" },
 };
 
 export default function ColaboradoresPage() {
