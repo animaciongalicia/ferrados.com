@@ -73,7 +73,7 @@ Opciones:
 
 ### 6. Paga impuestos y registra
 
-- **ITP**: 8% del valor escriturado. Se presenta en la Atriga (Axencia Tributaria de Galicia) en los 30 días siguientes a la escritura. Se puede presentar telemáticamente con certificado digital.
+- **ITP**: 8% del valor escriturado. Se presenta en la [Atriga (Axencia Tributaria de Galicia)](https://www.atriga.gal/) en los 30 días siguientes a la escritura. Se puede presentar telemáticamente con certificado digital.
 - **Registro de la Propiedad**: Presenta la escritura para inscribir la finca a tu nombre.
 - **Catastro**: Comunica el cambio de titularidad.
 

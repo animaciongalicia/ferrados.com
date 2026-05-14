@@ -89,7 +89,7 @@ Si este es tu caso:
 
 - **No necesitas desplazarte a Galicia**. Una empresa de desbroce puede limpiar tu finca sin que tú estés. Solo necesitan saber la referencia catastral y poder acceder al terreno.
 
-- **Comprueba que tu dirección está actualizada en el Catastro**. Si no sabes ni qué fincas tienes a tu nombre, lee cómo [localizar fincas heredadas sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Si la Xunta manda la carta a la dirección de tu abuelo y tú vives en Madrid, no te va a llegar. Y eso no te exime: la notificación se considera hecha si se publica en el BOE/DOG tras la carta devuelta.
+- **Comprueba que tu dirección está actualizada en el Catastro**. Si no sabes ni qué fincas tienes a tu nombre, lee cómo [localizar fincas heredadas sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Si la Xunta manda la carta a la dirección de tu abuelo y tú vives en Madrid, no te va a llegar. Y eso no te exime: la notificación se considera hecha si se publica en el BOE o en el [Diario Oficial de Galicia (DOG)](https://www.xunta.gal/diario-oficial-galicia) tras la carta devuelta.
 
 - **[Cuéntanos tu caso](/empezar?tipo=limpieza)** y nos encargamos de conectarte con una empresa de desbroce de la zona. No tienes que buscar a nadie ni hacer llamadas. Te damos presupuesto orientativo y gestionamos todo a distancia.
 

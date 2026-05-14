@@ -11,7 +11,7 @@ tags: ["xunta","paso-a-paso"]
 
 ## ¿Qué dice la ley sobre quemar en Galicia?
 
-La **Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia** y su normativa de desarrollo regulan estrictamente cualquier uso del fuego en terrenos forestales y en una franja de 400 metros alrededor de ellos. Esto incluye:
+La **Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia** (texto completo en el [Diario Oficial de Galicia](https://www.xunta.gal/diario-oficial-galicia)) y su normativa de desarrollo regulan estrictamente cualquier uso del fuego en terrenos forestales y en una franja de 400 metros alrededor de ellos. Esto incluye:
 
 - Queima de matorral y maleza
 - Quema de restos de poda o corta

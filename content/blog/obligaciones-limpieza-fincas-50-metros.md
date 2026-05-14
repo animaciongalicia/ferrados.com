@@ -11,7 +11,7 @@ Si tienes una finca a menos de 50 metros de una casa o un núcleo de población 
 
 ## ¿Qué dice la ley exactamente?
 
-La Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia (modificada por la Lei 18/2021 y la Lei 7/2022) establece una **faja de protección de 50 metros** alrededor de viviendas, edificaciones, urbanizaciones, depósitos de materiales inflamables, gasolineras, camping, líneas eléctricas y núcleos rurales.
+La Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia (modificada por la Lei 18/2021 y la Lei 7/2022, publicadas en el [Diario Oficial de Galicia](https://www.xunta.gal/diario-oficial-galicia)) establece una **faja de protección de 50 metros** alrededor de viviendas, edificaciones, urbanizaciones, depósitos de materiales inflamables, gasolineras, camping, líneas eléctricas y núcleos rurales.
 
 Dentro de esa faja, los propietarios deben:
 

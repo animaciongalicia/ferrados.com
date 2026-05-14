@@ -17,7 +17,7 @@ Antes de ir al notario, reúne estos papeles:
 2. **Certificado de últimas voluntades**: Se solicita al Registro General de Actos de Última Voluntad (Ministerio de Justicia). Hay que esperar 15 días desde el fallecimiento. Cuesta unos 4€.
 3. **Testamento** (si existe): El certificado de últimas voluntades te dirá ante qué notario se otorgó. Pide una copia autorizada en esa notaría.
 4. **Escrituras de las fincas** o, si no las hay, notas simples del Registro de la Propiedad.
-5. **Datos catastrales**: Referencia catastral, valor catastral. Se consultan gratis en la Sede Electrónica del Catastro.
+5. **Datos catastrales**: Referencia catastral, valor catastral. Se consultan gratis en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/).
 
 ## El proceso paso a paso
 
@@ -33,7 +33,7 @@ En Galicia existe una **bonificación del 99%** para herencias entre padres e hi
 
 **Plazo**: 6 meses desde el fallecimiento. Se puede prorrogar otros 6 meses si lo solicitas dentro de los 5 primeros meses. **Si te pasas del plazo, hay recargos**: 5% los primeros 3 meses, 10% de 3 a 6 meses, 15% de 6 a 12 meses y 20% a partir de ahí.
 
-**Dónde se presenta**: En la Atriga (Agencia Tributaria de Galicia), presencialmente o por sede electrónica.
+**Dónde se presenta**: En la [Atriga (Agencia Tributaria de Galicia)](https://www.atriga.gal/), presencialmente o por sede electrónica.
 
 ### 3. Inscribir en el Registro de la Propiedad
 

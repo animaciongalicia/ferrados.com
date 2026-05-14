@@ -11,7 +11,7 @@ Es la pregunta del millón en Galicia: "Tengo una finca rústica, ¿puedo constr
 
 ## El suelo rústico en Galicia: categorías que importan
 
-La **Lei 2/2016 do solo de Galicia** y su Regulamento (Decreto 143/2016) clasifican el suelo rústico en varias categorías, y cada una tiene unas reglas diferentes:
+La **Lei 2/2016 do solo de Galicia** y su Regulamento (Decreto 143/2016), publicados en el [Diario Oficial de Galicia](https://www.xunta.gal/diario-oficial-galicia), clasifican el suelo rústico en varias categorías, y cada una tiene unas reglas diferentes:
 
 ### Suelo rústico de protección ordinaria
 

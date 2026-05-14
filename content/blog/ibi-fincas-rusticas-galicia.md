@@ -79,7 +79,7 @@ El Catastro en Galicia tiene errores históricos importantes en las superficies 
 Que no te llegue el recibo no significa que no debas pagar. El IBI se devenga a 1 de enero de cada año de forma automática. Si no recibes el recibo, contacta con tu concello para regularizar la situación.
 
 ### Pagar IBI de fincas que ya no son tuyas
-Si vendiste una finca pero no actualizaste el Catastro, puede que te sigan cobrando el IBI. Presenta la escritura de venta en el Catastro para que actualicen la titularidad.
+Si vendiste una finca pero no actualizaste el Catastro, puede que te sigan cobrando el IBI. Presenta la escritura de venta en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/) para que actualicen la titularidad.
 
 ## ¿Merece la pena reclamar el IBI de fincas rústicas?
 

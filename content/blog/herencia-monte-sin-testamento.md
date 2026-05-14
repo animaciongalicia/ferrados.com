@@ -71,7 +71,7 @@ Sin testamento, el sobrecoste respecto a una herencia con testamento es de 250�
 
 ## Plazos que no puedes ignorar
 
-- **6 meses desde el fallecimiento** para presentar y pagar el impuesto de sucesiones. Este plazo es prorrogable otros 6 meses, pero tienes que pedir la prórroga dentro de los primeros 5 meses.
+- **6 meses desde el fallecimiento** para presentar y pagar el impuesto de sucesiones ante la [Atriga](https://www.atriga.gal/). Este plazo es prorrogable otros 6 meses, pero tienes que pedir la prórroga dentro de los primeros 5 meses.
 - **Si te pasas del plazo**: Recargos del 5% los primeros 3 meses de retraso, 10% de 3 a 6 meses, 15% de 6 a 12 meses y 20% a partir del año. Además, pueden sumarse intereses de demora.
 - **La inscripción en el Registro** no tiene plazo legal, pero sin ella no puedes vender, hipotecar ni gestionar las fincas. Hazlo cuanto antes.
 

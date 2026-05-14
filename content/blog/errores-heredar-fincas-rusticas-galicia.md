@@ -34,7 +34,7 @@ De pagar 50€ a pagar 1.000€. Por un trámite que cuesta una mañana.
 
 ### Cómo evitarlo
 
-- **Pide la prórroga** de otros 6 meses **antes de que se cumplan los primeros 5 meses**. Es automática, la conceden siempre, y te da un total de 12 meses. Se solicita en la Atriga (Axencia Tributaria de Galicia) por sede electrónica o presencialmente.
+- **Pide la prórroga** de otros 6 meses **antes de que se cumplan los primeros 5 meses**. Es automática, la conceden siempre, y te da un total de 12 meses. Se solicita en la [Atriga (Axencia Tributaria de Galicia)](https://www.atriga.gal/) por sede electrónica o presencialmente.
 - **Presenta la autoliquidación aunque no tengas toda la documentación lista**. Puedes presentar una liquidación provisional y completarla después. Lo importante es no saltarse el plazo.
 - **Si ya se te pasó el plazo**: presenta cuanto antes. Cada día que pasa, el recargo y los intereses aumentan. No esperes a "tener todo listo" porque solo empeora.
 

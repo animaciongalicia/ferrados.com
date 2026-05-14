@@ -85,7 +85,7 @@ El Catastro coloca la parcela en una ubicación, pero sobre el terreno los vecin
 ### Paso 1: Obtener la información de ambos
 
 - **Nota simple del Registro:** Solicítala online (registradores.org) o presencialmente. Coste: 9 €. Te dice quién es el titular, la descripción de la finca y si hay cargas.
-- **Certificación catastral:** Gratuita en la Sede Electrónica del Catastro (con certificado digital o Cl@ve). Te da la ubicación, superficie y titular catastral.
+- **Certificación catastral:** Gratuita en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/) (con certificado digital o Cl@ve). Te da la ubicación, superficie y titular catastral.
 
 ### Paso 2: Comparar y detectar discrepancias
 

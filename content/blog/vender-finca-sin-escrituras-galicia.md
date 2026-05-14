@@ -124,7 +124,7 @@ Si no sabes ni dónde están exactamente las fincas, empieza por ahí. Nuestra g
 
 Cualquier papel vale como punto de partida:
 - Recibos del IBI (prueban quién paga y desde cuándo)
-- Certificaciones catastrales (se sacan gratis en la Sede Electrónica del Catastro)
+- Certificaciones catastrales (se sacan gratis en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/))
 - Contratos privados de compraventa (aunque sean de hace 50 años)
 - Testamentos y declaraciones de herederos
 - Cartas de la Xunta (incluso una [carta de requerimiento de limpieza](/blog/carta-xunta-finca-sin-desbrozar) sirve como prueba de que te consideran propietario)
