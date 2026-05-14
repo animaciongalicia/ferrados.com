@@ -19,7 +19,7 @@ Cada parcela catastral tiene asociados datos como la superficie, el uso (foresta
 
 ### 1. Sede Electrónica del Catastro (la más fiable)
 
-Entra en la web del Catastro (sedecatastro.gob.es) y tienes varias formas de buscar:
+Entra en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/) y tienes varias formas de buscar:
 
 - **Por dirección o municipio**: Si conoces el municipio y la parroquia, puedes navegar hasta encontrar tu parcela en el mapa.
 - **Por polígono y parcela**: Si tienes un recibo del IBI antiguo o una escritura que mencione polígono y parcela, ponlos directamente.

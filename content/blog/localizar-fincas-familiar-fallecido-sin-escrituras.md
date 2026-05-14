@@ -17,7 +17,7 @@ El Catastro es la base de datos oficial de todos los bienes inmuebles de España
 
 ### Cómo buscar por nombre del fallecido
 
-1. Entra en la **Sede Electrónica del Catastro** (sedecatastro.gob.es)
+1. Entra en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/)
 2. Necesitas certificado digital o Cl@ve para acceder a la consulta de titularidad
 3. Ve a "Consulta de bienes inmuebles de un titular"
 4. Introduce los datos del fallecido (NIF/DNI y nombre completo)

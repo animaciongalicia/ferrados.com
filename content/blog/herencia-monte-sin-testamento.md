@@ -94,7 +94,7 @@ Es más habitual de lo que parece. Tres hermanos heredan un monte y uno quiere v
 
 ## Consejo práctico
 
-Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos [los errores más caros al heredar fincas rústicas](/blog/errores-heredar-fincas-rusticas-galicia). Y si quieres ir un paso más allá, plantéate el [pacto de mejora gallego para repartir la herencia en vida](/blog/pacto-mejora-galicia-herencia-en-vida): evita conflictos entre herederos y tiene ventajas fiscales. Es el mejor regalo que puedes dejarles junto con las fincas.
+Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos [los errores más caros al heredar fincas rústicas](/blog/errores-heredar-fincas-rusticas-galicia). Y si ya has heredado y necesitas poner en orden los papeles de las fincas, consulta nuestra [guía de trámites de fincas en Galicia](/tramites-fincas-galicia). Y si quieres ir un paso más allá, plantéate el [pacto de mejora gallego para repartir la herencia en vida](/blog/pacto-mejora-galicia-herencia-en-vida): evita conflictos entre herederos y tiene ventajas fiscales. Es el mejor regalo que puedes dejarles junto con las fincas.
 
 ## Preguntas frecuentes
 

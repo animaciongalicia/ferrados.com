@@ -154,7 +154,7 @@ Si hay que hacer herencias intermedias (del abuelo al padre, del padre a ti), es
 
 ### Paso 5: Pon la finca en venta
 
-Con la finca ya inscrita a tu nombre en el Registro, puedes venderla con total seguridad jurídica. Sigue los pasos de nuestra guía para [vender una finca rústica en Galicia](/blog/vender-finca-rustica-galicia-por-donde-empezar): valoración, documentación, notaría y firma.
+Con la finca ya inscrita a tu nombre en el Registro, puedes venderla con total seguridad jurídica. Sigue los pasos de nuestra guía para [vender una finca rústica en Galicia](/blog/vender-finca-rustica-galicia-por-donde-empezar): valoración, documentación, notaría y firma. Si necesitas ayuda con cualquier trámite del proceso, consulta nuestra [guía de trámites de fincas en Galicia](/tramites-fincas-galicia).
 
 ## Errores habituales al intentar vender sin escrituras
 

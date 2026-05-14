@@ -89,7 +89,7 @@ Tu finca solo existe en el Catastro (nunca se inscribió en el Registro) y la su
 
 **Solución sin juicio**:
 1. Pide un levantamiento topográfico.
-2. Presenta una solicitud de **alteración catastral** (modelo 904N o por sede electrónica) aportando el informe topográfico.
+2. Presenta una solicitud de **alteración catastral** (modelo 904N o por la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/)) aportando el informe topográfico.
 3. Si la corrección no afecta a fincas colindantes, el Catastro la tramita en 2-4 meses.
 4. Si la corrección implica que tu finca "crece" a costa de la del vecino, el Catastro notifica al colindante y le da plazo de alegaciones. Aquí puede haber conflicto.
 

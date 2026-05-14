@@ -13,7 +13,7 @@ Acabas de heredar unas fincas en Galicia y alguien te dice que tienes que pagar 
 
 Es un impuesto que grava lo que recibes cuando alguien fallece y tú eres heredero o legatario. En España está cedido a las comunidades autónomas, lo que significa que **Galicia tiene sus propias normas, reducciones y bonificaciones** que pueden ser muy diferentes a las de Madrid, Andalucía o Cataluña.
 
-Lo gestiona la Atriga (Axencia Tributaria de Galicia).
+Lo gestiona la [Atriga (Axencia Tributaria de Galicia)](https://www.atriga.gal/).
 
 ## ¿Cuánto se paga en Galicia por heredar fincas?
 
@@ -69,7 +69,7 @@ El plazo para presentar y pagar el impuesto de sucesiones es de **6 meses desde 
 
 - Si lo pasas, te aplican **recargos**: 5% el primer mes de retraso, y subiendo progresivamente.
 - Puedes pedir una **prórroga de 6 meses adicionales**, pero debes solicitarla dentro de los 5 primeros meses desde el fallecimiento. Si la pides en el mes 6, es demasiado tarde.
-- La prórroga no es automática: hay que solicitarla expresamente a la Atriga.
+- La prórroga no es automática: hay que solicitarla expresamente a la [Atriga](https://www.atriga.gal/).
 
 Si has heredado desde el extranjero, los plazos son los mismos pero la gestión es más compleja. Te lo explicamos en detalle en [cómo gestionar una herencia de finca desde el extranjero](/blog/herencia-finca-desde-extranjero).
 

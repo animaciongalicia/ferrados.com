@@ -25,7 +25,7 @@ La diferencia fundamental con el Catastro es que el SIXPAC trabaja sobre **fotog
 
 ### Opción 1: Visor web de la Xunta
 
-Accede al visor SIXPAC a través del portal de la Consellería do Medio Rural de la Xunta de Galicia. El visor web es gratuito y no requiere registro. Busca "SIXPAC Galicia" en Google y accederás directamente.
+Accede directamente al [visor SIXPAC de la Xunta](https://sixpac.xunta.es/) a través de la Consellería do Medio Rural. El visor web es gratuito y no requiere registro.
 
 ### Opción 2: Visor SIGPAC del FEGA (estatal)
 
