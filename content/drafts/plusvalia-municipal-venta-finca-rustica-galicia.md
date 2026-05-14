@@ -95,7 +95,7 @@ Este método refleja la ganancia real. Si compraste por 50.000 € y vendes por 
 
 ### Cuál elegir
 
-El contribuyente tiene derecho a que se le aplique el método que resulte en **menor base imponible**. El ayuntamiento debe calcular ambos y aplicar el inferior. En la práctica, muchos ayuntamientos te aplican el objetivo por defecto y eres tú quien tiene que reclamar si el de plusvalía real te beneficia.
+El contribuyente tiene derecho a que se le aplique el método que resulte en **menor base imponible**. El ayuntamiento debe calcular ambos y aplicar el inferior. En la práctica, muchos ayuntamientos te aplican el objetivo por defecto y eres tú quien tiene que reclamar si el de plusvalía real te beneficia. Ten en cuenta que si la finca tiene parte urbana, la liquidación se gestiona ante el ayuntamiento, pero las valoraciones catastrales y los datos fiscales complementarios los puedes consultar en la [Atriga (Axencia Tributaria de Galicia)](https://atriga.gal) para operaciones que impliquen también ITP u otros tributos autonómicos.
 
 ## Exención por venta a pérdidas
 
