@@ -90,7 +90,7 @@ Esto genera mucha confusión:
 
 ## Consejo práctico
 
-Si has heredado fincas en Galicia y no sabes ni cuáles son ni dónde están, lee nuestra guía completa para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Empieza por el Catastro: busca a nombre del fallecido (necesitas su NIF) en la Sede Electrónica y te saldrán todas las parcelas catastrales a su nombre. Es gratuito y te da un punto de partida para todo lo demás.
+Si has heredado fincas en Galicia y no sabes ni cuáles son ni dónde están, lee nuestra guía completa para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Y si necesitas ayuda con la referencia catastral, la titularidad o cualquier otro trámite relacionado con tu finca, consulta nuestra [guía de trámites de fincas en Galicia](/tramites-fincas-galicia). Empieza por el Catastro: busca a nombre del fallecido (necesitas su NIF) en la Sede Electrónica y te saldrán todas las parcelas catastrales a su nombre. Es gratuito y te da un punto de partida para todo lo demás.
 
 ## Preguntas frecuentes
 

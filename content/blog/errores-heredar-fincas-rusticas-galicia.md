@@ -125,7 +125,7 @@ Antes de dar por cerrada una herencia de fincas rústicas en Galicia, asegúrate
 - [ ] Cambio de titularidad en el **Catastro** (modelo 904N)
 - [ ] Cambio de titularidad en el **IBI** del ayuntamiento correspondiente
 
-Si marcas todas las casillas, puedes respirar tranquilo. Si te falta alguna, ponte a ello cuanto antes. Cada mes que pasa, se complica un poco más.
+Si marcas todas las casillas, puedes respirar tranquilo. Si te falta alguna, ponte a ello cuanto antes. Cada mes que pasa, se complica un poco más. Y si después de heredar no sabes qué hacer con esas fincas, lee [qué opciones tienes con un monte heredado que no quieres](/blog/monte-heredado-no-quiero-que-hacer-galicia).
 
 ## El consejo que vale más que todo este artículo
 

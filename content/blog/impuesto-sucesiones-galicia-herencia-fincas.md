@@ -51,6 +51,8 @@ Esto puede suponer un ahorro de decenas de miles de euros en herencias de montes
 ### Reducción por empresa familiar o negocio
 Si las fincas forman parte de un negocio (por ejemplo, una empresa maderera familiar), puede aplicarse una reducción del **99%** del valor del negocio, con requisitos similares a la reducción por explotación agraria.
 
+Además, si lo que quieres es transmitir las fincas en vida y evitar problemas futuros, Galicia tiene una herramienta propia: el [pacto de mejora, que permite repartir la herencia en vida](/blog/pacto-mejora-galicia-herencia-en-vida) con importantes ventajas fiscales.
+
 ## ¿Cuánto valen las fincas a efectos del impuesto?
 
 Aquí es donde muchos herederos se equivocan. El valor que declaras en el impuesto de sucesiones debe ser el **valor real** de los bienes en la fecha de fallecimiento. Para fincas rústicas:

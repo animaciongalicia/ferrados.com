@@ -29,7 +29,7 @@ Con toda la documentación, acudes a un notario (puede ser cualquiera, no tiene 
 
 ### 2. Pagar el impuesto de sucesiones
 
-En Galicia existe una **bonificación del 99%** para herencias entre padres e hijos, cónyuge y ascendientes, siempre que la base imponible no supere ciertos límites (que se actualizan periódicamente). En la práctica, la mayoría de herencias de montes entre familiares directos pagan muy poco o nada de impuesto de sucesiones.
+En Galicia existe una **bonificación del 99%** para herencias entre padres e hijos, cónyuge y ascendientes, siempre que la base imponible no supere ciertos límites (que se actualizan periódicamente). En la práctica, la mayoría de herencias de montes entre familiares directos pagan muy poco o nada de impuesto de sucesiones. Si el propietario aún está vivo y quiere transmitir las fincas en vida, puede ser más ventajoso usar el [pacto de mejora gallego](/blog/pacto-mejora-galicia-herencia-en-vida), que evita conflictos y tiene beneficios fiscales.
 
 **Plazo**: 6 meses desde el fallecimiento. Se puede prorrogar otros 6 meses si lo solicitas dentro de los 5 primeros meses. **Si te pasas del plazo, hay recargos**: 5% los primeros 3 meses, 10% de 3 a 6 meses, 15% de 6 a 12 meses y 20% a partir de ahí.
 

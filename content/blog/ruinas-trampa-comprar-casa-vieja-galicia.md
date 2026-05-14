@@ -38,7 +38,7 @@ Esto es lo que más duele descubrir después de comprar: **hay ruinas en Galicia
 ### Planeamiento urbanístico (PXOM)
 Cada ayuntamiento tiene su Plan Xeral de Ordenación Municipal. Y ese plan dice qué se puede hacer en cada parcela. Si tu ruina está clasificada como suelo rústico de protección especial, de protección forestal o de protección de aguas, puede que no puedas rehabilitarla como vivienda. O que las condiciones sean tan restrictivas que no merezca la pena.
 
-**Antes de comprar, pide una consulta urbanística en el ayuntamiento.** Es gratis o casi gratis. Y te puede ahorrar una fortuna.
+**Antes de comprar, pide una consulta urbanística en el ayuntamiento.** Es gratis o casi gratis. Y te puede ahorrar una fortuna. Si necesitas ayuda para interpretar el planeamiento urbanístico o conocer las posibilidades de rehabilitación, [consulta gratis a un técnico especializado](/urbanismo-suelo-galicia).
 
 ### Protección patrimonial
 Galicia tiene un inventario de elementos patrimoniales (hórreos, cruceiros, pazos, casas señoriales, conjuntos etnográficos). Si tu casa está catalogada o cerca de un elemento protegido, cualquier intervención requiere autorización de la Dirección Xeral de Patrimonio Cultural. Eso implica más trámites, más tiempo, más restricciones sobre materiales y acabados, y más coste.
