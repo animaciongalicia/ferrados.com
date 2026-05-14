@@ -2,6 +2,7 @@
 title: "Cómo salir de un proindiviso de finca rústica en Galicia"
 description: "Guía práctica para salir de un proindiviso sobre monte o finca rústica en Galicia: opciones legales, costes y plazos reales."
 date: "2026-03-22"
+lastUpdated: "2026-05-14"
 pilar: "proindiviso"
 tags: ["legislacion", "paso-a-paso"]
 ---

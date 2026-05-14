@@ -67,7 +67,7 @@ Además de la multa, la Xunta puede enviar a una empresa a limpiar tu finca y pa
 
 1. **Mira la fecha del requerimiento y cuenta los días**. Si aún estás dentro del plazo, tienes tiempo. Pero no mucho.
 
-2. **Contacta con una empresa de desbroce hoy, no mañana**. En temporada alta (mayo-julio), las empresas de desbroce están saturadas. Si esperas al último día, no encontrarás a nadie disponible. [Pide presupuesto aquí](/empezar?tipo=limpieza) y te ponemos en contacto con empresas de tu zona que puedan actuar rápido.
+2. **Contacta con una empresa de desbroce hoy, no mañana**. En temporada alta (mayo-julio), las empresas de desbroce están saturadas. Si esperas al último día, no encontrarás a nadie disponible. Consulta los [precios actualizados de limpieza de fincas en Galicia en 2026](/blog/cuanto-cuesta-limpiar-finca-galicia-2026) para saber cuánto te va a costar, y [pide presupuesto aquí](/empezar?tipo=limpieza) para que te pongamos en contacto con empresas de tu zona que puedan actuar rápido.
 
 3. **Si no llegas al plazo, pide una prórroga**. No siempre funciona, pero si demuestras que ya has contratado la limpieza y tienes fecha de ejecución, la administración a veces concede unos días más. Presenta un escrito al organismo que te notificó (normalmente el Concello o la Consellería de Medio Rural) explicando la situación.
 

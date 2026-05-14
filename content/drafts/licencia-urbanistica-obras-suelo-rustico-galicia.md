@@ -2,6 +2,7 @@
 title: "Licencia urbanística para obras en suelo rústico en Galicia"
 description: "Qué licencia necesitas para construir, reformar o ampliar en suelo rústico en Galicia. Tipos de autorización, plazos y costes."
 date: "2026-03-24"
+lastUpdated: "2026-05-14"
 pilar: "urbanismo"
 tags: ["legislacion", "paso-a-paso"]
 ---
@@ -73,7 +74,7 @@ Para solicitar la licencia municipal de obras en suelo rústico, normalmente nec
 - **Licencia con autorización autonómica**: 4–8 meses (el cuello de botella es la Consellería)
 - **Licencia en núcleo rural con PXOM actualizado**: 2–4 meses
 
-**Consejo**: no empieces ninguna obra sin tener la licencia. Las demoliciones de obras ilegales en suelo rústico gallego son reales — la APLU actúa de oficio y las multas van de 1.000€ a 250.000€.
+**Consejo**: no empieces ninguna obra sin tener la licencia. Las demoliciones de obras ilegales en suelo rústico gallego son reales — la APLU actúa de oficio y las multas van de 1.000€ a 250.000€. Si tienes dudas sobre licencias, clasificación de suelo o viabilidad de tu proyecto, [consulta gratis a un técnico especializado en urbanismo en Galicia](/urbanismo-suelo-galicia).
 
 ## Preguntas frecuentes
 

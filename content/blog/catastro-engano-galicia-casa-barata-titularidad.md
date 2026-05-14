@@ -55,7 +55,7 @@ Sin dar nombres ni datos, estas son situaciones que se repiten:
 
 - **La casa con escritura privada de hace 40 años.** El vendedor compró la casa a un vecino con un papel firmado entre ellos. Sin notario, sin registro. Eso no es una escritura. Es un papel.
 
-- **La finca que aparece en Catastro como de una persona... que emigró en 1960.** Nadie sabe si vive, si murió, ni quiénes serían sus herederos. Pero alguien la está "vendiendo" porque la usa desde hace décadas.
+- **La finca que aparece en Catastro como de una persona... que emigró en 1960.** Nadie sabe si vive, si murió, ni quiénes serían sus herederos. Pero alguien la está "vendiendo" porque la usa desde hace décadas. Si te interesa este tipo de propiedades, lee antes nuestra guía sobre [fincas abandonadas en Galicia y cómo adquirirlas legalmente](/blog/fincas-abandonadas-galicia-como-adquirirlas).
 
 - **Los herederos que no se hablan.** La casa es de 5 hermanos. Tres quieren vender, dos no. Resultado: bloqueo total. Y tú en medio, habiendo dado una señal.
 

@@ -2,6 +2,7 @@
 title: "Qué hacer con un monte heredado que no quieres en Galicia"
 description: "Has heredado un monte o finca en Galicia y no sabes qué hacer con él. Opciones reales: venderlo, alquilarlo, aprovecharlo o renunciar."
 date: "2026-03-30"
+lastUpdated: "2026-05-14"
 pilar: "herencias"
 tags: ["errores", "paso-a-paso"]
 ---

@@ -40,7 +40,7 @@ Las decisiones importantes (venta de madera, arrendamientos, obras, cambios de e
 
 Los usos más habituales son:
 
-- **Aprovechamiento maderero**: la comunidad vende la madera (eucalipto, pino) y reparte los beneficios o los reinvierte.
+- **Aprovechamiento maderero**: la comunidad vende la madera (eucalipto, pino) y reparte los beneficios o los reinvierte. Si quieres saber cuánto vale la madera ahora mismo, consulta los [precios del eucalipto en Galicia en 2026](/blog/precio-eucalipto-galicia-2026).
 - **Uso ganadero**: pastos para ganado de los comuneros.
 - **Aprovechamiento energético**: parques eólicos, plantas de biomasa.
 - **Uso recreativo y social**: áreas recreativas, caminos, espacios comunes.
@@ -53,10 +53,10 @@ Los beneficios económicos de la comunidad están **exentos de impuestos** si se
 Estos son los problemas más frecuentes que vemos:
 
 ### Monte abandonado o sin gestión
-Muchas comunidades tienen pocos vecinos activos y el monte se abandona. Esto genera riesgo de incendios y multas de la Xunta por incumplir la normativa de limpieza.
+Muchas comunidades tienen pocos vecinos activos y el monte se abandona. Esto genera riesgo de incendios y [multas de la Xunta por incumplir la normativa de limpieza](/blog/multa-limpieza-finca-galicia). Revisa las [obligaciones de limpieza en la franja de 50 metros](/blog/obligaciones-limpieza-fincas-50-metros) para saber si tu comunidad está en riesgo.
 
 ### Conflictos entre comuneros
-Desacuerdos sobre cómo gestionar el monte, quién puede ser comunero, cómo repartir beneficios o si vender madera o esperar.
+Desacuerdos sobre cómo gestionar el monte, quién puede ser comunero, cómo repartir beneficios o si [vender madera o esperar](/blog/cortar-monte-ahora-o-esperar). Te contamos los [7 problemas más frecuentes en comunidades de montes](/blog/problemas-comunidad-montes-galicia-soluciones) y cómo resolverlos.
 
 ### Comunidades sin constituir
 Todavía hay montes vecinales que no tienen su comunidad formalmente constituida, lo que impide gestionar el monte legalmente.
@@ -74,7 +74,7 @@ En algunos casos, terrenos que deberían ser monte vecinal están registrados a 
 ## Preguntas frecuentes
 
 ### ¿Puedo vender mi parte de un monte vecinal?
-No. Los montes vecinales en man común son indivisibles, inalienables e imprescriptibles. No puedes vender tu "parte" porque no existe una parte individual. El derecho de comunero está ligado a tu condición de vecino, no es un título de propiedad que puedas transmitir.
+No. Los montes vecinales en man común son indivisibles, inalienables e imprescriptibles. No puedes vender tu "parte" porque no existe una parte individual. Esto es diferente de una [finca en proindiviso](/vender-parte-monte-proindiviso), donde sí puedes [disolver la copropiedad](/blog/salir-proindiviso-finca-rustica-galicia). El derecho de comunero está ligado a tu condición de vecino, no es un título de propiedad que puedas transmitir.
 
 ### ¿Qué pasa si ya no vivo en la parroquia?
 Si dejas de residir habitualmente en la parroquia, pierdes la condición de comunero. No obstante, cada comunidad puede tener sus propios plazos y condiciones en los estatutos. Consulta los de tu comunidad concreta.

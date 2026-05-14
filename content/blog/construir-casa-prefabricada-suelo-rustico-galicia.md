@@ -95,7 +95,7 @@ En suelo rústico, necesitas autorización de la Consellería de Medio Ambiente 
 
 ### Paso 4: Solicita la licencia municipal
 
-Con la autorización autonómica y el proyecto técnico, solicita la licencia de obras en el ayuntamiento.
+Con la autorización autonómica y el proyecto técnico, solicita la [licencia urbanística de obras en suelo rústico](/blog/licencia-urbanistica-obras-suelo-rustico-galicia) en el ayuntamiento.
 
 ### Paso 5: Instala la casa prefabricada
 

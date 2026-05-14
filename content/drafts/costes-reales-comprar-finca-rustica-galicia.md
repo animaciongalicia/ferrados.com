@@ -2,6 +2,7 @@
 title: "Costes reales de comprar una finca rústica en Galicia"
 description: "Desglose completo de todos los gastos al comprar una finca rústica en Galicia: impuestos, notario, registro, gestoría y sorpresas."
 date: "2026-04-05"
+lastUpdated: "2026-05-14"
 pilar: "compraventa"
 tags: ["precios", "paso-a-paso"]
 ---

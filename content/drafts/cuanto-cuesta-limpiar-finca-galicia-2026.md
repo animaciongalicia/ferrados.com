@@ -2,6 +2,7 @@
 title: "Cuánto cuesta limpiar una finca en Galicia en 2026"
 description: "Precios reales de desbroce y limpieza de fincas en Galicia en 2026. Desglose por tipo de terreno, maquinaria y superficie."
 date: "2026-04-03"
+lastUpdated: "2026-05-14"
 pilar: "limpieza"
 tags: ["precios", "xunta"]
 ---

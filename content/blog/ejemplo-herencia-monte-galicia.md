@@ -66,7 +66,7 @@ Si tu monte no tiene escrituras, no te asustes: tiene solución, pero es un trá
 ## Errores habituales que debes evitar
 
 - **Dejar pasar los plazos del impuesto de sucesiones**. Los recargos se acumulan y al final pagas más de impuesto que de notario. Lee los [3 errores letales al heredar fincas rústicas en Galicia](/blog/errores-heredar-fincas-rusticas-galicia) para evitarlos.
-- **No inscribir la herencia en el Registro de la Propiedad**. Sin inscripción, la finca sigue a nombre del fallecido y no puedes hacer nada con ella.
+- **No inscribir la herencia en el Registro de la Propiedad**. Sin inscripción, la finca sigue a nombre del fallecido y no puedes hacer nada con ella. Y si no sabes qué hacer con la propiedad una vez heredada, lee [qué opciones tienes con un monte heredado que no quieres](/blog/monte-heredado-no-quiero-que-hacer-galicia).
 - **No actualizar el Catastro**. Te puede llegar un requerimiento de limpieza o un IBI a nombre de una persona fallecida hace 10 años.
 - **Ignorar las [obligaciones de limpieza de fincas a menos de 50 metros](/blog/obligaciones-limpieza-fincas-50-metros)**. Como nuevo propietario, heredas también la obligación de mantener la finca limpia. Y las [multas por no limpiar pueden ser de miles de euros](/limpieza-desbroce-multas-xunta) desde el momento en que aceptas la herencia.
 - **No comprobar si hay deudas o cargas**. Antes de aceptar, pide una nota simple en el Registro para ver si la finca tiene hipotecas, embargos o servidumbres.

@@ -77,7 +77,7 @@ Sin testamento, el sobrecoste respecto a una herencia con testamento es de 250�
 
 ## El problema real: los montes sin escrituras
 
-En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. Si no sabes ni qué fincas tenía el fallecido, lee nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). La gente decía "esta leira era de mi abuelo" y punto.
+En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. Si no sabes ni qué fincas tenía el fallecido, lee nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). En algunos casos, estas propiedades llevan tanto tiempo sin gestionar que se consideran [fincas abandonadas en Galicia](/blog/fincas-abandonadas-galicia-como-adquirirlas), con los problemas legales que eso conlleva. La gente decía "esta leira era de mi abuelo" y punto.
 
 Cuando esto ocurre, hay que **reconstruir la cadena de titularidad**. Las opciones son:
 

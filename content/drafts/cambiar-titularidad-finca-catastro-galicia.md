@@ -2,6 +2,7 @@
 title: "Cómo cambiar la titularidad de una finca en el Catastro en Galicia"
 description: "Paso a paso para actualizar el titular catastral de una finca rústica en Galicia tras herencia, compraventa o donación."
 date: "2026-03-26"
+lastUpdated: "2026-05-14"
 pilar: "tramites"
 tags: ["documentacion", "paso-a-paso"]
 ---

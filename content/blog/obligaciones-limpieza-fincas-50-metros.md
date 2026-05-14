@@ -62,7 +62,7 @@ Limpiar antes de que te multen es siempre más barato. Estos son los precios de 
 | Terreno con pendiente fuerte | +30% sobre precio base |
 | Acceso difícil (sin pista) | +20% sobre precio base |
 
-**Ejemplo real**: 8 ferrados de matorral denso con algunos eucaliptos → desbroce + poda → entre 800€ y 1.600€. Si lo hace la Xunta por ejecución subsidiaria, esa misma limpieza puede costar 2.500€ a 4.000€.
+**Ejemplo real**: 8 ferrados de matorral denso con algunos eucaliptos → desbroce + poda → entre 800€ y 1.600€. Si lo hace la Xunta por ejecución subsidiaria, esa misma limpieza puede costar 2.500€ a 4.000€. Para un desglose actualizado por tipo de terreno y maquinaria, consulta nuestra guía de [cuánto cuesta limpiar una finca en Galicia en 2026](/blog/cuanto-cuesta-limpiar-finca-galicia-2026).
 
 ## ¿Quién tiene que limpiar: el propietario o el ayuntamiento?
 
