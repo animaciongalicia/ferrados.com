@@ -17,7 +17,7 @@ Antes de ir al notario, reúne estos papeles:
 2. **Certificado de últimas voluntades**: Se solicita al Registro General de Actos de Última Voluntad (Ministerio de Justicia). Hay que esperar 15 días desde el fallecimiento. Cuesta unos 4€.
 3. **Testamento** (si existe): El certificado de últimas voluntades te dirá ante qué notario se otorgó. Pide una copia autorizada en esa notaría.
 4. **Escrituras de las fincas** o, si no las hay, notas simples del Registro de la Propiedad.
-5. **Datos catastrales**: Referencia catastral, valor catastral. Se consultan gratis en la Sede Electrónica del Catastro.
+5. **Datos catastrales**: Referencia catastral, valor catastral. Se consultan gratis en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/).
 
 ## El proceso paso a paso
 
@@ -29,11 +29,11 @@ Con toda la documentación, acudes a un notario (puede ser cualquiera, no tiene 
 
 ### 2. Pagar el impuesto de sucesiones
 
-En Galicia existe una **bonificación del 99%** para herencias entre padres e hijos, cónyuge y ascendientes, siempre que la base imponible no supere ciertos límites (que se actualizan periódicamente). En la práctica, la mayoría de herencias de montes entre familiares directos pagan muy poco o nada de impuesto de sucesiones.
+En Galicia existe una **bonificación del 99%** para herencias entre padres e hijos, cónyuge y ascendientes, siempre que la base imponible no supere ciertos límites (que se actualizan periódicamente). En la práctica, la mayoría de herencias de montes entre familiares directos pagan muy poco o nada de impuesto de sucesiones. Si el propietario aún está vivo y quiere transmitir las fincas en vida, puede ser más ventajoso usar el [pacto de mejora gallego](/blog/pacto-mejora-galicia-herencia-en-vida), que evita conflictos y tiene beneficios fiscales.
 
 **Plazo**: 6 meses desde el fallecimiento. Se puede prorrogar otros 6 meses si lo solicitas dentro de los 5 primeros meses. **Si te pasas del plazo, hay recargos**: 5% los primeros 3 meses, 10% de 3 a 6 meses, 15% de 6 a 12 meses y 20% a partir de ahí.
 
-**Dónde se presenta**: En la Atriga (Agencia Tributaria de Galicia), presencialmente o por sede electrónica.
+**Dónde se presenta**: En la [Atriga (Agencia Tributaria de Galicia)](https://www.atriga.gal/), presencialmente o por sede electrónica.
 
 ### 3. Inscribir en el Registro de la Propiedad
 
@@ -66,7 +66,7 @@ Si tu monte no tiene escrituras, no te asustes: tiene solución, pero es un trá
 ## Errores habituales que debes evitar
 
 - **Dejar pasar los plazos del impuesto de sucesiones**. Los recargos se acumulan y al final pagas más de impuesto que de notario. Lee los [3 errores letales al heredar fincas rústicas en Galicia](/blog/errores-heredar-fincas-rusticas-galicia) para evitarlos.
-- **No inscribir la herencia en el Registro de la Propiedad**. Sin inscripción, la finca sigue a nombre del fallecido y no puedes hacer nada con ella.
+- **No inscribir la herencia en el Registro de la Propiedad**. Sin inscripción, la finca sigue a nombre del fallecido y no puedes hacer nada con ella. Y si no sabes qué hacer con la propiedad una vez heredada, lee [qué opciones tienes con un monte heredado que no quieres](/blog/monte-heredado-no-quiero-que-hacer-galicia).
 - **No actualizar el Catastro**. Te puede llegar un requerimiento de limpieza o un IBI a nombre de una persona fallecida hace 10 años.
 - **Ignorar las [obligaciones de limpieza de fincas a menos de 50 metros](/blog/obligaciones-limpieza-fincas-50-metros)**. Como nuevo propietario, heredas también la obligación de mantener la finca limpia. Y las [multas por no limpiar pueden ser de miles de euros](/limpieza-desbroce-multas-xunta) desde el momento en que aceptas la herencia.
 - **No comprobar si hay deudas o cargas**. Antes de aceptar, pide una nota simple en el Registro para ver si la finca tiene hipotecas, embargos o servidumbres.

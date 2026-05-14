@@ -76,7 +76,7 @@ Hay dos razones por las que un maderista te dice que esperes:
 
 En ambos casos, la recomendación es la misma: **pide presupuesto a más de un maderista**. Si solo hablas con uno, no tienes referencia de precio. Si hablas con tres, tienes un mercado real.
 
-Y si no sabes a quién llamar, para eso estamos en Ferrados.com: [te conectamos con maderistas serios de tu zona](/empezar?tipo=madera) y te ayudamos a comparar ofertas.
+Y si no sabes a quién llamar, lee primero nuestra guía sobre [cómo elegir rematante de madera en Galicia sin que te timen](/blog/elegir-rematante-madera-galicia), y después [te conectamos con maderistas serios de tu zona](/empezar?tipo=madera) para que puedas comparar ofertas.
 
 ## La fórmula para decidir
 

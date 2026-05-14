@@ -10,6 +10,16 @@ export const metadata: Metadata = {
     "Artículos prácticos sobre multas, limpieza, madera, herencias y catastro de fincas en Galicia. Soluciones reales para propietarios preocupados.",
   alternates: {
     canonical: "/blog",
+    types: {
+      "application/rss+xml": "/rss.xml",
+    },
+  },
+  openGraph: {
+    type: "website",
+    url: "/blog",
+    title: "La Gaceta — Montes, fincas y terrenos en Galicia",
+    description:
+      "Artículos prácticos sobre multas, limpieza, madera, herencias y catastro de fincas en Galicia.",
   },
 };
 

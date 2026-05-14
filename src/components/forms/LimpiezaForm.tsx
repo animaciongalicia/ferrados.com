@@ -40,7 +40,6 @@ export default function LimpiezaForm({ origen = "limpieza" }: { origen?: string 
     register,
     handleSubmit,
     trigger,
-    getValues,
     formState: { errors },
   } = useForm<LimpiezaLead>({
     resolver: zodResolver(limpiezaSchema),

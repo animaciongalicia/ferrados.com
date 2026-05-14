@@ -7,7 +7,7 @@ pilar: "proindiviso"
 tags: ["vecinos"]
 ---
 
-Las comunidades vecinales de montes en man común son una pieza clave del paisaje gallego. Pero la realidad es que muchas de ellas tienen problemas serios que impiden aprovechar el monte y generan dolores de cabeza a los comuneros. Aquí te contamos los 7 más habituales y qué puedes hacer en cada caso.
+Las [comunidades vecinales de montes en man común](/blog/comunidad-vecinal-montes-galicia-que-es) son una pieza clave del paisaje gallego. Pero la realidad es que muchas de ellas tienen problemas serios que impiden aprovechar el monte y generan dolores de cabeza a los comuneros. Aquí te contamos los 7 más habituales y qué puedes hacer en cada caso.
 
 ## 1. La comunidad existe pero nadie se mueve
 
@@ -19,13 +19,13 @@ Es el problema más extendido. El monte está ahí, la comunidad está constitui
 
 Hay comunidades con eucaliptos o pinos en su punto óptimo de corta, pero la madera no se vende porque no hay acuerdo, no hay junta rectora operativa o simplemente nadie se encarga.
 
-**¿Qué hacer?** La asamblea debe aprobar la venta. Si no hay junta rectora, hay que constituir una. Si la hay pero no actúa, los comuneros pueden forzar una asamblea extraordinaria. Lo ideal es contratar un ingeniero de montes que haga una valoración independiente antes de negociar con ningún maderista.
+**¿Qué hacer?** La asamblea debe aprobar la venta. Si no hay junta rectora, hay que constituir una. Si la hay pero no actúa, los comuneros pueden forzar una asamblea extraordinaria. Lo ideal es contratar un ingeniero de montes que haga una [valoración independiente](/blog/tasacion-monte-galicia) antes de negociar con ningún maderista.
 
 ## 3. El maderista ofrece un precio ridículo
 
-Muchas comunidades venden su madera al primer comprador que llama a la puerta, sin tener ni idea del precio real de mercado. En 2026, la tonelada de eucalipto en Galicia oscila entre 30 y 48 €/t dependiendo de la zona, el acceso y la calidad. Si te ofrecen mucho menos, están aprovechándose.
+Muchas comunidades venden su madera al primer comprador que llama a la puerta, sin tener ni idea del precio real de mercado. En 2026, la tonelada de eucalipto en Galicia oscila entre 30 y 48 €/t dependiendo de la zona, el acceso y la calidad (consulta los [precios actualizados del eucalipto en Galicia](/blog/precio-eucalipto-galicia-2026)). Si te ofrecen mucho menos, están aprovechándose.
 
-**¿Qué hacer?** Pide siempre **al menos 3 ofertas** de diferentes maderistas. Contrata una tasación independiente. Y exige que la medición se haga en báscula certificada, no "a ojo" ni por número de camiones.
+**¿Qué hacer?** Pide siempre **al menos 3 ofertas** de diferentes maderistas. Lee nuestra guía sobre [cómo elegir rematante](/blog/elegir-rematante-madera-galicia). Contrata una tasación independiente. Y exige que la medición se haga en báscula certificada, no "a ojo" ni por número de camiones.
 
 ## 4. Conflictos sobre quién es comunero y quién no
 
@@ -35,9 +35,9 @@ Con la despoblación rural, muchos vecinos se fueron pero quieren seguir partici
 
 ## 5. Multas de la Xunta por no limpiar
 
-La normativa de prevención de incendios obliga a mantener limpias las franjas de protección alrededor de edificaciones y carreteras. Muchas comunidades no cumplen porque no tienen presupuesto o no hay organización para hacerlo.
+La [normativa de prevención de incendios](/blog/obligaciones-limpieza-fincas-50-metros) obliga a mantener limpias las franjas de protección alrededor de edificaciones y carreteras. Muchas comunidades no cumplen porque no tienen presupuesto o no hay organización para hacerlo. Si ya te ha llegado una [multa por no limpiar](/blog/multa-limpieza-finca-galicia), actúa rápido.
 
-**¿Qué hacer?** La comunidad puede solicitar ayudas de la Xunta para trabajos de desbroce y limpieza. También puede negociar con empresas de biomasa que limpien a cambio de llevarse el material. Si la multa ya ha llegado, hay plazos para alegaciones — no dejes pasar el tiempo.
+**¿Qué hacer?** La comunidad puede solicitar [ayudas de la Xunta para trabajos de desbroce y limpieza](/blog/subvenciones-limpieza-fincas-galicia-2026). También puede negociar con empresas de biomasa que limpien a cambio de llevarse el material. Si la multa ya ha llegado, hay plazos para alegaciones — no dejes pasar el tiempo.
 
 ## 6. Parques eólicos: ¿oportunidad o trampa?
 
@@ -66,7 +66,7 @@ No, salvo que demuestre que no es monte vecinal. Los MVMC son propiedad de los v
 No hay un número mínimo legal. Con que haya vecinos con derecho reconocido en la parroquia, se puede iniciar el proceso. En la práctica, cuantos más vecinos participen, más legitimidad y fuerza tendrá la comunidad.
 
 ### ¿Se pueden repartir los beneficios de la madera entre los comuneros?
-Sí, la asamblea puede decidir repartir beneficios entre los comuneros. No obstante, la parte que se reparta tributará en el IRPF de cada comunero. La parte que se reinvierta en mejoras del monte está exenta de impuestos, así que conviene buscar un equilibrio.
+Sí, la asamblea puede decidir repartir beneficios entre los comuneros. No obstante, la parte que se reparta [tributará en el IRPF](/blog/irpf-venta-madera-galicia-impuestos) de cada comunero. La parte que se reinvierta en mejoras del monte está exenta de impuestos, así que conviene buscar un equilibrio.
 
 ### ¿Qué pasa si un comunero tala madera por su cuenta sin permiso de la asamblea?
 Es ilegal. La madera del monte vecinal pertenece a la comunidad, no a un comunero individual. La comunidad puede denunciarlo y exigir responsabilidades. Además, talar sin autorización de la Xunta puede acarrear multas adicionales.

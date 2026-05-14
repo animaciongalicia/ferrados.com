@@ -3,7 +3,7 @@ title: "Heredé una finca y quiero venderla ya: impuestos, plusvalía y lo que t
 description: "Todo lo que necesitas saber sobre impuestos al vender una finca heredada en Galicia: IRPF, plusvalía, sucesiones y cómo minimizar la factura fiscal legalmente."
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
-pilar: "compraventa"
+pilar: "herencias"
 tags: ["impuestos","precios"]
 ---
 
@@ -167,7 +167,7 @@ Depende del caso. En Galicia, las donaciones entre padres e hijos tienen reducci
 Si vendes por debajo del valor declarado en la herencia, tendrás una pérdida patrimonial en IRPF. No pagas IRPF y puedes compensar esa pérdida con otras ganancias patrimoniales durante los 4 años siguientes.
 
 ### ¿Tengo que pagar a un gestor o puedo hacer los trámites yo mismo?
-Puedes hacerlo tú mismo si tienes tiempo y conocimientos. El Impuesto de Sucesiones se presenta en la oficina de la Atriga (Axencia Tributaria de Galicia) o por sede electrónica. El IRPF se declara en Renta Web. Pero si la herencia es compleja o hay dudas sobre valoraciones, un gestor o asesor fiscal te puede ahorrar más de lo que cobra (150€ - 500€ por todo el proceso fiscal).
+Puedes hacerlo tú mismo si tienes tiempo y conocimientos. El Impuesto de Sucesiones se presenta en la oficina de la [Atriga (Axencia Tributaria de Galicia)](https://www.atriga.gal/) o por su sede electrónica. El IRPF se declara en Renta Web. Pero si la herencia es compleja o hay dudas sobre valoraciones, un gestor o asesor fiscal te puede ahorrar más de lo que cobra (150€ - 500€ por todo el proceso fiscal).
 
 ---
 

@@ -71,13 +71,13 @@ Sin testamento, el sobrecoste respecto a una herencia con testamento es de 250�
 
 ## Plazos que no puedes ignorar
 
-- **6 meses desde el fallecimiento** para presentar y pagar el impuesto de sucesiones. Este plazo es prorrogable otros 6 meses, pero tienes que pedir la prórroga dentro de los primeros 5 meses.
+- **6 meses desde el fallecimiento** para presentar y pagar el impuesto de sucesiones ante la [Atriga](https://www.atriga.gal/). Este plazo es prorrogable otros 6 meses, pero tienes que pedir la prórroga dentro de los primeros 5 meses.
 - **Si te pasas del plazo**: Recargos del 5% los primeros 3 meses de retraso, 10% de 3 a 6 meses, 15% de 6 a 12 meses y 20% a partir del año. Además, pueden sumarse intereses de demora.
 - **La inscripción en el Registro** no tiene plazo legal, pero sin ella no puedes vender, hipotecar ni gestionar las fincas. Hazlo cuanto antes.
 
 ## El problema real: los montes sin escrituras
 
-En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. Si no sabes ni qué fincas tenía el fallecido, lee nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). La gente decía "esta leira era de mi abuelo" y punto.
+En Galicia es extremadamente común que los montes no estén inscritos en el Registro de la Propiedad. Han pasado de padres a hijos durante generaciones sin formalizar nada. Si no sabes ni qué fincas tenía el fallecido, lee nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). En algunos casos, estas propiedades llevan tanto tiempo sin gestionar que se consideran [fincas abandonadas en Galicia](/blog/fincas-abandonadas-galicia-como-adquirirlas), con los problemas legales que eso conlleva. La gente decía "esta leira era de mi abuelo" y punto.
 
 Cuando esto ocurre, hay que **reconstruir la cadena de titularidad**. Las opciones son:
 
@@ -94,7 +94,7 @@ Es más habitual de lo que parece. Tres hermanos heredan un monte y uno quiere v
 
 ## Consejo práctico
 
-Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos [los errores más caros al heredar fincas rústicas](/blog/errores-heredar-fincas-rusticas-galicia). Es el mejor regalo que puedes dejarles junto con las fincas.
+Si eres mayor de 60 años y tienes fincas en Galicia, haz testamento. Cuesta entre 40€ y 80€ ante notario y les ahorrará a tus hijos [los errores más caros al heredar fincas rústicas](/blog/errores-heredar-fincas-rusticas-galicia). Y si ya has heredado y necesitas poner en orden los papeles de las fincas, consulta nuestra [guía de trámites de fincas en Galicia](/tramites-fincas-galicia). Y si quieres ir un paso más allá, plantéate el [pacto de mejora gallego para repartir la herencia en vida](/blog/pacto-mejora-galicia-herencia-en-vida): evita conflictos entre herederos y tiene ventajas fiscales. Es el mejor regalo que puedes dejarles junto con las fincas.
 
 ## Preguntas frecuentes
 

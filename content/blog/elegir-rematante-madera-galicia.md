@@ -2,6 +2,7 @@
 title: "Cómo elegir rematante de madera en Galicia sin que te timen"
 description: "Guía para elegir bien al comprador de tu madera en Galicia. Qué preguntar, qué firmar, señales de alarma y precios de referencia."
 date: "2026-03-28"
+lastUpdated: "2026-05-14"
 pilar: "madera"
 tags: ["precios", "errores"]
 ---

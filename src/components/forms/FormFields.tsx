@@ -7,6 +7,7 @@ import type { FieldErrors, UseFormRegister } from "react-hook-form";
 interface RadioGroupProps {
   name: string;
   options: readonly string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   register: UseFormRegister<any>;
   error?: string;
 }
@@ -39,6 +40,7 @@ interface SelectFieldProps {
   name: string;
   label: string;
   options: readonly string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   register: UseFormRegister<any>;
   error?: string;
   required?: boolean;
@@ -76,6 +78,7 @@ export function SelectField({
 interface TextFieldProps {
   name: string;
   label: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   register: UseFormRegister<any>;
   error?: string;
   type?: string;
@@ -109,6 +112,7 @@ export function TextField({
 }
 
 interface ContactFieldsProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   register: UseFormRegister<any>;
   errors: FieldErrors;
 }

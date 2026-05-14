@@ -2,6 +2,7 @@
 title: "Cómo salir de un proindiviso de finca rústica en Galicia"
 description: "Guía práctica para salir de un proindiviso sobre monte o finca rústica en Galicia: opciones legales, costes y plazos reales."
 date: "2026-03-22"
+lastUpdated: "2026-05-14"
 pilar: "proindiviso"
 tags: ["legislacion", "paso-a-paso"]
 ---
@@ -12,7 +13,7 @@ Compartir la propiedad de una finca rústica con otras personas — ya sea por h
 
 Un proindiviso (o comunidad de bienes) significa que varias personas son dueñas de un mismo bien sin que esté dividido físicamente. Cada uno tiene un porcentaje (una "cuota"), pero no una parcela concreta. En Galicia esto es especialmente frecuente con montes heredados entre varios hermanos.
 
-El problema principal es que **nadie puede hacer nada con la finca sin el acuerdo de todos**: ni venderla, ni cortarla, ni construir. Y las [obligaciones de limpieza de la Xunta](/blog/obligaciones-limpieza-fincas-50-metros) siguen aplicándose — si no se limpia, la multa les llega a todos.
+El problema principal es que **nadie puede hacer nada con la finca sin el acuerdo de todos**: ni venderla, ni cortarla, ni construir. Y las [obligaciones de limpieza de la Xunta](/blog/obligaciones-limpieza-fincas-50-metros) siguen aplicándose — si no se limpia, la multa les llega a todos. Si además la finca forma parte de un monte vecinal, los conflictos se multiplican: lee los [7 problemas más comunes en comunidades de montes en Galicia y cómo solucionarlos](/blog/problemas-comunidad-montes-galicia-soluciones).
 
 ## Las 3 opciones legales para salir
 

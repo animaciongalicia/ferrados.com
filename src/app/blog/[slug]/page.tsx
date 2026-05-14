@@ -58,9 +58,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.meta.title,
       description: post.meta.description,
       type: "article",
+      url: `/blog/${slug}`,
+      siteName: "Ferrados.com",
+      locale: "es_ES",
       publishedTime: post.meta.date,
+      ...(post.meta.lastUpdated && { modifiedTime: post.meta.lastUpdated }),
       section: category?.label,
       tags: post.meta.tags,
+      authors: ["Ferrados.com"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.meta.title,
+      description: post.meta.description,
     },
   };
 }

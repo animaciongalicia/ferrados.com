@@ -71,7 +71,7 @@ El método más efectivo en la Galicia rural sigue siendo el más antiguo: habla
 
 Es la vía más sencilla y la más recomendable si puedes localizar al dueño:
 
-1. **Identifica al titular** en el Catastro (sedecatastro.gob.es) usando la [referencia catastral](/blog/catastro-finca-galicia-referencia)
+1. **Identifica al titular** en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/) usando la [referencia catastral](/blog/catastro-finca-galicia-referencia)
 2. **Contacta con el propietario** y negocia un precio
 3. **Formaliza la compraventa** ante notario con escritura pública
 4. **Inscribe en el Registro de la Propiedad**
@@ -174,7 +174,7 @@ Localízala en el [SIXPAC](/blog/sixpac-galicia-visor-fincas-parcelas) y en el C
 
 ### Paso 2: Consultar la titularidad
 
-En el Catastro virtual (sedecatastro.gob.es) puedes ver el titular catastral. Si aparece una persona y sospechas que ha fallecido, el siguiente paso es consultar en el Registro de la Propiedad si la finca está inscrita y a nombre de quién.
+En el [Catastro virtual](https://www.sedecatastro.gob.es/) puedes ver el titular catastral. Si aparece una persona y sospechas que ha fallecido, el siguiente paso es consultar en el Registro de la Propiedad si la finca está inscrita y a nombre de quién.
 
 ### Paso 3: Intentar contactar al propietario o herederos
 

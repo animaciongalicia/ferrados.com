@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: "Aviso Legal — Ferrados.com",
   description:
     "Aviso legal de Ferrados.com. Información del titular del sitio web, condiciones de uso y legislación aplicable.",
+  alternates: { canonical: "/aviso-legal" },
+  robots: { index: false, follow: true },
 };
 
 export default function AvisoLegalPage() {

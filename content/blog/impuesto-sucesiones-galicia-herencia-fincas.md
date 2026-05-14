@@ -13,7 +13,7 @@ Acabas de heredar unas fincas en Galicia y alguien te dice que tienes que pagar 
 
 Es un impuesto que grava lo que recibes cuando alguien fallece y tú eres heredero o legatario. En España está cedido a las comunidades autónomas, lo que significa que **Galicia tiene sus propias normas, reducciones y bonificaciones** que pueden ser muy diferentes a las de Madrid, Andalucía o Cataluña.
 
-Lo gestiona la Atriga (Axencia Tributaria de Galicia).
+Lo gestiona la [Atriga (Axencia Tributaria de Galicia)](https://www.atriga.gal/).
 
 ## ¿Cuánto se paga en Galicia por heredar fincas?
 
@@ -51,6 +51,8 @@ Esto puede suponer un ahorro de decenas de miles de euros en herencias de montes
 ### Reducción por empresa familiar o negocio
 Si las fincas forman parte de un negocio (por ejemplo, una empresa maderera familiar), puede aplicarse una reducción del **99%** del valor del negocio, con requisitos similares a la reducción por explotación agraria.
 
+Además, si lo que quieres es transmitir las fincas en vida y evitar problemas futuros, Galicia tiene una herramienta propia: el [pacto de mejora, que permite repartir la herencia en vida](/blog/pacto-mejora-galicia-herencia-en-vida) con importantes ventajas fiscales.
+
 ## ¿Cuánto valen las fincas a efectos del impuesto?
 
 Aquí es donde muchos herederos se equivocan. El valor que declaras en el impuesto de sucesiones debe ser el **valor real** de los bienes en la fecha de fallecimiento. Para fincas rústicas:
@@ -67,7 +69,7 @@ El plazo para presentar y pagar el impuesto de sucesiones es de **6 meses desde 
 
 - Si lo pasas, te aplican **recargos**: 5% el primer mes de retraso, y subiendo progresivamente.
 - Puedes pedir una **prórroga de 6 meses adicionales**, pero debes solicitarla dentro de los 5 primeros meses desde el fallecimiento. Si la pides en el mes 6, es demasiado tarde.
-- La prórroga no es automática: hay que solicitarla expresamente a la Atriga.
+- La prórroga no es automática: hay que solicitarla expresamente a la [Atriga](https://www.atriga.gal/).
 
 Si has heredado desde el extranjero, los plazos son los mismos pero la gestión es más compleja. Te lo explicamos en detalle en [cómo gestionar una herencia de finca desde el extranjero](/blog/herencia-finca-desde-extranjero).
 

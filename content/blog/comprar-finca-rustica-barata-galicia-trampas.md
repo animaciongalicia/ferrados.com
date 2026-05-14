@@ -66,7 +66,7 @@ El sueño de muchos compradores de fuera: "compro una finca barata y me hago una
 
 ### Cómo protegerte
 
-Antes de comprar, consulta el **Plan General de Ordenación Municipal (PGOM)** del ayuntamiento. Pregunta en el departamento de urbanismo qué usos permite la clasificación de la parcela que quieres comprar. No te fíes de lo que te diga el vendedor o el anuncio. Si lo que buscas es una casa vieja para rehabilitar, lee antes nuestro artículo sobre [ruinas con trampa en Galicia](/blog/ruinas-trampa-comprar-casa-vieja-galicia).
+Antes de comprar, consulta el **Plan General de Ordenación Municipal (PGOM)** del ayuntamiento. Pregunta en el departamento de urbanismo qué usos permite la clasificación de la parcela que quieres comprar. No te fíes de lo que te diga el vendedor o el anuncio. Si necesitas que un técnico te aclare las posibilidades urbanísticas de la parcela, [consulta gratis a un especialista](/urbanismo-suelo-galicia). Si lo que buscas es una casa vieja para rehabilitar, lee antes nuestro artículo sobre [ruinas con trampa en Galicia](/blog/ruinas-trampa-comprar-casa-vieja-galicia).
 
 ## Trampa 5: El acceso no existe (o no es tuyo)
 
@@ -108,7 +108,7 @@ Los precios de fincas rústicas en Galicia varían enormemente según la zona, e
 | Terreno limpio con acceso | 2.000€ - 8.000€ |
 | Terreno sin acceso ni arbolado | 500€ - 3.000€ |
 
-Si alguien te ofrece algo muy por debajo de estos rangos, pregúntate por qué. Normalmente hay un problema escondido.
+Si alguien te ofrece algo muy por debajo de estos rangos, pregúntate por qué. Normalmente hay un problema escondido. Y si lo que te atrae son fincas aparentemente sin dueño, lee primero los riesgos reales de [adquirir fincas abandonadas en Galicia](/blog/fincas-abandonadas-galicia-como-adquirirlas).
 
 ## Preguntas frecuentes
 
@@ -116,7 +116,7 @@ Si alguien te ofrece algo muy por debajo de estos rangos, pregúntate por qué. 
 Sí. No hay restricciones para ciudadanos de la UE. Para ciudadanos de fuera de la UE, necesitas NIE (Número de Identidad de Extranjero). El proceso de compra es el mismo.
 
 ### ¿Qué impuestos pago al comprar?
-El **Impuesto de Transmisiones Patrimoniales (ITP)**, que en Galicia es del 8% sobre el precio escriturado para fincas rústicas. Más los gastos de notaría y registro (entre 400€ y 1.200€ según el precio).
+El **Impuesto de Transmisiones Patrimoniales (ITP)**, que en Galicia es del 8% sobre el precio escriturado para fincas rústicas. Más los gastos de notaría y registro (entre 400€ y 1.200€ según el precio). Para un desglose completo de todos los gastos, consulta nuestra guía de [costes reales de comprar una finca rústica en Galicia](/blog/costes-reales-comprar-finca-rustica-galicia).
 
 ### ¿Puedo financiar la compra de una finca rústica con hipoteca?
 Es muy difícil. Los bancos casi no financian fincas rústicas por su baja liquidez y difícil tasación. Prepárate para pagar al contado o financiarte por tu cuenta.

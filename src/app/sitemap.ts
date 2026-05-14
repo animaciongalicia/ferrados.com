@@ -1,31 +1,23 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
-import { GACETA_CATEGORIES } from "@/lib/gaceta-categories";
-import { GACETA_TAGS } from "@/lib/gaceta-tags";
 
 const BASE_URL = "https://ferrados.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
+  const today = new Date().toISOString().split("T")[0];
 
   const blogEntries: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
-    lastModified: post.date,
+    // Prefer lastUpdated (frontmatter), fall back to publication date
+    lastModified: post.lastUpdated ?? post.date,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
-  const categoryEntries: MetadataRoute.Sitemap = GACETA_CATEGORIES.map((cat) => ({
-    url: `${BASE_URL}/blog?cat=${cat.id}`,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
-
-  const tagEntries: MetadataRoute.Sitemap = GACETA_TAGS.map((tag) => ({
-    url: `${BASE_URL}/blog?tag=${tag.id}`,
-    changeFrequency: "weekly",
-    priority: 0.5,
-  }));
+  // NOTE: /blog?cat=X and /blog?tag=X are client-side filtered views of the
+  // same /blog page. We intentionally don't list them in the sitemap to avoid
+  // signalling duplicate content — canonical for those is /blog anyway.
 
   const provinciaPages: MetadataRoute.Sitemap = [
     "/fincas-montes-coruna",
@@ -34,11 +26,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/fincas-montes-pontevedra",
   ].map((path) => ({
     url: `${BASE_URL}${path}`,
-    lastModified: new Date().toISOString().split("T")[0],
+    lastModified: today,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
+  // NOTE: /empezar está disallowed en robots.ts (embudo de captura), no se
+  // incluye aquí para no generar señales contradictorias.
   const pilarPages: MetadataRoute.Sitemap = [
     "/herencias-montes-galicia",
     "/localizar-medir-fincas-galicia",
@@ -48,10 +42,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/compra-venta-terrenos-galicia",
     "/urbanismo-suelo-galicia",
     "/tramites-fincas-galicia",
-    "/empezar",
   ].map((path) => ({
     url: `${BASE_URL}${path}`,
-    lastModified: new Date().toISOString().split("T")[0],
+    lastModified: today,
     changeFrequency: "monthly",
     priority: 0.8,
   }));
@@ -75,32 +68,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${BASE_URL}/colaboradores`,
       changeFrequency: "monthly",
-      priority: 0.4,
+      priority: 0.5,
     },
     {
       url: `${BASE_URL}/preguntas-frecuentes`,
       changeFrequency: "weekly",
       priority: 0.7,
     },
-    {
-      url: `${BASE_URL}/politica-privacidad`,
-      changeFrequency: "yearly",
-      priority: 0.2,
-    },
-    {
-      url: `${BASE_URL}/aviso-legal`,
-      changeFrequency: "yearly",
-      priority: 0.2,
-    },
-    {
-      url: `${BASE_URL}/politica-cookies`,
-      changeFrequency: "yearly",
-      priority: 0.2,
-    },
+    // Legales: noindex por política, no las listamos en el sitemap.
     ...pilarPages,
     ...provinciaPages,
-    ...categoryEntries,
-    ...tagEntries,
     ...blogEntries,
   ];
 }

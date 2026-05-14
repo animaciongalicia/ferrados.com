@@ -67,7 +67,7 @@ Además de la multa, la Xunta puede enviar a una empresa a limpiar tu finca y pa
 
 1. **Mira la fecha del requerimiento y cuenta los días**. Si aún estás dentro del plazo, tienes tiempo. Pero no mucho.
 
-2. **Contacta con una empresa de desbroce hoy, no mañana**. En temporada alta (mayo-julio), las empresas de desbroce están saturadas. Si esperas al último día, no encontrarás a nadie disponible. [Pide presupuesto aquí](/empezar?tipo=limpieza) y te ponemos en contacto con empresas de tu zona que puedan actuar rápido.
+2. **Contacta con una empresa de desbroce hoy, no mañana**. En temporada alta (mayo-julio), las empresas de desbroce están saturadas. Si esperas al último día, no encontrarás a nadie disponible. Consulta los [precios actualizados de limpieza de fincas en Galicia en 2026](/blog/cuanto-cuesta-limpiar-finca-galicia-2026) para saber cuánto te va a costar, y [pide presupuesto aquí](/empezar?tipo=limpieza) para que te pongamos en contacto con empresas de tu zona que puedan actuar rápido.
 
 3. **Si no llegas al plazo, pide una prórroga**. No siempre funciona, pero si demuestras que ya has contratado la limpieza y tienes fecha de ejecución, la administración a veces concede unos días más. Presenta un escrito al organismo que te notificó (normalmente el Concello o la Consellería de Medio Rural) explicando la situación.
 
@@ -89,7 +89,7 @@ Si este es tu caso:
 
 - **No necesitas desplazarte a Galicia**. Una empresa de desbroce puede limpiar tu finca sin que tú estés. Solo necesitan saber la referencia catastral y poder acceder al terreno.
 
-- **Comprueba que tu dirección está actualizada en el Catastro**. Si no sabes ni qué fincas tienes a tu nombre, lee cómo [localizar fincas heredadas sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Si la Xunta manda la carta a la dirección de tu abuelo y tú vives en Madrid, no te va a llegar. Y eso no te exime: la notificación se considera hecha si se publica en el BOE/DOG tras la carta devuelta.
+- **Comprueba que tu dirección está actualizada en el Catastro**. Si no sabes ni qué fincas tienes a tu nombre, lee cómo [localizar fincas heredadas sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Si la Xunta manda la carta a la dirección de tu abuelo y tú vives en Madrid, no te va a llegar. Y eso no te exime: la notificación se considera hecha si se publica en el BOE o en el [Diario Oficial de Galicia (DOG)](https://www.xunta.gal/diario-oficial-galicia) tras la carta devuelta.
 
 - **[Cuéntanos tu caso](/empezar?tipo=limpieza)** y nos encargamos de conectarte con una empresa de desbroce de la zona. No tienes que buscar a nadie ni hacer llamadas. Te damos presupuesto orientativo y gestionamos todo a distancia.
 

@@ -76,7 +76,7 @@ Si tienes una plantación mixta o estás decidiendo qué plantar, el pino es mej
 - **Vender sin cubicación**: Una cubicación profesional es aún más importante con el pino que con el eucalipto, porque las diferencias de precio por calidad son mayores. Lee cómo se hace en nuestra guía de [tasación de montes en Galicia](/blog/tasacion-monte-galicia).
 - **Ignorar el mercado de aserradero**: Si tu pino tiene buen diámetro, busca maderistas que vendan a aserradero, no a trituración. La diferencia puede ser del 100%.
 - **No comprobar la zona de nematodo**: Si tu finca está en zona demarcada, el comprador puede pedirte un descuento por las restricciones de transporte. Infórmate antes de negociar.
-- **Aceptar la primera oferta**: Como siempre, pide al menos 3 presupuestos. Con el pino las diferencias entre compradores pueden ser incluso mayores que con el eucalipto.
+- **Aceptar la primera oferta**: Como siempre, pide al menos 3 presupuestos. Con el pino las diferencias entre compradores pueden ser incluso mayores que con el eucalipto. Antes de decidir, lee nuestra guía sobre [cómo elegir rematante de madera en Galicia](/blog/elegir-rematante-madera-galicia) para no dejarte engañar.
 
 ## ¿Cuándo es buen momento para vender pino?
 

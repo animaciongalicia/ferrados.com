@@ -3,7 +3,7 @@ title: "Cómo encontrar la referencia catastral de tu finca en Galicia"
 description: "Guía práctica para localizar la referencia catastral de tu monte o finca usando la Sede Electrónica del Catastro y el Sixpac."
 date: "2026-03-14"
 lastUpdated: "2026-03-15"
-pilar: "lindes"
+pilar: "tramites"
 tags: ["documentacion","paso-a-paso"]
 ---
 
@@ -19,7 +19,7 @@ Cada parcela catastral tiene asociados datos como la superficie, el uso (foresta
 
 ### 1. Sede Electrónica del Catastro (la más fiable)
 
-Entra en la web del Catastro (sedecatastro.gob.es) y tienes varias formas de buscar:
+Entra en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/) y tienes varias formas de buscar:
 
 - **Por dirección o municipio**: Si conoces el municipio y la parroquia, puedes navegar hasta encontrar tu parcela en el mapa.
 - **Por polígono y parcela**: Si tienes un recibo del IBI antiguo o una escritura que mencione polígono y parcela, ponlos directamente.
@@ -90,7 +90,7 @@ Esto genera mucha confusión:
 
 ## Consejo práctico
 
-Si has heredado fincas en Galicia y no sabes ni cuáles son ni dónde están, lee nuestra guía completa para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Empieza por el Catastro: busca a nombre del fallecido (necesitas su NIF) en la Sede Electrónica y te saldrán todas las parcelas catastrales a su nombre. Es gratuito y te da un punto de partida para todo lo demás.
+Si has heredado fincas en Galicia y no sabes ni cuáles son ni dónde están, lee nuestra guía completa para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras). Y si necesitas ayuda con la referencia catastral, la titularidad o cualquier otro trámite relacionado con tu finca, consulta nuestra [guía de trámites de fincas en Galicia](/tramites-fincas-galicia). Empieza por el Catastro: busca a nombre del fallecido (necesitas su NIF) en la Sede Electrónica y te saldrán todas las parcelas catastrales a su nombre. Es gratuito y te da un punto de partida para todo lo demás.
 
 ## Preguntas frecuentes
 

@@ -2,6 +2,7 @@
 title: "Concentración parcelaria en Galicia: qué es y cómo te afecta"
 description: "Qué es la concentración parcelaria en Galicia, cómo funciona el proceso, qué derechos tienes y qué pasa si tus fincas están afectadas."
 date: "2026-04-01"
+lastUpdated: "2026-05-14"
 pilar: "lindes"
 tags: ["legislacion", "documentacion"]
 ---

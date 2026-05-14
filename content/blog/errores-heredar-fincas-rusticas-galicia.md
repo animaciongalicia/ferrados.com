@@ -34,7 +34,7 @@ De pagar 50€ a pagar 1.000€. Por un trámite que cuesta una mañana.
 
 ### Cómo evitarlo
 
-- **Pide la prórroga** de otros 6 meses **antes de que se cumplan los primeros 5 meses**. Es automática, la conceden siempre, y te da un total de 12 meses. Se solicita en la Atriga (Axencia Tributaria de Galicia) por sede electrónica o presencialmente.
+- **Pide la prórroga** de otros 6 meses **antes de que se cumplan los primeros 5 meses**. Es automática, la conceden siempre, y te da un total de 12 meses. Se solicita en la [Atriga (Axencia Tributaria de Galicia)](https://www.atriga.gal/) por sede electrónica o presencialmente.
 - **Presenta la autoliquidación aunque no tengas toda la documentación lista**. Puedes presentar una liquidación provisional y completarla después. Lo importante es no saltarse el plazo.
 - **Si ya se te pasó el plazo**: presenta cuanto antes. Cada día que pasa, el recargo y los intereses aumentan. No esperes a "tener todo listo" porque solo empeora.
 
@@ -125,7 +125,7 @@ Antes de dar por cerrada una herencia de fincas rústicas en Galicia, asegúrate
 - [ ] Cambio de titularidad en el **Catastro** (modelo 904N)
 - [ ] Cambio de titularidad en el **IBI** del ayuntamiento correspondiente
 
-Si marcas todas las casillas, puedes respirar tranquilo. Si te falta alguna, ponte a ello cuanto antes. Cada mes que pasa, se complica un poco más.
+Si marcas todas las casillas, puedes respirar tranquilo. Si te falta alguna, ponte a ello cuanto antes. Cada mes que pasa, se complica un poco más. Y si después de heredar no sabes qué hacer con esas fincas, lee [qué opciones tienes con un monte heredado que no quieres](/blog/monte-heredado-no-quiero-que-hacer-galicia).
 
 ## El consejo que vale más que todo este artículo
 

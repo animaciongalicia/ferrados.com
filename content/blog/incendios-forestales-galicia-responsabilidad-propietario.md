@@ -13,7 +13,7 @@ Si eres propietario de un monte o una finca forestal en Galicia, necesitas saber
 
 ## ¿Qué obligaciones tiene el propietario para prevenir incendios?
 
-La **Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia** (modificada en varias ocasiones, la última en 2023) establece obligaciones muy concretas para los propietarios de terrenos forestales.
+La **Lei 3/2007 de prevención e defensa contra os incendios forestais de Galicia** (modificada en varias ocasiones, la última en 2023 y publicada en el [Diario Oficial de Galicia](https://www.xunta.gal/diario-oficial-galicia)) establece obligaciones muy concretas para los propietarios de terrenos forestales.
 
 ### La obligación de gestión de la biomasa
 

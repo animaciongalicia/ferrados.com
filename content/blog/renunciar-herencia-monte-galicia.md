@@ -74,7 +74,7 @@ Antes de decidir, averigua si hay deudas. Consulta:
 
 ### Caso 2: El coste de mantener las fincas supera su valor
 
-Un monte con [obligación de limpieza](/blog/obligaciones-limpieza-fincas-50-metros) que no genera ingresos puede ser un pozo sin fondo. Si la limpieza anual te cuesta 1.500€, el IBI son 200€ al año y la finca vale 3.000€... en dos años has gastado más de lo que vale.
+Antes de renunciar por los costes, revisa todas las alternativas en nuestra guía de [qué hacer con un monte heredado que no quieres en Galicia](/blog/monte-heredado-no-quiero-que-hacer-galicia). Un monte con [obligación de limpieza](/blog/obligaciones-limpieza-fincas-50-metros) que no genera ingresos puede ser un pozo sin fondo. Si la limpieza anual te cuesta 1.500€, el IBI son 200€ al año y la finca vale 3.000€... en dos años has gastado más de lo que vale.
 
 Pero antes de renunciar por esto, pregúntate: ¿tiene madera que pueda venderse? Consulta los [precios actuales del eucalipto](/blog/precio-eucalipto-galicia-2026) o del [pino en Galicia](/blog/precio-pino-galicia-2026). Una plantación madura puede valer miles de euros que no estás viendo.
 

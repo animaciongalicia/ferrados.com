@@ -56,7 +56,7 @@ El gorgojo del eucalipto (Gonipterus platensis) y el chancro (Mycosphaerella) pu
 ## Errores habituales al vender eucalipto
 
 - **Vender sin medir**: Siempre pide una cubicación antes. Si quieres saber cuánto vale exactamente tu plantación, lee cómo se hace una [tasación profesional de un monte en Galicia](/blog/tasacion-monte-galicia). Un maderista que estima "a ojo" tu plantación va a estimarla a la baja. Una cubicación profesional cuesta entre 150€ y 300€ y te puede hacer ganar miles de euros en la negociación.
-- **Aceptar la primera oferta**: Compara al menos 3 presupuestos de maderistas diferentes. Las diferencias pueden ser del 15-25% entre el que más paga y el que menos.
+- **Aceptar la primera oferta**: Compara al menos 3 presupuestos de maderistas diferentes. Las diferencias pueden ser del 15-25% entre el que más paga y el que menos. Lee nuestra guía sobre [cómo elegir rematante de madera en Galicia](/blog/elegir-rematante-madera-galicia) para saber qué preguntar y qué señales de alarma vigilar.
 - **No tener el permiso de corta**: Sin permiso, la venta es ilegal. Se solicita en la oficina agraria comarcal o por sede electrónica de la Xunta. Tarda unos días y es gratuito.
 - **Olvidar la replantación**: Si talas eucalipto, estás obligado a replantar. Si piensas cambiar de especie o uso del suelo, necesitas autorización previa.
 - **Firmar de palabra**: Exige siempre un contrato escrito con el precio por tonelada, quién paga la saca, plazo de corta, obligación de limpieza del monte después de la corta y forma de pago.

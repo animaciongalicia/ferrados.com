@@ -73,7 +73,7 @@ Opciones:
 
 ### 6. Paga impuestos y registra
 
-- **ITP**: 8% del valor escriturado. Se presenta en la Atriga (Axencia Tributaria de Galicia) en los 30 días siguientes a la escritura. Se puede presentar telemáticamente con certificado digital.
+- **ITP**: 8% del valor escriturado. Se presenta en la [Atriga (Axencia Tributaria de Galicia)](https://www.atriga.gal/) en los 30 días siguientes a la escritura. Se puede presentar telemáticamente con certificado digital.
 - **Registro de la Propiedad**: Presenta la escritura para inscribir la finca a tu nombre.
 - **Catastro**: Comunica el cambio de titularidad.
 
@@ -107,7 +107,7 @@ En Galicia es habitual que alguien "venda" una finca que realmente pertenece a u
 Un poder notarial es una herramienta poderosa. Asegúrate de que tu apoderado es de absoluta confianza y limita el poder a las operaciones concretas que necesitas (compra de una finca específica, no un poder general).
 
 ### No calcular los costes totales
-Muchos compradores de fuera calculan solo el precio de la finca y se olvidan de:
+Muchos compradores de fuera calculan solo el precio de la finca y se olvidan de los [costes reales de comprar una finca rústica en Galicia](/blog/costes-reales-comprar-finca-rustica-galicia):
 - ITP (8%): Para una finca de 20.000€, son 1.600€.
 - Notaría + Registro: 500€-900€.
 - Gestoría: 200€-400€.

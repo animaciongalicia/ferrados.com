@@ -3,7 +3,7 @@ title: "Marcos, lindes y servidumbres: los conflictos invisibles que pueden arru
 description: "Marcos movidos, servidumbres de paso, derechos de agua y lindes que no cuadran. Los problemas que no ves desde la distancia y que pueden convertir tu compra rural en un pleito."
 date: "2026-03-30"
 lastUpdated: "2026-03-15"
-pilar: "compraventa"
+pilar: "lindes"
 tags: ["vecinos","errores"]
 ---
 

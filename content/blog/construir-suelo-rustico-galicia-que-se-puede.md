@@ -11,7 +11,7 @@ Es la pregunta del millón en Galicia: "Tengo una finca rústica, ¿puedo constr
 
 ## El suelo rústico en Galicia: categorías que importan
 
-La **Lei 2/2016 do solo de Galicia** y su Regulamento (Decreto 143/2016) clasifican el suelo rústico en varias categorías, y cada una tiene unas reglas diferentes:
+La **Lei 2/2016 do solo de Galicia** y su Regulamento (Decreto 143/2016), publicados en el [Diario Oficial de Galicia](https://www.xunta.gal/diario-oficial-galicia), clasifican el suelo rústico en varias categorías, y cada una tiene unas reglas diferentes:
 
 ### Suelo rústico de protección ordinaria
 
@@ -29,7 +29,7 @@ Terrenos forestales o con vocación forestal. Construcciones muy limitadas, bás
 
 Incluye protección de aguas, costas, patrimonio, infraestructuras, espacios naturales... Aquí las posibilidades son mínimas o nulas.
 
-**Lo primero que tienes que hacer** antes de planificar nada es consultar el plan urbanístico de tu concello (PXOM o normas subsidiarias) y averiguar exactamente en qué categoría está tu finca. Esto lo puedes consultar en el departamento de urbanismo del concello o, en muchos casos, a través de la sede electrónica.
+**Lo primero que tienes que hacer** antes de planificar nada es consultar el plan urbanístico de tu concello (PXOM o normas subsidiarias) y averiguar exactamente en qué categoría está tu finca. Esto lo puedes consultar en el departamento de urbanismo del concello o, en muchos casos, a través de la sede electrónica. Si necesitas orientación profesional sobre clasificación de suelo y posibilidades constructivas, [consulta gratis a un técnico especializado](/urbanismo-suelo-galicia).
 
 ## ¿Qué se puede construir en suelo rústico?
 
@@ -119,6 +119,8 @@ Se tramita por sede electrónica de la Xunta. Incluye:
 - Estudio de integración paisajística
 - Justificación del cumplimiento de la Lei do solo
 - Documentación catastral y registral de la parcela
+
+Te explicamos los tipos de autorización, plazos y costes en detalle en nuestra guía sobre la [licencia urbanística para obras en suelo rústico en Galicia](/blog/licencia-urbanistica-obras-suelo-rustico-galicia).
 
 **Plazo de resolución**: 3 meses (silencio negativo, es decir, si no te contestan es que no)
 

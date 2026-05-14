@@ -30,20 +30,45 @@ export type EmbudoWebhook =
   | "colaborador";
 
 /**
+ * Aviso (único por embudo y proceso) cuando se intenta enviar un lead a Make
+ * pero la variable de entorno del webhook no está configurada.
+ * Evita spamear en cada request: cada embudo se loguea solo una vez.
+ */
+const warnedEmbudos = new Set<string>();
+function warnMissingWebhook(embudo: string, envVar: string): void {
+  if (warnedEmbudos.has(embudo)) return;
+  warnedEmbudos.add(embudo);
+  console.warn(
+    `[make-webhooks] ${envVar} no está configurada. ` +
+      `Los leads del embudo "${embudo}" no se enviarán a Make ` +
+      `(se sigue intentando el webhook genérico MAKE_WEBHOOK_URL si existe).`
+  );
+}
+
+/** Mapeo embudo → nombre de la variable de entorno que debe contener la URL. */
+const embudoEnvVar: Record<string, string> = {
+  herencias: "MAKE_WEBHOOK_HERENCIAS",
+  madera: "MAKE_WEBHOOK_MADERA",
+  limpieza: "MAKE_WEBHOOK_DESBROCE",
+  lindes: "MAKE_WEBHOOK_CATASTRO",
+  proindiviso: "MAKE_WEBHOOK_PROINDIVISO",
+  compraventa: "MAKE_WEBHOOK_SUELOS",
+  urbanismo: "MAKE_WEBHOOK_URBANISMO",
+  tramites: "MAKE_WEBHOOK_TRAMITES",
+  colaborador: "MAKE_WEBHOOK_COLABORADOR",
+};
+
+/**
  * Devuelve la URL del webhook de Make para un embudo concreto.
- * Devuelve undefined si no está configurada (no rompe nada).
+ * Devuelve undefined si no está configurada (no rompe nada, solo avisa por consola).
  */
 export function getMakeWebhookUrl(embudo: string): string | undefined {
-  const map: Record<string, string | undefined> = {
-    herencias: process.env.MAKE_WEBHOOK_HERENCIAS,
-    madera: process.env.MAKE_WEBHOOK_MADERA,
-    limpieza: process.env.MAKE_WEBHOOK_DESBROCE,
-    lindes: process.env.MAKE_WEBHOOK_CATASTRO,
-    proindiviso: process.env.MAKE_WEBHOOK_PROINDIVISO,
-    compraventa: process.env.MAKE_WEBHOOK_SUELOS,
-    urbanismo: process.env.MAKE_WEBHOOK_URBANISMO,
-    tramites: process.env.MAKE_WEBHOOK_TRAMITES,
-    colaborador: process.env.MAKE_WEBHOOK_COLABORADOR,
-  };
-  return map[embudo];
+  const envVar = embudoEnvVar[embudo];
+  if (!envVar) return undefined;
+  const url = process.env[envVar];
+  if (!url) {
+    warnMissingWebhook(embudo, envVar);
+    return undefined;
+  }
+  return url;
 }

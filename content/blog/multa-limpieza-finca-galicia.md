@@ -51,7 +51,7 @@ Es el error más común y el más caro. Cada día que pasa puede agravar la situ
 
 ### 2. Identifica la parcela exacta
 
-La notificación incluye la referencia catastral de la parcela. Si no sabes qué es ni cómo buscarla, lee nuestra guía para [encontrar la referencia catastral de tu finca en Galicia](/blog/catastro-finca-galicia-referencia). Localízala en el mapa del Catastro (sedecatastro.gob.es) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
+La notificación incluye la referencia catastral de la parcela. Si no sabes qué es ni cómo buscarla, lee nuestra guía para [encontrar la referencia catastral de tu finca en Galicia](/blog/catastro-finca-galicia-referencia). Localízala en el mapa de la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
 
 ### 3. Solicita presupuestos de desbroce
 
@@ -109,7 +109,7 @@ Normalmente la Xunta concede un plazo de 15 a 30 dias habiles desde la notificac
 Si, tienes derecho a presentar alegaciones en un plazo de 15 dias habiles desde la notificacion de la sancion. Los motivos mas habituales son errores en la identificacion de la parcela o del propietario, que la finca no este realmente dentro de la franja de 50 metros, o que ya hubieras realizado la limpieza antes de la inspeccion. Un gestor o abogado puede presentarlas por ti por 150 a 300 euros.
 
 ### ¿Cuanto cuesta limpiar una finca en Galicia para evitar la multa?
-El coste depende de la superficie, el tipo de vegetacion y la pendiente. Como referencia, el desbroce de matorral denso cuesta entre 80 y 150 euros por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) (unos 630 m² en A Coruña, varía según concello). Una finca de 10 ferrados con matorral y arboles puede salir entre 1.000 y 2.000 euros si lo contratas tu, frente a los 3.000-5.000 euros que costaria si lo ejecuta la Xunta de forma subsidiaria.
+El coste depende de la superficie, el tipo de vegetacion y la pendiente. Como referencia, el desbroce de matorral denso cuesta entre 80 y 150 euros por [ferrado](/blog/ferrado-metros-cuadrados-equivalencia) (unos 630 m² en A Coruña, varía según concello). Una finca de 10 ferrados con matorral y arboles puede salir entre 1.000 y 2.000 euros si lo contratas tu, frente a los 3.000-5.000 euros que costaria si lo ejecuta la Xunta de forma subsidiaria. Puedes consultar precios mas detallados en nuestra guia de [cuanto cuesta limpiar una finca en Galicia en 2026](/blog/cuanto-cuesta-limpiar-finca-galicia-2026).
 
 ### ¿Me pueden multar si herede la finca y no sabia que era propietario?
 El desconocimiento de la titularidad puede ser un atenuante a la hora de fijar la sancion, pero no te exime de la obligacion de limpiar. La Xunta envia las notificaciones al domicilio que figura en el Catastro, que puede ser el del familiar fallecido. Por eso es importante actualizar la titularidad catastral en cuanto heredes fincas.

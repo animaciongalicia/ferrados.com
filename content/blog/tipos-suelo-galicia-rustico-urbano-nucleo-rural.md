@@ -61,7 +61,7 @@ Aquí es donde la cosa se complica, porque el suelo rústico en Galicia tiene m�
 
 El suelo rústico "normal". No tiene ninguna protección especial. **Es el tipo más habitual** en fincas heredadas.
 
-¿Se puede construir? Con muchas restricciones: necesitas **autorización autonómica** (no solo licencia municipal), la parcela debe tener al menos 2.000 m² (varía), y la edificación no puede superar ciertos límites de superficie y altura. Muchos propietarios preguntan por [poner una casa prefabricada en suelo rústico](/blog/construir-casa-prefabricada-suelo-rustico-galicia) — las condiciones son las mismas.
+¿Se puede construir? Con muchas restricciones: necesitas **autorización autonómica** (no solo licencia municipal), la parcela debe tener al menos 2.000 m² (varía), y la edificación no puede superar ciertos límites de superficie y altura. Consulta los requisitos concretos en nuestra guía de [licencia urbanística para obras en suelo rústico en Galicia](/blog/licencia-urbanistica-obras-suelo-rustico-galicia). Muchos propietarios preguntan por [poner una casa prefabricada en suelo rústico](/blog/construir-casa-prefabricada-suelo-rustico-galicia) — las condiciones son las mismas.
 
 ### Rústico de protección forestal
 

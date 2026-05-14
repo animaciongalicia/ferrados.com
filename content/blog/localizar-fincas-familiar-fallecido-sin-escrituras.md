@@ -17,7 +17,7 @@ El Catastro es la base de datos oficial de todos los bienes inmuebles de España
 
 ### Cómo buscar por nombre del fallecido
 
-1. Entra en la **Sede Electrónica del Catastro** (sedecatastro.gob.es)
+1. Entra en la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/)
 2. Necesitas certificado digital o Cl@ve para acceder a la consulta de titularidad
 3. Ve a "Consulta de bienes inmuebles de un titular"
 4. Introduce los datos del fallecido (NIF/DNI y nombre completo)
@@ -174,7 +174,7 @@ En estos casos, un **abogado o gestor especializado en propiedad rural gallega**
 
 En Galicia hay aproximadamente **500.000 hectáreas de monte en estado de abandono** parcial, muchas de ellas vinculadas a herencias sin resolver. Detrás de cada hectárea abandonada hay una familia que no terminó el papeleo. No seas una de ellas. Las fincas no esperan: se llenan de maleza, atraen [multas por incumplir la normativa de desbroce](/limpieza-desbroce-multas-xunta) y, con el tiempo, se vuelven irrecuperables en términos prácticos. Además, no cometas [los errores más caros al heredar fincas rústicas en Galicia](/blog/errores-heredar-fincas-rusticas-galicia).
 
-Empieza hoy. El primer paso es abrir el Catastro.
+Empieza hoy. El primer paso es abrir el Catastro. Y cuando tengas las fincas localizadas, consulta nuestra [guía de trámites de fincas en Galicia](/tramites-fincas-galicia) para saber qué pasos dar a continuación.
 
 ## Preguntas frecuentes
 

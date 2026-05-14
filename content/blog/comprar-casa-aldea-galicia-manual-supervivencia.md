@@ -65,7 +65,7 @@ Esto es lo que debería hacer cualquier persona sensata antes de comprometerse c
 1. **Comprobar la titularidad real** en el Registro de la Propiedad (no solo en Catastro).
 2. **Verificar que la herencia está resuelta** y que quien vende puede vender legalmente.
 3. **Solicitar una nota simple** para ver cargas, hipotecas o embargos.
-4. **Pedir un informe urbanístico** al ayuntamiento para saber qué se puede hacer con la propiedad.
+4. **Pedir un informe urbanístico** al ayuntamiento para saber qué se puede hacer con la propiedad. Si no sabes interpretar la clasificación del suelo, [consulta gratis a un especialista en urbanismo](/urbanismo-suelo-galicia).
 5. **Contratar un topógrafo** que mida la finca real y la compare con los planos oficiales.
 6. **Hablar con un abogado local** que conozca el derecho civil gallego (que tiene particularidades propias).
 7. **Visitar la propiedad con un técnico** que pueda valorar el estado real de la construcción.
@@ -86,7 +86,7 @@ Galicia es un sitio increíble para vivir y para invertir en el rural. Pero la o
 Puede serlo perfectamente, pero requiere un trabajo previo que en una compra urbana no suele ser necesario. El principal riesgo es comprar sin verificar la titularidad real, las herencias pendientes y las restricciones urbanísticas. Con el asesoramiento adecuado de un abogado y un técnico local, la compra es tan segura como cualquier otra.
 
 ### ¿Cuánto cuesta de verdad comprar y reformar una casa de piedra en Galicia?
-La compra puede ser muy barata (desde 10.000-20.000 euros en zonas despobladas), pero la reforma es lo que marca el precio real. Una rehabilitación integral de una casa de piedra puede costar entre 800 y 1.500 euros por metro cuadrado, dependiendo del estado, los accesos y los servicios disponibles. Antes de comprar, pide siempre un presupuesto orientativo de reforma a un arquitecto local.
+La compra puede ser muy barata (desde 10.000-20.000 euros en zonas despobladas), pero la reforma es lo que marca el precio real. Una rehabilitación integral de una casa de piedra puede costar entre 800 y 1.500 euros por metro cuadrado, dependiendo del estado, los accesos y los servicios disponibles. Antes de comprar, pide siempre un presupuesto orientativo de reforma a un arquitecto local y revisa el [desglose de costes reales de comprar una finca rústica en Galicia](/blog/costes-reales-comprar-finca-rustica-galicia) para que no te pille ningún gasto por sorpresa.
 
 ### ¿Puedo comprar una aldea entera en Galicia?
 Sí, hay aldeas a la venta. Pero una aldea implica múltiples propietarios, múltiples parcelas con posibles problemas de herencias, y una complejidad jurídica mucho mayor. No es comprar "una cosa", sino resolver decenas de situaciones legales distintas. Es imprescindible contar con un abogado especializado y un topógrafo que mapee todo antes de comprometerse.
