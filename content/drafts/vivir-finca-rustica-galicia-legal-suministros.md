@@ -26,10 +26,6 @@ Destinado a actividad agrícola o ganadera. Construir una vivienda aquí es más
 
 Monte y masa forestal. Las restricciones son severas. Construir una vivienda es prácticamente imposible salvo casos muy excepcionales.
 
-### Suelo rústico de protección de aguas, costas, patrimonio, infraestructuras...
-
-Cada tipo de protección tiene sus propias limitaciones. En general, cuanta más protección, menos posibilidades de uso residencial.
-
 ### Suelo de núcleo rural
 
 Técnicamente no es "rústico" en sentido estricto, pero es donde muchas personas quieren instalarse. Los núcleos rurales (aldeas, parroquias con delimitación) permiten edificación residencial con condiciones mucho más favorables. Si tu finca está dentro de un núcleo rural delimitado en el PXOM del concello, tienes muchas más opciones.
@@ -50,13 +46,9 @@ Puedes solicitar una vivienda si:
 
 Consulta nuestra guía detallada sobre [qué se puede construir en suelo rústico en Galicia](/blog/construir-suelo-rustico-galicia-que-se-puede) para entender todos los requisitos.
 
-### En suelo rústico de protección agropecuaria
+### En suelo rústico de protección agropecuaria o forestal
 
-Solo se permite si la vivienda está **vinculada a una explotación agraria o ganadera**. Es decir: necesitas ser agricultor o ganadero profesional (o comprometerte a serlo) y demostrar que necesitas vivir en la finca para atender la explotación. No vale comprar una finca, pedir una licencia y luego tener dos gallinas para justificarlo.
-
-### En suelo rústico de protección forestal
-
-Prácticamente imposible para vivienda. Solo se permiten construcciones vinculadas al aprovechamiento forestal (almacenes, casetas de aperos en algunos casos).
+Solo se permite si la vivienda está **vinculada a una explotación agraria o ganadera** (agropecuaria) o al aprovechamiento forestal (forestal, donde es prácticamente imposible para vivienda). Necesitas demostrar que necesitas vivir en la finca para atender la explotación. No vale comprar una finca, pedir una licencia y luego tener dos gallinas para justificarlo.
 
 ### En núcleo rural
 
@@ -87,14 +79,12 @@ Para dar de alta la luz necesitas:
 Las opciones dependen de la zona:
 
 - **Red municipal**: Si el concello tiene red de abastecimiento en tu zona, solo necesitas solicitar la acometida. En zonas rurales dispersas, muchas veces no llega.
-- **Manantial o pozo**: Galicia es tierra de agua. Muchas fincas tienen manantiales o se puede perforar un pozo. Necesitas autorización de la Confederación Hidrográfica y un análisis de potabilidad periódico.
-- **Comunidad de aguas**: En muchas parroquias gallegas existe una comunidad de vecinos que gestiona el abastecimiento desde un manantial compartido. Puedes solicitar integrarte.
+- **Manantial o pozo**: Galicia es tierra de agua. Muchas fincas tienen manantiales o se puede perforar un pozo. Necesitas autorización de la Confederación Hidrográfica y análisis de potabilidad periódico.
 
 ### Saneamiento
 
 - **Red de alcantarillado**: Solo disponible en núcleos con cierta densidad. En fincas aisladas, olvídate.
-- **Fosa séptica**: La opción más habitual para viviendas aisladas en suelo rústico. Necesitas una fosa con tratamiento biológico (las fosas clásicas de almacenamiento sin tratamiento ya no se autorizan para nueva construcción). El coste ronda los 2.000-5.000 euros instalada.
-- **Depuración individual**: Sistemas compactos de depuración (SBR, filtro biológico) que tratan el agua residual antes de verterla al terreno. Más caros pero más eficientes que las fosas.
+- **Fosa séptica**: La opción más habitual para viviendas aisladas en suelo rústico. Necesitas una fosa con tratamiento biológico (las fosas clásicas de almacenamiento ya no se autorizan para nueva construcción). El coste ronda los 2.000-5.000 euros instalada.
 
 ## Tiny houses y casas móviles: la zona gris
 
@@ -119,8 +109,6 @@ Si instalas una tiny house o mobile home sin licencia y alguien denuncia (vecino
 - **Imponer multas** de entre 1.000 y 200.000 euros según la gravedad.
 - En casos extremos, **precintar y demoler**.
 
-La realidad es que hay miles de situaciones irregulares en Galicia que se toleran durante años. Pero "tolerado" no es "legal". Cualquier conflicto con vecinos, un cambio de gobierno municipal o una inspección rutinaria pueden activar un expediente.
-
 ## Los errores más comunes
 
 ### Comprar primero y preguntar después
@@ -135,10 +123,6 @@ Que nadie haya venido en 10 años no significa que no vendrán. La legalidad urb
 
 Cada concello tiene su Plan Xeral de Ordenación Municipal, y las condiciones varían enormemente de uno a otro. Lo que es viable en un concello puede ser imposible en el de al lado. Consulta siempre el PXOM antes de hacer planes.
 
-### Empadronarse sin licencia
-
-Algunos concellos permiten el empadronamiento en viviendas sin cédula de habitabilidad (porque el empadronamiento es un derecho). Pero empadronarte no legaliza tu situación urbanística. Son cosas diferentes.
-
 ### Hacer "reformas" que en realidad son obra nueva
 
 Reformar una ruina existente con licencia suele ser más fácil que construir de nuevo. Pero si la "reforma" implica derribar todo y construir algo nuevo, es obra nueva y necesita la tramitación completa. Muchos intentan colar una construcción nueva como "rehabilitación" y acaban con un expediente.
@@ -147,11 +131,11 @@ Reformar una ruina existente con licencia suele ser más fácil que construir de
 
 Si tu objetivo es vivir en el rural gallego, estos son los caminos legales:
 
-1. **Compra una casa ya construida en núcleo rural**: Es lo más sencillo. Una casa existente con licencia, cédula de habitabilidad y suministros. Sin líos urbanísticos.
+1. **Compra una casa ya construida en núcleo rural**: Lo más sencillo. Casa existente con licencia, cédula de habitabilidad y suministros.
 2. **Compra una finca en núcleo rural y construye**: Si la parcela cumple los requisitos del PXOM, puedes solicitar licencia para edificar.
-3. **Rehabilita una edificación existente**: Si hay una construcción antigua con cierta entidad (muros, cubierta), puedes rehabilitarla. Es más fácil de autorizar que una obra nueva.
-4. **Construye vinculado a explotación agraria**: Si realmente vas a ser agricultor o ganadero, puedes justificar una vivienda vinculada en suelo rústico de protección agropecuaria.
-5. **Solicita autorización en suelo rústico ordinario**: Si la parcela es grande (más de 2.000 m²) y no tiene protección especial, puedes solicitar la autorización autonómica y la licencia municipal. Es un proceso largo pero viable.
+3. **Rehabilita una edificación existente**: Si hay una construcción antigua con cierta entidad (muros, cubierta), rehabilitarla es más fácil de autorizar que una obra nueva.
+4. **Construye vinculado a explotación agraria**: Si vas a ser agricultor o ganadero profesional, puedes justificar una vivienda vinculada.
+5. **Solicita autorización en suelo rústico ordinario**: Si la parcela es grande (más de 2.000 m²) y sin protección especial, es un proceso largo pero viable.
 
 Para una visión global del marco urbanístico, consulta nuestra página sobre [urbanismo y suelo en Galicia](/urbanismo-suelo-galicia).
 

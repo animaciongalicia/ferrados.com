@@ -65,18 +65,6 @@ Si no limpias tu finca dentro del plazo, la Xunta puede hacerlo **por ti y a tu 
 4. Te pasa la factura. Y no es barata: el coste del desbroce subsidiario suele ser **significativamente superior** al que pagarías contratando una empresa por tu cuenta. Para hacerte una idea de los precios de mercado, consulta nuestro artículo sobre [cuánto cuesta limpiar una finca en Galicia en 2026](/blog/cuanto-cuesta-limpiar-finca-galicia-2026).
 5. Si no pagas, la deuda se cobra por vía ejecutiva (como una deuda tributaria).
 
-En los últimos años, el volumen de desbroce subsidiario ha crecido enormemente. La Xunta ha ejecutado limpiezas en miles de parcelas, especialmente en las franjas de protección de núcleos de población.
-
-## Régimen de inspecciones 2026
-
-El PLADIGA 2026 refuerza el régimen de inspecciones con:
-
-- **Inspecciones previas al verano** (abril-mayo): Centradas en verificar que los propietarios han cumplido antes del 31 de mayo.
-- **Inspecciones durante la campaña** (junio-octubre): Patrullas y vigilancia continua.
-- **Inspecciones post-incendio**: Análisis de las fincas afectadas para determinar si el incumplimiento de las obligaciones de limpieza contribuyó a la propagación del fuego.
-
-Los agentes medioambientales y los agentes forestales son los encargados de realizar las inspecciones y levantar actas de infracción cuando procede.
-
 ## ¿Qué parcelas están afectadas?
 
 No todas las fincas rústicas tienen las mismas obligaciones. Las más exigentes se aplican a:
@@ -85,25 +73,17 @@ No todas las fincas rústicas tienen las mismas obligaciones. Las más exigentes
 
 Todas las fincas que estén total o parcialmente dentro de los **50 metros** alrededor de edificaciones, viviendas, urbanizaciones, depósitos de materiales inflamables, gasolineras, camping, etc. Esta es la obligación más conocida y la que genera más conflictos.
 
-### Franjas de carreteras y ferrocarril
-
-Fincas colindantes con carreteras, autopistas y líneas de ferrocarril tienen obligaciones específicas de desbroce en las franjas laterales.
-
 ### Zonas de alto riesgo de incendio (ZAR)
 
 Si tu finca está en una zona declarada de alto riesgo de incendio forestal, las obligaciones son más estrictas y las inspecciones más frecuentes.
 
-### Red secundaria de fajas de gestión de biomasa
+### Franjas de carreteras y ferrocarril
 
-La normativa también contempla la gestión de biomasa en **redes secundarias** definidas por los concellos en sus planes municipales de prevención.
+Fincas colindantes con carreteras, autopistas y líneas de ferrocarril también tienen obligaciones específicas de desbroce en las franjas laterales.
 
 ## Consecuencias de no cumplir
 
 Si no limpias tu finca y la administración actúa, las consecuencias pueden ser:
-
-### Desbroce subsidiario
-
-Como ya te expliqué: la Xunta limpia y tú pagas. El coste puede multiplicar por 2-3 lo que te habría costado hacerlo por tu cuenta.
 
 ### Multas
 

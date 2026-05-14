@@ -92,7 +92,7 @@ Cuantas más pruebas, mejor. Las más valiosas:
 - **Certificación catastral** que te identifique como titular.
 - **Declaraciones de vecinos** (acta de notoriedad). En pueblos pequeños de Galicia, el testimonio de dos o tres vecinos ancianos que confirmen que "esa finca siempre fue de la familia de fulano" tiene un peso enorme.
 - **Fotografías antiguas** que demuestren uso continuado (cultivos, plantaciones, construcciones).
-- **Facturas de trabajos** realizados en la finca: desbroces, plantaciones, talas de madera.
+- **Facturas de trabajos** realizados en la finca: desbroces, plantaciones, talas de madera. Si tienes dudas sobre cómo localizar fincas que pertenecían a un familiar fallecido, revisa nuestra guía para [localizar fincas de un familiar fallecido sin escrituras](/blog/localizar-fincas-familiar-fallecido-sin-escrituras).
 - **Documentos privados** de compraventa o cesión, aunque no sean escritura pública.
 
 **Paso 2: Obtener la georreferenciación**
@@ -145,7 +145,7 @@ La usucapión es para cuando **no tienes documentos**, solo posesión continuada
 
 3. **Interrumpir la posesión sin darte cuenta**. Si en algún momento reconociste por escrito que la finca era de otro, o si abandonaste la finca durante un período largo, el plazo se reinicia.
 
-4. **Intentar usucapir un monte vecinal o un bien público**. Son imprescriptibles. No pierdas tiempo ni dinero.
+4. **Intentar usucapir un monte vecinal o un bien público**. Son imprescriptibles. No pierdas tiempo ni dinero. Si lo que quieres es adquirir una finca que realmente está abandonada, hay otras vías que te explicamos en nuestra guía sobre [cómo adquirir fincas abandonadas en Galicia](/blog/fincas-abandonadas-galicia-como-adquirirlas).
 
 Para más información sobre los distintos trámites de fincas en Galicia, visita nuestra [guía completa de trámites](/tramites-fincas-galicia).
 

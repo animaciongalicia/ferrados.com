@@ -80,18 +80,6 @@ Un contrato de arrendamiento rústico puede ser verbal — la ley lo permite —
 - **Devolver la finca** al terminar el contrato en las condiciones en que la recibió, salvo deterioro por uso normal.
 - **Derecho de adquisición preferente**: Si el propietario vende la finca durante el arrendamiento, el arrendatario tiene derecho de tanteo y retracto. Esto es importante si estás pensando en vender. Consulta también los [impuestos por venta de finca heredada](/blog/herede-finca-venderla-impuestos-plusvalia-galicia) si heredaste la propiedad.
 
-## Cómo se registra el arrendamiento
-
-El arrendamiento rústico se puede inscribir en el **Registro de la Propiedad** donde esté inscrita la finca. No es obligatorio, pero es muy recomendable porque:
-
-- Protege al arrendatario frente a terceros compradores (si no está inscrito, un comprador puede desconocerlo).
-- Protege al arrendador porque deja constancia oficial de las condiciones.
-- Es un requisito para acceder a determinadas subvenciones agrarias.
-
-Para inscribirlo necesitas el contrato firmado (no hace falta escritura pública, basta documento privado con firmas legitimadas por notario) y pagar la tasa registral correspondiente, que suele ser reducida para arrendamientos rústicos.
-
-También puedes comunicar el arrendamiento al Catastro para que conste en la información catastral de la finca.
-
 ## Impuestos del arrendamiento: qué declara cada parte
 
 ### El arrendador (propietario) — IRPF
@@ -109,9 +97,7 @@ Puedes deducirte los **gastos necesarios** para obtener esos rendimientos:
 
 Si los gastos superan los ingresos, puedes generar un rendimiento negativo que compensa otras rentas inmobiliarias positivas.
 
-### El arrendatario — IVA e IRPF
-
-El arrendatario que explota la finca como agricultor o ganadero profesional puede deducirse la renta como gasto de su actividad económica. Si está en el régimen de estimación directa, se la deduce íntegramente.
+### El arrendatario — IVA
 
 En cuanto al IVA: el arrendamiento de fincas rústicas está **sujeto y exento de IVA** cuando el arrendador es un particular que no realiza actividad económica. Si el arrendador es una empresa o profesional, el arrendamiento sí lleva IVA (al tipo reducido del 4% si la finca se destina a uso agrícola o ganadero).
 
