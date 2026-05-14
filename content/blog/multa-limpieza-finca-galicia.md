@@ -51,7 +51,7 @@ Es el error más común y el más caro. Cada día que pasa puede agravar la situ
 
 ### 2. Identifica la parcela exacta
 
-La notificación incluye la referencia catastral de la parcela. Si no sabes qué es ni cómo buscarla, lee nuestra guía para [encontrar la referencia catastral de tu finca en Galicia](/blog/catastro-finca-galicia-referencia). Localízala en el mapa del Catastro (sedecatastro.gob.es) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
+La notificación incluye la referencia catastral de la parcela. Si no sabes qué es ni cómo buscarla, lee nuestra guía para [encontrar la referencia catastral de tu finca en Galicia](/blog/catastro-finca-galicia-referencia). Localízala en el mapa de la [Sede Electrónica del Catastro](https://www.sedecatastro.gob.es/) o en el Sixpac para saber exactamente qué parcela es y cuánta superficie tienes que limpiar.
 
 ### 3. Solicita presupuestos de desbroce
 
