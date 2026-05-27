@@ -388,6 +388,21 @@ export default async function BlogPostPage({ params }: Props) {
               {/* AdSense slot */}
               <AdSenseSlot slot="4104181630" />
 
+              {/* Calculator banner for madera posts */}
+              {post.meta.pilar === "madera" && (
+                <Link
+                  href="/precio-venta-madera-galicia#calculadora"
+                  className="block bg-green-50 border border-green-200 rounded-lg p-4 hover:border-green-400 transition-colors"
+                >
+                  <h3 className="text-sm font-bold text-green-900 mb-1">
+                    Calculadora de madera
+                  </h3>
+                  <p className="text-xs text-gray-600">
+                    Calcula el volumen, peso y valor estimado de la madera de tu monte →
+                  </p>
+                </Link>
+              )}
+
               {/* Related posts */}
               {related.length > 0 && (
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
