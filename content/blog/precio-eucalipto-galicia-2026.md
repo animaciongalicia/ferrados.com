@@ -2,9 +2,10 @@
 title: "Precio del eucalipto en Galicia en 2026: cuánto vale tu madera hoy"
 description: "Análisis actualizado del precio del eucalipto globulus y nitens en Galicia en 2026. Factores que influyen en el valor de tu plantación."
 date: "2026-03-14"
-lastUpdated: "2026-03-15"
+lastUpdated: "2026-09-18"
 pilar: "madera"
 tags: ["precios"]
+resumen: "En Galicia, el eucalipto globulus en pie se paga en 2026 entre 30 y 50 €/tonelada, y el eucalipto nitens entre 20 y 35 €/tonelada. El precio final depende del diámetro, la accesibilidad del monte, la distancia al aserradero o la planta de celulosa, y la demanda del momento. Un monte de 5 hectáreas de globulus maduro (12-15 años) puede generar entre 15.000 y 40.000 € netos para el propietario."
 ---
 
 El eucalipto es el rey de la madera en Galicia. Ocupa más de 400.000 hectáreas y genera un negocio de cientos de millones de euros al año. Si tienes una plantación y estás pensando en vender, consulta nuestra [guía completa de precios y venta de madera en Galicia](/precio-venta-madera-galicia). Lo primero que necesitas saber es cuánto vale. Y lo segundo: cómo no dejarte engañar.

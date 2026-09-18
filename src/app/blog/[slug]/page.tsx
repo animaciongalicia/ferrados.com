@@ -116,12 +116,15 @@ export default async function BlogPostPage({ params }: Props) {
   )?.id;
 
   // JSON-LD Article schema
+  const wordCount = post.content.trim().split(/\s+/).length;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.meta.title,
     description: post.meta.description,
     datePublished: post.meta.date,
+    inLanguage: "es-ES",
+    wordCount,
     author: {
       "@type": "Organization",
       name: "Ferrados.com",
@@ -131,14 +134,27 @@ export default async function BlogPostPage({ params }: Props) {
       "@type": "Organization",
       name: "Ferrados.com",
       url: "https://ferrados.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://ferrados.com/logo.svg",
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `https://ferrados.com/blog/${slug}`,
     },
+    ...(post.meta.resumen && { abstract: post.meta.resumen }),
     ...(post.meta.lastUpdated && { dateModified: post.meta.lastUpdated }),
     ...(category && { articleSection: category.label }),
     ...(post.meta.tags && { keywords: post.meta.tags.join(", ") }),
+    // SpeakableSpecification — marca el resumen y el título como
+    // extractos "hablables" (asistentes de voz, Google Assistant, y
+    // pista para LLMs de qué es citable directamente).
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "[data-speakable='true']"],
+    },
+    isAccessibleForFree: true,
   };
 
   // Breadcrumb JSON-LD
@@ -257,6 +273,24 @@ export default async function BlogPostPage({ params }: Props) {
             {/* Mobile TOC — visible only on mobile/tablet */}
             {post.headings.length > 0 && (
               <MobileTOC headings={post.headings} />
+            )}
+
+            {/* Resumen citable — bloque destacado optimizado para
+                extracción por LLMs y buscadores generativos. Marcado
+                con data-speakable para JSON-LD SpeakableSpecification. */}
+            {post.meta.resumen && (
+              <aside
+                aria-label="Resumen"
+                data-speakable="true"
+                className="tldr not-prose bg-green-50 border-l-4 border-green-700 rounded-r-lg p-5 my-6"
+              >
+                <p className="text-xs font-bold uppercase tracking-wide text-green-800 mb-2">
+                  Resumen
+                </p>
+                <p className="text-base text-gray-800 leading-relaxed">
+                  {post.meta.resumen}
+                </p>
+              </aside>
             )}
 
             {/* First half of markdown */}

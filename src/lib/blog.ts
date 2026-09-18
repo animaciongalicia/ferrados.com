@@ -18,6 +18,12 @@ export interface BlogPostMeta {
   lastUpdated?: string;
   pilar?: string;
   tags?: string[];
+  /**
+   * Resumen citable de 2-4 frases con cifras/definición concreta.
+   * Se renderiza al inicio del post y es la porción más citable por LLMs.
+   * Se marca como `speakable` en el JSON-LD.
+   */
+  resumen?: string;
   readingTime: number; // minutes
 }
 
@@ -70,6 +76,7 @@ export function getAllPosts(): BlogPostMeta[] {
       lastUpdated: data.lastUpdated,
       pilar: data.pilar,
       tags: data.tags,
+      resumen: data.resumen,
       readingTime: calculateReadingTime(content),
     };
   });
@@ -98,6 +105,7 @@ export function getPostBySlug(slug: string) {
       lastUpdated: data.lastUpdated,
       pilar: data.pilar,
       tags: data.tags,
+      resumen: data.resumen,
       readingTime: calculateReadingTime(content),
     } as BlogPostMeta,
     content: cleanContent,
