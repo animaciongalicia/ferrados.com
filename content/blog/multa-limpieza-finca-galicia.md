@@ -2,9 +2,10 @@
 title: "Me ha llegado una multa por no limpiar mi finca: ¿qué hago?"
 description: "Guía urgente para propietarios que han recibido una notificación o multa de la Xunta por incumplir la Lei de prevención de incendios forestais."
 date: "2026-03-14"
-lastUpdated: "2026-03-15"
+lastUpdated: "2026-09-18"
 pilar: "limpieza"
 tags: ["xunta","legislacion"]
+resumen: "En Galicia estás obligado a limpiar la franja de 50 metros alrededor de viviendas antes del 31 de mayo (Ley 3/2007). Si recibes una notificación tienes 10 días para alegar y unos meses para ejecutar la limpieza. La multa mínima es de 1.000 € (infracción leve) y puede llegar a 100.000 € (muy grave); si actúa la Xunta por ejecución subsidiaria, el coste es 2-3 veces el de una empresa privada."
 ---
 
 Si has recibido una carta de la Xunta notificándote que tu finca no cumple con la normativa de prevención de incendios, no estás solo. Consulta también nuestra [guía completa sobre multas y limpieza de fincas en Galicia](/limpieza-desbroce-multas-xunta) con calculadora de multas incluida. Miles de propietarios en Galicia se enfrentan a esta situación cada año, y la mayoría no sabe cómo actuar. Te explicamos qué hacer paso a paso, cuánto te va a costar y cómo evitar que la cosa vaya a más.

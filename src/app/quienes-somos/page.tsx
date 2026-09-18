@@ -1,16 +1,112 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Quiénes somos — Ferrados.com",
   description:
-    "Somos tasadores de montes y fincas en Galicia. Gestionamos compras de eucalipto en A Coruña y conectamos propietarios con profesionales en toda Galicia.",
+    "Tasadores y gestores de montes y fincas en Galicia. 20 años sobre el terreno gestionando compras de eucalipto en A Coruña y conectando propietarios con abogados, topógrafos, ingenieros de montes y empresas de desbroce en toda Galicia.",
   alternates: { canonical: "/quienes-somos" },
+};
+
+// E-E-A-T (Experience, Expertise, Authoritativeness, Trust) para LLMs y
+// buscadores generativos. Cuanto más específico y verificable, mejor.
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Ferrados.com",
+  url: "https://ferrados.com",
+  logo: "https://ferrados.com/logo.svg",
+  description:
+    "Servicio de asesoramiento y puesta en contacto para propietarios de montes, fincas y terrenos rústicos en Galicia. Especializado en herencias, venta de madera, limpieza de fincas, proindivisos, lindes, urbanismo rústico y trámites administrativos.",
+  foundingLocation: {
+    "@type": "AdministrativeArea",
+    name: "Galicia, España",
+  },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "A Coruña, Galicia, España" },
+    { "@type": "AdministrativeArea", name: "Lugo, Galicia, España" },
+    { "@type": "AdministrativeArea", name: "Ourense, Galicia, España" },
+    { "@type": "AdministrativeArea", name: "Pontevedra, Galicia, España" },
+  ],
+  knowsAbout: [
+    "Herencias de fincas rústicas en Galicia",
+    "Impuesto de sucesiones y donaciones de Galicia",
+    "Pacto de mejora (derecho civil gallego)",
+    "Venta de madera de eucalipto y pino en Galicia",
+    "Ley de prevención y defensa contra los incendios forestales de Galicia (Ley 3/2007)",
+    "Franja de protección de 50 metros y obligaciones de desbroce",
+    "Extinción de condominio y proindivisos",
+    "Montes vecinales en man común (MVMC)",
+    "Catastro, Registro de la Propiedad y deslinde de fincas",
+    "Urbanismo en suelo rústico gallego",
+    "Concentración parcelaria en Galicia",
+    "Banco de Terras de Galicia",
+    "Trámites forestales con la Consellería do Medio Rural",
+  ],
+  slogan: "Los que te quitamos el marrón del monte de encima.",
+  keywords:
+    "montes Galicia, fincas rústicas, herencias Galicia, venta madera eucalipto pino, limpieza fincas, multa Xunta, proindiviso, lindes, MVMC, catastro Galicia",
+  publishingPrinciples: "https://ferrados.com/quienes-somos",
+  hasCredential: [
+    {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "Experiencia profesional",
+      name: "Más de 20 años pateando montes en Galicia y gestionando operaciones de madera",
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "Red de colaboradores",
+      name: "Red activa de ingenieros de montes, abogados, topógrafos, maderistas y empresas de desbroce en las 4 provincias gallegas",
+    },
+  ],
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://ferrados.com" },
+    { "@type": "ListItem", position: 2, name: "Quiénes somos", item: "https://ferrados.com/quienes-somos" },
+  ],
+};
+
+// AboutPage con speakable para el bloque "TL;DR" citable
+const aboutPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  url: "https://ferrados.com/quienes-somos",
+  name: "Quiénes somos — Ferrados.com",
+  inLanguage: "es-ES",
+  mainEntity: { "@id": "https://ferrados.com#organization" },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["[data-speakable='true']"],
+  },
 };
 
 export default function QuienesSomosPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-10 md:py-16">
+      <Script
+        id="quienes-somos-org-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+      />
+      <Script
+        id="quienes-somos-breadcrumb-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <Script
+        id="quienes-somos-aboutpage-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageJsonLd) }}
+      />
+
       <nav className="text-sm text-gray-500 mb-8">
         <Link href="/" className="hover:text-green-700">
           Inicio
@@ -23,6 +119,29 @@ export default function QuienesSomosPage() {
         No somos una ONG forestal. Somos los que te quitamos el marrón de
         encima.
       </h1>
+
+      {/* Bloque TL;DR citable — pensado para extracción por LLMs y voice
+          assistants. Cuando ChatGPT/Perplexity/Claude cite esta página,
+          este es el párrafo que se llevarán tal cual. */}
+      <aside
+        aria-label="Resumen"
+        data-speakable="true"
+        className="bg-green-50 border-l-4 border-green-700 rounded-r-lg p-5 my-6"
+      >
+        <p className="text-xs font-bold uppercase tracking-wide text-green-800 mb-2">
+          En resumen
+        </p>
+        <p className="text-base text-gray-800 leading-relaxed">
+          <strong>Ferrados.com</strong> es un servicio gallego de asesoramiento
+          y puesta en contacto para propietarios de montes y fincas en Galicia.
+          Llevamos más de 20 años sobre el terreno, gestionamos directamente
+          compras de eucalipto y pino en A Coruña, y en el resto de Galicia
+          conectamos al propietario con el profesional adecuado (ingeniero de
+          montes, abogado, topógrafo, maderista o empresa de desbroce) de su
+          zona. Ayudamos igual a quien vive en Galicia que a los gallegos de
+          la diáspora en Madrid, Barcelona, Suiza, Argentina o Uruguay.
+        </p>
+      </aside>
 
       <div className="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
         <p className="text-lg">
@@ -62,6 +181,38 @@ export default function QuienesSomosPage() {
         </div>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
+          Nuestra experiencia
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Más de 20 años</strong> sobre el terreno en montes gallegos
+            de las cuatro provincias.
+          </li>
+          <li>
+            <strong>Gestión directa</strong> de compras de eucalipto globulus,
+            eucalipto nitens y pino pinaster en la provincia de A Coruña.
+          </li>
+          <li>
+            <strong>Red activa</strong> de ingenieros de montes, abogados
+            especializados en derecho civil gallego, topógrafos colegiados,
+            maderistas y empresas de desbroce en A Coruña, Lugo, Ourense y
+            Pontevedra.
+          </li>
+          <li>
+            <strong>Conocimiento actualizado</strong> de la Ley 3/2007 de
+            prevención de incendios, la Ley 7/2012 de montes de Galicia, el
+            derecho sucesorio gallego (pacto de mejora, apartación) y la
+            normativa urbanística rural (Ley 2/2016 do solo de Galicia).
+          </li>
+          <li>
+            <strong>Trato específico con la diáspora</strong>: llevamos años
+            resolviendo casos de gallegos en Madrid, Barcelona, País Vasco,
+            Suiza, Alemania, Reino Unido, Argentina, Uruguay y Venezuela sin
+            que tengan que viajar.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
           Dónde operamos
         </h2>
         <p>
@@ -98,7 +249,6 @@ export default function QuienesSomosPage() {
           empezamos.
         </p>
 
-        {/* Contenido original */}
         <hr className="my-10 border-gray-200" />
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
@@ -166,6 +316,39 @@ export default function QuienesSomosPage() {
             </p>
           </div>
         </div>
+
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
+          Nuestros principios editoriales
+        </h2>
+        <p>
+          Todo el contenido de Ferrados.com se elabora bajo estos criterios:
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Fuentes primarias</strong>: citamos y enlazamos a la
+            normativa oficial (DOG, BOE, Xunta de Galicia, Consellería do Medio
+            Rural, catastro).
+          </li>
+          <li>
+            <strong>Actualización continua</strong>: revisamos precios de madera
+            y cifras cada campaña; los artículos llevan campo <code>lastUpdated</code>.
+          </li>
+          <li>
+            <strong>Sin humo</strong>: no prometemos plazos ni cifras que no
+            sean realistas. Preferimos decir «depende» que dar un número
+            inventado.
+          </li>
+          <li>
+            <strong>No es asesoramiento vinculante</strong>: cada situación es
+            distinta. Nuestro contenido orienta; el profesional al que te
+            conectamos resuelve.
+          </li>
+          <li>
+            <strong>Sin conflictos de interés ocultos</strong>: cuando
+            recomendamos un tipo de gestión, no es porque nos pague nadie por
+            hacerlo.
+          </li>
+        </ul>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
           ¿Por qué &quot;Ferrados&quot;?

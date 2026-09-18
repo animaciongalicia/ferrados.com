@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import MaderaForm from "@/components/forms/MaderaForm";
+import CalculadoraMadera from "@/components/CalculadoraMadera";
 import PilarJsonLd from "@/components/PilarJsonLd";
 import PilarSidebar from "@/components/PilarSidebar";
 
@@ -72,6 +73,11 @@ export default function MaderaPage() {
           5 hectáreas de eucalipto globulus maduro puede generar entre
           15.000 y 40.000 € netos para el propietario.
         </p>
+      </section>
+
+      {/* Calculadora de madera */}
+      <section id="calculadora" className="mb-10">
+        <CalculadoraMadera />
       </section>
 
       <section className="mb-10">

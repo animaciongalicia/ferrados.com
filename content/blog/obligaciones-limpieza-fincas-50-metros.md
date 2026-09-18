@@ -2,9 +2,10 @@
 title: "La regla de los 50 metros: obligaciones de limpieza de fincas en Galicia"
 description: "Todo sobre la obligación de limpiar fincas a menos de 50 metros de viviendas en Galicia. Normativa, plazos, sanciones y cómo cumplir."
 date: "2026-03-14"
-lastUpdated: "2026-03-15"
+lastUpdated: "2026-09-18"
 pilar: "limpieza"
 tags: ["xunta","legislacion"]
+resumen: "La Ley 3/2007 de Galicia obliga a mantener limpia la franja de 50 metros alrededor de cualquier vivienda o núcleo de población. La obligación recae sobre el propietario del terreno, no sobre el del edificio, y vive donde vive. El plazo anual acaba el 31 de mayo. No cumplir es infracción grave o muy grave, con multas desde 1.000 € hasta 100.000 €, más el coste de la ejecución subsidiaria si actúa la Xunta."
 ---
 
 Si tienes una finca a menos de 50 metros de una casa o un núcleo de población en Galicia, estás obligado a mantenerla limpia. Usa nuestra [calculadora de multas por no limpiar fincas](/limpieza-desbroce-multas-xunta#calculadora) para saber cuánto te puede costar si no cumples. No es opcional. No importa si vives en Galicia o en el extranjero. No importa si la finca la heredaste hace un mes o la tiene tu familia hace tres generaciones. La obligación es tuya, y las consecuencias de no cumplir pueden ser muy caras.
